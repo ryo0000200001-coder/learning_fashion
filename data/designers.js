@@ -1,118 +1,525 @@
-/*
- * デザイナー辞書
- * key: ブランドデータ(brands.js)の designers[].d から参照するID
- * en: 英語表記 / ja: 日本語表記 / bio: 一言メモ（任意）
- *
- * 新しいデザイナーを追加するときは、ここに1行足してから brands.js で参照してください。
- */
+// このファイルはサイトの「編集」画面からも書き換えられます。手で編集する場合は JSON の形を崩さないでください（README 参照）。
 window.DESIGNERS = {
-  // ---- 日本 ----
-  kawakubo:   { en: "Rei Kawakubo", ja: "川久保玲", bio: "COMME des GARÇONS創業者。1981年のパリデビューで「黒の衝撃」を起こした。" },
-  watanabe:   { en: "Junya Watanabe", ja: "渡辺淳弥", bio: "COMME des GARÇONSでパタンナーを経て自身の名を冠したラインを担う。" },
-  yamamoto:   { en: "Yohji Yamamoto", ja: "山本耀司", bio: "1981年に川久保玲と同時期にパリへ。黒と非対称のカッティングで知られる。" },
-  miyake:     { en: "Issey Miyake", ja: "三宅一生", bio: "「一枚の布」を軸に素材と技術を追求。2022年逝去。" },
-  takizawa:   { en: "Naoki Takizawa", ja: "滝沢直己", bio: "ISSEY MIYAKEのメインラインを三宅一生から引き継いだ。" },
-  fujiwara:   { en: "Dai Fujiwara", ja: "藤原大", bio: "A-POCの開発に関わり、ISSEY MIYAKEのクリエイティブディレクターを務めた。" },
-  miyamae:    { en: "Yoshiyuki Miyamae", ja: "宮前義之" },
-  kondo:      { en: "Satoshi Kondo", ja: "近藤悟史" },
-  takahashi:  { en: "Jun Takahashi", ja: "高橋盾", bio: "UNDERCOVER。裏原宿カルチャーの中心人物の一人からパリの常連へ。" },
-  miyashita:  { en: "Takahiro Miyashita", ja: "宮下貴裕", bio: "NUMBER (N)INE（1996〜2009）で2000年代の東京を代表する存在に。2010年にTheSoloist.を始め、2025年に離脱。同年「NUMBER (N)INE by Takahiro Miyashita」として再始動を発表。" },
-  abe_c:      { en: "Chitose Abe", ja: "阿部千登勢", bio: "COMME des GARÇONS出身。sacaiで異素材のハイブリッドを確立。" },
-  abe_j:      { en: "Junichi Abe", ja: "阿部潤一", bio: "kolor創業者。阿部千登勢の夫。2025年1月のパリでのショーを最後にデザイナーを退任し、アドバイザーに。" },
-  horiuchi:   { en: "Taro Horiuchi", ja: "堀内太郎", bio: "th productsのデザイナー。2025年にkolorのデザイナーに就任。" },
-  nakamura:   { en: "Hiroki Nakamura", ja: "中村ヒロキ", bio: "visvim。民藝やヴィンテージ、職人技術を背景にしたものづくり。" },
-  nishiyama:  { en: "Tetsu Nishiyama", ja: "西山徹", bio: "WTAPS。前身は「FORTY PERCENTS AGAINST RIGHTS」。ミリタリーを軸にした裏原世代の代表格。" },
-  takizawa_s: { en: "Shinsuke Takizawa", ja: "滝沢伸介", bio: "NEIGHBORHOOD。バイカー・ミリタリーカルチャー。" },
-  nigo:       { en: "NIGO", ja: "NIGO", bio: "A BATHING APE創業者。のちにKENZOのアーティスティックディレクター。" },
-  kitamura:   { en: "Nobuhiko Kitamura", ja: "北村信彦", bio: "HYSTERIC GLAMOUR。ロックとポップアートの東京的解釈。" },
-  hirata_t:   { en: "Toshikiyo Hirata", ja: "平田俊清", bio: "岡山・児島でKAPITALを興した。" },
-  hirata_k:   { en: "Kazuhiro Hirata", ja: "平田和宏", bio: "KAPITALの現クリエイティブを担う。" },
-  honma:      { en: "Masaaki Homma", ja: "本間正章", bio: "mastermind JAPAN。スカル&クロスボーンのラグジュアリー・ストリート。" },
-  mihara:     { en: "Mihara Yasuhiro", ja: "三原康裕", bio: "多摩美術大学在学中に靴づくりを始める。オリジナルソールや解体的デザインで知られる。" },
-
-  // ---- ベルギー ----
-  margiela:   { en: "Martin Margiela", ja: "マルタン・マルジェラ", bio: "アントワープ王立芸術アカデミー出身。匿名性と脱構築。2009年にファッション界を去る。" },
-  demeulemeester: { en: "Ann Demeulemeester", ja: "アン・ドゥムルメステール", bio: "アントワープ・シックスの一人。黒と詩的なロマンティシズム。" },
-  vannoten:   { en: "Dries Van Noten", ja: "ドリス・ヴァン・ノッテン", bio: "アントワープ・シックスの一人。プリントと色彩の名手。2024年に引退。" },
-  raf:        { en: "Raf Simons", ja: "ラフ・シモンズ", bio: "ユースカルチャーを核にしたメンズで出発し、Jil Sander・Dior・Calvin Klein・Pradaを歩む。" },
-  kva:        { en: "Kris Van Assche", ja: "クリス・ヴァン・アッシュ", bio: "エディ・スリマンの後任としてDior Hommeを約11年率いた。" },
-  martens:    { en: "Glenn Martens", ja: "グレン・マーティンス", bio: "Y/Project、Dieselを経てMaison Margielaへ。" },
-  meunier:    { en: "Sébastien Meunier", ja: "セバスチャン・ムニエ" },
-  ldss:       { en: "Ludovic de Saint Sernin", ja: "ルドヴィック・ドゥ・サン・セルナン" },
-  gallici:    { en: "Stefano Gallici", ja: "ステファノ・ガリーチ" },
-  klausner:   { en: "Julian Klausner", ja: "ジュリアン・クラウスナー" },
-  demna:      { en: "Demna", ja: "デムナ", bio: "Vetementsの共同設立者。Balenciagaを10年率いたのちGucciへ。" },
-  blazy:      { en: "Matthieu Blazy", ja: "マチュー・ブレイジー", bio: "Margielaのアーティザナル、Raf Simons、Calvin Klein、Bottega Venetaを経てChanelへ。" },
-
-  // ---- フランス ----
-  hedi:       { en: "Hedi Slimane", ja: "エディ・スリマン", bio: "細身のシルエットで2000年代メンズを塗り替えた。Dior Homme→Saint Laurent→Celine。" },
-  ghesquiere: { en: "Nicolas Ghesquière", ja: "ニコラ・ジェスキエール", bio: "Balenciagaを再興し、Louis Vuittonウィメンズへ。" },
-  gaultier:   { en: "Jean Paul Gaultier", ja: "ジャン＝ポール・ゴルチエ", bio: "「アンファン・テリブル」。マリンボーダーやコルセットを再解釈。" },
-  lemaire:    { en: "Christophe Lemaire", ja: "クリストフ・ルメール", bio: "Hermèsウィメンズを経て自身のLEMAIREに専念。" },
-  vanhee:     { en: "Nadège Vanhée", ja: "ナデージュ・ヴァネ" },
-  nichanian:  { en: "Véronique Nichanian", ja: "ヴェロニク・ニシャニアン", bio: "Hermèsメンズを37年担当し、2026年1月のショーで退任。" },
-  walesbonner:{ en: "Grace Wales Bonner", ja: "グレース・ウェールズ・ボナー", bio: "ロンドンのWales Bonner創業者。2025年10月にHermèsメンズのアーティスティックディレクターに。" },
-  ysl:        { en: "Yves Saint Laurent", ja: "イヴ・サンローラン", bio: "21歳でDiorの後継者に。独立後ル・スモーキングなどを発表。" },
-  pilati:     { en: "Stefano Pilati", ja: "ステファノ・ピラーティ" },
-  vaccarello: { en: "Anthony Vaccarello", ja: "アンソニー・ヴァカレロ" },
-  dior:       { en: "Christian Dior", ja: "クリスチャン・ディオール", bio: "1947年「ニュールック」で戦後モードを決定づけた。" },
-  bohan:      { en: "Marc Bohan", ja: "マルク・ボアン" },
-  ferre:      { en: "Gianfranco Ferré", ja: "ジャンフランコ・フェレ" },
-  galliano:   { en: "John Galliano", ja: "ジョン・ガリアーノ", bio: "Givenchy、Diorを経て2014年からMaison Margiela。" },
-  chiuri:     { en: "Maria Grazia Chiuri", ja: "マリア・グラツィア・キウリ" },
-  kimjones:   { en: "Kim Jones", ja: "キム・ジョーンズ", bio: "Louis Vuittonメンズ、Dior Men、Fendiウィメンズを担当。" },
-  anderson:   { en: "Jonathan Anderson", ja: "ジョナサン・アンダーソン", bio: "JW Anderson創業者。LoeweからDiorへ。" },
-  philo:      { en: "Phoebe Philo", ja: "フィービー・ファイロ", bio: "ChloéとCelineで2000〜2010年代の女性像を定義。2023年に自身のブランドを始動。" },
-  kors:       { en: "Michael Kors", ja: "マイケル・コース" },
-  rider:      { en: "Michael Rider", ja: "マイケル・ライダー" },
-  balenciaga: { en: "Cristóbal Balenciaga", ja: "クリストバル・バレンシアガ", bio: "「クチュリエの中のクチュリエ」。1968年にメゾンを閉じた。" },
-  thimister:  { en: "Josephus Thimister", ja: "ジョセフス・ティミスター" },
-  wang:       { en: "Alexander Wang", ja: "アレキサンダー・ワン" },
-  piccioli:   { en: "Pierpaolo Piccioli", ja: "ピエールパオロ・ピッチョーリ", bio: "Valentinoを長く率いたのちBalenciagaへ。" },
-  givenchy:   { en: "Hubert de Givenchy", ja: "ユベール・ド・ジバンシィ" },
-  mcqueen:    { en: "Alexander McQueen", ja: "アレキサンダー・マックイーン", bio: "ロンドンの鬼才。Givenchyを経て自身のブランドに専念。2010年逝去。" },
-  macdonald:  { en: "Julien Macdonald", ja: "ジュリアン・マクドナルド" },
-  tisci:      { en: "Riccardo Tisci", ja: "リカルド・ティッシ", bio: "Givenchyでストリートとゴシックを融合。のちBurberry。" },
-  waightkeller: { en: "Clare Waight Keller", ja: "クレア・ワイト・ケラー" },
-  mwilliams:  { en: "Matthew M. Williams", ja: "マシュー・M・ウィリアムズ", bio: "1017 ALYX 9SM創業者。" },
-  burton:     { en: "Sarah Burton", ja: "サラ・バートン", bio: "McQueenの右腕から後継者に。のちGivenchy。" },
-  jacobs:     { en: "Marc Jacobs", ja: "マーク・ジェイコブス", bio: "Perry Ellisのグランジコレクションで注目、Louis VuittonにRTWを立ち上げた。" },
-  abloh:      { en: "Virgil Abloh", ja: "ヴァージル・アブロー", bio: "Off-White創業者。2021年逝去。" },
-  pharrell:   { en: "Pharrell Williams", ja: "ファレル・ウィリアムス" },
-  chanel:     { en: "Gabrielle Chanel", ja: "ガブリエル・シャネル" },
-  lagerfeld:  { en: "Karl Lagerfeld", ja: "カール・ラガーフェルド", bio: "ChanelとFendiを数十年にわたり率いた。2019年逝去。" },
-  viard:      { en: "Virginie Viard", ja: "ヴィルジニー・ヴィアール" },
-  duran:      { en: "Duran Lantink", ja: "デュラン・ランティンク" },
-
-  // ---- イタリア ----
-  tomford:    { en: "Tom Ford", ja: "トム・フォード", bio: "1990年代にGucciを劇的に再生。YSLも兼任。" },
-  giannini:   { en: "Frida Giannini", ja: "フリーダ・ジャンニーニ" },
-  michele:    { en: "Alessandro Michele", ja: "アレッサンドロ・ミケーレ", bio: "Gucciでマキシマリズムの時代を作り、のちValentinoへ。" },
-  desarno:    { en: "Sabato De Sarno", ja: "サバト・デ・サルノ" },
-  mprada:     { en: "Miuccia Prada", ja: "ミウッチャ・プラダ", bio: "ナイロンを高級素材に変えた。知的で「アグリーシック」な美学。" },
-  maier:      { en: "Tomas Maier", ja: "トーマス・マイヤー" },
-  dlee:       { en: "Daniel Lee", ja: "ダニエル・リー", bio: "Celine(フィービー期)出身。Bottega Venetaで旋風を起こしBurberryへ。" },
-  trotter:    { en: "Louise Trotter", ja: "ルイーズ・トロッター" },
-  osti:       { en: "Massimo Osti", ja: "マッシモ・オスティ", bio: "C.P. CompanyとStone Islandの創設者。素材研究と製品染めの先駆者。" },
-  harvey:     { en: "Paul Harvey", ja: "ポール・ハーヴェイ" },
-  rivetti:    { en: "Carlo Rivetti", ja: "カルロ・リヴェッティ", bio: "Stone Islandのオーナー兼クリエイティブディレクター（2008〜）。" },
-  rowens:     { en: "Rick Owens", ja: "リック・オウエンス", bio: "LA出身。2003年にパリへ拠点を移す。ゴシックでミニマルな造形。" },
-
-  // ---- その他 ----
-  sander:     { en: "Jil Sander", ja: "ジル・サンダー", bio: "「ミニマリズムの女王」。自らのブランドを2度去り、2度戻った。" },
-  vukmirovic: { en: "Milan Vukmirovic", ja: "ミラン・ヴクミロヴィッチ" },
-  paglialunga:{ en: "Rodolfo Paglialunga", ja: "ロドルフォ・パリアルンガ" },
-  meier:      { en: "Lucie & Luke Meier", ja: "ルーシー&ルーク・メイヤー" },
-  bellotti:   { en: "Simone Bellotti", ja: "シモーネ・ベロッティ" },
-  lang:       { en: "Helmut Lang", ja: "ヘルムート・ラング", bio: "1990年代ミニマリズムの象徴。2005年にファッションを離れ、アーティストに。" },
-  colovos:    { en: "Michael & Nicole Colovos", ja: "マイケル&ニコール・コロヴォス" },
-  peterdo:    { en: "Peter Do", ja: "ピーター・ドゥ" },
-  thomascawson: { en: "Mark Thomas & Thomas Cawson", ja: "マーク・トーマス&トーマス・カウソン" },
-  westwood:   { en: "Vivienne Westwood", ja: "ヴィヴィアン・ウエストウッド", bio: "パンクの母。2022年逝去。" },
-  kronthaler: { en: "Andreas Kronthaler", ja: "アンドレアス・クロンターラー", bio: "ヴィヴィアンの夫であり長年の協働者。" },
-  mcgirr:     { en: "Seán McGirr", ja: "ショーン・マクガー" },
-  bailey:     { en: "Christopher Bailey", ja: "クリストファー・ベイリー", bio: "Burberryを英国ラグジュアリーとして再生させた。" },
-  vevers:     { en: "Stuart Vevers", ja: "スチュアート・ヴィヴァース" },
-  mccollough: { en: "Jack McCollough & Lazaro Hernandez", ja: "ジャック・マッコロー&ラザロ・ヘルナンデス", bio: "Proenza Schoulerの創業デュオ。" },
-  nemeth:     { en: "Christopher Nemeth", ja: "クリストファー・ネメス", bio: "ロンドン出身、1986年から東京を拠点に。2010年逝去。" }
+  "kawakubo": {
+    "en": "Rei Kawakubo",
+    "ja": "川久保玲",
+    "bio": "COMME des GARÇONS創業者。1981年のパリデビューで「黒の衝撃」を起こした。"
+  },
+  "watanabe": {
+    "en": "Junya Watanabe",
+    "ja": "渡辺淳弥",
+    "bio": "COMME des GARÇONSでパタンナーを経て自身の名を冠したラインを担う。"
+  },
+  "yamamoto": {
+    "en": "Yohji Yamamoto",
+    "ja": "山本耀司",
+    "bio": "1981年に川久保玲と同時期にパリへ。黒と非対称のカッティングで知られる。"
+  },
+  "miyake": {
+    "en": "Issey Miyake",
+    "ja": "三宅一生",
+    "bio": "「一枚の布」を軸に素材と技術を追求。2022年逝去。"
+  },
+  "takizawa": {
+    "en": "Naoki Takizawa",
+    "ja": "滝沢直己",
+    "bio": "ISSEY MIYAKEのメインラインを三宅一生から引き継いだ。"
+  },
+  "fujiwara": {
+    "en": "Dai Fujiwara",
+    "ja": "藤原大",
+    "bio": "A-POCの開発に関わり、ISSEY MIYAKEのクリエイティブディレクターを務めた。"
+  },
+  "miyamae": {
+    "en": "Yoshiyuki Miyamae",
+    "ja": "宮前義之"
+  },
+  "kondo": {
+    "en": "Satoshi Kondo",
+    "ja": "近藤悟史"
+  },
+  "takahashi": {
+    "en": "Jun Takahashi",
+    "ja": "高橋盾",
+    "bio": "UNDERCOVER。裏原宿カルチャーの中心人物の一人からパリの常連へ。"
+  },
+  "miyashita": {
+    "en": "Takahiro Miyashita",
+    "ja": "宮下貴裕",
+    "bio": "NUMBER (N)INE（1996〜2009）で2000年代の東京を代表する存在に。2010年にTheSoloist.を始め、2025年に離脱。同年「NUMBER (N)INE by Takahiro Miyashita」として再始動を発表。"
+  },
+  "abe_c": {
+    "en": "Chitose Abe",
+    "ja": "阿部千登勢",
+    "bio": "COMME des GARÇONS出身。sacaiで異素材のハイブリッドを確立。"
+  },
+  "abe_j": {
+    "en": "Junichi Abe",
+    "ja": "阿部潤一",
+    "bio": "kolor創業者。阿部千登勢の夫。2025年1月のパリでのショーを最後にデザイナーを退任し、アドバイザーに。"
+  },
+  "horiuchi": {
+    "en": "Taro Horiuchi",
+    "ja": "堀内太郎",
+    "bio": "th productsのデザイナー。2025年にkolorのデザイナーに就任。"
+  },
+  "nakamura": {
+    "en": "Hiroki Nakamura",
+    "ja": "中村ヒロキ",
+    "bio": "visvim。民藝やヴィンテージ、職人技術を背景にしたものづくり。"
+  },
+  "nishiyama": {
+    "en": "Tetsu Nishiyama",
+    "ja": "西山徹",
+    "bio": "WTAPS。前身は「FORTY PERCENTS AGAINST RIGHTS」。ミリタリーを軸にした裏原世代の代表格。"
+  },
+  "takizawa_s": {
+    "en": "Shinsuke Takizawa",
+    "ja": "滝沢伸介",
+    "bio": "NEIGHBORHOOD。バイカー・ミリタリーカルチャー。"
+  },
+  "nigo": {
+    "en": "NIGO",
+    "ja": "NIGO",
+    "bio": "A BATHING APE創業者。のちにKENZOのアーティスティックディレクター。"
+  },
+  "kitamura": {
+    "en": "Nobuhiko Kitamura",
+    "ja": "北村信彦",
+    "bio": "HYSTERIC GLAMOUR。ロックとポップアートの東京的解釈。"
+  },
+  "hirata_t": {
+    "en": "Toshikiyo Hirata",
+    "ja": "平田俊清",
+    "bio": "岡山・児島でKAPITALを興した。"
+  },
+  "hirata_k": {
+    "en": "Kazuhiro Hirata",
+    "ja": "平田和宏",
+    "bio": "KAPITALの現クリエイティブを担う。"
+  },
+  "honma": {
+    "en": "Masaaki Homma",
+    "ja": "本間正章",
+    "bio": "mastermind JAPAN。スカル&クロスボーンのラグジュアリー・ストリート。"
+  },
+  "mihara": {
+    "en": "Mihara Yasuhiro",
+    "ja": "三原康裕",
+    "bio": "多摩美術大学在学中に靴づくりを始める。オリジナルソールや解体的デザインで知られる。"
+  },
+  "margiela": {
+    "en": "Martin Margiela",
+    "ja": "マルタン・マルジェラ",
+    "bio": "アントワープ王立芸術アカデミー出身。匿名性と脱構築。2009年にファッション界を去る。"
+  },
+  "demeulemeester": {
+    "en": "Ann Demeulemeester",
+    "ja": "アン・ドゥムルメステール",
+    "bio": "アントワープ・シックスの一人。黒と詩的なロマンティシズム。"
+  },
+  "vannoten": {
+    "en": "Dries Van Noten",
+    "ja": "ドリス・ヴァン・ノッテン",
+    "bio": "アントワープ・シックスの一人。プリントと色彩の名手。2024年に引退。"
+  },
+  "raf": {
+    "en": "Raf Simons",
+    "ja": "ラフ・シモンズ",
+    "bio": "ユースカルチャーを核にしたメンズで出発し、Jil Sander・Dior・Calvin Klein・Pradaを歩む。"
+  },
+  "kva": {
+    "en": "Kris Van Assche",
+    "ja": "クリス・ヴァン・アッシュ",
+    "bio": "エディ・スリマンの後任としてDior Hommeを約11年率いた。"
+  },
+  "martens": {
+    "en": "Glenn Martens",
+    "ja": "グレン・マーティンス",
+    "bio": "Y/Project、Dieselを経てMaison Margielaへ。"
+  },
+  "meunier": {
+    "en": "Sébastien Meunier",
+    "ja": "セバスチャン・ムニエ"
+  },
+  "ldss": {
+    "en": "Ludovic de Saint Sernin",
+    "ja": "ルドヴィック・ドゥ・サン・セルナン"
+  },
+  "gallici": {
+    "en": "Stefano Gallici",
+    "ja": "ステファノ・ガリーチ"
+  },
+  "klausner": {
+    "en": "Julian Klausner",
+    "ja": "ジュリアン・クラウスナー"
+  },
+  "demna": {
+    "en": "Demna",
+    "ja": "デムナ",
+    "bio": "Vetementsの共同設立者。Balenciagaを10年率いたのちGucciへ。"
+  },
+  "blazy": {
+    "en": "Matthieu Blazy",
+    "ja": "マチュー・ブレイジー",
+    "bio": "Margielaのアーティザナル、Raf Simons、Calvin Klein、Bottega Venetaを経てChanelへ。"
+  },
+  "hedi": {
+    "en": "Hedi Slimane",
+    "ja": "エディ・スリマン",
+    "bio": "細身のシルエットで2000年代メンズを塗り替えた。Dior Homme→Saint Laurent→Celine。"
+  },
+  "ghesquiere": {
+    "en": "Nicolas Ghesquière",
+    "ja": "ニコラ・ジェスキエール",
+    "bio": "Balenciagaを再興し、Louis Vuittonウィメンズへ。"
+  },
+  "gaultier": {
+    "en": "Jean Paul Gaultier",
+    "ja": "ジャン＝ポール・ゴルチエ",
+    "bio": "「アンファン・テリブル」。マリンボーダーやコルセットを再解釈。"
+  },
+  "lemaire": {
+    "en": "Christophe Lemaire",
+    "ja": "クリストフ・ルメール",
+    "bio": "Hermèsウィメンズを経て自身のLEMAIREに専念。"
+  },
+  "vanhee": {
+    "en": "Nadège Vanhée",
+    "ja": "ナデージュ・ヴァネ"
+  },
+  "nichanian": {
+    "en": "Véronique Nichanian",
+    "ja": "ヴェロニク・ニシャニアン",
+    "bio": "Hermèsメンズを37年担当し、2026年1月のショーで退任。"
+  },
+  "walesbonner": {
+    "en": "Grace Wales Bonner",
+    "ja": "グレース・ウェールズ・ボナー",
+    "bio": "ロンドンのWales Bonner創業者。2025年10月にHermèsメンズのアーティスティックディレクターに。"
+  },
+  "ysl": {
+    "en": "Yves Saint Laurent",
+    "ja": "イヴ・サンローラン",
+    "bio": "21歳でDiorの後継者に。独立後ル・スモーキングなどを発表。"
+  },
+  "pilati": {
+    "en": "Stefano Pilati",
+    "ja": "ステファノ・ピラーティ"
+  },
+  "vaccarello": {
+    "en": "Anthony Vaccarello",
+    "ja": "アンソニー・ヴァカレロ"
+  },
+  "dior": {
+    "en": "Christian Dior",
+    "ja": "クリスチャン・ディオール",
+    "bio": "1947年「ニュールック」で戦後モードを決定づけた。"
+  },
+  "bohan": {
+    "en": "Marc Bohan",
+    "ja": "マルク・ボアン"
+  },
+  "ferre": {
+    "en": "Gianfranco Ferré",
+    "ja": "ジャンフランコ・フェレ"
+  },
+  "galliano": {
+    "en": "John Galliano",
+    "ja": "ジョン・ガリアーノ",
+    "bio": "Givenchy、Diorを経て2014年からMaison Margiela。"
+  },
+  "chiuri": {
+    "en": "Maria Grazia Chiuri",
+    "ja": "マリア・グラツィア・キウリ"
+  },
+  "kimjones": {
+    "en": "Kim Jones",
+    "ja": "キム・ジョーンズ",
+    "bio": "Louis Vuittonメンズ、Dior Men、Fendiウィメンズを担当。"
+  },
+  "anderson": {
+    "en": "Jonathan Anderson",
+    "ja": "ジョナサン・アンダーソン",
+    "bio": "JW Anderson創業者。LoeweからDiorへ。"
+  },
+  "philo": {
+    "en": "Phoebe Philo",
+    "ja": "フィービー・ファイロ",
+    "bio": "ChloéとCelineで2000〜2010年代の女性像を定義。2023年に自身のブランドを始動。"
+  },
+  "kors": {
+    "en": "Michael Kors",
+    "ja": "マイケル・コース"
+  },
+  "rider": {
+    "en": "Michael Rider",
+    "ja": "マイケル・ライダー"
+  },
+  "balenciaga": {
+    "en": "Cristóbal Balenciaga",
+    "ja": "クリストバル・バレンシアガ",
+    "bio": "「クチュリエの中のクチュリエ」。1968年にメゾンを閉じた。"
+  },
+  "thimister": {
+    "en": "Josephus Thimister",
+    "ja": "ジョセフス・ティミスター"
+  },
+  "wang": {
+    "en": "Alexander Wang",
+    "ja": "アレキサンダー・ワン"
+  },
+  "piccioli": {
+    "en": "Pierpaolo Piccioli",
+    "ja": "ピエールパオロ・ピッチョーリ",
+    "bio": "Valentinoを長く率いたのちBalenciagaへ。"
+  },
+  "givenchy": {
+    "en": "Hubert de Givenchy",
+    "ja": "ユベール・ド・ジバンシィ"
+  },
+  "mcqueen": {
+    "en": "Alexander McQueen",
+    "ja": "アレキサンダー・マックイーン",
+    "bio": "ロンドンの鬼才。Givenchyを経て自身のブランドに専念。2010年逝去。"
+  },
+  "macdonald": {
+    "en": "Julien Macdonald",
+    "ja": "ジュリアン・マクドナルド"
+  },
+  "tisci": {
+    "en": "Riccardo Tisci",
+    "ja": "リカルド・ティッシ",
+    "bio": "Givenchyでストリートとゴシックを融合。のちBurberry。"
+  },
+  "waightkeller": {
+    "en": "Clare Waight Keller",
+    "ja": "クレア・ワイト・ケラー"
+  },
+  "mwilliams": {
+    "en": "Matthew M. Williams",
+    "ja": "マシュー・M・ウィリアムズ",
+    "bio": "1017 ALYX 9SM創業者。"
+  },
+  "burton": {
+    "en": "Sarah Burton",
+    "ja": "サラ・バートン",
+    "bio": "McQueenの右腕から後継者に。のちGivenchy。"
+  },
+  "jacobs": {
+    "en": "Marc Jacobs",
+    "ja": "マーク・ジェイコブス",
+    "bio": "Perry Ellisのグランジコレクションで注目、Louis VuittonにRTWを立ち上げた。"
+  },
+  "abloh": {
+    "en": "Virgil Abloh",
+    "ja": "ヴァージル・アブロー",
+    "bio": "Off-White創業者。2021年逝去。"
+  },
+  "pharrell": {
+    "en": "Pharrell Williams",
+    "ja": "ファレル・ウィリアムス"
+  },
+  "chanel": {
+    "en": "Gabrielle Chanel",
+    "ja": "ガブリエル・シャネル"
+  },
+  "lagerfeld": {
+    "en": "Karl Lagerfeld",
+    "ja": "カール・ラガーフェルド",
+    "bio": "ChanelとFendiを数十年にわたり率いた。2019年逝去。"
+  },
+  "viard": {
+    "en": "Virginie Viard",
+    "ja": "ヴィルジニー・ヴィアール"
+  },
+  "duran": {
+    "en": "Duran Lantink",
+    "ja": "デュラン・ランティンク"
+  },
+  "tomford": {
+    "en": "Tom Ford",
+    "ja": "トム・フォード",
+    "bio": "1990年代にGucciを劇的に再生。YSLも兼任。"
+  },
+  "giannini": {
+    "en": "Frida Giannini",
+    "ja": "フリーダ・ジャンニーニ"
+  },
+  "michele": {
+    "en": "Alessandro Michele",
+    "ja": "アレッサンドロ・ミケーレ",
+    "bio": "Gucciでマキシマリズムの時代を作り、のちValentinoへ。"
+  },
+  "desarno": {
+    "en": "Sabato De Sarno",
+    "ja": "サバト・デ・サルノ"
+  },
+  "mprada": {
+    "en": "Miuccia Prada",
+    "ja": "ミウッチャ・プラダ",
+    "bio": "ナイロンを高級素材に変えた。知的で「アグリーシック」な美学。"
+  },
+  "maier": {
+    "en": "Tomas Maier",
+    "ja": "トーマス・マイヤー"
+  },
+  "dlee": {
+    "en": "Daniel Lee",
+    "ja": "ダニエル・リー",
+    "bio": "Celine(フィービー期)出身。Bottega Venetaで旋風を起こしBurberryへ。"
+  },
+  "trotter": {
+    "en": "Louise Trotter",
+    "ja": "ルイーズ・トロッター"
+  },
+  "osti": {
+    "en": "Massimo Osti",
+    "ja": "マッシモ・オスティ",
+    "bio": "C.P. CompanyとStone Islandの創設者。素材研究と製品染めの先駆者。"
+  },
+  "harvey": {
+    "en": "Paul Harvey",
+    "ja": "ポール・ハーヴェイ"
+  },
+  "rivetti": {
+    "en": "Carlo Rivetti",
+    "ja": "カルロ・リヴェッティ",
+    "bio": "Stone Islandのオーナー兼クリエイティブディレクター（2008〜）。"
+  },
+  "rowens": {
+    "en": "Rick Owens",
+    "ja": "リック・オウエンス",
+    "bio": "LA出身。2003年にパリへ拠点を移す。ゴシックでミニマルな造形。"
+  },
+  "sander": {
+    "en": "Jil Sander",
+    "ja": "ジル・サンダー",
+    "bio": "「ミニマリズムの女王」。自らのブランドを2度去り、2度戻った。"
+  },
+  "vukmirovic": {
+    "en": "Milan Vukmirovic",
+    "ja": "ミラン・ヴクミロヴィッチ"
+  },
+  "paglialunga": {
+    "en": "Rodolfo Paglialunga",
+    "ja": "ロドルフォ・パリアルンガ"
+  },
+  "meier": {
+    "en": "Lucie & Luke Meier",
+    "ja": "ルーシー&ルーク・メイヤー"
+  },
+  "bellotti": {
+    "en": "Simone Bellotti",
+    "ja": "シモーネ・ベロッティ"
+  },
+  "lang": {
+    "en": "Helmut Lang",
+    "ja": "ヘルムート・ラング",
+    "bio": "1990年代ミニマリズムの象徴。2005年にファッションを離れ、アーティストに。"
+  },
+  "colovos": {
+    "en": "Michael & Nicole Colovos",
+    "ja": "マイケル&ニコール・コロヴォス"
+  },
+  "peterdo": {
+    "en": "Peter Do",
+    "ja": "ピーター・ドゥ"
+  },
+  "thomascawson": {
+    "en": "Mark Thomas & Thomas Cawson",
+    "ja": "マーク・トーマス&トーマス・カウソン"
+  },
+  "westwood": {
+    "en": "Vivienne Westwood",
+    "ja": "ヴィヴィアン・ウエストウッド",
+    "bio": "パンクの母。2022年逝去。"
+  },
+  "kronthaler": {
+    "en": "Andreas Kronthaler",
+    "ja": "アンドレアス・クロンターラー",
+    "bio": "ヴィヴィアンの夫であり長年の協働者。"
+  },
+  "mcgirr": {
+    "en": "Seán McGirr",
+    "ja": "ショーン・マクガー"
+  },
+  "bailey": {
+    "en": "Christopher Bailey",
+    "ja": "クリストファー・ベイリー",
+    "bio": "Burberryを英国ラグジュアリーとして再生させた。"
+  },
+  "vevers": {
+    "en": "Stuart Vevers",
+    "ja": "スチュアート・ヴィヴァース"
+  },
+  "mccollough": {
+    "en": "Jack McCollough & Lazaro Hernandez",
+    "ja": "ジャック・マッコロー&ラザロ・ヘルナンデス",
+    "bio": "Proenza Schoulerの創業デュオ。"
+  },
+  "nemeth": {
+    "en": "Christopher Nemeth",
+    "ja": "クリストファー・ネメス",
+    "bio": "ロンドン出身、1986年から東京を拠点に。2010年逝去。"
+  },
+  "poell": {
+    "en": "Carol Christian Poell",
+    "ja": "キャロル・クリスチャン・ポエル",
+    "bio": "1966年オーストリア・リンツ生まれ。革なめし（Gerberlehre）の家業の中で育ち、ミラノのドムス・アカデミーで修士。表舞台にほとんど出ない。"
+  },
+  "rguidi": {
+    "en": "Guidi family",
+    "ja": "グイディ家",
+    "bio": "1896年の創業者グイド・グイディの血縁であるルッジェーロ・グイディが現在の経営者。"
+  },
+  "skelton": {
+    "en": "John Alexander Skelton",
+    "ja": "ジョン・アレクサンダー・スケルトン",
+    "bio": "英国ヨーク出身。ロレアル賞を受賞し、2016年にロンドンで自身のレーベルを設立。"
+  },
+  "kumagai": {
+    "en": "Kazuyuki Kumagai",
+    "ja": "熊谷和幸",
+    "bio": "専門学校卒業後、イッセイ ミヤケに5年間在籍。1999年にATTACHMENTを設立。2022年春夏で退任し、2023年秋冬に新ブランドcalmlenceを始める。"
+  },
+  "enomoto": {
+    "en": "Koki Enomoto",
+    "ja": "榎本光希",
+    "bio": "VEINのデザイナー。2022-23年秋冬からATTACHMENTのデザイナー。"
+  },
+  "bikkembergs": {
+    "en": "Dirk Bikkembergs",
+    "ja": "ダーク・ビッケンバーグ",
+    "bio": "アントワープ・シックスの一人。サッカーとハイファッションを結びつけ、スタジアムでショーをした最初のデザイナー。現在は引退。"
+  },
+  "amadei": {
+    "en": "Maurizio Amadei",
+    "ja": "マウリツィオ・アマデイ",
+    "bio": "Carpe Diemのレザーデザイナーを経て、2006年にm.a+を設立。"
+  },
+  "altieri": {
+    "en": "Maurizio Altieri",
+    "ja": "マウリツィオ・アルティエリ",
+    "bio": "Chrome Heartsを経て1996年にCarpe Diemを設立。のちm_moria。"
+  },
+  "saberi": {
+    "en": "Boris Bidjan Saberi",
+    "ja": "ボリス・ビジャン・サベリ",
+    "bio": "1978年生まれのドイツとペルシャのルーツを持つデザイナー。2006年にバルセロナで服飾とテーラリングを修了。"
+  },
+  "harnden": {
+    "en": "Paul Harnden",
+    "ja": "ポール・ハーンデン",
+    "bio": "カナダ・トロント出身。1985年に英国ブライトンへ移り伝統的な靴づくりを学ぶ。"
+  },
+  "blanck": {
+    "en": "Leon Emanuel Blanck",
+    "ja": "レオン・エマニュエル・ブランク"
+  },
+  "cecchetto": {
+    "en": "Simone Cecchetto",
+    "ja": "シモーネ・チェケット",
+    "bio": "ほぼ独学で靴づくりを学んだ。リック・オウエンスとの仕事の経験もある。"
+  }
 };

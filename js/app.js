@@ -2,30 +2,35 @@
 (function () {
   "use strict";
 
-  const BRANDS = window.BRANDS || [];
-  const DESIGNERS = window.DESIGNERS || {};
-  const GLOSSARY = window.GLOSSARY || [];
+  const AN = window.AN;
+  let BRANDS, DESIGNERS, GLOSSARY, byId, careers;
   const NOW = new Date().getFullYear();
   const app = document.getElementById("app");
 
   // ---------- utilities ----------
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const byId = Object.fromEntries(BRANDS.map((b) => [b.id, b]));
   const dName = (k) => (DESIGNERS[k] ? DESIGNERS[k].ja : k);
   const dEn = (k) => (DESIGNERS[k] ? DESIGNERS[k].en : "");
   const yrs = (t) => `${t.from}–${t.to == null ? "現在" : t.to}`;
   const endYear = (t) => (t.to == null ? NOW : t.to);
   const hue = (key) => { let h = 0; for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) % 360; return h; };
-  const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (a) => a[Math.floor(Math.random() * a.length)];
   const originLabel = (o) => (o === "domestic" ? "国内" : "海外");
 
-  // デザイナー → 在任リスト（全ブランド横断）
-  const careers = {};
-  BRANDS.forEach((b) => (b.designers || []).forEach((t) => {
-    (careers[t.d] = careers[t.d] || []).push({ ...t, brand: b });
-  }));
-  Object.values(careers).forEach((list) => list.sort((a, b) => a.from - b.from));
+  // データを読み直して索引を作る（編集のたびに呼ぶ）
+  function reindex() {
+    BRANDS = AN.data.brands;
+    DESIGNERS = AN.data.designers;
+    GLOSSARY = AN.data.glossary;
+    byId = Object.fromEntries(BRANDS.map((b) => [b.id, b]));
+    // デザイナー → 在任リスト（全ブランド横断）
+    careers = {};
+    BRANDS.forEach((b) => (b.designers || []).forEach((t) => {
+      (careers[t.d] = careers[t.d] || []).push({ ...t, brand: b });
+    }));
+    Object.values(careers).forEach((list) => list.sort((a, b) => a.from - b.from));
+  }
+  reindex();
 
   // ---------- storage (失敗しても動くように) ----------
   const KEY = "archive-notes-v1";
@@ -53,10 +58,26 @@
       a.classList.toggle("active", parts[0] === n || parts[0] === n.replace(/s$/, ""));
     });
     document.querySelector(".nav").classList.remove("open");
-    view(parts[1]);
+    renderDraftBar();
+    view(parts[1], parts[2]);
     window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);
+
+  // 未保存の変更があるときに画面上部へ出す帯
+  function renderDraftBar() {
+    const bar = document.getElementById("draftbar");
+    if (!bar) return;
+    const dirty = AN.KINDS.filter((k) => AN.status(k) === "dirty");
+    const pushed = AN.KINDS.filter((k) => AN.status(k) === "pushed");
+    if (dirty.length) {
+      bar.innerHTML = `<div class="wrap">このブラウザに<b>GitHubへ未保存の変更</b>があります（${dirty.map((k) => AN.FILES[k].label).join("・")}）。<a href="#/edit">編集画面で保存する →</a></div>`;
+      bar.hidden = false;
+    } else if (pushed.length) {
+      bar.innerHTML = `<div class="wrap">GitHubに保存済みです。公開サイトへの反映には少し時間がかかります（反映されるまでこのブラウザでは保存した内容を表示しています）。</div>`;
+      bar.hidden = false;
+    } else bar.hidden = true;
+  }
   document.querySelector(".nav-toggle").addEventListener("click", (e) => {
     const nav = document.querySelector(".nav");
     nav.classList.toggle("open");
@@ -89,6 +110,7 @@
         <a class="link-card" href="#/brands"><h3>1. ブランドを読む</h3><p>歴史・デザイナー・代表アイテム・古着で見るポイント。読み終えたら「学習済み」に。</p></a>
         <a class="link-card" href="#/timeline"><h3>2. 変遷年表で俯瞰する</h3><p>誰がいつどこにいたか。同じデザイナーは同じ色で表示されるので移籍が一目でわかる。</p></a>
         <a class="link-card" href="#/seasons"><h3>3. シーズンで引く</h3><p>タグや値札のシーズン表記から、そのコレクションのタイトルとテーマを調べる。</p></a>
+        <a class="link-card" href="#/edit"><h3>4. 自分で書き足す</h3><p>ブランドの追加や知識の修正を画面から。GitHubに保存すればサイトに反映される。</p></a>
       </div>
 
       ${featured ? `<h2>今日の一冊</h2>
@@ -115,6 +137,15 @@
     </a>`;
   }
 
+  // よく使われているタグ（ジャンル的に使う）
+  function topTags() {
+    const count = {};
+    BRANDS.forEach((b) => (b.tags || []).forEach((t) => (count[t] = (count[t] || 0) + 1)));
+    const featured = ["アルチザン", "アントワープ", "裏原宿", "アーカイブ"];
+    const rest = Object.keys(count).filter((t) => !featured.includes(t)).sort((a, b) => count[b] - count[a]).slice(0, 10);
+    return featured.filter((t) => count[t]).concat(rest);
+  }
+
   function renderBrands() {
     document.title = "ブランド — Archive Notes";
     const tags = [...new Set(BRANDS.flatMap((b) => b.tags || []))].sort((a, b) => a.localeCompare(b, "ja"));
@@ -132,9 +163,17 @@
         </select>
         <label class="check"><input type="checkbox" id="hide" ${ui.hideLearned ? "checked" : ""}> 学習済みを隠す</label>
       </div>
+      <div class="chips" id="chips">${topTags().map((t) => `<button class="chip ${ui.tag === t ? "on" : ""}" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
       <p class="muted small" id="count"></p>
       <div class="grid" id="list"></div>
     `;
+    document.getElementById("chips").addEventListener("click", (e) => {
+      const t = e.target.dataset && e.target.dataset.t; if (t == null) return;
+      ui.tag = ui.tag === t ? "" : t;
+      document.getElementById("tag").value = ui.tag;
+      e.currentTarget.querySelectorAll(".chip").forEach((c) => c.classList.toggle("on", c.dataset.t === ui.tag));
+      draw();
+    });
     const draw = () => {
       const q = ui.q.trim().toLowerCase();
       const list = BRANDS.filter((b) => {
@@ -158,7 +197,11 @@
       e.currentTarget.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === v));
       draw();
     });
-    document.getElementById("tag").addEventListener("change", (e) => { ui.tag = e.target.value; draw(); });
+    document.getElementById("tag").addEventListener("change", (e) => {
+      ui.tag = e.target.value;
+      document.querySelectorAll("#chips .chip").forEach((c) => c.classList.toggle("on", c.dataset.t === ui.tag));
+      draw();
+    });
     document.getElementById("hide").addEventListener("change", (e) => { ui.hideLearned = e.target.checked; draw(); });
     draw();
   }
@@ -201,7 +244,8 @@
           <h1>${esc(b.name)}</h1>
           <div class="ja">${esc(b.ja)}</div>
         </div>
-        <div>${(b.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+        <div>${(b.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
+          <a class="btn ghost small" href="#/edit/brand/${encodeURIComponent(b.id)}">✎ 編集</a></div>
       </div>
 
       <dl class="facts">
@@ -232,7 +276,7 @@
 
       <h2>歴史</h2>
       <ul class="history">
-        ${(b.history || []).map((h) => `<li><span class="y">${h.year}</span>${esc(h.text)}</li>`).join("")}
+        ${(b.history || []).map((h) => `<li><span class="y">${esc(h.year)}</span>${esc(h.text)}${h.unverified ? ' <span class="unv">未確認</span>' : ""}</li>`).join("")}
       </ul>
 
       ${(b.collections || []).length ? `<h2>コレクション（シーズン）<span class="h2sub">${b.collections.length}シーズン</span></h2>
@@ -313,7 +357,7 @@
       <a class="back" href="#/designers">← デザイナー一覧</a>
       <p class="eyebrow" style="margin-top:8px">Designer</p>
       <h1>${esc(d.ja)}</h1>
-      <div class="muted">${esc(d.en)}</div>
+      <div class="muted">${esc(d.en)} <a class="btn ghost small" href="#/edit/designer/${encodeURIComponent(key)}">✎ 編集</a></div>
       ${d.bio ? `<p>${esc(d.bio)}</p>` : ""}
 
       <h2>キャリア</h2>
@@ -473,7 +517,7 @@
     app.innerHTML = `
       <p class="eyebrow">Glossary</p>
       <h1>用語集</h1>
-      <p class="lead">アーカイブや古着を語るときによく出てくる言葉。</p>
+      <p class="lead">アーカイブや古着を語るときによく出てくる言葉。 <a class="btn ghost small" href="#/edit/glossary">✎ 用語集を編集</a></p>
       <div class="toolbar"><input type="search" id="gq" placeholder="用語を検索"></div>
       <dl class="gloss" id="gl"></dl>`;
     const draw = (q) => {
@@ -486,5 +530,7 @@
     draw("");
   }
 
-  route();
+  // editor.js から使う
+  AN.app = { routes, route, reindex, esc, dName, dEn, yrs, el: app, renderDraftBar };
+  document.addEventListener("DOMContentLoaded", route);
 })();

@@ -120,6 +120,98 @@ window.BRANDS = [
       {
         "t": "Interview With Filip Pagowski（PLAYロゴ）",
         "u": "https://thecomebackkids.wordpress.com/2009/09/10/interview-with-filip-pagowski-creator-of-the-cdg-play-logo/"
+      },
+      {
+        "t": "cdg-freak：「コムデギャルソン」全20ブランド完全解説",
+        "u": "https://cdg-freak.com/brand/"
+      },
+      {
+        "t": "プレイフル：コムデギャルソンのライン一覧",
+        "u": "https://www.playful-kaitori.com/magazine/list/comme-des-garcons-line-2/"
+      }
+    ],
+    "lines": [
+      {
+        "name": "COMME des GARÇONS",
+        "from": 1969,
+        "desc": "川久保玲のウィメンズのメインライン。パリで発表されるコレクション。"
+      },
+      {
+        "name": "COMME des GARÇONS HOMME",
+        "from": 1978,
+        "desc": "最初のメンズライン。"
+      },
+      {
+        "name": "tricot COMME des GARÇONS",
+        "from": 1981,
+        "desc": "ニットを中心にしたウィメンズ。渡辺淳弥が1987年にデザインを任された。"
+      },
+      {
+        "name": "robe de chambre COMME des GARÇONS",
+        "from": 1981,
+        "to": 2004,
+        "desc": "ウィメンズのライン。2005年春夏にCOMME des GARÇONS COMME des GARÇONSへ統合。"
+      },
+      {
+        "name": "COMME des GARÇONS HOMME PLUS",
+        "from": 1984,
+        "desc": "川久保玲がデザインするメンズのコレクションライン。パリで発表。アーカイブ人気が最も高いメンズライン。"
+      },
+      {
+        "name": "COMME des GARÇONS HOMME DEUX",
+        "from": 1987,
+        "desc": "ビジネススーツを軸にしたメンズ。"
+      },
+      {
+        "name": "COMME des GARÇONS noir",
+        "from": 1987,
+        "desc": "黒を中心にしたライン。2012年に始まった noir kei ninomiya とは別物。"
+      },
+      {
+        "name": "COMME des GARÇONS SHIRT",
+        "from": 1988,
+        "desc": "シャツを中心にしたメンズ。「SHIRT」のタグ。"
+      },
+      {
+        "name": "JUNYA WATANABE COMME des GARÇONS",
+        "from": 1992,
+        "desc": "渡辺淳弥のウィメンズ。独立したブランドページあり。"
+      },
+      {
+        "name": "COMME des GARÇONS COMME des GARÇONS",
+        "from": 1993,
+        "desc": "日常着寄りのウィメンズ。通称「コムコム」。"
+      },
+      {
+        "name": "JUNYA WATANABE MAN",
+        "from": 2001,
+        "desc": "渡辺淳弥のメンズ。ワークウェアやコラボの再構築。"
+      },
+      {
+        "name": "PLAY COMME des GARÇONS",
+        "from": 2002,
+        "desc": "フィリップ・パゴウスキーのハートロゴのライン。"
+      },
+      {
+        "name": "GANRYU",
+        "from": 2007,
+        "to": 2017,
+        "desc": "若手デザイナー（丸龍文人）によるストリート寄りのライン。2017年春夏で終了。"
+      },
+      {
+        "name": "BLACK COMME des GARÇONS",
+        "from": 2008,
+        "desc": "ユニセックスのライン。"
+      },
+      {
+        "name": "noir kei ninomiya",
+        "from": 2012,
+        "desc": "二宮啓のライン（最初のコレクションは2013年春夏）。"
+      },
+      {
+        "name": "CDG",
+        "from": 2018,
+        "desc": "ロゴを使ったベーシックなライン。"
       }
     ]
   },
@@ -283,6 +375,76 @@ window.BRANDS = [
       {
         "t": "V&A Blog：Yohji Yamamoto at the V&A",
         "u": "https://www.vam.ac.uk/blog/yohji-yamamoto-va"
+      },
+      {
+        "t": "WWDJAPAN：ヨウジヤマモトの主要20ブランド・ラインを大解剖",
+        "u": "https://www.wwdjapan.com/articles/764215"
+      },
+      {
+        "t": "KLD：ヨウジヤマモト系列のブランドライン",
+        "u": "https://kld-c.jp/blog/yohji-yamamoto-brands"
+      },
+      {
+        "t": "thefashiondb：Limi Yamamoto",
+        "u": "https://thefashiondb.com/people/limi-yamamoto"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Y's",
+        "from": 1972,
+        "desc": "山本耀司が最初に始めたブランド。日常に寄り添うウィメンズ中心。"
+      },
+      {
+        "name": "Yohji Yamamoto（ウィメンズ）",
+        "from": 1981,
+        "desc": "ウィメンズのコレクションライン。パリで発表。"
+      },
+      {
+        "name": "Yohji Yamamoto POUR HOMME",
+        "from": 1984,
+        "desc": "メンズのコレクションライン。パリで発表。"
+      },
+      {
+        "name": "LIMI feu",
+        "from": 1999,
+        "desc": "娘の山本里美によるライン。1999年「Y's bis LIMI」として始まり、2002年にLIMI feuに改称。"
+      },
+      {
+        "name": "Y-3",
+        "from": 2002,
+        "desc": "adidasとの協業。山本耀司がクリエイティブディレクター。"
+      },
+      {
+        "name": "S'YTE",
+        "from": 2011,
+        "desc": "当初はウェブ限定のメンズ（ウィメンズは2012年〜）。若い世代向け。"
+      },
+      {
+        "name": "Ground Y",
+        "from": 2014,
+        "desc": "ジェンダーレスなライン（開始年は情報源1件）。",
+        "unverified": true
+      },
+      {
+        "name": "B Yohji Yamamoto",
+        "from": 2016,
+        "desc": "2016-17年秋冬から。"
+      },
+      {
+        "name": "BLACK Scandal Yohji Yamamoto",
+        "from": 2018,
+        "desc": "2018年春夏から。"
+      },
+      {
+        "name": "REGULATION Yohji Yamamoto",
+        "desc": "「制服」をテーマにしたライン。開始年は未確認。",
+        "unverified": true
+      },
+      {
+        "name": "Yohji Yamamoto Collections",
+        "from": 2021,
+        "desc": "2021-22年秋冬から。"
       }
     ]
   },
@@ -368,15 +530,13 @@ window.BRANDS = [
       },
       {
         "name": "A-POC",
-        "year": "1998〜99頃",
-        "desc": "藤原大と開発。編み機で筒状の布に服の形を織り込み、切り取って着る。",
-        "unverified": true
+        "year": 1998,
+        "desc": "1998年に藤原大と開発を始めた技術。編み機で筒状の布に服の形を織り込み、切り取って着る。"
       },
       {
         "name": "BAO BAO",
-        "year": "2000年代",
-        "desc": "三角形のピースを組み合わせた、形が変わるバッグ。",
-        "unverified": true
+        "year": 2010,
+        "desc": "三角形のピースを組み合わせた、形が変わるバッグ。"
       }
     ],
     "archive": [
@@ -400,6 +560,57 @@ window.BRANDS = [
       {
         "t": "MIYAKE DESIGN STUDIO：BRANDS",
         "u": "https://mds.isseymiyake.com/mds/en/collection/"
+      },
+      {
+        "t": "modescape：歴代デザイナーや展開ラインの特徴",
+        "u": "https://www.modescape.com/magazine/issey-miyake-features-of-designers-and-lines.html"
+      }
+    ],
+    "lines": [
+      {
+        "name": "ISSEY MIYAKE",
+        "from": 1970,
+        "desc": "メインライン（ウィメンズ）。デザイナーは三宅一生から交代を重ねている。"
+      },
+      {
+        "name": "ISSEY MIYAKE MEN",
+        "from": 1978,
+        "desc": "メンズ（1976年にウィメンズと共に発表、1985-86年秋冬からパリ・メンズ）。"
+      },
+      {
+        "name": "PLEATS PLEASE ISSEY MIYAKE",
+        "from": 1993,
+        "desc": "製品プリーツのライン（1994年春夏から販売とする資料も）。"
+      },
+      {
+        "name": "A-POC",
+        "from": 1998,
+        "desc": "藤原大と開発を始めた「一枚の布」の技術。2021年3月に「A-POC ABLE ISSEY MIYAKE」として発展。"
+      },
+      {
+        "name": "HaaT",
+        "from": 2000,
+        "desc": "皆川魔鬼子のディレクションによるテキスタイル主導のライン。"
+      },
+      {
+        "name": "BAO BAO ISSEY MIYAKE",
+        "from": 2010,
+        "desc": "三角形のピースのバッグ。"
+      },
+      {
+        "name": "132 5. ISSEY MIYAKE",
+        "from": 2010,
+        "desc": "一枚の平面から立体になる折り紙のような服。"
+      },
+      {
+        "name": "HOMME PLISSÉ ISSEY MIYAKE",
+        "from": 2013,
+        "desc": "PLEATS PLEASEのメンズ版。"
+      },
+      {
+        "name": "A-POC ABLE ISSEY MIYAKE",
+        "from": 2021,
+        "desc": "A-POCの考え方を発展させたライン。"
       }
     ]
   },
@@ -842,6 +1053,38 @@ window.BRANDS = [
       {
         "t": "Truss Archive：Your Guide To UNDERCOVER Jeans",
         "u": "https://www.trussarchive.com/editorials/your-guide-to-undercover-jeans"
+      },
+      {
+        "t": "Wikipedia：UNDERCOVER (ブランド)",
+        "u": "https://ja.wikipedia.org/wiki/UNDERCOVER_(%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89)"
+      }
+    ],
+    "lines": [
+      {
+        "name": "UNDERCOVER",
+        "from": 1990,
+        "desc": "メインライン。"
+      },
+      {
+        "name": "UNDERCOVERISM",
+        "to": 2015,
+        "desc": "旧メンズライン。2015年にUNDERCOVERへ統合（開始年は資料で割れる）。",
+        "unverified": true
+      },
+      {
+        "name": "GYAKUSOU",
+        "from": 2010,
+        "desc": "Nikeとのランニングライン。"
+      },
+      {
+        "name": "the Shepherd UNDERCOVER",
+        "from": 2016,
+        "desc": "2016-17年秋冬から不定期にリリースされるメンズ。"
+      },
+      {
+        "name": "John UNDERCOVER",
+        "desc": "メンズのセカンドライン。開始年は未確認。",
+        "unverified": true
       }
     ]
   },
@@ -1870,6 +2113,63 @@ window.BRANDS = [
       {
         "t": "LogoHeritage：The Numbers and the Four White Stitches",
         "u": "https://logoheritage.com/maison-margiela-logo/"
+      },
+      {
+        "t": "Maison Margiela 公式：Numeric Coding",
+        "u": "https://www.maisonmargiela.com/wx/mm-brand-code.html"
+      },
+      {
+        "t": "Grailed：Master Class: Maison Margiela",
+        "u": "https://www.grailed.com/drycleanonly/masterclass-maison-margiela"
+      }
+    ],
+    "lines": [
+      {
+        "name": "0 / 0 10（アーティザナル）",
+        "desc": "古着や既製品を手で作り替えるライン。0がウィメンズ、0 10がメンズ。"
+      },
+      {
+        "name": "1（ウィメンズ）",
+        "desc": "ウィメンズのコレクション。"
+      },
+      {
+        "name": "4（ウィメンズのワードローブ）",
+        "from": 2004,
+        "desc": "定番的なウィメンズ。"
+      },
+      {
+        "name": "6 / MM6",
+        "from": 1997,
+        "desc": "1997年にライン6として始まり、2004年に「MM6」の名に。"
+      },
+      {
+        "name": "10（メンズ）",
+        "from": 1999,
+        "desc": "メンズのコレクション。"
+      },
+      {
+        "name": "11（アクセサリー）",
+        "from": 2005,
+        "desc": "バッグなど。"
+      },
+      {
+        "name": "13（オブジェ・出版物）",
+        "from": 1999,
+        "desc": ""
+      },
+      {
+        "name": "14（メンズのワードローブ）",
+        "from": 2005,
+        "desc": "定番的なメンズ。"
+      },
+      {
+        "name": "22（シューズ）",
+        "from": 2005,
+        "desc": "靴（最初の靴は1989年にライン1の一部として発表）。"
+      },
+      {
+        "name": "Replica",
+        "desc": "古着や軍物などを再現するカプセル。番号ではなく製品名。ジャーマントレーナーなど。"
       }
     ]
   },
@@ -2999,6 +3299,23 @@ window.BRANDS = [
         "t": "Martin Roll：Prada",
         "u": "https://martinroll.com/resources/articles/strategy/prada-italian-family-business-iconic-luxury-brand/"
       }
+    ],
+    "lines": [
+      {
+        "name": "Prada",
+        "from": 1913,
+        "desc": "メインライン。メンズは1993年から。"
+      },
+      {
+        "name": "Miu Miu",
+        "from": 1993,
+        "desc": "ミウッチャの愛称から。"
+      },
+      {
+        "name": "Prada Linea Rossa（Prada Sport）",
+        "from": 1997,
+        "desc": "赤いラインのロゴのスポーツライン。"
+      }
     ]
   },
   {
@@ -3927,6 +4244,43 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Sex (boutique)",
         "u": "https://en.wikipedia.org/wiki/Sex_(boutique)"
+      },
+      {
+        "t": "Vivienne Westwood 公式：The Story so Far",
+        "u": "https://www.viviennewestwood.com/en-us/westwood-world/the-story-so-far/"
+      },
+      {
+        "t": "University of Westminster Archives：Vivienne Westwood",
+        "u": "https://ukdps.uwestminster-ro.tmp.accesstomemory.org/vivienne-westwood"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Gold Label",
+        "from": 1993,
+        "to": 2016,
+        "desc": "メインのコレクションライン。2016年に「Andreas Kronthaler for Vivienne Westwood」へ。"
+      },
+      {
+        "name": "Red Label",
+        "from": 1993,
+        "to": 2016,
+        "desc": "Gold Labelより若いセカンドライン（公式は1999年開始としている）。"
+      },
+      {
+        "name": "MAN",
+        "from": 1996,
+        "desc": "メンズ。1996年1月にミラノで発表。"
+      },
+      {
+        "name": "Anglomania",
+        "from": 1998,
+        "desc": "ディフュージョンライン（1993-94年秋冬のコレクション名から。1997年とする資料も）。"
+      },
+      {
+        "name": "Andreas Kronthaler for Vivienne Westwood",
+        "from": 2016,
+        "desc": "旧Gold Label。"
       }
     ]
   },
@@ -4069,7 +4423,7 @@ window.BRANDS = [
       },
       {
         "name": "DRKSHDW",
-        "year": "2000年代〜",
+        "year": 2005,
         "desc": "デニム・カジュアルのライン。"
       }
     ],
@@ -4083,6 +4437,37 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Rick Owens",
         "u": "https://en.wikipedia.org/wiki/Rick_Owens"
+      },
+      {
+        "t": "CFDA：Rick Owens",
+        "u": "https://cfda.com/member/rick-owens/"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Rick Owens",
+        "from": 1994,
+        "desc": "メインライン。"
+      },
+      {
+        "name": "DRKSHDW",
+        "from": 2005,
+        "desc": "デニムやスウェットなどカジュアルなライン（2008年とする資料も）。"
+      },
+      {
+        "name": "Rick Owens Lilies",
+        "from": 2006,
+        "desc": "柔らかなウィメンズ。"
+      },
+      {
+        "name": "HUNRICKOWENS",
+        "from": 2006,
+        "desc": "毛皮のライン。当初は「Palais Royal」の名前。"
+      },
+      {
+        "name": "Rick Owens Furniture",
+        "from": 2005,
+        "desc": "家具（初の公開を2007年とする資料も）。"
       }
     ]
   },
@@ -4542,6 +4927,24 @@ window.BRANDS = [
         "t": "WWDJAPAN：アタッチメントがデザイナー交代で新体制",
         "u": "https://www.wwdjapan.com/articles/1303265"
       }
+    ],
+    "lines": [
+      {
+        "name": "ATTACHMENT",
+        "from": 1999,
+        "desc": "ベースのライン。2022-23年秋冬から榎本光希。"
+      },
+      {
+        "name": "KAZUYUKI KUMAGAI ATTACHMENT",
+        "from": 2007,
+        "to": 2022,
+        "desc": "コレクションライン。2022年春夏で終了。"
+      },
+      {
+        "name": "calmlence",
+        "from": 2023,
+        "desc": "熊谷和幸の新ブランド（別ブランド）。"
+      }
     ]
   },
   {
@@ -4797,6 +5200,20 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Boris Bidjan Saberi",
         "u": "https://en.wikipedia.org/wiki/Boris_Bidjan_Saberi"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Boris Bidjan Saberi",
+        "from": 2007,
+        "to": 2025,
+        "desc": "メインライン。"
+      },
+      {
+        "name": "11 by Boris Bidjan Saberi",
+        "from": 2013,
+        "to": 2025,
+        "desc": "都会的で手に取りやすいセカンドライン。"
       }
     ]
   },

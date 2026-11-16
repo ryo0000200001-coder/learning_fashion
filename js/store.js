@@ -171,11 +171,25 @@
     return { committed, branch };
   }
 
+  // 画像などのファイルを1つアップロードする（同名ファイルがあれば上書き）
+  async function uploadFile(path, blob, message) {
+    const s = getSettings();
+    const branch = await resolveBranch();
+    const buf = new Uint8Array(await blob.arrayBuffer());
+    let bin = "";
+    for (let i = 0; i < buf.length; i += 0x8000) bin += String.fromCharCode.apply(null, buf.subarray(i, i + 0x8000));
+    const url = `/repos/${s.owner}/${s.repo}/contents/${path}`;
+    let sha;
+    try { sha = (await gh(`${url}?ref=${encodeURIComponent(branch)}`)).sha; } catch (e) { if (e.status !== 404) throw e; }
+    await gh(url, { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message, content: btoa(bin), branch, sha }) });
+    return path;
+  }
+
   window.AN = {
     data, FILES, KINDS, served,
     status, commitLocal, discard, serialize,
     hasDraft: () => !!draft,
     draftLog: () => (draft ? draft.log : []),
-    getSettings, setSettings, testConnection, saveToGitHub
+    getSettings, setSettings, testConnection, saveToGitHub, uploadFile
   };
 })();

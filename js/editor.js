@@ -41,6 +41,7 @@
       case "area": return `<label class="lf"${style}><span>${esc(c.label)}</span><textarea data-k="${c.k}" rows="2" placeholder="${ph}">${esc(val)}</textarea></label>`;
       case "check": return `<label class="lf lf-check"><input type="checkbox" data-k="${c.k}" ${val ? "checked" : ""}><span>${esc(c.label)}</span></label>`;
       case "select": return `<label class="lf"${style}><span>${esc(c.label)}</span><select data-k="${c.k}">${c.options.map(([ov, ol]) => `<option value="${esc(ov)}" ${String(ov) === String(val) ? "selected" : ""}>${esc(ol)}</option>`).join("")}</select></label>`;
+      case "img": return `<label class="lf lf-img"${style}><span>${esc(c.label)}</span><span class="imgrow"><input data-k="${c.k}" data-type="text" value="${esc(val)}" placeholder="${ph}"><button type="button" class="btn ghost small" data-act="upload">写真をアップロード</button></span></label>`;
       default: return `<label class="lf"${style}><span>${esc(c.label)}</span><input data-k="${c.k}" data-type="${c.type || "text"}" ${c.list ? `list="${c.list}"` : ""} ${c.type === "num" ? 'inputmode="numeric"' : ""} value="${esc(val)}" placeholder="${ph}"></label>`;
     }
   }
@@ -65,6 +66,7 @@
       const rows = le.querySelector(".le-rows");
       const row = b.closest(".le-row");
       const act = b.dataset.act;
+      if (act === "upload") { uploadPhoto(b); return; }
       if (act === "add") {
         rows.insertAdjacentHTML("beforeend", le.querySelector("template").innerHTML);
         const first = rows.lastElementChild.querySelector("input,textarea,select");
@@ -74,6 +76,47 @@
       else if (act === "down" && row.nextElementSibling) rows.insertBefore(row.nextElementSibling, row);
     });
   }
+  // 写真を縮小して GitHub の images/ に保存し、URL欄に入れる
+  function uploadPhoto(btn) {
+    if (!AN.getSettings().token) { flash("写真のアップロードには GitHub の設定（トークン）が必要です", "err"); return; }
+    const input = btn.parentElement.querySelector("input");
+    const fileEl = document.createElement("input");
+    fileEl.type = "file"; fileEl.accept = "image/*";
+    fileEl.onchange = async () => {
+      const file = fileEl.files[0]; if (!file) return;
+      btn.disabled = true; btn.textContent = "アップロード中…";
+      try {
+        const blob = await shrink(file, 1200);
+        const idEl = document.querySelector('#bf input[name="id"]');
+        const slug = (idEl && idEl.value.trim()) || "photo";
+        const path = `images/${slug}-${Date.now()}.jpg`;
+        await AN.uploadFile(path, blob, `写真を追加: ${path}`);
+        input.value = path;
+        const row = btn.closest(".le-row");
+        const lic = row && row.querySelector('[data-k="license"]');
+        if (lic && !lic.value) lic.value = "自分で撮影";
+        flash("写真をアップロードしました。忘れずに「保存（下書き）」と「GitHubに保存」をしてください。");
+      } catch (e) { flash(e.message, "err"); }
+      btn.disabled = false; btn.textContent = "写真をアップロード";
+    };
+    fileEl.click();
+  }
+  function shrink(file, max) {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.onload = () => {
+        const r = Math.min(1, max / Math.max(img.width, img.height));
+        const cv = document.createElement("canvas");
+        cv.width = Math.round(img.width * r); cv.height = Math.round(img.height * r);
+        cv.getContext("2d").drawImage(img, 0, 0, cv.width, cv.height);
+        cv.toBlob((bl) => (bl ? resolve(bl) : reject(new Error("画像を変換できませんでした"))), "image/jpeg", 0.85);
+        URL.revokeObjectURL(img.src);
+      };
+      img.onerror = () => reject(new Error("画像を読み込めませんでした"));
+      img.src = URL.createObjectURL(file);
+    });
+  }
+
   function readList(form, name) {
     const out = [];
     form.querySelectorAll(`.le[data-list="${name}"] .le-rows > .le-row`).forEach((row) => {
@@ -234,12 +277,23 @@
           { k: "note", label: "メモ", type: "area", w: 6 },
           { k: "unverified", label: "未確認", type: "check" }
         ])}
+        ${listEditor("lines", "ライン", b.lines, [
+          { k: "name", label: "ライン名", w: 3 },
+          { k: "from", label: "開始年", type: "num", w: 1 },
+          { k: "to", label: "終了年（空欄=継続中）", type: "num", w: 1 },
+          { k: "desc", label: "説明", type: "area", w: 6 },
+          { k: "unverified", label: "未確認", type: "check" }
+        ], "ブランドの中のライン（例: HOMME PLUS、Y's、MM6）。")}
         ${listEditor("items", "代表的なアイテム", b.items, [
           { k: "name", label: "名前", w: 3 },
           { k: "year", label: "年・時期", type: "year", w: 1 },
           { k: "desc", label: "説明", type: "area", w: 6 },
+          { k: "img", label: "写真のURL（またはアップロード）", type: "img", w: 4, ph: "https://... または images/..." },
+          { k: "credit", label: "写真の撮影者・出典", w: 2 },
+          { k: "license", label: "ライセンス", w: 1, ph: "例: CC BY-SA 4.0 / 自分で撮影" },
+          { k: "imgPage", label: "写真の元ページURL", w: 3 },
           { k: "unverified", label: "未確認", type: "check" }
-        ])}
+        ], "写真は、自分で撮ったもの、または自由に使ってよいライセンス（Wikimedia Commons の CC ライセンスなど）のものだけを使ってください。ブランド公式やショップ、雑誌の写真は無断で載せられません。")}
         <fieldset><legend>古着・アーカイブで見るポイント</legend>
           <textarea name="archive" rows="4" placeholder="1行に1つ">${esc((b.archive || []).join("\n"))}</textarea>
         </fieldset>
@@ -271,6 +325,7 @@
         history: readList(form, "history"),
         designers: readList(form, "designers"),
         collections: readList(form, "collections"),
+        lines: readList(form, "lines"),
         items: readList(form, "items"),
         archive: lines(f.archive.value),
         related: [...form.querySelectorAll('input[name="related"]:checked')].map((x) => x.value),
@@ -278,6 +333,7 @@
         sources: readList(form, "sources")
       };
       if (!nb.collections.length) delete nb.collections;
+      if (!nb.lines.length) delete nb.lines;
       if (!nb.note) delete nb.note;
       // 検証
       const errs = [];

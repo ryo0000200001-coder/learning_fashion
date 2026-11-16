@@ -210,6 +210,27 @@ h3 { font-size: 16px; }
 .sources li { margin-bottom: 4px; word-break: break-word; }
 .sources a { color: var(--accent); }
 
+/* lines */
+.lines { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); overflow: hidden; }
+.line-row { display: grid; grid-template-columns: 110px 1fr; gap: 16px; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+.line-row:last-child { border-bottom: 0; }
+.line-yrs { font-family: var(--serif); font-weight: 700; font-variant-numeric: tabular-nums; font-size: 14px; }
+.line-end { display: block; font-family: var(--sans); font-weight: 400; font-size: 11px; color: var(--muted); }
+.line-name { font-weight: 700; }
+
+/* item photos */
+.item { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
+.item-body { padding: 16px; }
+.item-img { margin: 0; background: var(--bg); border-bottom: 1px solid var(--line); }
+.item-img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.item-img figcaption { font-size: 10px; color: var(--muted); padding: 4px 10px; line-height: 1.4; }
+.item-img figcaption a { color: var(--muted); }
+.imgsearch { display: inline-block; margin-top: 8px; font-size: 12px; color: var(--accent); text-decoration: none; }
+
+.imgrow { display: flex; gap: 6px; align-items: center; }
+.imgrow input { flex: 1; }
+.imgrow .btn { white-space: nowrap; }
+
 /* chips */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: -8px 0 16px; }
 .chip { font: inherit; font-size: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); border-radius: 99px; padding: 3px 12px; cursor: pointer; }
@@ -278,6 +299,7 @@ details.help ol { padding-left: 20px; }
   .succession li { grid-template-columns: 1fr; gap: 0; }
   .tl-row, .tl-axis { grid-template-columns: 110px 1fr; }
   .crow { grid-template-columns: 1fr; gap: 2px; }
+  .line-row { grid-template-columns: 1fr; gap: 2px; }
   .le-cells .lf { flex-basis: 100%; }
   .le-cells .lf-check { flex-basis: auto; }
   .eform fieldset { padding: 10px 12px 12px; }

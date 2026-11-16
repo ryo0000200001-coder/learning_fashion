@@ -184,7 +184,8 @@
         const hay = [b.name, b.ja, b.country, b.summary, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
-          ...(b.collections || []).flatMap((c) => [c.title, c.alias])].join(" ").toLowerCase();
+          ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
+          ...(b.lines || []).map((l) => l.name)].join(" ").toLowerCase();
         return hay.includes(q);
       });
       document.getElementById("count").textContent = `${list.length} 件`;
@@ -227,6 +228,19 @@
       }).join("")).join("")}
     </div>
     <div class="minibar-axis"><span>${start}</span><span>${Math.round((start + end) / 2)}</span><span>${NOW}</span></div>`;
+  }
+
+  // 代表アイテムのカード（写真があれば表示。なければ画像検索へのリンク）
+  function itemCard(b, i) {
+    const q = encodeURIComponent(`${b.name} ${i.name}`);
+    const credit = [i.credit, i.license].filter(Boolean).join(" / ");
+    const photo = i.img
+      ? `<figure class="item-img"><a href="${esc(i.imgPage || i.img)}" target="_blank" rel="noopener noreferrer"><img src="${esc(i.img)}" alt="${esc(i.name)}" loading="lazy"></a>
+          ${credit ? `<figcaption>写真: ${i.imgPage ? `<a href="${esc(i.imgPage)}" target="_blank" rel="noopener noreferrer">${esc(credit)}</a>` : esc(credit)}</figcaption>` : ""}</figure>`
+      : "";
+    return `<div class="item ${i.img ? "has-img" : ""}">${photo}
+      <div class="item-body"><div class="yr">${esc(i.year || "")}${i.unverified ? ' <span class="unv">未確認</span>' : ""}</div><h3>${esc(i.name)}</h3><p>${esc(i.desc || "")}</p>
+      ${i.img ? "" : `<a class="imgsearch" href="https://www.google.com/search?tbm=isch&q=${q}" target="_blank" rel="noopener noreferrer">画像を検索 ↗</a>`}</div></div>`;
   }
 
   function renderBrand(id) {
@@ -274,6 +288,12 @@
         }).join("")}
       </ol>
 
+      ${(b.lines || []).length ? `<h2>ライン<span class="h2sub">${b.lines.length}ライン</span></h2>
+      <div class="lines">${b.lines.map((l) => `<div class="line-row">
+        <div class="line-yrs">${l.from || l.to ? `${esc(l.from || "?")}–${l.to ? esc(l.to) : (l.from ? "" : "")}` : "—"}${l.to ? '<span class="line-end">終了</span>' : ""}</div>
+        <div><div class="line-name">${esc(l.name)}${l.unverified ? ' <span class="unv">未確認</span>' : ""}</div>${l.desc ? `<div class="cnote">${esc(l.desc)}</div>` : ""}</div>
+      </div>`).join("")}</div>` : ""}
+
       <h2>歴史</h2>
       <ul class="history">
         ${(b.history || []).map((h) => `<li><span class="y">${esc(h.year)}</span>${esc(h.text)}${h.unverified ? ' <span class="unv">未確認</span>' : ""}</li>`).join("")}
@@ -284,7 +304,7 @@
 
       ${(b.items || []).length ? `<h2>代表的なアイテム</h2>
       <div class="items">
-        ${b.items.map((i) => `<div class="item"><div class="yr">${esc(i.year || "")}${i.unverified ? ' <span class="unv">未確認</span>' : ""}</div><h3>${esc(i.name)}</h3><p>${esc(i.desc || "")}</p></div>`).join("")}
+        ${b.items.map((i) => itemCard(b, i)).join("")}
       </div>` : ""}
 
       ${(b.archive || []).length ? `<h2>古着・アーカイブで見るポイント</h2><ul class="tips">${b.archive.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}

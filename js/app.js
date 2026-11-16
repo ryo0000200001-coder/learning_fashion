@@ -2,34 +2,39 @@
 (function () {
   "use strict";
 
-  const BRANDS = window.BRANDS || [];
-  const DESIGNERS = window.DESIGNERS || {};
-  const GLOSSARY = window.GLOSSARY || [];
+  const AN = window.AN;
+  let BRANDS, DESIGNERS, GLOSSARY, byId, careers;
   const NOW = new Date().getFullYear();
   const app = document.getElementById("app");
 
   // ---------- utilities ----------
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const byId = Object.fromEntries(BRANDS.map((b) => [b.id, b]));
   const dName = (k) => (DESIGNERS[k] ? DESIGNERS[k].ja : k);
   const dEn = (k) => (DESIGNERS[k] ? DESIGNERS[k].en : "");
   const yrs = (t) => `${t.from}–${t.to == null ? "現在" : t.to}`;
   const endYear = (t) => (t.to == null ? NOW : t.to);
   const hue = (key) => { let h = 0; for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) % 360; return h; };
-  const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (a) => a[Math.floor(Math.random() * a.length)];
   const originLabel = (o) => (o === "domestic" ? "国内" : "海外");
 
-  // デザイナー → 在任リスト（全ブランド横断）
-  const careers = {};
-  BRANDS.forEach((b) => (b.designers || []).forEach((t) => {
-    (careers[t.d] = careers[t.d] || []).push({ ...t, brand: b });
-  }));
-  Object.values(careers).forEach((list) => list.sort((a, b) => a.from - b.from));
+  // データを読み直して索引を作る（編集のたびに呼ぶ）
+  function reindex() {
+    BRANDS = AN.data.brands;
+    DESIGNERS = AN.data.designers;
+    GLOSSARY = AN.data.glossary;
+    byId = Object.fromEntries(BRANDS.map((b) => [b.id, b]));
+    // デザイナー → 在任リスト（全ブランド横断）
+    careers = {};
+    BRANDS.forEach((b) => (b.designers || []).forEach((t) => {
+      (careers[t.d] = careers[t.d] || []).push({ ...t, brand: b });
+    }));
+    Object.values(careers).forEach((list) => list.sort((a, b) => a.from - b.from));
+  }
+  reindex();
 
   // ---------- storage (失敗しても動くように) ----------
   const KEY = "archive-notes-v1";
-  let store = { learned: {}, notes: {}, quizBest: 0 };
+  let store = { learned: {}, notes: {} };
   try { store = Object.assign(store, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch (e) { /* ignore */ }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { /* ignore */ } };
   const ui = { origin: "all", tag: "", q: "", hideLearned: false, tlOrigin: "all", tlFrom: 1980 };
@@ -42,7 +47,7 @@
     designers: renderDesigners,
     designer: renderDesigner,
     timeline: renderTimeline,
-    quiz: renderQuiz,
+    seasons: renderSeasons,
     glossary: renderGlossary
   };
   function route() {
@@ -53,10 +58,26 @@
       a.classList.toggle("active", parts[0] === n || parts[0] === n.replace(/s$/, ""));
     });
     document.querySelector(".nav").classList.remove("open");
-    view(parts[1]);
+    renderDraftBar();
+    view(parts[1], parts[2]);
     window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);
+
+  // 未保存の変更があるときに画面上部へ出す帯
+  function renderDraftBar() {
+    const bar = document.getElementById("draftbar");
+    if (!bar) return;
+    const dirty = AN.KINDS.filter((k) => AN.status(k) === "dirty");
+    const pushed = AN.KINDS.filter((k) => AN.status(k) === "pushed");
+    if (dirty.length) {
+      bar.innerHTML = `<div class="wrap">このブラウザに<b>GitHubへ未保存の変更</b>があります（${dirty.map((k) => AN.FILES[k].label).join("・")}）。<a href="#/edit">編集画面で保存する →</a></div>`;
+      bar.hidden = false;
+    } else if (pushed.length) {
+      bar.innerHTML = `<div class="wrap">GitHubに保存済みです。公開サイトへの反映には少し時間がかかります（反映されるまでこのブラウザでは保存した内容を表示しています）。</div>`;
+      bar.hidden = false;
+    } else bar.hidden = true;
+  }
   document.querySelector(".nav-toggle").addEventListener("click", (e) => {
     const nav = document.querySelector(".nav");
     nav.classList.toggle("open");
@@ -81,14 +102,15 @@
         <div class="stat"><b>${BRANDS.length}</b><span>ブランド（国内 ${dom} / 海外 ${BRANDS.length - dom}）</span></div>
         <div class="stat"><b>${Object.keys(careers).length}</b><span>デザイナー</span></div>
         <div class="stat"><b>${learned}<small class="muted" style="font-size:14px"> / ${BRANDS.length}</small></b><span>学習済み</span><div class="progress"><i style="width:${pct}%"></i></div></div>
-        <div class="stat"><b>${store.quizBest || 0}<small class="muted" style="font-size:14px"> / 10</small></b><span>クイズ最高点</span></div>
+        <div class="stat"><b>${BRANDS.reduce((n, b) => n + (b.collections || []).length, 0)}</b><span>シーズン（コレクション）</span></div>
       </div>
 
       <h2>学び方</h2>
       <div class="cards-3">
         <a class="link-card" href="#/brands"><h3>1. ブランドを読む</h3><p>歴史・デザイナー・代表アイテム・古着で見るポイント。読み終えたら「学習済み」に。</p></a>
         <a class="link-card" href="#/timeline"><h3>2. 変遷年表で俯瞰する</h3><p>誰がいつどこにいたか。同じデザイナーは同じ色で表示されるので移籍が一目でわかる。</p></a>
-        <a class="link-card" href="#/quiz"><h3>3. クイズで定着させる</h3><p>データから毎回ランダムに10問。デザイナー、年代、アイテムを問う。</p></a>
+        <a class="link-card" href="#/seasons"><h3>3. シーズンで引く</h3><p>タグや値札のシーズン表記から、そのコレクションのタイトルとテーマを調べる。</p></a>
+        <a class="link-card" href="#/edit"><h3>4. 自分で書き足す</h3><p>ブランドの追加や知識の修正を画面から。GitHubに保存すればサイトに反映される。</p></a>
       </div>
 
       ${featured ? `<h2>今日の一冊</h2>
@@ -115,6 +137,15 @@
     </a>`;
   }
 
+  // よく使われているタグ（ジャンル的に使う）
+  function topTags() {
+    const count = {};
+    BRANDS.forEach((b) => (b.tags || []).forEach((t) => (count[t] = (count[t] || 0) + 1)));
+    const featured = ["アルチザン", "アントワープ", "裏原宿", "アーカイブ"];
+    const rest = Object.keys(count).filter((t) => !featured.includes(t)).sort((a, b) => count[b] - count[a]).slice(0, 10);
+    return featured.filter((t) => count[t]).concat(rest);
+  }
+
   function renderBrands() {
     document.title = "ブランド — Archive Notes";
     const tags = [...new Set(BRANDS.flatMap((b) => b.tags || []))].sort((a, b) => a.localeCompare(b, "ja"));
@@ -132,9 +163,17 @@
         </select>
         <label class="check"><input type="checkbox" id="hide" ${ui.hideLearned ? "checked" : ""}> 学習済みを隠す</label>
       </div>
+      <div class="chips" id="chips">${topTags().map((t) => `<button class="chip ${ui.tag === t ? "on" : ""}" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
       <p class="muted small" id="count"></p>
       <div class="grid" id="list"></div>
     `;
+    document.getElementById("chips").addEventListener("click", (e) => {
+      const t = e.target.dataset && e.target.dataset.t; if (t == null) return;
+      ui.tag = ui.tag === t ? "" : t;
+      document.getElementById("tag").value = ui.tag;
+      e.currentTarget.querySelectorAll(".chip").forEach((c) => c.classList.toggle("on", c.dataset.t === ui.tag));
+      draw();
+    });
     const draw = () => {
       const q = ui.q.trim().toLowerCase();
       const list = BRANDS.filter((b) => {
@@ -144,7 +183,8 @@
         if (!q) return true;
         const hay = [b.name, b.ja, b.country, b.summary, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
-          ...(b.items || []).map((i) => i.name)].join(" ").toLowerCase();
+          ...(b.items || []).map((i) => i.name),
+          ...(b.collections || []).flatMap((c) => [c.title, c.alias])].join(" ").toLowerCase();
         return hay.includes(q);
       });
       document.getElementById("count").textContent = `${list.length} 件`;
@@ -157,7 +197,11 @@
       e.currentTarget.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === v));
       draw();
     });
-    document.getElementById("tag").addEventListener("change", (e) => { ui.tag = e.target.value; draw(); });
+    document.getElementById("tag").addEventListener("change", (e) => {
+      ui.tag = e.target.value;
+      document.querySelectorAll("#chips .chip").forEach((c) => c.classList.toggle("on", c.dataset.t === ui.tag));
+      draw();
+    });
     document.getElementById("hide").addEventListener("change", (e) => { ui.hideLearned = e.target.checked; draw(); });
     draw();
   }
@@ -200,7 +244,8 @@
           <h1>${esc(b.name)}</h1>
           <div class="ja">${esc(b.ja)}</div>
         </div>
-        <div>${(b.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+        <div>${(b.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
+          <a class="btn ghost small" href="#/edit/brand/${encodeURIComponent(b.id)}">✎ 編集</a></div>
       </div>
 
       <dl class="facts">
@@ -231,15 +276,20 @@
 
       <h2>歴史</h2>
       <ul class="history">
-        ${(b.history || []).map((h) => `<li><span class="y">${h.year}</span>${esc(h.text)}</li>`).join("")}
+        ${(b.history || []).map((h) => `<li><span class="y">${esc(h.year)}</span>${esc(h.text)}${h.unverified ? ' <span class="unv">未確認</span>' : ""}</li>`).join("")}
       </ul>
 
-      <h2>代表的なアイテム</h2>
+      ${(b.collections || []).length ? `<h2>コレクション（シーズン）<span class="h2sub">${b.collections.length}シーズン</span></h2>
+      <div class="ctable">${b.collections.map((c) => collectionRow(c, false)).join("")}</div>` : ""}
+
+      ${(b.items || []).length ? `<h2>代表的なアイテム</h2>
       <div class="items">
-        ${(b.items || []).map((i) => `<div class="item"><div class="yr">${esc(i.year || "")}</div><h3>${esc(i.name)}</h3><p>${esc(i.desc || "")}</p></div>`).join("")}
-      </div>
+        ${b.items.map((i) => `<div class="item"><div class="yr">${esc(i.year || "")}${i.unverified ? ' <span class="unv">未確認</span>' : ""}</div><h3>${esc(i.name)}</h3><p>${esc(i.desc || "")}</p></div>`).join("")}
+      </div>` : ""}
 
       ${(b.archive || []).length ? `<h2>古着・アーカイブで見るポイント</h2><ul class="tips">${b.archive.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}
+
+      ${(b.sources || []).length ? `<h2>出典</h2><ul class="sources">${b.sources.map((x) => `<li><a href="${esc(x.u)}" target="_blank" rel="noopener noreferrer">${esc(x.t)}</a></li>`).join("")}</ul>` : ""}
 
       ${related.length ? `<h2>関連ブランド</h2><div class="grid">${related.map(brandCard).join("")}</div>` : ""}
 
@@ -307,7 +357,7 @@
       <a class="back" href="#/designers">← デザイナー一覧</a>
       <p class="eyebrow" style="margin-top:8px">Designer</p>
       <h1>${esc(d.ja)}</h1>
-      <div class="muted">${esc(d.en)}</div>
+      <div class="muted">${esc(d.en)} <a class="btn ghost small" href="#/edit/designer/${encodeURIComponent(key)}">✎ 編集</a></div>
       ${d.bio ? `<p>${esc(d.bio)}</p>` : ""}
 
       <h2>キャリア</h2>
@@ -404,132 +454,62 @@
     draw();
   }
 
-  // ---------- quiz ----------
-  function makeQuestion() {
-    const allTenures = BRANDS.flatMap((b) => (b.designers || []).map((t) => ({ ...t, brand: b })));
-    const designerKeys = Object.keys(careers);
-    const types = ["tenure", "tenure", "career", "item", "founded", "origin"];
-    for (let attempt = 0; attempt < 30; attempt++) {
-      const type = pick(types);
-      if (type === "tenure") {
-        const t = pick(allTenures);
-        const pool = shuffle(designerKeys.filter((k) => k !== t.d && !(t.brand.designers || []).some((x) => x.d === k && x.from <= t.from && endYear(x) >= endYear(t))));
-        // 同じブランドの他デザイナーを優先的に混ぜると難しくなる
-        const sameBrand = shuffle((t.brand.designers || []).map((x) => x.d).filter((k) => k !== t.d));
-        const distract = [...new Set([...sameBrand, ...pool])].filter((k) => k !== t.d).slice(0, 3);
-        if (distract.length < 3) continue;
-        return {
-          q: `${t.brand.name} で ${yrs(t)} に「${t.role}」を務めたのは？`,
-          opts: shuffle([t.d, ...distract]).map((k) => ({ label: dName(k), ok: k === t.d })),
-          explain: `${dName(t.d)}（${dEn(t.d)}）。`,
-          link: `#/brand/${t.brand.id}`
-        };
-      }
-      if (type === "career") {
-        const k = pick(designerKeys.filter((x) => new Set(careers[x].map((c) => c.brand.id)).size >= 2));
-        if (!k) continue;
-        const mine = new Set(careers[k].map((c) => c.brand.id));
-        const ans = pick(careers[k]);
-        const distract = shuffle(BRANDS.filter((b) => !mine.has(b.id))).slice(0, 3);
-        return {
-          q: `${dName(k)} がデザインに関わったことのあるブランドは？`,
-          opts: shuffle([ans.brand, ...distract]).map((b) => ({ label: b.name, ok: b.id === ans.brand.id })),
-          explain: `${dName(k)} の経歴: ${careers[k].map((c) => `${c.brand.name}（${yrs(c)}）`).join(" → ")}`,
-          link: `#/designer/${encodeURIComponent(k)}`
-        };
-      }
-      if (type === "item") {
-        const b = pick(BRANDS.filter((x) => (x.items || []).length));
-        const it = pick(b.items);
-        const distract = shuffle(BRANDS.filter((x) => x.id !== b.id)).slice(0, 3);
-        return {
-          q: `代表的なアイテム「${it.name}」はどのブランド？`,
-          opts: shuffle([b, ...distract]).map((x) => ({ label: x.name, ok: x.id === b.id })),
-          explain: `${b.name}。${it.desc || ""}`,
-          link: `#/brand/${b.id}`
-        };
-      }
-      if (type === "founded") {
-        const b = pick(BRANDS);
-        const set = new Set([b.founded]);
-        const deltas = shuffle([-12, -7, -4, -2, 3, 5, 9, 14]);
-        for (const d of deltas) { if (set.size >= 4) break; set.add(b.founded + d); }
-        return {
-          q: `${b.name} の創業（設立）年は？`,
-          opts: shuffle([...set]).map((y) => ({ label: `${y}年`, ok: y === b.founded })),
-          explain: `${b.founded}年。${(b.history || [])[0] ? b.history[0].text : ""}`,
-          link: `#/brand/${b.id}`
-        };
-      }
-      if (type === "origin") {
-        const b = pick(BRANDS);
-        const founder = (b.designers || []).slice().sort((x, y) => x.from - y.from)[0];
-        if (!founder || founder.from !== b.founded) continue;
-        const distract = shuffle(designerKeys.filter((k) => k !== founder.d)).slice(0, 3);
-        return {
-          q: `${b.name} を始めた（${b.founded}年）のは？`,
-          opts: shuffle([founder.d, ...distract]).map((k) => ({ label: dName(k), ok: k === founder.d })),
-          explain: `${dName(founder.d)}（${dEn(founder.d)}）。`,
-          link: `#/brand/${b.id}`
-        };
-      }
-    }
-    return null;
+  // ---------- seasons index ----------
+  function renderSeasons() {
+    document.title = "シーズン索引 — Archive Notes";
+    const rows = BRANDS.flatMap((b) => (b.collections || []).map((c) => ({ ...c, brand: b })));
+    const brandsWith = BRANDS.filter((b) => (b.collections || []).length);
+    app.innerHTML = `
+      <p class="eyebrow">Seasons</p>
+      <h1>シーズン索引</h1>
+      <p class="lead">タグや古着屋の値札に書かれたシーズン（例: 2004-05AW、AW04、2003SS）やタイトルから、コレクションを引けます。年だけ（例: 2004）でも検索できます。</p>
+      <div class="toolbar">
+        <input type="search" id="sq" placeholder="年・シーズン・タイトル・通称で検索（例: 2004 / SCAB / カート期）">
+        <select id="sb" aria-label="ブランド">
+          <option value="">ブランド: すべて</option>
+          ${brandsWith.map((b) => `<option value="${b.id}">${esc(b.name)}</option>`).join("")}
+        </select>
+      </div>
+      <p class="muted small" id="scount"></p>
+      <div id="slist"></div>`;
+    const norm = (x) => String(x || "").toLowerCase().replace(/[\s\-\/]/g, "");
+    const draw = () => {
+      const q = norm(document.getElementById("sq").value);
+      const bid = document.getElementById("sb").value;
+      const list = rows.filter((r) => (!bid || r.brand.id === bid) &&
+        (!q || norm([r.season, seasonAliases(r.season), r.title, r.alias, r.note, r.brand.name, r.brand.ja].join(" ")).includes(q)));
+      document.getElementById("scount").textContent = `${list.length} 件`;
+      document.getElementById("slist").innerHTML = list.length
+        ? `<div class="ctable">${list.map((r) => collectionRow(r, true)).join("")}</div>`
+        : `<p class="empty">該当するシーズンがありません。</p>`;
+    };
+    document.getElementById("sq").addEventListener("input", draw);
+    document.getElementById("sb").addEventListener("change", draw);
+    draw();
   }
 
-  function renderQuiz() {
-    document.title = "クイズ — Archive Notes";
-    const TOTAL = 10;
-    let n = 0, score = 0, current = null;
-    const seen = new Set();
-    app.innerHTML = `
-      <div class="quiz">
-        <p class="eyebrow">Quiz</p>
-        <h1>クイズ</h1>
-        <p class="lead">データから毎回ランダムに${TOTAL}問出題されます。最高点: <b id="best">${store.quizBest || 0}</b> / ${TOTAL}</p>
-        <div id="qbox"></div>
-      </div>`;
-    const box = document.getElementById("qbox");
-    const next = () => {
-      if (n >= TOTAL) {
-        if (score > (store.quizBest || 0)) { store.quizBest = score; save(); }
-        box.innerHTML = `<div class="quiz-card">
-          <p class="eyebrow">結果</p>
-          <div class="quiz-q">${score} / ${TOTAL} 問正解</div>
-          <p class="muted">${score >= 9 ? "素晴らしい。年表を見ながら細部まで覚えましょう。" : score >= 6 ? "いい調子。間違えたブランドのページを読み直しましょう。" : "まずはブランドページと変遷年表を一通り読んでみましょう。"}</p>
-          <div class="quiz-foot"><a class="btn ghost" href="#/timeline">年表を見る</a><button class="btn" id="again">もう一度</button></div>
-        </div>`;
-        document.getElementById("again").addEventListener("click", renderQuiz);
-        return;
-      }
-      let q;
-      for (let i = 0; i < 20; i++) { q = makeQuestion(); if (q && !seen.has(q.q)) break; }
-      if (!q) { box.innerHTML = `<p class="empty">問題を作れませんでした。データを増やしてください。</p>`; return; }
-      seen.add(q.q);
-      current = q; n++;
-      box.innerHTML = `<div class="quiz-card">
-        <p class="eyebrow">Q${n} / ${TOTAL} ・ 正解 ${score}</p>
-        <div class="quiz-q">${esc(q.q)}</div>
-        <div class="opts">${q.opts.map((o, i) => `<button class="opt" data-i="${i}">${esc(o.label)}</button>`).join("")}</div>
-        <div id="after"></div>
-      </div>`;
-      box.querySelector(".opts").addEventListener("click", (e) => {
-        const btn = e.target.closest(".opt"); if (!btn || btn.disabled) return;
-        const chosen = current.opts[Number(btn.dataset.i)];
-        if (chosen.ok) score++;
-        box.querySelectorAll(".opt").forEach((b, i) => {
-          b.disabled = true;
-          if (current.opts[i].ok) b.classList.add("correct");
-          else if (b === btn) b.classList.add("wrong");
-        });
-        document.getElementById("after").innerHTML = `
-          <p class="explain">${chosen.ok ? "正解！" : "不正解。"} ${esc(current.explain)} <a href="${current.link}">詳しく見る →</a></p>
-          <div class="quiz-foot"><span class="muted small">正解 ${score} / ${n}</span><button class="btn" id="nextq">${n >= TOTAL ? "結果を見る" : "次へ"}</button></div>`;
-        document.getElementById("nextq").addEventListener("click", next);
-        document.getElementById("nextq").focus();
-      });
-    };
-    next();
+  // "2004-05AW" → "AW04 FW04 04AW ...", "2003SS" → "SS03 03SS" のような別表記も検索対象にする
+  function seasonAliases(season) {
+    const out = [];
+    String(season).replace(/(\d{4})(?:-\d{2,4})?\s*(SS|AW)/gi, (m, y, t) => {
+      const yy = y.slice(2);
+      t = t.toUpperCase();
+      out.push(t + yy, yy + t, t + y);
+      if (t === "AW") out.push("FW" + yy, yy + "FW", "FW" + y);
+      return m;
+    });
+    return out.join(" ");
+  }
+
+  function collectionRow(c, withBrand) {
+    return `<div class="crow">
+      <div class="cseason">${esc(c.season)}${c.city ? `<span class="ccity">${esc(c.city)}</span>` : ""}</div>
+      <div>
+        ${withBrand ? `<a class="cbrand" href="#/brand/${c.brand.id}">${esc(c.brand.name)}</a>` : ""}
+        <div class="ctitle">${esc(c.title)}${c.alias ? ` <span class="calias">通称「${esc(c.alias)}」</span>` : ""}${c.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
+        ${c.note ? `<div class="cnote">${esc(c.note)}</div>` : ""}
+      </div>
+    </div>`;
   }
 
   function renderGlossary() {
@@ -537,7 +517,7 @@
     app.innerHTML = `
       <p class="eyebrow">Glossary</p>
       <h1>用語集</h1>
-      <p class="lead">アーカイブや古着を語るときによく出てくる言葉。</p>
+      <p class="lead">アーカイブや古着を語るときによく出てくる言葉。 <a class="btn ghost small" href="#/edit/glossary">✎ 用語集を編集</a></p>
       <div class="toolbar"><input type="search" id="gq" placeholder="用語を検索"></div>
       <dl class="gloss" id="gl"></dl>`;
     const draw = (q) => {
@@ -550,5 +530,7 @@
     draw("");
   }
 
-  route();
+  // editor.js から使う
+  AN.app = { routes, route, reindex, esc, dName, dEn, yrs, el: app, renderDraftBar };
+  document.addEventListener("DOMContentLoaded", route);
 })();

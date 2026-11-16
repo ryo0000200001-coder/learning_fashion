@@ -1,4 +1,4 @@
-/* Archive Notes — シングルページの学習サイト（ビルド不要） */
+/* Archive Notes — シングルページの知識帳サイト（ビルド不要） */
 (function () {
   "use strict";
 
@@ -33,10 +33,10 @@
 
   // ---------- storage (失敗しても動くように) ----------
   const KEY = "archive-notes-v1";
-  let store = { learned: {}, notes: {} };
+  let store = { notes: {} };
   try { store = Object.assign(store, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch (e) { /* ignore */ }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { /* ignore */ } };
-  const ui = { origin: "all", tag: "", q: "", hideLearned: false, tlOrigin: "all", tlFrom: 1980 };
+  const ui = { origin: "all", tag: "", q: "", tlOrigin: "all", tlFrom: 1980 };
 
   // ---------- router ----------
   const routes = {
@@ -136,7 +136,7 @@
 
   function brandCard(b) {
     const cur = (b.designers || []).filter((t) => t.to == null).map((t) => dName(t.d));
-    return `<a class="brand-card ${store.learned[b.id] ? "learned" : ""}" href="#/brand/${b.id}">
+    return `<a class="brand-card" href="#/brand/${b.id}">
       <h3>${esc(b.name)}</h3>
       <span class="ja">${esc(b.ja)}</span>
       <div class="meta">
@@ -171,7 +171,6 @@
           <option value="">タグ: すべて</option>
           ${tags.map((t) => `<option ${ui.tag === t ? "selected" : ""}>${esc(t)}</option>`).join("")}
         </select>
-        <label class="check"><input type="checkbox" id="hide" ${ui.hideLearned ? "checked" : ""}> 学習済みを隠す</label>
       </div>
       <div class="chips" id="chips">${topTags().map((t) => `<button class="chip ${ui.tag === t ? "on" : ""}" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</div>
       <p class="muted small" id="count"></p>
@@ -189,7 +188,6 @@
       const list = BRANDS.filter((b) => {
         if (ui.origin !== "all" && b.origin !== ui.origin) return false;
         if (ui.tag && !(b.tags || []).includes(ui.tag)) return false;
-        if (ui.hideLearned && store.learned[b.id]) return false;
         if (!q) return true;
         const hay = [b.name, b.ja, b.country, b.summary, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
@@ -213,7 +211,6 @@
       document.querySelectorAll("#chips .chip").forEach((c) => c.classList.toggle("on", c.dataset.t === ui.tag));
       draw();
     });
-    document.getElementById("hide").addEventListener("change", (e) => { ui.hideLearned = e.target.checked; draw(); });
     draw();
   }
 
@@ -326,16 +323,12 @@
       <section class="study">
         <div class="row">
           <h3>自分のメモ</h3>
-          <label class="check"><input type="checkbox" id="learned" ${store.learned[b.id] ? "checked" : ""}> 学習済みにする</label>
+          <span class="muted small">このブラウザにだけ保存されます</span>
         </div>
         <textarea id="note" placeholder="古着屋で見た個体、相場、タグの特徴、気になったシーズンなど">${esc(store.notes[b.id] || "")}</textarea>
         <span class="saved" id="saved">保存しました</span>
       </section>
     `;
-    document.getElementById("learned").addEventListener("change", (e) => {
-      if (e.target.checked) store.learned[b.id] = true; else delete store.learned[b.id];
-      save();
-    });
     let timer;
     document.getElementById("note").addEventListener("input", (e) => {
       store.notes[b.id] = e.target.value;

@@ -9,6 +9,7 @@
   const DRAFT_KEY = "archive-notes-draft-v1";
   const GH_KEY = "archive-notes-github-v1";
   const DEFAULT_REPO = { owner: "ryo0000200001-coder", repo: "learning_fashion" };
+  const DEFAULT_BRANCH = "main"; // GitHub Pages で公開しているブランチ
   const HEADER = "// このファイルはサイトの「編集」画面からも書き換えられます。手で編集する場合は JSON の形を崩さないでください（README 参照）。\n";
   const FILES = {
     brands:    { path: "data/brands.js",    name: "BRANDS",    label: "ブランド" },
@@ -90,7 +91,7 @@
   function getSettings() {
     const s = ls.get(GH_KEY) || {};
     const d = detectRepo();
-    return { owner: s.owner || d.owner, repo: s.repo || d.repo, branch: s.branch || "", token: s.token || "" };
+    return { owner: s.owner || d.owner, repo: s.repo || d.repo, branch: s.branch || DEFAULT_BRANCH, token: s.token || "" };
   }
   function setSettings(s) { return ls.set(GH_KEY, s); }
 

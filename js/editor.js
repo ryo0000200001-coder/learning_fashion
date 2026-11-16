@@ -116,7 +116,7 @@
           <button class="btn ghost" id="export">ファイルを書き出す</button>
           <button class="btn ghost danger" id="discard" ${AN.hasDraft() ? "" : "disabled"}>下書きを破棄</button>
         </div>
-        <p class="muted small" id="pstatus">${s.token ? `保存先: ${esc(s.owner)}/${esc(s.repo)}（${esc(s.branch || "既定のブランチ")}）` : `GitHubに保存するには<a href="#/settings">設定</a>でトークンを登録してください。登録しなくても「ファイルを書き出す」で手動アップロードできます。`}</p>
+        <p class="muted small" id="pstatus">${s.token ? `保存先: ${esc(s.owner)}/${esc(s.repo)}（${esc(s.branch)}）` : `GitHubに保存するには<a href="#/settings">設定</a>でトークンを登録してください。登録しなくても「ファイルを書き出す」で手動アップロードできます。`}</p>
       </section>
 
       <h2>ブランド <span class="h2sub">${D.brands.length}件</span></h2>
@@ -417,7 +417,7 @@
           <div class="grid2">
             <label class="lf"><span>オーナー（ユーザー名）</span><input name="owner" value="${esc(s.owner)}"></label>
             <label class="lf"><span>リポジトリ</span><input name="repo" value="${esc(s.repo)}"></label>
-            <label class="lf"><span>ブランチ（空欄＝既定のブランチ）</span><input name="branch" value="${esc(s.branch)}" placeholder="例: main"></label>
+            <label class="lf"><span>ブランチ（空欄＝main）</span><input name="branch" value="${esc(s.branch)}" placeholder="例: main"></label>
           </div>
           <p class="help">GitHub Pages で公開しているブランチを指定してください。</p>
         </fieldset>

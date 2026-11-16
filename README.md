@@ -55,7 +55,7 @@ python3 -m http.server 8000
 2. Repository access で **Only select repositories** を選び、このリポジトリだけを選ぶ
 3. Repository permissions の **Contents** を **Read and write** にする（他の権限は不要）
 4. 作成されたトークンをサイトの「設定」（`#/settings`）に貼り付け、「接続テスト」で確認
-5. 保存先のブランチには、GitHub Pages で公開しているブランチを指定する（空欄ならリポジトリの既定のブランチ）
+5. 保存先のブランチは `main`（GitHub Pages で公開しているブランチ）。別のブランチで公開する場合だけ設定で変更する
 
 トークンはそのブラウザの localStorage にだけ保存され、GitHub の API 以外には送られません。共用のパソコンでは登録しないでください。
 

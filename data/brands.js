@@ -353,7 +353,11 @@ window.BRANDS = [
       {
         "name": "Y-3",
         "year": "2002〜",
-        "desc": "adidasとの協業によるスポーツとモードの融合。"
+        "desc": "adidasとの協業によるスポーツとモードの融合。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Y-3_Fall-Winter_2010_232.jpg?width=500",
+        "credit": "Masaki-H / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Y-3_Fall-Winter_2010_232.jpg"
       }
     ],
     "archive": [
@@ -526,7 +530,11 @@ window.BRANDS = [
       {
         "name": "PLEATS PLEASE",
         "year": 1993,
-        "desc": "縫製後にプリーツをかける「製品プリーツ」。軽く、洗えて、しわにならない。"
+        "desc": "縫製後にプリーツをかける「製品プリーツ」。軽く、洗えて、しわにならない。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Issey_miyake%2C_pleats_please%2C_series_n.1%2C_a-i_1996-97_(hasselt%2C_modemuseum).jpg?width=500",
+        "credit": "Francesco Bini / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Issey_miyake,_pleats_please,_series_n.1,_a-i_1996-97_(hasselt,_modemuseum).jpg"
       },
       {
         "name": "A-POC",
@@ -2068,7 +2076,11 @@ window.BRANDS = [
       {
         "name": "足袋ブーツ（Tabi）",
         "year": "1989SS",
-        "desc": "地下足袋から着想した、つま先が割れたブーツ。初ショーのフィナーレでは赤いペンキに浸した足袋で歩き、足跡を残した。"
+        "desc": "地下足袋から着想した、つま先が割れたブーツ。初ショーのフィナーレでは赤いペンキに浸した足袋で歩き、足跡を残した。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tabi_shoes_modern_(margiela).png?width=500",
+        "credit": "Hajinishere / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Tabi_shoes_modern_(margiela).png"
       },
       {
         "name": "ジャーマントレーナー（レプリカ）",
@@ -2259,12 +2271,20 @@ window.BRANDS = [
       {
         "name": "ケリー",
         "year": "1935〜",
-        "desc": "「サック・ア・デペッシュ」として登場し、グレース・ケリーにちなんで改称。"
+        "desc": "「サック・ア・デペッシュ」として登場し、グレース・ケリーにちなんで改称。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Crocodile_Kelly_Bag.jpg?width=500",
+        "credit": "Herry Lawford / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Red_Crocodile_Kelly_Bag.jpg"
       },
       {
         "name": "バーキン",
         "year": 1984,
-        "desc": "飛行機のエチケット袋にスケッチしたという逸話がある。"
+        "desc": "飛行機のエチケット袋にスケッチしたという逸話がある。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Croc_Birkin_bag.jpg?width=500",
+        "credit": "Ohconfucius / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Croc_Birkin_bag.jpg"
       }
     ],
     "archive": [
@@ -2735,7 +2755,11 @@ window.BRANDS = [
       {
         "name": "バージャケット",
         "year": 1947,
-        "desc": "ニュールックを象徴する、ウエストを絞ったジャケット。"
+        "desc": "ニュールックを象徴する、ウエストを絞ったジャケット。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Dior_denver_art1.jpg?width=500",
+        "credit": "SpiritedMichelle / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Dior_denver_art1.jpg"
       },
       {
         "name": "エディ期のスリムなテーラード・デニム",
@@ -2865,7 +2889,11 @@ window.BRANDS = [
       {
         "name": "ル・スモーキング",
         "year": 1966,
-        "desc": "女性のためのタキシード。"
+        "desc": "女性のためのタキシード。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Yves_St_Laurent_le_smoking_at_deYoung_Museum_San_Francisco.jpg?width=500",
+        "credit": "David Hilowitz / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Yves_St_Laurent_le_smoking_at_deYoung_Museum_San_Francisco.jpg"
       },
       {
         "name": "エディ期のレザー・テディジャケット",
@@ -3073,7 +3101,11 @@ window.BRANDS = [
       {
         "name": "バンブーバッグ",
         "year": 1947,
-        "desc": "竹のハンドルのバッグ。"
+        "desc": "竹のハンドルのバッグ。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gucci%2C_bamboo_bag%2C_1960-65_ca._(firenze%2C_archivio_storico_gucci).jpg?width=500",
+        "credit": "Sailko / Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Gucci,_bamboo_bag,_1960-65_ca._(firenze,_archivio_storico_gucci).jpg"
       }
     ],
     "archive": [
@@ -3182,6 +3214,15 @@ window.BRANDS = [
     ],
     "items": [
       {
+        "name": "サック・ドレス（シュミーズ・ドレス）",
+        "year": 1957,
+        "desc": "ウエストを絞らない袋状のシルエット。写真はロードアイランド・スクール・オブ・デザイン美術館所蔵の1957年の黒いブークレ。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1957_Balenciaga_chemise_or_sack_dress%2C_black_boucl%C3%A9_wool_01.jpg?width=500",
+        "credit": "Staff photographer, Rhode Island School of Design Museum of Art / Wikimedia Commons",
+        "license": "CC0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:1957_Balenciaga_chemise_or_sack_dress,_black_boucl%C3%A9_wool_01.jpg"
+      },
+      {
         "name": "モーターサイクルバッグ（City）",
         "year": "2001-02AW",
         "desc": "ジェスキエール期のヒットバッグ。2024年に「Le City」として復刻。"
@@ -3190,7 +3231,11 @@ window.BRANDS = [
         "name": "トリプルS",
         "year": "2017",
         "desc": "デムナ期のダッドスニーカーブームを牽引。",
-        "unverified": true
+        "unverified": true,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balenciaga-Triple_S.jpg?width=500",
+        "credit": "Abigail1714 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Balenciaga-Triple_S.jpg"
       }
     ],
     "archive": [
@@ -3607,6 +3652,15 @@ window.BRANDS = [
         "name": "2.55",
         "year": 1955,
         "desc": "キルティングとチェーンのショルダーバッグ。"
+      },
+      {
+        "name": "ツイードのスーツ",
+        "year": "1950年代〜",
+        "desc": "ツイードのジャケットとスカートの組み合わせ。写真は1960年代後半のクリーム色のスーツ。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cream_Chanel_suit%2C_late_1960s.jpg?width=500",
+        "credit": "Mabalu / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Cream_Chanel_suit,_late_1960s.jpg"
       }
     ],
     "archive": [],
@@ -4103,7 +4157,11 @@ window.BRANDS = [
       {
         "name": "コーンブラ",
         "year": "1984〜",
-        "desc": "円錐形のブラ。1990年のマドンナの衣装で有名に。"
+        "desc": "円錐形のブラ。1990年のマドンナの衣装で有名に。",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Madonna's_Blond_Ambition_Corset.jpg?width=500",
+        "credit": "Brandon Carson / Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Madonna%27s_Blond_Ambition_Corset.jpg"
       },
       {
         "name": "マリニエール（ボーダー）",
@@ -4356,7 +4414,10 @@ window.BRANDS = [
         "name": "アルマジロブーツ",
         "year": "2010SS",
         "desc": "「Plato's Atlantis」の異形のブーツ。",
-        "unverified": true
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/McQueen%2C_Mus%C3%A9e_des_beaux-arts_-_60.jpg?width=500",
+        "credit": "LilianaUwU / Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:McQueen,_Mus%C3%A9e_des_beaux-arts_-_60.jpg"
       }
     ],
     "archive": [],
@@ -4419,7 +4480,11 @@ window.BRANDS = [
         "name": "ジオバスケット / ラモーンズ",
         "year": "2000年代〜",
         "desc": "ハイカットスニーカーの定番。",
-        "unverified": true
+        "unverified": true,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick_Owens_Geobasket_sneaker.jpg?width=500",
+        "credit": "Reddeleon / Wikimedia Commons",
+        "license": "CC0",
+        "imgPage": "https://commons.wikimedia.org/wiki/File:Rick_Owens_Geobasket_sneaker.jpg"
       },
       {
         "name": "DRKSHDW",

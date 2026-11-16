@@ -14,7 +14,6 @@
   const yrs = (t) => `${t.from}–${t.to == null ? "現在" : t.to}`;
   const endYear = (t) => (t.to == null ? NOW : t.to);
   const hue = (key) => { let h = 0; for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) % 360; return h; };
-  const pick = (a) => a[Math.floor(Math.random() * a.length)];
   const originLabel = (o) => (o === "domestic" ? "国内" : "海外");
 
   // データを読み直して索引を作る（編集のたびに呼ぶ）
@@ -86,42 +85,53 @@
 
   // ---------- views ----------
   function renderHome() {
-    const learned = BRANDS.filter((b) => store.learned[b.id]).length;
-    const pct = BRANDS.length ? Math.round((learned / BRANDS.length) * 100) : 0;
-    const dom = BRANDS.filter((b) => b.origin === "domestic").length;
-    const featured = pick(BRANDS);
-    const nextUp = BRANDS.filter((b) => !store.learned[b.id]).slice(0, 3);
     document.title = "Archive Notes";
+    const sorted = (o) => BRANDS.filter((b) => b.origin === o).sort((x, y) => x.name.localeCompare(y.name, "en", { sensitivity: "base" }));
+    const index = (o) => sorted(o).map((b) => `<a href="#/brand/${encodeURIComponent(b.id)}"><b>${esc(b.name)}</b><span>${esc(b.ja)} · ${esc(b.founded)}</span></a>`).join("");
     app.innerHTML = `
-      <section class="hero">
-        <p class="eyebrow">Designer &amp; Archive Study Notes</p>
-        <h1>服の向こうにいる、<br>デザイナーを知る。</h1>
-        <p class="lead">古着屋で手に取った一着が「誰の」「いつの」服なのか。ブランドの歴史、デザイナーの移り変わり、代表的なアイテムを、国内・海外ブランド横断で学ぶためのノートです。</p>
-      </section>
-      <div class="stats">
-        <div class="stat"><b>${BRANDS.length}</b><span>ブランド（国内 ${dom} / 海外 ${BRANDS.length - dom}）</span></div>
-        <div class="stat"><b>${Object.keys(careers).length}</b><span>デザイナー</span></div>
-        <div class="stat"><b>${learned}<small class="muted" style="font-size:14px"> / ${BRANDS.length}</small></b><span>学習済み</span><div class="progress"><i style="width:${pct}%"></i></div></div>
-        <div class="stat"><b>${BRANDS.reduce((n, b) => n + (b.collections || []).length, 0)}</b><span>シーズン（コレクション）</span></div>
+      <div class="home-search">
+        <input type="search" id="hq" placeholder="ブランド・デザイナー・ライン・シーズン・用語を検索" autocomplete="off">
       </div>
+      <div id="hres"></div>
+      <div id="hindex">
+        <div class="chips">${topTags().map((t) => `<a class="chip" href="#/brands" data-t="${esc(t)}">${esc(t)}</a>`).join("")}</div>
+        <h2>国内<span class="h2sub">${sorted("domestic").length}</span></h2>
+        <div class="bindex">${index("domestic")}</div>
+        <h2>海外<span class="h2sub">${sorted("import").length}</span></h2>
+        <div class="bindex">${index("import")}</div>
+      </div>`;
+    app.querySelector(".chips").addEventListener("click", (e) => {
+      const t = e.target.closest(".chip"); if (t) ui.tag = t.dataset.t;
+    });
+    const q = document.getElementById("hq");
+    q.addEventListener("input", () => drawHomeResults(q.value));
+  }
 
-      <h2>学び方</h2>
-      <div class="cards-3">
-        <a class="link-card" href="#/brands"><h3>1. ブランドを読む</h3><p>歴史・デザイナー・代表アイテム・古着で見るポイント。読み終えたら「学習済み」に。</p></a>
-        <a class="link-card" href="#/timeline"><h3>2. 変遷年表で俯瞰する</h3><p>誰がいつどこにいたか。同じデザイナーは同じ色で表示されるので移籍が一目でわかる。</p></a>
-        <a class="link-card" href="#/seasons"><h3>3. シーズンで引く</h3><p>タグや値札のシーズン表記から、そのコレクションのタイトルとテーマを調べる。</p></a>
-        <a class="link-card" href="#/edit"><h3>4. 自分で書き足す</h3><p>ブランドの追加や知識の修正を画面から。GitHubに保存すればサイトに反映される。</p></a>
-      </div>
-
-      ${featured ? `<h2>今日の一冊</h2>
-      <a class="link-card" href="#/brand/${featured.id}">
-        <p class="eyebrow">${originLabel(featured.origin)} · ${esc(featured.country)} · ${featured.founded}</p>
-        <h3 style="font-size:22px">${esc(featured.name)}</h3>
-        <p>${esc(featured.summary)}</p>
-      </a>` : ""}
-
-      ${nextUp.length ? `<h2>次に読む</h2><div class="grid">${nextUp.map(brandCard).join("")}</div>` : ""}
-    `;
+  // ホームの全体検索
+  function drawHomeResults(raw) {
+    const q = raw.trim().toLowerCase();
+    const res = document.getElementById("hres");
+    document.getElementById("hindex").hidden = !!q;
+    if (!q) { res.innerHTML = ""; return; }
+    const has = (...xs) => xs.filter(Boolean).join(" ").toLowerCase().includes(q);
+    const groups = [];
+    const brands = BRANDS.filter((b) => has(b.name, b.ja, b.id, (b.tags || []).join(" ")));
+    groups.push(["ブランド", brands.map((b) => [`#/brand/${encodeURIComponent(b.id)}`, b.name, `${b.ja} · ${b.founded}`])]);
+    const des = Object.keys(careers).filter((k) => has(dName(k), dEn(k)));
+    groups.push(["デザイナー", des.map((k) => [`#/designer/${encodeURIComponent(k)}`, dName(k), [...new Set(careers[k].map((c) => c.brand.name))].join(" → ")])]);
+    const lines = BRANDS.flatMap((b) => (b.lines || []).filter((l) => has(l.name)).map((l) => [`#/brand/${encodeURIComponent(b.id)}`, l.name, `${b.name}${l.from ? ` · ${l.from}〜` : ""}`]));
+    groups.push(["ライン", lines]);
+    const items = BRANDS.flatMap((b) => (b.items || []).filter((i) => has(i.name)).map((i) => [`#/brand/${encodeURIComponent(b.id)}`, i.name, `${b.name}${i.year ? ` · ${i.year}` : ""}`]));
+    groups.push(["アイテム", items]);
+    const seasons = BRANDS.flatMap((b) => (b.collections || []).filter((c) => has(c.title, c.alias, c.season)).map((c) => [`#/brand/${encodeURIComponent(b.id)}`, `${c.season} ${c.title}`, `${b.name}${c.alias ? ` · 通称「${c.alias}」` : ""}`]));
+    groups.push(["シーズン", seasons]);
+    const terms = GLOSSARY.filter((g) => has(g.term, g.reading));
+    groups.push(["用語", terms.map((g) => ["#/glossary", g.term, g.desc.slice(0, 40) + (g.desc.length > 40 ? "…" : "")])]);
+    const shown = groups.filter(([, rows]) => rows.length);
+    res.innerHTML = shown.length
+      ? shown.map(([title, rows]) => `<h2>${title}<span class="h2sub">${rows.length}</span></h2>
+          <div class="hlist">${rows.slice(0, 30).map(([h, t, sub]) => `<a href="${h}"><b>${esc(t)}</b><span>${esc(sub)}</span></a>`).join("")}</div>`).join("")
+      : `<p class="empty">見つかりませんでした。<a href="#/edit/brand/new">新しいブランドとして追加する →</a></p>`;
   }
 
   function brandCard(b) {

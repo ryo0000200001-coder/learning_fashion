@@ -89,6 +89,7 @@ python3 -m http.server 8000
 | `tags` | タグ（「アルチザン」などのジャンルもここ） |
 | `aka` | 別名・略称（検索用。例: CDG、ギャルソン） |
 | `dating` | `[{ title, text }]` 年代の見分け方 |
+| `eras` | `[{ name, from, to, d, text, works[] }]` 時代（○○期）。`d` はデザイナーのキー、`works` はその時代の名作（文字列の配列） |
 | `summary` / `about` / `note` | 短い概要 / 長い解説（改行で段落） / 注記（資料の食い違いなど） |
 | `history` | `[{ year, text, unverified? }]` 年表 |
 | `designers` | `[{ d: デザイナーのキー, role, from, to }]`（`to: null` は現在） |

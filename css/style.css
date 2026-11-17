@@ -216,6 +216,17 @@ h3 { font-size: 16px; }
 .line-yrs { font-family: var(--serif); font-weight: 700; font-variant-numeric: tabular-nums; font-size: 14px; }
 .line-end { display: block; font-family: var(--sans); font-weight: 400; font-size: 11px; color: var(--muted); }
 .line-name { font-weight: 700; }
+.line-des { font-size: 12px; color: var(--accent); }
+.line-detail { display: block; padding: 0; }
+.line-detail > summary { display: grid; grid-template-columns: 110px 1fr auto; gap: 16px; padding: 10px 16px; cursor: pointer; list-style: none; }
+.line-detail > summary::-webkit-details-marker { display: none; }
+.line-detail > summary:hover { background: var(--bg); }
+.line-more { font-size: 11px; color: var(--accent); white-space: nowrap; align-self: start; padding-top: 3px; }
+.line-detail[open] .line-more { opacity: .6; }
+.line-body { padding: 4px 16px 16px 142px; }
+.line-body h4 { font-family: var(--serif); font-size: 14px; margin: 14px 0 8px; }
+.line-body .ctable, .line-body .items { margin-bottom: 4px; }
+.small-history { font-size: 13px; }
 
 /* item photos */
 .item { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
@@ -311,6 +322,8 @@ details.help ol { padding-left: 20px; }
   .tl-row, .tl-axis { grid-template-columns: 110px 1fr; }
   .crow { grid-template-columns: 1fr; gap: 2px; }
   .line-row { grid-template-columns: 1fr; gap: 2px; }
+  .line-detail > summary { grid-template-columns: 1fr; gap: 2px; }
+  .line-body { padding: 4px 12px 14px; }
   .le-cells .lf { flex-basis: 100%; }
   .le-cells .lf-check { flex-basis: auto; }
   .eform fieldset { padding: 10px 12px 12px; }

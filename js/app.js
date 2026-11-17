@@ -58,7 +58,7 @@
     });
     document.querySelector(".nav").classList.remove("open");
     renderDraftBar();
-    view(parts[1], parts[2]);
+    view(parts[1], parts[2], parts[3]);
     window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);
@@ -119,11 +119,17 @@
     groups.push(["ブランド", brands.map((b) => [`#/brand/${encodeURIComponent(b.id)}`, b.name, `${b.ja} · ${b.founded}`])]);
     const des = Object.keys(careers).filter((k) => has(dName(k), dEn(k)));
     groups.push(["デザイナー", des.map((k) => [`#/designer/${encodeURIComponent(k)}`, dName(k), [...new Set(careers[k].map((c) => c.brand.name))].join(" → ")])]);
-    const lines = BRANDS.flatMap((b) => (b.lines || []).filter((l) => has(l.name)).map((l) => [`#/brand/${encodeURIComponent(b.id)}`, l.name, `${b.name}${l.from ? ` · ${l.from}〜` : ""}`]));
+    const lines = BRANDS.flatMap((b) => (b.lines || []).filter((l) => has(l.name, l.designer)).map((l) => [`#/brand/${encodeURIComponent(b.id)}`, l.name, `${b.name}${l.from ? ` · ${l.from}〜` : ""}${l.designer ? ` · ${l.designer}` : ""}`]));
     groups.push(["ライン", lines]);
-    const items = BRANDS.flatMap((b) => (b.items || []).filter((i) => has(i.name)).map((i) => [`#/brand/${encodeURIComponent(b.id)}`, i.name, `${b.name}${i.year ? ` · ${i.year}` : ""}`]));
+    const items = BRANDS.flatMap((b) => [
+      ...(b.items || []).map((i) => [i, ""]),
+      ...(b.lines || []).flatMap((l) => (l.items || []).map((i) => [i, l.name]))
+    ].filter(([i]) => has(i.name)).map(([i, ln]) => [`#/brand/${encodeURIComponent(b.id)}`, i.name, `${b.name}${ln ? ` / ${ln}` : ""}${i.year ? ` · ${i.year}` : ""}`]));
     groups.push(["アイテム", items]);
-    const seasons = BRANDS.flatMap((b) => (b.collections || []).filter((c) => has(c.title, c.alias, c.season)).map((c) => [`#/brand/${encodeURIComponent(b.id)}`, `${c.season} ${c.title}`, `${b.name}${c.alias ? ` · 通称「${c.alias}」` : ""}`]));
+    const seasons = BRANDS.flatMap((b) => [
+      ...(b.collections || []).map((c) => [c, ""]),
+      ...(b.lines || []).flatMap((l) => (l.collections || []).map((c) => [c, l.name]))
+    ].filter(([c]) => has(c.title, c.alias, c.season)).map(([c, ln]) => [`#/brand/${encodeURIComponent(b.id)}`, `${c.season} ${c.title || ""}`, `${b.name}${ln ? ` / ${ln}` : ""}${c.alias ? ` · 通称「${c.alias}」` : ""}`]));
     groups.push(["シーズン", seasons]);
     const terms = GLOSSARY.filter((g) => has(g.term, g.reading));
     groups.push(["用語", terms.map((g) => ["#/glossary", g.term, g.desc.slice(0, 40) + (g.desc.length > 40 ? "…" : "")])]);
@@ -193,7 +199,7 @@
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
           ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
-          ...(b.lines || []).map((l) => l.name)].join(" ").toLowerCase();
+          ...(b.lines || []).flatMap((l) => [l.name, l.designer, ...(l.items || []).map((x) => x.name), ...(l.collections || []).flatMap((c) => [c.title, c.alias])])].join(" ").toLowerCase();
         return hay.includes(q);
       });
       document.getElementById("count").textContent = `${list.length} 件`;
@@ -250,6 +256,30 @@
       ${i.img ? "" : `<a class="imgsearch" href="https://www.google.com/search?tbm=isch&q=${q}" target="_blank" rel="noopener noreferrer">画像を検索 ↗</a>`}</div></div>`;
   }
 
+  // ブランド内のライン。詳細（歴史・名作・シーズン・古着のポイント）があれば開閉できる
+  function lineRow(b, l, i) {
+    const yrs = l.from || l.to ? `${esc(l.from || "?")}–${l.to ? esc(l.to) : ""}` : "—";
+    const head = `<div class="line-yrs">${yrs}${l.to ? '<span class="line-end">終了</span>' : ""}</div>
+      <div><div class="line-name">${esc(l.name)}${l.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
+      ${l.designer ? `<div class="line-des">デザイン：${esc(l.designer)}</div>` : ""}
+      ${l.desc ? `<div class="cnote">${esc(l.desc)}</div>` : ""}</div>`;
+    const n = (l.history || []).length + (l.items || []).length + (l.collections || []).length + (l.archive || []).length;
+    if (!n) return `<div class="line-row">${head}</div>`;
+    const counts = [
+      (l.collections || []).length ? `シーズン${l.collections.length}` : "",
+      (l.items || []).length ? `名作${l.items.length}` : "",
+      (l.history || []).length ? `年表${l.history.length}` : ""
+    ].filter(Boolean).join("・");
+    return `<details class="line-row line-detail" id="line-${i}"><summary>${head}<span class="line-more">${counts || "詳細"} ▾</span></summary>
+      <div class="line-body">
+        ${(l.history || []).length ? `<h4>歴史</h4><ul class="history small-history">${l.history.map((h) => `<li><span class="y">${esc(h.year)}</span>${esc(h.text)}</li>`).join("")}</ul>` : ""}
+        ${(l.collections || []).length ? `<h4>名作シーズン</h4><div class="ctable">${l.collections.map((c) => collectionRow(c, false)).join("")}</div>` : ""}
+        ${(l.items || []).length ? `<h4>名作アイテム</h4><div class="items">${l.items.map((it) => itemCard(b, it)).join("")}</div>` : ""}
+        ${(l.archive || []).length ? `<h4>古着で見るポイント</h4><ul class="tips">${l.archive.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}
+        <a class="btn ghost small" href="#/edit/line/${encodeURIComponent(b.id)}/${i}">✎ このラインを編集</a>
+      </div></details>`;
+  }
+
   function renderBrand(id) {
     const b = byId[id];
     if (!b) { app.innerHTML = `<p class="empty">ブランドが見つかりません。<a href="#/brands">一覧へ</a></p>`; return; }
@@ -296,10 +326,7 @@
       </ol>
 
       ${(b.lines || []).length ? `<h2>ライン<span class="h2sub">${b.lines.length}ライン</span></h2>
-      <div class="lines">${b.lines.map((l) => `<div class="line-row">
-        <div class="line-yrs">${l.from || l.to ? `${esc(l.from || "?")}–${l.to ? esc(l.to) : (l.from ? "" : "")}` : "—"}${l.to ? '<span class="line-end">終了</span>' : ""}</div>
-        <div><div class="line-name">${esc(l.name)}${l.unverified ? ' <span class="unv">未確認</span>' : ""}</div>${l.desc ? `<div class="cnote">${esc(l.desc)}</div>` : ""}</div>
-      </div>`).join("")}</div>` : ""}
+      <div class="lines">${b.lines.map((l, i) => lineRow(b, l, i)).join("")}</div>` : ""}
 
       <h2>歴史</h2>
       <ul class="history">
@@ -480,8 +507,11 @@
   // ---------- seasons index ----------
   function renderSeasons() {
     document.title = "シーズン索引 — Archive Notes";
-    const rows = BRANDS.flatMap((b) => (b.collections || []).map((c) => ({ ...c, brand: b })));
-    const brandsWith = BRANDS.filter((b) => (b.collections || []).length);
+    const rows = BRANDS.flatMap((b) => [
+      ...(b.collections || []).map((c) => ({ ...c, brand: b })),
+      ...(b.lines || []).flatMap((l) => (l.collections || []).map((c) => ({ ...c, brand: b, line: l.name })))
+    ]);
+    const brandsWith = BRANDS.filter((b) => (b.collections || []).length || (b.lines || []).some((l) => (l.collections || []).length));
     app.innerHTML = `
       <p class="eyebrow">Seasons</p>
       <h1>シーズン索引</h1>
@@ -500,7 +530,7 @@
       const q = norm(document.getElementById("sq").value);
       const bid = document.getElementById("sb").value;
       const list = rows.filter((r) => (!bid || r.brand.id === bid) &&
-        (!q || norm([r.season, seasonAliases(r.season), r.title, r.alias, r.note, r.brand.name, r.brand.ja].join(" ")).includes(q)));
+        (!q || norm([r.season, seasonAliases(r.season), r.title, r.alias, r.note, r.brand.name, r.brand.ja, r.line].join(" ")).includes(q)));
       document.getElementById("scount").textContent = `${list.length} 件`;
       document.getElementById("slist").innerHTML = list.length
         ? `<div class="ctable">${list.map((r) => collectionRow(r, true)).join("")}</div>`
@@ -528,8 +558,8 @@
     return `<div class="crow">
       <div class="cseason">${esc(c.season)}${c.city ? `<span class="ccity">${esc(c.city)}</span>` : ""}</div>
       <div>
-        ${withBrand ? `<a class="cbrand" href="#/brand/${c.brand.id}">${esc(c.brand.name)}</a>` : ""}
-        <div class="ctitle">${esc(c.title || "—")}${c.alias ? ` <span class="calias">通称「${esc(c.alias)}」</span>` : ""}${c.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
+        ${withBrand ? `<a class="cbrand" href="#/brand/${c.brand.id}">${esc(c.brand.name)}${c.line ? ` / ${esc(c.line)}` : ""}</a>` : ""}
+        <div class="ctitle">${c.title ? esc(c.title) : (c.alias ? `「${esc(c.alias)}」` : "—")}${c.title && c.alias ? ` <span class="calias">通称「${esc(c.alias)}」</span>` : ""}${c.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
         ${c.note ? `<div class="cnote">${esc(c.note)}</div>` : ""}
       </div>
     </div>`;

@@ -39,6 +39,7 @@
     const ph = esc(c.ph || c.label);
     switch (c.type) {
       case "area": return `<label class="lf"${style}><span>${esc(c.label)}</span><textarea data-k="${c.k}" rows="2" placeholder="${ph}">${esc(val)}</textarea></label>`;
+      case "hidden": return `<input type="hidden" data-k="${c.k}" data-type="num" value="${esc(val)}">`;
       case "check": return `<label class="lf lf-check"><input type="checkbox" data-k="${c.k}" ${val ? "checked" : ""}><span>${esc(c.label)}</span></label>`;
       case "select": return `<label class="lf"${style}><span>${esc(c.label)}</span><select data-k="${c.k}">${c.options.map(([ov, ol]) => `<option value="${esc(ov)}" ${String(ov) === String(val) ? "selected" : ""}>${esc(ol)}</option>`).join("")}</select></label>`;
       case "img": return `<label class="lf lf-img"${style}><span>${esc(c.label)}</span><span class="imgrow"><input data-k="${c.k}" data-type="text" value="${esc(val)}" placeholder="${ph}"><button type="button" class="btn ghost small" data-act="upload">写真をアップロード</button></span></label>`;
@@ -277,13 +278,8 @@
           { k: "note", label: "メモ", type: "area", w: 6 },
           { k: "unverified", label: "未確認", type: "check" }
         ])}
-        ${listEditor("lines", "ライン", b.lines, [
-          { k: "name", label: "ライン名", w: 3 },
-          { k: "from", label: "開始年", type: "num", w: 1 },
-          { k: "to", label: "終了年（空欄=継続中）", type: "num", w: 1 },
-          { k: "desc", label: "説明", type: "area", w: 6 },
-          { k: "unverified", label: "未確認", type: "check" }
-        ], "ブランドの中のライン（例: HOMME PLUS、Y's、MM6）。")}
+        ${listEditor("lines", "ライン", (b.lines || []).map((l, i) => ({ ...l, _i: i })), LINE_COLS, "ブランドの中のライン（例: HOMME PLUS、Y's、MM6）。歴史・名作シーズン・名作アイテムなどの詳細は、保存後に下のリンクから編集できます。")}
+        ${isNew || !(b.lines || []).length ? "" : `<p class="help">ラインの詳細を編集：${b.lines.map((l, i) => `<a href="#/edit/line/${encodeURIComponent(b.id)}/${i}">${esc(l.name)}</a>`).join("・")}</p>`}
         ${listEditor("items", "代表的なアイテム", b.items, [
           { k: "name", label: "名前", w: 3 },
           { k: "year", label: "年・時期", type: "year", w: 1 },
@@ -325,7 +321,7 @@
         history: readList(form, "history"),
         designers: readList(form, "designers"),
         collections: readList(form, "collections"),
-        lines: readList(form, "lines"),
+        lines: mergeLines(src.lines || [], readList(form, "lines")),
         items: readList(form, "items"),
         archive: lines(f.archive.value),
         related: [...form.querySelectorAll('input[name="related"]:checked')].map((x) => x.value),
@@ -374,6 +370,114 @@
       saveLocal(`ブランドを削除: ${src.name}`);
       flash("削除しました（下書き）");
       go("#/edit");
+    });
+  }
+
+  // ---------- ライン ----------
+  const LINE_COLS = [
+    { k: "_i", type: "hidden" },
+    { k: "name", label: "ライン名", w: 3 },
+    { k: "from", label: "開始年", type: "num", w: 1 },
+    { k: "to", label: "終了年（空欄=継続中）", type: "num", w: 1 },
+    { k: "designer", label: "デザイン担当", w: 3 },
+    { k: "desc", label: "説明", type: "area", w: 6 },
+    { k: "unverified", label: "未確認", type: "check" }
+  ];
+  // ブランド編集画面の一覧で直した項目だけを上書きし、詳細（歴史・名作など）は残す
+  function mergeLines(orig, rows) {
+    return rows.map((r) => {
+      const base = r._i != null && orig[r._i] ? orig[r._i] : {};
+      const o = { ...base };
+      LINE_COLS.forEach((c) => { if (c.k !== "_i") delete o[c.k]; });
+      Object.assign(o, r);
+      delete o._i;
+      if (o.from == null) delete o.from;
+      if (o.to == null) delete o.to;
+      return o;
+    });
+  }
+
+  function renderLineForm(brandId, idx) {
+    const b = D.brands.find((x) => x.id === brandId);
+    const i = Number(idx);
+    const src = b && (b.lines || [])[i];
+    if (!src) { el.innerHTML = `<p class="empty">ラインが見つかりません。<a href="#/edit">編集トップへ</a></p>`; return; }
+    const l = JSON.parse(JSON.stringify(src));
+    const back = `#/brand/${encodeURIComponent(b.id)}`;
+    document.title = `${l.name} を編集 — Archive Notes`;
+    el.innerHTML = `
+      <a class="back" href="${back}">← ${esc(b.name)}</a>
+      <h1>${esc(l.name)} を編集</h1>
+      <p class="lead">${esc(b.name)} の中のラインです。「保存」でこのブラウザに下書き保存され、編集トップの「GitHubに保存」でサイトに反映されます。</p>
+      <form id="lf" class="eform" autocomplete="off">
+        <fieldset><legend>基本情報</legend>
+          <div class="grid2">
+            <label class="lf"><span>ライン名 *</span><input name="name" value="${esc(l.name)}" required></label>
+            <label class="lf"><span>開始年</span><input name="from" value="${esc(l.from || "")}" inputmode="numeric"></label>
+            <label class="lf"><span>終了年（空欄=継続中）</span><input name="to" value="${esc(l.to || "")}" inputmode="numeric"></label>
+            <label class="lf"><span>デザイン担当</span><input name="designer" value="${esc(l.designer || "")}" placeholder="例: 川久保玲 → 田中啓一（1990〜2003）"></label>
+          </div>
+          <label class="lf"><span>説明</span><textarea name="desc" rows="4">${esc(l.desc || "")}</textarea></label>
+          <label class="lf lf-check"><input type="checkbox" name="unverified" ${l.unverified ? "checked" : ""}><span>未確認</span></label>
+        </fieldset>
+        ${listEditor("history", "歴史（年表）", l.history, [
+          { k: "year", label: "年", type: "year", w: 1 },
+          { k: "text", label: "出来事", w: 6 }
+        ])}
+        ${listEditor("collections", "名作シーズン", l.collections, [
+          { k: "season", label: "シーズン", w: 2, ph: "1994-95AW" },
+          { k: "title", label: "タイトル・テーマ", w: 3 },
+          { k: "alias", label: "通称", w: 1, ph: "縮絨期" },
+          { k: "note", label: "メモ", type: "area", w: 6 },
+          { k: "unverified", label: "未確認", type: "check" }
+        ])}
+        ${listEditor("items", "名作アイテム", l.items, [
+          { k: "name", label: "名前", w: 3 },
+          { k: "year", label: "年・時期", type: "year", w: 1 },
+          { k: "desc", label: "説明", type: "area", w: 6 },
+          { k: "img", label: "写真のURL（またはアップロード）", type: "img", w: 4 },
+          { k: "credit", label: "写真の撮影者・出典", w: 2 },
+          { k: "license", label: "ライセンス", w: 1 },
+          { k: "imgPage", label: "写真の元ページURL", w: 3 },
+          { k: "unverified", label: "未確認", type: "check" }
+        ])}
+        <fieldset><legend>古着で見るポイント</legend>
+          <textarea name="archive" rows="4" placeholder="1行に1つ（タグの見分け方、年代判別など）">${esc((l.archive || []).join("\n"))}</textarea>
+        </fieldset>
+        <div class="row-btns sticky">
+          <button class="btn" type="submit">保存（下書き）</button>
+          <a class="btn ghost" href="${back}">キャンセル</a>
+          <button class="btn ghost danger" type="button" id="del">このラインを削除</button>
+        </div>
+      </form>`;
+    const form = document.getElementById("lf");
+    bindLists(form);
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const f = form.elements;
+      const nl = { name: f.name.value.trim() };
+      if (!nl.name) { flash("ライン名を入力してください", "err"); return; }
+      const from = numOrNull(f.from.value), to = numOrNull(f.to.value);
+      if (from != null) nl.from = from;
+      if (to != null) nl.to = to;
+      if (f.designer.value.trim()) nl.designer = f.designer.value.trim();
+      nl.desc = f.desc.value.trim();
+      if (f.unverified.checked) nl.unverified = true;
+      const h = readList(form, "history"), c = readList(form, "collections"), it = readList(form, "items"), a = lines(f.archive.value);
+      if (h.length) nl.history = h.sort((x, y) => (Number(x.year) || 0) - (Number(y.year) || 0));
+      if (c.length) nl.collections = c;
+      if (it.length) nl.items = it;
+      if (a.length) nl.archive = a;
+      b.lines[i] = nl;
+      saveLocal(`ラインを修正: ${b.name} / ${nl.name}`);
+      flash("下書きに保存しました。");
+      go(back);
+    });
+    document.getElementById("del").addEventListener("click", () => {
+      if (!confirm(`「${l.name}」を削除します。よろしいですか？`)) return;
+      b.lines.splice(i, 1);
+      saveLocal(`ラインを削除: ${b.name} / ${l.name}`);
+      go(back);
     });
   }
 
@@ -514,8 +618,9 @@
   }
 
   // ---------- ルート登録 ----------
-  A.routes.edit = (sub, id) => {
-    if (sub === "brand") renderBrandForm(id || "new");
+  A.routes.edit = (sub, id, extra) => {
+    if (sub === "line") renderLineForm(id, extra);
+    else if (sub === "brand") renderBrandForm(id || "new");
     else if (sub === "designer") renderDesignerForm(id || "new");
     else if (sub === "glossary") renderGlossaryForm();
     else renderDashboard();

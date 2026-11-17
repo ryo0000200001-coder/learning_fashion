@@ -145,23 +145,256 @@ window.BRANDS = [
       {
         "t": "theFashionSpot：Comme des Garçons Menswear Collections Archive",
         "u": "https://forums.thefashionspot.com/threads/comme-des-gar%C3%A7ons-menswear-collections-archive.40099/page-2"
+      },
+      {
+        "t": "geeksblog：田中啓一時代のコムデギャルソンオム 通称田中オムのシーズンと名作",
+        "u": "https://geeksblog.jp/tanaka-homme"
+      },
+      {
+        "t": "geeksblog：コムデギャルソンオムプリュスのシーズンと名作【90年代編】",
+        "u": "https://geeksblog.jp/commedesgarcons90s"
+      },
+      {
+        "t": "コムデギャルソン店舗マップ：COMME des GARCONS HOMME PLUS",
+        "u": "https://tenpomap.blogspot.com/2012/08/comme-des-garcons-homme-plus.html"
+      },
+      {
+        "t": "QUI：Comme des Garcons Homme Plusのアーカイブ約100点",
+        "u": "https://qui.tokyo/news/comme-des-garcons-homme-plus"
+      },
+      {
+        "t": "RAGTAG：COMME des GARCONS HOMME DEUX",
+        "u": "https://www.ragtag.jp/magazine/column/38171/"
+      },
+      {
+        "t": "CDG Archive：How to Identify Comme des Garçons",
+        "u": "https://cdgarchive.com/identify"
+      },
+      {
+        "t": "Wallpaper：Noir Kei Ninomiya",
+        "u": "https://www.wallpaper.com/fashion/we-speak-to-rei-kawakubos-protg-whose-label-noir-kei-ninomiya-is-the-latest-to-join-the-comme-des-garons-family"
+      },
+      {
+        "t": "WWD：Comme des Garçons Homme Plus Fall 2026",
+        "u": "https://wwd.com/runway/mens-fall-2026/paris/comme-des-garcons-homme-plus/review/"
+      },
+      {
+        "t": "HERO：Comme des Garçons Homme Plus SS27",
+        "u": "https://hero-magazine.com/shows/comme-des-garcons-homme-plus-ss27"
+      },
+      {
+        "t": "コムデギャルソン買取販売市場：SHIRTの年代、内タグ",
+        "u": "https://kaitorihanbaiichiba.net/garcons/2023/06/22/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E3%80%81%E5%86%85%E3%82%BF%E3%82%B0%E3%80%81ad1994%E3%81%AEshirt%E3%81%AE%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%82/"
       }
     ],
     "lines": [
       {
         "name": "COMME des GARÇONS",
         "from": 1969,
-        "desc": "川久保玲のウィメンズのメインライン。パリで発表されるコレクション。"
+        "designer": "川久保玲",
+        "desc": "川久保玲のウィメンズのメインライン。パリで発表されるコレクションで、ブランドの思想の中心。名作シーズンはブランドページの「コレクション（シーズン）」を参照。"
       },
       {
         "name": "COMME des GARÇONS HOMME",
         "from": 1978,
-        "desc": "最初のメンズライン。"
+        "designer": "川久保玲 → 田中啓一（1990〜2003）→ 渡辺淳弥（2003〜）",
+        "desc": "最初のメンズライン。ワークやミリタリー、トラッドを下敷きにした日常着寄りのメンズで、HOMME PLUSよりも穏やか。デザイナーの交代で作風が大きく変わり、特に田中啓一の時代は「田中オム」と呼ばれて古着で人気が高い。",
+        "history": [
+          {
+            "year": 1978,
+            "text": "川久保玲のデザインで始まる"
+          },
+          {
+            "year": 1990,
+            "text": "田中啓一がデザインを担当（〜2003年秋冬）"
+          },
+          {
+            "year": 2003,
+            "text": "2003年秋冬が田中期の最後。以降は渡辺淳弥が担当（全面的な担当を2012年からとする資料も）"
+          }
+        ],
+        "items": [
+          {
+            "name": "胸にミリタリーポケットのボンバージャケット",
+            "year": "1990AW",
+            "desc": "田中期初期の名作とされる。"
+          },
+          {
+            "name": "レイヤード仕様のダウン・ジャケット",
+            "year": "1994AW",
+            "desc": "田中期の名作として挙げられる。"
+          },
+          {
+            "name": "ウール縮絨のジャケット",
+            "year": "1994AW〜2002AW",
+            "desc": "HOMME PLUSの縮絨期と同じ流れの、ボリュームのある縮絨ジャケット。"
+          },
+          {
+            "name": "クラシックなテーラードジャケット",
+            "year": "田中期",
+            "desc": "いろいろな素材でクラシックなテーラードを作るのが田中期の代表。"
+          }
+        ],
+        "archive": [
+          "田中期（1990〜2003AW）のシャツ・ニットは通称「銀タグ」、ジャケット・パンツは黒地に金文字のタグ。",
+          "田中期と渡辺期で作風がまったく違うので、AD表記で年を確認する。"
+        ]
+      },
+      {
+        "name": "COMME des GARÇONS HOMME PLUS",
+        "from": 1984,
+        "designer": "川久保玲",
+        "desc": "川久保玲がデザインするメンズのコレクションライン。パリで発表され、毎シーズンにテーマを持つ。1990年代の通称「縮絨期」「モッズ期」などはアーカイブ市場で最も評価の高いメンズの一つ。",
+        "collections": [
+          {
+            "season": "1985SS",
+            "title": "最初のコレクション"
+          },
+          {
+            "season": "1990-91AW",
+            "title": "大人の不良",
+            "note": "リバーシブルの中綿ボンバーなど。"
+          },
+          {
+            "season": "1994SS",
+            "title": "スマートボーイ"
+          },
+          {
+            "season": "1994-95AW",
+            "title": "offbeat humor",
+            "alias": "縮絨期",
+            "note": "縮絨加工をメンズ・ウィメンズで初めて本格的に取り入れたシーズン。縮絨ジャケットは高値で取引される。"
+          },
+          {
+            "season": "1995SS",
+            "title": "ワーク"
+          },
+          {
+            "season": "1995-96AW",
+            "title": "Sleep",
+            "note": "パジャマのようなルックが論争を呼び、パジャマを商品から外した。ガウンコートなど。"
+          },
+          {
+            "season": "1996SS",
+            "title": "ディスコネクテッド・ジェントルマン"
+          },
+          {
+            "season": "1996-97AW",
+            "title": "Traditional（伝統を遊ぶ）",
+            "alias": "モッズ期",
+            "note": "アーガイル柄やリバーシブルのコート・ジャケット。"
+          },
+          {
+            "season": "1997SS",
+            "title": "チェック"
+          },
+          {
+            "season": "1997-98AW",
+            "title": "マジック・オブ・バイアス"
+          },
+          {
+            "season": "1998SS",
+            "title": "ニュー・ナチュラル"
+          },
+          {
+            "season": "1998-99AW",
+            "title": "Inside Outside",
+            "note": "本来内側にくる縫い代を外に見せる。"
+          },
+          {
+            "season": "2000SS",
+            "title": "進化する色"
+          },
+          {
+            "season": "2000-01AW",
+            "title": "ドッキング・ロック"
+          },
+          {
+            "season": "2001SS",
+            "title": "ダブルフェイス"
+          },
+          {
+            "season": "2001-02AW",
+            "title": "Looking at Different World"
+          },
+          {
+            "season": "2005SS",
+            "title": "（ピンク・パンサー）",
+            "note": "70年代風の柄とピンク・パンサーのサイクルジャージ。ジュエリーはジュディ・ブレイム。"
+          },
+          {
+            "season": "2024-25AW",
+            "title": "Spiritual World"
+          },
+          {
+            "season": "2025-26AW / 2026SS頃",
+            "title": "To Hell with War",
+            "note": "軍隊のようなシルエットのモデルたち。"
+          },
+          {
+            "season": "2026-27AW",
+            "title": "Black Hole",
+            "note": "割れたホッケーマスク風の仮面、白いスーツ。"
+          },
+          {
+            "season": "2027SS",
+            "title": "If the War Were to End",
+            "note": "戦争が終わったら、という希望。"
+          }
+        ],
+        "items": [
+          {
+            "name": "1994AWの縮絨ジャケット",
+            "year": "1994AW",
+            "desc": "「offbeat humor」の代名詞。チェック柄なども。"
+          },
+          {
+            "name": "リバーシブルの中綿ボンバー",
+            "year": "1990AW",
+            "desc": "「大人の不良」期。"
+          }
+        ],
+        "archive": [
+          "ケア表示・素材のタグに年（AD表記）が入るのでシーズンを特定しやすい。",
+          "シーズン名（テーマ）はファンや店のまとめによるもので、表記が揺れることがある。"
+        ]
       },
       {
         "name": "tricot COMME des GARÇONS",
         "from": 1981,
-        "desc": "ニットを中心にしたウィメンズ。渡辺淳弥が1987年にデザインを任された。"
+        "to": 2021,
+        "designer": "渡辺淳弥（1987〜）→ 栗原たお",
+        "desc": "ニットを中心にしたウィメンズ。1987年に渡辺淳弥がデザインを任され、のちに栗原たおが担当。2021年に終了し、2022年からCOMME des GARÇONS TAOに。",
+        "history": [
+          {
+            "year": 1981,
+            "text": "ニットに特化したウィメンズとして始まる"
+          },
+          {
+            "year": 1987,
+            "text": "渡辺淳弥がデザインを担当"
+          },
+          {
+            "year": 2021,
+            "text": "ラインを終了"
+          }
+        ]
+      },
+      {
+        "name": "tao COMME des GARÇONS / COMME des GARÇONS TAO",
+        "from": 2005,
+        "designer": "栗原たお",
+        "desc": "tricotのチームを率いた栗原たおのライン。2005年秋冬〜2011年春夏にtao COMME des GARÇONSとして展開し、2022年にtricotを引き継ぐ形でCOMME des GARÇONS TAOとして再開。",
+        "history": [
+          {
+            "year": 2005,
+            "text": "2005年秋冬、tao COMME des GARÇONS（〜2011年春夏）"
+          },
+          {
+            "year": 2022,
+            "text": "COMME des GARÇONS TAOとして再開"
+          }
+        ]
       },
       {
         "name": "robe de chambre COMME des GARÇONS",
@@ -170,60 +403,74 @@ window.BRANDS = [
         "desc": "ウィメンズのライン。2005年春夏にCOMME des GARÇONS COMME des GARÇONSへ統合。"
       },
       {
-        "name": "COMME des GARÇONS HOMME PLUS",
-        "from": 1984,
-        "desc": "川久保玲がデザインするメンズのコレクションライン。パリで発表。アーカイブ人気が最も高いメンズライン。"
-      },
-      {
         "name": "COMME des GARÇONS HOMME DEUX",
         "from": 1987,
-        "desc": "ビジネススーツを軸にしたメンズ。"
+        "desc": "「日本の背広」をうたって始まったスーツのライン。デビュー当時から変わらない長めの袖丈とボックスシルエットが特徴。正統派の素材と仕立てに、肩パッドのないジャケットやシワ加工などの前衛的な要素を混ぜる。近年はブリティッシュトラッドにパッチワークや脱色の技法も。"
       },
       {
         "name": "COMME des GARÇONS noir",
         "from": 1987,
-        "desc": "黒を中心にしたライン。2012年に始まった noir kei ninomiya とは別物。"
+        "desc": "黒を中心にしたライン。2012年に始まったnoir kei ninomiyaとは別物。"
       },
       {
         "name": "COMME des GARÇONS SHIRT",
         "from": 1988,
-        "desc": "シャツを中心にしたメンズ。「SHIRT」のタグ。"
+        "desc": "シャツを中心にしたライン。シャツとパンツの多くはフランス製。2008年から定番シリーズ「FOREVER」を展開。",
+        "history": [
+          {
+            "year": 1988,
+            "text": "スタート"
+          },
+          {
+            "year": 2008,
+            "text": "定番シリーズ「FOREVER」を開始"
+          }
+        ],
+        "archive": [
+          "1988AW〜1993年頃は初期の刺繍タグ、1995年頃から90年代のタグ（店の経験則）。",
+          "2001年以降は品番の文字でアイテムとシーズンを判別できる（1文字目がブランド、2文字目がアイテム、3文字目がSS/AW）。"
+        ]
       },
       {
         "name": "JUNYA WATANABE COMME des GARÇONS",
         "from": 1992,
-        "desc": "渡辺淳弥のウィメンズ。独立したブランドページあり。"
+        "designer": "渡辺淳弥",
+        "desc": "渡辺淳弥のウィメンズ。独立したブランドページを参照。"
       },
       {
         "name": "COMME des GARÇONS COMME des GARÇONS",
         "from": 1993,
-        "desc": "日常着寄りのウィメンズ。通称「コムコム」。"
+        "desc": "日常着寄りのウィメンズ。通称「コムコム」。黒や紺を軸に、構築的なシルエット。",
+        "unverified": true
       },
       {
         "name": "JUNYA WATANABE MAN",
         "from": 2001,
-        "desc": "渡辺淳弥のメンズ。ワークウェアやコラボの再構築。"
+        "designer": "渡辺淳弥",
+        "desc": "渡辺淳弥のメンズ。Levi'sなどとの協業によるワークウェアの再構築が中心。"
       },
       {
         "name": "PLAY COMME des GARÇONS",
         "from": 2002,
-        "desc": "フィリップ・パゴウスキーのハートロゴのライン。"
+        "desc": "フィリップ・パゴウスキーの目のついたハートのロゴのライン。カジュアルなTシャツやカーディガンが中心で、Converseとの協業が特に有名。"
       },
       {
         "name": "GANRYU",
-        "from": 2007,
+        "from": 2008,
         "to": 2017,
-        "desc": "若手デザイナー（丸龍文人）によるストリート寄りのライン。2017年春夏で終了。"
+        "designer": "丸龍文人",
+        "desc": "HOMME PLUSでキャリアを積んだ丸龍文人が、川久保玲の勧めで始めたライン。ストリートやスポーツを取り入れた。2008年春夏〜2017年春夏。"
       },
       {
         "name": "BLACK COMME des GARÇONS",
         "from": 2008,
-        "desc": "ユニセックスのライン。"
+        "desc": "2008年の金融危機を受けて期間限定のつもりで始めたユニセックスのラインが、人気で定着した。COMME des GARÇONSの中で最も手に取りやすい価格帯。"
       },
       {
         "name": "noir kei ninomiya",
         "from": 2012,
-        "desc": "二宮啓のライン（最初のコレクションは2013年春夏）。"
+        "designer": "二宮啓",
+        "desc": "2008年にパタンナーとして入社した二宮啓が、2012年に川久保玲の勧めで始めたライン（最初のコレクションは2013年春夏）。黒を基調に、金具やパーツを組み合わせる立体的な構造。"
       },
       {
         "name": "CDG",
@@ -273,23 +520,6 @@ window.BRANDS = [
         "city": "パリ",
         "alias": "フラットコレクション",
         "note": "平面的な服。"
-      },
-      {
-        "season": "1985SS",
-        "title": "HOMME PLUS 最初のコレクション",
-        "city": "パリ"
-      },
-      {
-        "season": "1995-96AW",
-        "title": "Sleep（HOMME PLUS）",
-        "city": "パリ",
-        "note": "パジャマのようなルックが論争を呼び、川久保は和解の意思としてパジャマを商品から外した。"
-      },
-      {
-        "season": "2005SS",
-        "title": "（ピンク・パンサー／HOMME PLUS）",
-        "city": "パリ",
-        "note": "70年代風の柄とピンク・パンサーのサイクルジャージ。ジュエリーはジュディ・ブレイム。"
       }
     ]
   },
@@ -503,44 +733,130 @@ window.BRANDS = [
       {
         "t": "Yokogao Magazine：Yohji Yamamoto - The Poet of Black",
         "u": "https://www.yokogaomag.com/editorial/who-is-yohji-yamamoto-japanese-fashion-designer"
+      },
+      {
+        "t": "cagicacoo：yohji yamamoto の年代判別【主要ラインや名作など】",
+        "u": "https://cagicacoo.com/yohji-yamamoto/"
+      },
+      {
+        "t": "emit-tokyo：ヨウジヤマモト・ワイズの品番の見方と年代一覧",
+        "u": "https://www.emit-tokyo.com/yohji-yamamoto-product-number/"
+      },
+      {
+        "t": "RAGTAG：1985年から今につながるヒットブランド-メンズ編",
+        "u": "https://www.ragtag.jp/magazine/ragtag-40th/45347/"
+      },
+      {
+        "t": "THE SHOP YOHJI YAMAMOTO：About Designer",
+        "u": "https://theshopyohjiyamamoto.com/pages/about_designer"
       }
     ],
     "lines": [
       {
         "name": "Y's",
         "from": 1972,
-        "desc": "山本耀司が最初に始めたブランド。日常に寄り添うウィメンズ中心。"
+        "designer": "山本耀司",
+        "desc": "山本耀司が最初に始めたブランドで、会社（ワイズ）も同年設立。日常に寄り添うウィメンズが中心。"
+      },
+      {
+        "name": "Y's for men",
+        "from": 1979,
+        "desc": "Y'sのメンズ（1978年とする資料も）。"
       },
       {
         "name": "Yohji Yamamoto（ウィメンズ）",
         "from": 1981,
-        "desc": "ウィメンズのコレクションライン。パリで発表。"
+        "designer": "山本耀司",
+        "desc": "パリで発表されるウィメンズのコレクションライン。"
       },
       {
         "name": "Yohji Yamamoto POUR HOMME",
         "from": 1984,
-        "desc": "メンズのコレクションライン。パリで発表。"
+        "designer": "山本耀司",
+        "desc": "メンズのコレクションライン。1984年からパリで発表。1990年代のシーズンには古着の世界で「〜期」という通称があり、アーカイブ人気が高い。",
+        "history": [
+          {
+            "year": 1984,
+            "text": "パリで発表を始める"
+          },
+          {
+            "year": 1991,
+            "text": "COMME des GARÇONSとの合同ショー「6・1 THE MEN」を明治神宮水泳場で開催"
+          }
+        ],
+        "collections": [
+          {
+            "season": "1994-95AW",
+            "title": "",
+            "alias": "マリオネット期",
+            "note": "糸を使ったアイテムやオーバーサイズのシャツ。人形を操る糸から。"
+          },
+          {
+            "season": "1995-96AW",
+            "title": "",
+            "alias": "鹿鳴館期"
+          },
+          {
+            "season": "1996SS",
+            "title": "",
+            "alias": "花と少年期",
+            "note": "のちに復刻されて話題に。"
+          },
+          {
+            "season": "1997-98AW",
+            "title": "",
+            "alias": "蝋人形期"
+          },
+          {
+            "season": "1999-2000AW",
+            "title": "",
+            "alias": "ジプシー期"
+          },
+          {
+            "season": "2000SS",
+            "title": "",
+            "alias": "アジアの不良期"
+          },
+          {
+            "season": "2002SS",
+            "title": "",
+            "alias": "女優期"
+          }
+        ],
+        "items": [
+          {
+            "name": "ウールギャバジンのセットアップ",
+            "year": "定番",
+            "desc": "落ち感のあるギャバジン。"
+          }
+        ],
+        "archive": [
+          "品番の1文字目でライン：H＝POUR HOMME、M＝Y's for men、Y＝Y's（レディース）。",
+          "品番の2文字目がシーズン（例：HVは94AW、HNは99AW、HHは04SS）。ただしY's for menなどは当てはまらない記号もある。",
+          "1990年代前半の丸文字ロゴは1991年秋冬まで使われていた。"
+        ]
       },
       {
         "name": "LIMI feu",
         "from": 1999,
-        "desc": "娘の山本里美によるライン。1999年「Y's bis LIMI」として始まり、2002年にLIMI feuに改称。"
+        "designer": "山本里美",
+        "desc": "山本耀司の娘、山本里美のライン。1999年に「Y's bis LIMI」として始まり、2002年にLIMI feuへ改称。"
       },
       {
         "name": "Y-3",
         "from": 2002,
-        "desc": "adidasとの協業。山本耀司がクリエイティブディレクター。"
+        "designer": "山本耀司（クリエイティブディレクター）",
+        "desc": "adidasとの協業。adidasの協業ラインの中で最も長く続いている。開始を2003年とする資料も。"
       },
       {
         "name": "S'YTE",
         "from": 2011,
-        "desc": "当初はウェブ限定のメンズ（ウィメンズは2012年〜）。若い世代向け。"
+        "desc": "THE SHOP YOHJI YAMAMOTOだけで売るアトリエデザインのレーベルとして始まった（ウィメンズは2012年〜）。テーラリングとシルエット重視、ジェンダーレス。"
       },
       {
         "name": "Ground Y",
         "from": 2014,
-        "desc": "ジェンダーレスなライン（開始年は情報源1件）。",
-        "unverified": true
+        "desc": "2014年9月に渋谷PARCOのコンセプトショップとして始まり、2017年4月に銀座シックスでブランドとして再スタート。性別や年齢を問わないスタイル。"
       },
       {
         "name": "B Yohji Yamamoto",
@@ -767,33 +1083,100 @@ window.BRANDS = [
       {
         "t": "ArtReview：Issey Miyake 1938–2022",
         "u": "https://artreview.com/issey-miyake-pioneer-for-fashion-at-the-vanguard-of-art-1938-2022/"
+      },
+      {
+        "t": "ISSEY MIYAKE 公式：沿革",
+        "u": "https://www.isseymiyake.com/en/blogs/corporate/history"
+      },
+      {
+        "t": "FASHIONSNAP：イッセイ ミヤケ メンのデザイナー高橋悠介が退任",
+        "u": "https://www.fashionsnap.com/article/2020-01-16/isseymiyake-men-designer-resign/"
+      },
+      {
+        "t": "ISSEY MIYAKE 公式：PLEATS PLEASE ISSEY MIYAKE",
+        "u": "https://us.isseymiyake.com/pages/pleatsplease"
+      },
+      {
+        "t": "FASHIONSNAP：オム プリッセ イッセイ ミヤケは新章へ",
+        "u": "https://www.fashionsnap.com/article/homme-pliss-issey-miyake/"
       }
     ],
     "lines": [
       {
         "name": "ISSEY MIYAKE",
         "from": 1970,
-        "desc": "メインライン（ウィメンズ）。デザイナーは三宅一生から交代を重ねている。"
+        "desc": "メインライン（ウィメンズ）。デザイナーの交代はブランドページの「デザイナーの変遷」を参照。"
       },
       {
         "name": "ISSEY MIYAKE MEN",
         "from": 1978,
-        "desc": "メンズ（1976年にウィメンズと共に発表、1985-86年秋冬からパリ・メンズ）。"
+        "to": 2020,
+        "designer": "高橋悠介（2014SS〜）ほか",
+        "desc": "メンズ（1976年にウィメンズと一緒に発表、1978年にブランド化、1985-86年秋冬からパリ・メンズ）。2013年に27歳の高橋悠介が抜擢され、2014年春夏から約6年半担当。2020年に退任しデザインチーム体制となり、2021年にIM MENへ。",
+        "history": [
+          {
+            "year": 1978,
+            "text": "ブランドとしてスタート"
+          },
+          {
+            "year": 2014,
+            "text": "高橋悠介のデザインで2014年春夏から"
+          },
+          {
+            "year": 2020,
+            "text": "高橋が退任（最後は2020年春夏とする資料も）"
+          },
+          {
+            "year": 2021,
+            "text": "2月、新メンズブランド「IM MEN」を発表"
+          }
+        ]
       },
       {
         "name": "PLEATS PLEASE ISSEY MIYAKE",
         "from": 1993,
-        "desc": "製品プリーツのライン（1994年春夏から販売とする資料も）。"
+        "desc": "縫い上げてからプリーツをかける「製品プリーツ」の服。プリーツが恒久的なので、洗っても形が崩れない。",
+        "history": [
+          {
+            "year": 1988,
+            "text": "ウィメンズのコレクションでプリーツの作品を発表（ブランドの原点）"
+          },
+          {
+            "year": 1993,
+            "text": "4年の試行錯誤を経て最初のコレクション（独立ブランドとしては1994年春夏から）"
+          },
+          {
+            "year": 1996,
+            "text": "Guest Artist Series（〜1998）。森村泰昌（第1弾、1997年）らが服をキャンバスに"
+          }
+        ],
+        "items": [
+          {
+            "name": "Guest Artist Series（森村泰昌）",
+            "year": 1997,
+            "desc": "プリーツの服にアーティストの作品をプリント。"
+          }
+        ],
+        "archive": [
+          "プリーツが縫製後にかけられているかどうかが本物の特徴の一つ。"
+        ]
       },
       {
-        "name": "A-POC",
+        "name": "A-POC / A-POC ABLE ISSEY MIYAKE",
         "from": 1998,
-        "desc": "藤原大と開発を始めた「一枚の布」の技術。2021年3月に「A-POC ABLE ISSEY MIYAKE」として発展。"
+        "designer": "三宅一生・藤原大（A-POC）",
+        "desc": "1998年に藤原大と開発を始めた「一枚の布」の技術。2021年3月にA-POC ABLE ISSEY MIYAKEとして発展。"
       },
       {
         "name": "HaaT",
         "from": 2000,
+        "designer": "皆川魔鬼子",
         "desc": "皆川魔鬼子のディレクションによるテキスタイル主導のライン。"
+      },
+      {
+        "name": "me ISSEY MIYAKE",
+        "from": 2000,
+        "desc": "縦横にプリーツをかけ、Tシャツのように誰にでもなじむ服。"
       },
       {
         "name": "BAO BAO ISSEY MIYAKE",
@@ -803,17 +1186,17 @@ window.BRANDS = [
       {
         "name": "132 5. ISSEY MIYAKE",
         "from": 2010,
-        "desc": "一枚の平面から立体になる折り紙のような服。"
+        "desc": "一枚の平面から立体になる服。"
       },
       {
         "name": "HOMME PLISSÉ ISSEY MIYAKE",
         "from": 2013,
-        "desc": "PLEATS PLEASEのメンズ版。"
+        "desc": "PLEATS PLEASEのメンズ版。ショーでの発表はやめ、IM MENが発表を担う形に。"
       },
       {
-        "name": "A-POC ABLE ISSEY MIYAKE",
+        "name": "IM MEN",
         "from": 2021,
-        "desc": "A-POCの考え方を発展させたライン。"
+        "desc": "ISSEY MIYAKE MENを引き継ぐメンズ。"
       }
     ],
     "collections": [
@@ -1286,18 +1669,37 @@ window.BRANDS = [
       {
         "t": "Wikipedia：UNDERCOVER (ブランド)",
         "u": "https://ja.wikipedia.org/wiki/UNDERCOVER_(%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89)"
+      },
+      {
+        "t": "Qkaku：UNDERCOVERが虜にする理由とは？",
+        "u": "https://qkaku.com/under-cover/"
       }
     ],
     "lines": [
       {
         "name": "UNDERCOVER",
         "from": 1990,
-        "desc": "メインライン。"
+        "designer": "高橋盾",
+        "desc": "メインライン。シーズンごとの名作はブランドページの「コレクション（シーズン）」を参照。"
       },
       {
         "name": "UNDERCOVERISM",
-        "to": 2015,
-        "desc": "旧メンズライン。2015年にUNDERCOVERへ統合（開始年は資料で割れる）。",
+        "designer": "高橋盾",
+        "desc": "メンズを区別するための名前として2003年頃から使われ、2015年にUNDERCOVERへ統合。2021年6月に新しいメンズラインとして再始動した。",
+        "history": [
+          {
+            "year": 2003,
+            "text": "メンズラインをUNDERCOVERISMとして区別（開始年は資料で割れる）"
+          },
+          {
+            "year": 2015,
+            "text": "UNDERCOVERに統合"
+          },
+          {
+            "year": 2021,
+            "text": "6月、新メンズラインとして再始動"
+          }
+        ],
         "unverified": true
       },
       {
@@ -1306,13 +1708,15 @@ window.BRANDS = [
         "desc": "Nikeとのランニングライン。"
       },
       {
-        "name": "the Shepherd UNDERCOVER",
-        "from": 2016,
-        "desc": "2016-17年秋冬から不定期にリリースされるメンズ。"
+        "name": "Sue UNDERCOVER / John UNDERCOVER",
+        "from": 2013,
+        "to": 2023,
+        "desc": "2013年にウィメンズのSue、メンズのJohnを初のセカンドラインとして同時に始めた。企画チームがデザインし、高橋が監修。2023年までに休止。"
       },
       {
-        "name": "John UNDERCOVER",
-        "desc": "メンズのセカンドライン。開始年は未確認。",
+        "name": "the Shepherd UNDERCOVER",
+        "from": 2016,
+        "desc": "2016-17年秋冬から不定期にリリースされるメンズ。",
         "unverified": true
       }
     ]
@@ -2323,7 +2727,8 @@ window.BRANDS = [
     "archive": [
       "白いタグの0〜23の数字のうち、丸が付いたものがライン番号（0 アーティザナル、1 ウィメンズ、10 メンズ、22 シューズ など）。",
       "外側に見える4つの白いステッチはタグを留める糸。",
-      "マルジェラ本人在任期（1988〜2009）のピースが「アーカイブ」として特に評価される。"
+      "マルジェラ本人在任期（1988〜2009）のピースが「アーカイブ」として特に評価される。",
+      "1997年までタグは完全に無地の白。1997年に0〜23の数字でラインを示すコーディングが導入された。"
     ],
     "related": [
       "hermes",
@@ -2369,12 +2774,38 @@ window.BRANDS = [
       {
         "t": "SSENSE：The A–Z Guide to Maison Margiela",
         "u": "https://www.ssense.com/en-us/editorial/fashion/maison-margiela-guide"
+      },
+      {
+        "t": "Maison Margiela 公式：Line 0",
+        "u": "https://www.maisonmargiela.com/en-us/mm-brand-line-0.html"
+      },
+      {
+        "t": "Third Looks：The Maison Martin Margiela Reference Guide",
+        "u": "https://www.thirdlooks.com/2012/11/maison-martin-margiela-reference-guide/"
+      },
+      {
+        "t": "Truss Archive：How To Identify Maison Margiela",
+        "u": "https://www.trussarchive.com/guides/how-to-identify-maison-margiela"
       }
     ],
     "lines": [
       {
         "name": "0 / 0 10（アーティザナル）",
-        "desc": "古着や既製品を手で作り替えるライン。0がウィメンズ、0 10がメンズ。"
+        "desc": "古着や既製品、拾った素材を手作業で作り替えるライン（0がウィメンズ、0 10がメンズ）。メゾンのオートクチュールに当たる。",
+        "history": [
+          {
+            "year": 1989,
+            "text": "1989年秋冬、割れた陶器のベストが最初のアーティザナル作品"
+          },
+          {
+            "year": 2006,
+            "text": "5月、アーティザナルのラインで初めてオートクチュールとして発表"
+          },
+          {
+            "year": 2012,
+            "text": "パリのオートクチュール組合に認められる"
+          }
+        ]
       },
       {
         "name": "1（ウィメンズ）",
@@ -2388,12 +2819,12 @@ window.BRANDS = [
       {
         "name": "6 / MM6",
         "from": 1997,
-        "desc": "1997年にライン6として始まり、2004年に「MM6」の名に。"
+        "desc": "1997年10月にウィメンズのディフュージョン「ライン6」として始まり、2004年6月に「MM6」に改称。独自のチームによる、若く遊び心のあるオーバーサイズの作風。"
       },
       {
         "name": "10（メンズ）",
         "from": 1999,
-        "desc": "メンズのコレクション。"
+        "desc": "メンズのコレクション。1998年に発表、1999年春夏から。構造、フィット、素材、ディテールに焦点。"
       },
       {
         "name": "11（アクセサリー）",
@@ -2408,7 +2839,7 @@ window.BRANDS = [
       {
         "name": "14（メンズのワードローブ）",
         "from": 2005,
-        "desc": "定番的なメンズ。"
+        "desc": "2005年春夏から。定番的なメンズ。"
       },
       {
         "name": "22（シューズ）",
@@ -2417,7 +2848,21 @@ window.BRANDS = [
       },
       {
         "name": "Replica",
-        "desc": "古着や軍物などを再現するカプセル。番号ではなく製品名。ジャーマントレーナーなど。"
+        "desc": "古着や軍物などの「見つけた服」をそのまま再現するシリーズ。番号のラインではなく製品名。",
+        "history": [
+          {
+            "year": 1994,
+            "text": "1994年秋冬「Barbie」コレクションで人形の服を人のサイズに拡大して再現。Replicaの考え方の始まり"
+          },
+          {
+            "year": 1999,
+            "text": "ドイツ軍のトレーニングシューズを再現したジャーマントレーナーが登場（アーティザナルの一部として）"
+          },
+          {
+            "year": 2012,
+            "text": "ロレアルと組んだ香水「REPLICA」を発売"
+          }
+        ]
       }
     ],
     "collections": [

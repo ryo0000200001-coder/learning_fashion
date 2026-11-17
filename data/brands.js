@@ -972,6 +972,22 @@ window.BRANDS = [
         "text": "パリでコレクションを発表"
       },
       {
+        "year": 1973,
+        "text": "茶色の刺し子と生糸のニットのトップがELLE（9月号）の表紙に"
+      },
+      {
+        "year": 1976,
+        "text": "「一枚の布」の考え方を打ち出す。1977年に西武美術館で「A Piece Of Cloth - Issey Miyake in Museum」"
+      },
+      {
+        "year": 1979,
+        "text": "アスペンの国際デザイン会議の閉幕イベントで「East Meets West」のショー（同名の本は1978年）"
+      },
+      {
+        "year": 1983,
+        "text": "「Bodyworks」展。東京からロサンゼルス、サンフランシスコ、1985年にロンドンへ巡回"
+      },
+      {
         "year": 1993,
         "text": "「PLEATS PLEASE ISSEY MIYAKE」開始（1994年とする資料も）"
       },
@@ -980,8 +996,24 @@ window.BRANDS = [
         "text": "ウィメンズのデザイナーに滝沢直己が就任（2000年春夏〜）"
       },
       {
+        "year": 2000,
+        "text": "東京都現代美術館で「ISSEY MIYAKE MAKING THINGS」展"
+      },
+      {
+        "year": 2007,
+        "text": "社内の研究開発チーム「Reality Lab.」を結成（三宅と若手スタッフ）"
+      },
+      {
+        "year": 2010,
+        "text": "21_21 DESIGN SIGHTで「REALITY LAB」展（11〜12月）。132 5. ISSEY MIYAKEを発表"
+      },
+      {
         "year": 2013,
         "text": "メンズのプリーツ「HOMME PLISSÉ ISSEY MIYAKE」開始"
+      },
+      {
+        "year": 2016,
+        "text": "宮前義之が生地をパンのように「焼いて」膨らませる「Baked Stretch」を2016年春夏「Botanical Delights」で発表"
       },
       {
         "year": 2022,
@@ -1044,6 +1076,16 @@ window.BRANDS = [
         "name": "フライング・ソーサー・ドレス",
         "year": "1994SS",
         "desc": "円盤状のプリーツを重ねたドレス。"
+      },
+      {
+        "name": "Baked Stretch",
+        "year": "2016SS",
+        "desc": "糊を付けて焼き、生地をパンのように膨らませる技法。縦横に伸縮糸を使い全方向に伸びる。"
+      },
+      {
+        "name": "132 5. の服",
+        "year": 2010,
+        "desc": "一枚の平面を折り畳むと立体になる服。"
       }
     ],
     "archive": [
@@ -1099,6 +1141,38 @@ window.BRANDS = [
       {
         "t": "FASHIONSNAP：オム プリッセ イッセイ ミヤケは新章へ",
         "u": "https://www.fashionsnap.com/article/homme-pliss-issey-miyake/"
+      },
+      {
+        "t": "MIYAKE DESIGN STUDIO：BIOGRAPHY",
+        "u": "https://mds.isseymiyake.com/im/en/biography/"
+      },
+      {
+        "t": "Encyclopedia.com：Issey Miyake",
+        "u": "https://www.encyclopedia.com/people/literature-and-arts/fashion-biographies/issey-miyake"
+      },
+      {
+        "t": "The Met：A-POC QUEEN",
+        "u": "https://www.metmuseum.org/art/collection/search/948808"
+      },
+      {
+        "t": "Dezeen：132 5. by Issey Miyake",
+        "u": "https://www.dezeen.com/2010/10/05/132-5-by-issey-miyake/"
+      },
+      {
+        "t": "WWDJAPAN：宮前義之デザイナーのプリーツへの挑戦",
+        "u": "https://www.wwdjapan.com/articles/5456"
+      },
+      {
+        "t": "Fibre2Fashion：Issey Miyake comes up with new Baked Stretch fabric",
+        "u": "https://www.fibre2fashion.com/news/fashion-news/issey-miyake-comes-up-with-new-baked-stretch-fabric-176986-newsdetails.htm"
+      },
+      {
+        "t": "ファッションプレス：イッセイ ミヤケ 2020年春夏コレクション",
+        "u": "https://www.fashion-press.net/news/54089"
+      },
+      {
+        "t": "FASHIONSNAP：和紙の新たな可能性を探求する「イッセイミヤケ」2025年春夏",
+        "u": "https://www.fashionsnap.com/article/issey-miyake-2025ss/"
       }
     ],
     "lines": [
@@ -1165,7 +1239,21 @@ window.BRANDS = [
         "name": "A-POC / A-POC ABLE ISSEY MIYAKE",
         "from": 1998,
         "designer": "三宅一生・藤原大（A-POC）",
-        "desc": "1998年に藤原大と開発を始めた「一枚の布」の技術。2021年3月にA-POC ABLE ISSEY MIYAKEとして発展。"
+        "desc": "1998年に藤原大と開発を始めた「一枚の布」の技術。2021年3月にA-POC ABLE ISSEY MIYAKEとして発展。",
+        "history": [
+          {
+            "year": 1998,
+            "text": "三宅一生と藤原大が開発を始める（構想は1997年とする資料も）"
+          },
+          {
+            "year": 1999,
+            "text": "1999年春夏のパリで「A-POC King & Queen」を発表"
+          },
+          {
+            "year": 2021,
+            "text": "3月、A-POC ABLE ISSEY MIYAKEとして始動。2023年にはSteam Stretchを応用した設計手法を東大発のスタートアップと開発"
+          }
+        ]
       },
       {
         "name": "HaaT",
@@ -1186,7 +1274,13 @@ window.BRANDS = [
       {
         "name": "132 5. ISSEY MIYAKE",
         "from": 2010,
-        "desc": "一枚の平面から立体になる服。"
+        "desc": "Reality Lab.が筑波大学の三谷純の折り紙の研究（2008年に出会った幾何学的な形）をもとに開発。三谷のソフトウェアで作ったパターンで、一枚の平らな布を折り畳むと立体の服になる。「1」は一枚の布、「3」は立体、「2」は平面に戻すこと、「5」は人が着て命が吹き込まれる瞬間を表す。",
+        "history": [
+          {
+            "year": 2010,
+            "text": "21_21 DESIGN SIGHTの「REALITY LAB」展で発表"
+          }
+        ]
       },
       {
         "name": "HOMME PLISSÉ ISSEY MIYAKE",
@@ -1222,6 +1316,53 @@ window.BRANDS = [
         "season": "1996〜1998",
         "title": "PLEATS PLEASE Guest Artist Series",
         "note": "森村泰昌（第1弾、1997年）らのアーティストがPLEATS PLEASEの服をキャンバスにした。"
+      },
+      {
+        "season": "1999SS",
+        "title": "A-POC King & Queen, A-POC Le Feu",
+        "city": "パリ",
+        "note": "連続してつながったドレスで締めくくったショー。メトロポリタン美術館やLACMAが「A-POC Queen」を所蔵。"
+      },
+      {
+        "season": "2014SS",
+        "title": "（3D Steam Stretch）",
+        "city": "パリ",
+        "note": "熱で布を縮ませる「Steam Stretch」を立体的に使った。宮前期。"
+      },
+      {
+        "season": "2016SS",
+        "title": "Botanical Delights",
+        "city": "パリ",
+        "note": "熱帯植物から着想。生地を焼いて膨らませる「Baked Stretch」を初めて使った。"
+      },
+      {
+        "season": "2020SS",
+        "title": "A Sense of Joy",
+        "city": "パリ",
+        "note": "近藤悟史の初のショー。"
+      },
+      {
+        "season": "2021SS",
+        "title": "UNPACK THE COMPACT",
+        "city": ""
+      },
+      {
+        "season": "2023SS",
+        "title": "",
+        "city": "パリ",
+        "note": "近藤の7回目のコレクション。無縫製ニットが多く登場。"
+      },
+      {
+        "season": "2025SS",
+        "title": "The Beauty of Paper",
+        "city": "パリ",
+        "note": "和紙など紙にまつわる素材に焦点。"
+      },
+      {
+        "season": "2026-27AW",
+        "title": "Creating, Allowing ー つくる、つくらない",
+        "city": "パリ",
+        "note": "石から着想した無縫製ニット。"
       }
     ]
   },
@@ -2674,6 +2815,10 @@ window.BRANDS = [
         "text": "1月、ガリアーノの初コレクションと同時に「Maison Margiela」へ改称"
       },
       {
+        "year": 2018,
+        "text": "パリのガリエラ美術館で女性服の回顧展（1989〜2009年、全41回のショー）"
+      },
+      {
         "year": 2025,
         "text": "1月、グレン・マーティンスがクリエイティブディレクターに就任。同年夏に初コレクション"
       },
@@ -2722,6 +2867,16 @@ window.BRANDS = [
         "name": "アーティザナル（Line 0）",
         "year": "1990年代〜",
         "desc": "古着や既製品を手作業で作り替える一点もの的ライン。"
+      },
+      {
+        "name": "デュヴェ・コート",
+        "year": "1999-2000AW",
+        "desc": "羽毛布団をそのままコートにした、コンセプチュアルな代表作。"
+      },
+      {
+        "name": "ストックマン・ジャケット",
+        "year": "1997SS",
+        "desc": "トルソーの形をそのまま服にしたピース。"
       }
     ],
     "archive": [
@@ -2786,6 +2941,38 @@ window.BRANDS = [
       {
         "t": "Truss Archive：How To Identify Maison Margiela",
         "u": "https://www.trussarchive.com/guides/how-to-identify-maison-margiela"
+      },
+      {
+        "t": "Business of Fashion：Remembered: The Game-Changing Martin Margiela Show of 1989",
+        "u": "https://www.businessoffashion.com/articles/fashion-week/remembered-the-game-changing-martin-margiela-show-of-1989/"
+      },
+      {
+        "t": "Sotheby's：Redefining Fashion with the Mysterious Martin Margiela",
+        "u": "https://www.sothebys.com/en/articles/redefining-fashion-with-the-mysterious-martin-margiela"
+      },
+      {
+        "t": "Medium：Diving Deep into the Margiela Archives",
+        "u": "https://antsurgeon.medium.com/diving-deep-into-the-margiela-archives-e4c2f82e2631"
+      },
+      {
+        "t": "Flaunt：Margiela/Galliera 1989-2009",
+        "u": "https://www.flaunt.com/blog/marigela-galliera"
+      },
+      {
+        "t": "Encyclopedia.com：Margiela, Martin",
+        "u": "https://www.encyclopedia.com/fashion/news-wires-white-papers-and-books/margiela-martin"
+      },
+      {
+        "t": "AnOther：Why John Galliano's Astonishing Margiela Show Will Change Fashion Forever",
+        "u": "https://www.anothermag.com/fashion-beauty/15383/john-galliano-maison-margiela-ss24-artisanal-show-review-couture"
+      },
+      {
+        "t": "Dazed：Glenn makes his mega Artisanal debut",
+        "u": "https://www.dazeddigital.com/fashion/article/68217/1/maison-margiela-artisanal-2025-glenn-martens-couture-debut-paris-fashion-week"
+      },
+      {
+        "t": "nss magazine：Story of the masks of Maison Margiela",
+        "u": "https://www.nssmag.com/en/fashion/41946/story-masks-maison-margiela-martin-blazy-galliano"
       }
     ],
     "lines": [
@@ -2870,19 +3057,50 @@ window.BRANDS = [
         "season": "1989SS",
         "title": "（デビュー）",
         "city": "パリ",
-        "note": "カフェ・ド・ラ・ガールでの初ショー。モデルの顔を覆い、足袋ブーツを赤いペンキで歩かせた。"
+        "note": "1988年10月、マレ地区のカフェ・ド・ラ・ガール。モデルの顔を覆い、フィナーレでは赤いペンキに浸した足袋ブーツで歩いて足跡を残した。顔を隠す演出はその後のメゾンの伝統に。"
+      },
+      {
+        "season": "1989-90AW",
+        "title": "（子どもたちの遊び場）",
+        "city": "パリ",
+        "note": "パリ郊外の荒れた遊び場で開催。地元の子どもたちが図工の時間に招待状を作り、最前列にも座った。マルジェラの最も有名なショーの一つ。割れた陶器のベスト（最初のアーティザナル作品）もこの頃。"
+      },
+      {
+        "season": "1990年代初め",
+        "title": "（救世軍のホール）",
+        "city": "パリ",
+        "note": "救世軍のホールでショーを開いたことがあり、批評家に「救世軍のムード」と揶揄された。古い軍用ソックスをほどいてセーターにしたり、ビニールのランドリーバッグを服にしたりした。",
+        "unverified": true
+      },
+      {
+        "season": "1994SS",
+        "title": "（回顧）",
+        "city": "パリ",
+        "note": "過去のコレクションを振り返るシーズン（ほかに1999年春夏・2009年春夏も回顧的）。"
+      },
+      {
+        "season": "1994-95AW",
+        "title": "Barbie",
+        "city": "パリ",
+        "note": "人形の服を人間のサイズに拡大して再現。のちのReplicaの考え方の始まり。"
+      },
+      {
+        "season": "1996SS",
+        "title": "（写真プリント）",
+        "city": "パリ",
+        "note": "ドレスやニット、コートの写真を布にプリントしたトロンプ・ルイユ（だまし絵）。"
       },
       {
         "season": "1997SS",
         "title": "（ストックマン）",
         "city": "パリ",
-        "note": "トルソーの形をしたリネンの「ストックマン」トップ。"
+        "note": "トルソーの形をしたリネンの「ストックマン」トップ。1997-98年の2シーズンでマネキンの形が出発点に。"
       },
       {
         "season": "1998SS",
-        "title": "（ハンガー）",
+        "title": "（フラット）",
         "city": "パリ",
-        "note": "白衣の男性たちが服をハンガーごと見せた。"
+        "note": "平面（2D）なのに着られる服。腕の穴が前にずれたフラットジャケットなど。白衣の男性たちが服をハンガーごと見せた。"
       },
       {
         "season": "1998-99AW",
@@ -2891,16 +3109,63 @@ window.BRANDS = [
         "note": "スタイリストのジェーン・ハウが作った人形にモデルの代わりをさせた。"
       },
       {
+        "season": "1999SS",
+        "title": "（回顧）",
+        "city": "パリ"
+      },
+      {
+        "season": "1999-2000AW",
+        "title": "（デュヴェ・コート）",
+        "city": "パリ",
+        "note": "羽毛布団を茶色いウールのカバーで包んだようなコート。イタリアの寝具メーカーFeatherlightが製作。"
+      },
+      {
         "season": "2000SS",
         "title": "（オーバーサイズ）",
         "city": "パリ",
-        "note": "細身が流行していた時期に、イタリアサイズ74・78の巨大な服を作った。"
+        "note": "細身が流行していた時期に、イタリアサイズ74・78の巨大な服。200%に拡大した服も。"
+      },
+      {
+        "season": "2001-02AW",
+        "title": "",
+        "city": "パリ",
+        "note": "背中に伝統的なコートのディテールを付けたケープ、フリンジのドレス。古着のTシャツを重ねて潰したような加工。"
+      },
+      {
+        "season": "2004-05AW",
+        "title": "（4部構成）",
+        "city": "パリ",
+        "note": "古いブーツで作ったビスチェなどの「服のオブジェ」や、トロンプ・ルイユのプリント。"
+      },
+      {
+        "season": "2006-07AW",
+        "title": "",
+        "city": "パリ",
+        "note": "暗いネオンカラー、大きなコート。家具の鋲を打った黒いドレス。"
       },
       {
         "season": "2008-09AW",
         "title": "（コーン・ショルダー）",
         "city": "パリ",
         "note": "極端に張り出した円錐形の肩。同時期にアントワープのMoMuで20周年展。"
+      },
+      {
+        "season": "2009SS",
+        "title": "（20周年）",
+        "city": "パリ",
+        "note": "過去のコレクションごとのルックを集めた回顧的なショー。マルジェラ本人は徐々に日々の仕事から離れ、匿名のチームが引き継いでいた。"
+      },
+      {
+        "season": "2024 Artisanal",
+        "title": "（ガリアーノ最後のアーティザナル）",
+        "city": "パリ",
+        "note": "2024年1月、アレクサンドル3世橋の下に1920年代の酒場のようなセットを組んだ。写真家ブラッサイの夜のパリが着想源。パット・マグラスによる陶器のような肌のメイク。15の技法のうち8つを新たに考案。歴史に残るショーと評された。"
+      },
+      {
+        "season": "2025 Artisanal",
+        "title": "（マーティンス初のアーティザナル）",
+        "city": "パリ",
+        "note": "2025年7月。潰した金属板や廃材のアクセサリーで作ったマスク、金属と身体のだまし絵。"
       }
     ]
   },
@@ -4712,7 +4977,8 @@ window.BRANDS = [
     ],
     "archive": [],
     "related": [
-      "dior"
+      "dior",
+      "proenza"
     ],
     "note": "創業年1846年は今回の調査で裏付けが取れていません。ヴィヴァースの就任は2007年発表（2008年からとする資料も）。",
     "sources": [
@@ -8362,9 +8628,10 @@ window.BRANDS = [
     ],
     "archive": [],
     "related": [
-      "nhoolywood"
+      "nhoolywood",
+      "engineeredgarments"
     ],
-    "note": "ネペンテス系列にはニューヨークで鈴木大器が始めたENGINEERED GARMENTSもあります（今回は詳細未調査）。",
+    "note": "ネペンテス系列にはニューヨークで鈴木大器が始めたEngineered Garmentsもあります。",
     "sources": [
       {
         "t": "2nd STREET：〈ニードルズ〉の特異な美学",
@@ -8921,6 +9188,10 @@ window.BRANDS = [
         "unverified": true
       },
       {
+        "year": 2023,
+        "text": "Estée Lauder Companiesがブランドを取得し、ファッション事業は長期ライセンスでZegnaグループが運営（4月28日に完了）"
+      },
+      {
         "year": 2024,
         "text": "7月にピーター・ホーキングスが退任。9月、ハイダー・アッカーマンが全カテゴリーのクリエイティブディレクターに"
       },
@@ -8953,7 +9224,8 @@ window.BRANDS = [
     "archive": [],
     "related": [
       "gucci",
-      "saintlaurent"
+      "saintlaurent",
+      "thombrowne"
     ],
     "note": "ブランド開始年とトム・フォード本人の退任年（2023年）は今回の調査で直接の裏付けを取っていません。",
     "sources": [
@@ -8964,6 +9236,10 @@ window.BRANDS = [
       {
         "t": "Hypebeast：Haider Ackermann Named Creative Director of Tom Ford",
         "u": "https://hypebeast.com/2024/9/haider-ackermann-creative-director-tom-ford-appointment"
+      },
+      {
+        "t": "Business Wire：Zegna Completes Acquisition of Tom Ford International",
+        "u": "https://www.businesswire.com/news/home/20230428005284/en/Ermenegildo-Zegna-Group-Completes-Acquisition-of-Tom-Ford-International-and-Enters-Into-a-Long-Term-License-Agreement-With-The-Est%C3%A9e-Lauder-Companies-for-TOM-FORD-FASHION"
       }
     ]
   },
@@ -9745,6 +10021,382 @@ window.BRANDS = [
       {
         "t": "日本経済新聞：菊池武夫さん、「タケオキクチ」ブランド40年",
         "u": "https://www.nikkei.com/article/DGXZQOUD217CC0R21C24A0000000/"
+      }
+    ]
+  },
+  {
+    "id": "moschino",
+    "name": "Moschino",
+    "ja": "モスキーノ",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ミラノ",
+    "founded": 1983,
+    "tags": [
+      "ポップ",
+      "ユーモア",
+      "アーカイブ",
+      "ウィメンズ"
+    ],
+    "summary": "フランコ・モスキーノが1983年に始めたブランド。ファッションそのものを皮肉るユーモアとポップなモチーフで、1980〜90年代を象徴した。ジェレミー・スコットの10年を経て、2023年以降は交代が続いている。",
+    "history": [
+      {
+        "year": 1983,
+        "text": "フランコ・モスキーノが自身の会社Moonshadowから「Moschino Collection」を発表"
+      },
+      {
+        "year": 1994,
+        "text": "9月、フランコ・モスキーノが死去"
+      },
+      {
+        "year": 2013,
+        "text": "10月、ジェレミー・スコットがクリエイティブディレクターに（初コレクションは2014年秋冬）"
+      },
+      {
+        "year": 2023,
+        "text": "スコットが10年で退任。10月にダヴィデ・レンネが就任したが、11月に急逝"
+      },
+      {
+        "year": 2024,
+        "text": "1月30日、アドリアン・アッピオラーザが就任。2月22日に初コレクション"
+      },
+      {
+        "year": 2026,
+        "text": "6月19日、親会社Aeffeがアッピオラーザとの契約終了を発表。後任は「追って発表」（Sunneiの創業者2人の名前が噂される）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "fmoschino",
+        "role": "創業者",
+        "from": 1983,
+        "to": 1994
+      },
+      {
+        "d": "jeremyscott",
+        "role": "クリエイティブディレクター",
+        "from": 2013,
+        "to": 2023
+      },
+      {
+        "d": "renne",
+        "role": "クリエイティブディレクター",
+        "from": 2023,
+        "to": 2023
+      },
+      {
+        "d": "appiolaza",
+        "role": "クリエイティブディレクター",
+        "from": 2024,
+        "to": 2026
+      }
+    ],
+    "items": [],
+    "archive": [
+      "フランコ期（1983〜1994）の皮肉の効いたスローガンのジャケットなどはヴィンテージ人気が高い。"
+    ],
+    "related": [
+      "versace",
+      "jpg"
+    ],
+    "note": "1994年以降、2013年まではフランコの右腕だったロッセラ・ヤルディーニが率いていました。",
+    "sources": [
+      {
+        "t": "Wikipedia：Moschino",
+        "u": "https://en.wikipedia.org/wiki/Moschino"
+      },
+      {
+        "t": "Aeffe：Adrian Appiolaza to leave his role as creative director of Moschino",
+        "u": "https://aeffe.com/documents/001_HeaderMenuDocuments/020_InvestorRelations/028_Comunicati/Inglese/2026/2026-06-19%20|AEFFE%20Moschino%20-%20Adrian%20Appiolaza%20to%20leave%20Moschino.pdf"
+      },
+      {
+        "t": "Business of Fashion：Adrian Appiolaza Exits Moschino",
+        "u": "https://www.businessoffashion.com/articles/luxury/adrian-appiolaza-exits-moschino/"
+      },
+      {
+        "t": "FashionUnited：Appiolaza's debut Moschino collection",
+        "u": "https://fashionunited.com/news/fashion/in-pictures-adrian-appiolaza-s-debut-moschino-collection-nods-to-heritage-of-late-founder/2024022358560"
+      }
+    ]
+  },
+  {
+    "id": "marni",
+    "name": "Marni",
+    "ja": "マルニ",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ミラノ",
+    "founded": 1994,
+    "tags": [
+      "プリント",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "コンスエロ・カスティリオーニが1994年に始めたブランド。独特の色合わせとプリント、少しずれたバランスの服で知られる。OTBグループ傘下。フランチェスコ・リッソの約9年を経て、2025年からメリル・ロッゲ。",
+    "history": [
+      {
+        "year": 1994,
+        "text": "コンスエロ・カスティリオーニが創業"
+      },
+      {
+        "year": 2016,
+        "text": "カスティリオーニが退き、フランチェスコ・リッソが就任"
+      },
+      {
+        "year": 2025,
+        "text": "6月にリッソが退任。7月15日、OTBがメリル・ロッゲの就任を発表"
+      },
+      {
+        "year": 2026,
+        "text": "2月、ミラノでロッゲの初コレクション"
+      }
+    ],
+    "designers": [
+      {
+        "d": "castiglioni",
+        "role": "創業者",
+        "from": 1994,
+        "to": 2016
+      },
+      {
+        "d": "risso",
+        "role": "クリエイティブディレクター",
+        "from": 2016,
+        "to": 2025
+      },
+      {
+        "d": "rogge",
+        "role": "クリエイティブディレクター",
+        "from": 2025,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "jilsander",
+      "margiela",
+      "dries"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Marni (brand)",
+        "u": "https://en.wikipedia.org/wiki/Marni_(brand)"
+      },
+      {
+        "t": "W Magazine：Meryll Rogge Is the New Creative Director of Marni",
+        "u": "https://www.wmagazine.com/fashion/meryll-rogge-marni-new-creative-director"
+      },
+      {
+        "t": "Fashion Dive：Marni appoints new creative director",
+        "u": "https://www.fashiondive.com/news/meryll-rogge-creative-director-marni-otb-group/753084/"
+      }
+    ]
+  },
+  {
+    "id": "thombrowne",
+    "name": "Thom Browne",
+    "ja": "トム・ブラウン",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2001,
+    "tags": [
+      "テーラリング",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "トム・ブラウンが2001年にニューヨークで始めたブランド。丈を短く、体に沿わせて縮めたグレーのスーツでテーラリングを再定義した。2018年にZegnaグループが85%を取得。",
+    "history": [
+      {
+        "year": 2001,
+        "text": "ニューヨークで創業"
+      },
+      {
+        "year": 2018,
+        "text": "Ermenegildo Zegnaグループが85%を取得（企業価値約5億ドル）。ブラウンは15%を持ち、チーフクリエイティブオフィサーとして続投"
+      }
+    ],
+    "designers": [
+      {
+        "d": "thombrowne",
+        "role": "創業者・デザイナー",
+        "from": 2001,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "シュランクンなグレースーツ",
+        "year": "定番",
+        "desc": "短い丈と細身のシルエットのグレーのスーツ。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "tomford"
+    ],
+    "sources": [
+      {
+        "t": "Forbes：Thom Browne Now Set For Global Expansion With New Majority Owner Ermenegildo Zegna",
+        "u": "https://www.forbes.com/sites/marioabad/2018/08/28/thom-browne-zegna/"
+      },
+      {
+        "t": "Business of Fashion：Why Zegna Bought Thom Browne",
+        "u": "https://www.businessoffashion.com/articles/news-analysis/zegna-acquires-a-majority-stake-in-thom-browne/"
+      }
+    ]
+  },
+  {
+    "id": "proenza",
+    "name": "Proenza Schouler",
+    "ja": "プロエンザ・スクーラー",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2002,
+    "tags": [
+      "ウィメンズ",
+      "アメリカ"
+    ],
+    "summary": "ジャック・マッコローとラザロ・ヘルナンデスが2002年に始めたブランド。2人は2025年にLoeweのクリエイティブディレクターへ移り、Proenza Schoulerはレイチェル・スコットが率いる。",
+    "history": [
+      {
+        "year": 2002,
+        "text": "マッコローとヘルナンデスが創業"
+      },
+      {
+        "year": 2018,
+        "text": "個人投資家とともに株式を買い戻し、経営権を取り戻す"
+      },
+      {
+        "year": 2025,
+        "text": "2人がLoeweへ。レイチェル・スコットがクリエイティブディレクターに（初コレクションは2026年）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "mccollough",
+        "role": "創業者・デザイナー",
+        "from": 2002,
+        "to": 2025
+      },
+      {
+        "d": "rachelscott",
+        "role": "クリエイティブディレクター",
+        "from": 2025,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "loewe"
+    ],
+    "sources": [
+      {
+        "t": "Proenza Schouler 公式：About Us",
+        "u": "https://www.proenzaschouler.com/pages/about"
+      },
+      {
+        "t": "Wikipedia：Proenza Schouler",
+        "u": "https://en.wikipedia.org/wiki/Proenza_Schouler"
+      }
+    ]
+  },
+  {
+    "id": "therow",
+    "name": "The Row",
+    "ja": "ザ・ロウ",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2006,
+    "tags": [
+      "ミニマル",
+      "ラグジュアリー",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "メアリー＝ケイトとアシュレー・オルセンが2006年に始めたブランド。名前はロンドンの仕立て屋街サヴィル・ロウから。広告をほとんど出さず、上質な素材と端正な仕立てで「静かなラグジュアリー」を代表する。",
+    "history": [
+      {
+        "year": 2006,
+        "text": "Tシャツ、レギンス、カシミアのタンクドレスなど7点のコレクションで始まる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "olsens",
+        "role": "創業者・デザイナー",
+        "from": 2006,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "jilsander",
+      "celine"
+    ],
+    "sources": [
+      {
+        "t": "FemFounded：The Row: Zero Advertising, $1B Valuation",
+        "u": "https://femfounded.org/case-studies/the-row/"
+      }
+    ]
+  },
+  {
+    "id": "engineeredgarments",
+    "name": "Engineered Garments",
+    "ja": "エンジニアド ガーメンツ",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 1999,
+    "tags": [
+      "ワーク",
+      "ミリタリー",
+      "アメリカン",
+      "メンズ"
+    ],
+    "summary": "NEPENTHESのバイヤーだった鈴木大器が1999年にニューヨークで始めたブランド。アメリカのワーク・ミリタリー・アウトドアの古着を研究し、ポケットや切り替えを重ねた独特のデザインで作る。今もニューヨークで生産。",
+    "history": [
+      {
+        "year": 1999,
+        "text": "鈴木大器がニューヨークで創業。店で小さなコレクションを売り始める"
+      },
+      {
+        "year": 2002,
+        "text": "最初の本格的なコレクション"
+      },
+      {
+        "year": 2025,
+        "text": "長年の協力者たちがデザインを引き継ぐ"
+      }
+    ],
+    "designers": [
+      {
+        "d": "suzuki",
+        "role": "創業者・デザイナー",
+        "from": 1999,
+        "to": 2025
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "needles",
+      "nhoolywood"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Daiki Suzuki",
+        "u": "https://en.wikipedia.org/wiki/Daiki_Suzuki"
+      },
+      {
+        "t": "Hypebeast：Daiki Suzuki",
+        "u": "https://hypebeast.com/people/daiki-suzuki"
       }
     ]
   }

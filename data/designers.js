@@ -832,5 +832,54 @@ window.DESIGNERS = {
     "en": "Takeo Kikuchi",
     "ja": "菊池武夫",
     "bio": "1970年にBIGI、1975年にMEN'S BIGIを設立し、1984年にワールドへ移ってTAKEO KIKUCHIを始めた。"
+  },
+  "fmoschino": {
+    "en": "Franco Moschino",
+    "ja": "フランコ・モスキーノ",
+    "bio": "1983年に自身のブランドを始め、ファッションを皮肉るユーモアで知られた。1994年9月に死去。"
+  },
+  "jeremyscott": {
+    "en": "Jeremy Scott",
+    "ja": "ジェレミー・スコット"
+  },
+  "renne": {
+    "en": "Davide Renne",
+    "ja": "ダヴィデ・レンネ",
+    "bio": "2023年10月にMoschinoのクリエイティブディレクターに就任したが、約10日後の11月に急逝。"
+  },
+  "appiolaza": {
+    "en": "Adrian Appiolaza",
+    "ja": "アドリアン・アッピオラーザ",
+    "bio": "Loeweなどを経て2024年1月にMoschinoのクリエイティブディレクター。2026年6月に退任。"
+  },
+  "castiglioni": {
+    "en": "Consuelo Castiglioni",
+    "ja": "コンスエロ・カスティリオーニ"
+  },
+  "risso": {
+    "en": "Francesco Risso",
+    "ja": "フランチェスコ・リッソ"
+  },
+  "rogge": {
+    "en": "Meryll Rogge",
+    "ja": "メリル・ロッゲ",
+    "bio": "Marc Jacobs（2008〜2015）、Dries Van Notenのウィメンズの責任者を経て2020年に自身のレーベル。2025年7月にMarniのクリエイティブディレクター。"
+  },
+  "thombrowne": {
+    "en": "Thom Browne",
+    "ja": "トム・ブラウン"
+  },
+  "rachelscott": {
+    "en": "Rachel Scott",
+    "ja": "レイチェル・スコット"
+  },
+  "olsens": {
+    "en": "Mary-Kate & Ashley Olsen",
+    "ja": "メアリー＝ケイト&アシュレー・オルセン"
+  },
+  "suzuki": {
+    "en": "Daiki Suzuki",
+    "ja": "鈴木大器",
+    "bio": "NEPENTHESのバイヤーを経て、1999年にニューヨークでEngineered Garmentsを始めた。"
   }
 };

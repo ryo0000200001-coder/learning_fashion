@@ -804,5 +804,33 @@ window.DESIGNERS = {
     "en": "Hirofumi Kiyonaga",
     "ja": "清永浩文",
     "bio": "A.P.C.の東京で7年働いたのち、1998年にSOPHを始める。2022年に代表を退任。"
+  },
+  "vansaene": {
+    "en": "Dirk Van Saene",
+    "ja": "ダーク・ヴァン・セーヌ",
+    "bio": "アントワープ・シックスの一人。1981年にアカデミーを卒業。現在は主に彫刻家・画家として活動。"
+  },
+  "yee": {
+    "en": "Marina Yee",
+    "ja": "マリナ・イー",
+    "bio": "アントワープ・シックスの一人。1981年の卒業後すぐに自身のブランド「Marie」を始めたが、1988年にグループを離れた。2025年11月にがんで死去。"
+  },
+  "branquinho": {
+    "en": "Veronique Branquinho",
+    "ja": "ヴェロニク・ブランキーニョ"
+  },
+  "vandevorst": {
+    "en": "An Vandevorst & Filip Arickx",
+    "ja": "アン・ヴァンデヴォースト&フィリップ・アリックス"
+  },
+  "serfaty": {
+    "en": "Yohan Serfaty",
+    "ja": "ヨハン・セルファティ",
+    "bio": "Y/Projectの共同創業者。2013年にがんで死去。"
+  },
+  "kikuchi": {
+    "en": "Takeo Kikuchi",
+    "ja": "菊池武夫",
+    "bio": "1970年にBIGI、1975年にMEN'S BIGIを設立し、1984年にワールドへ移ってTAKEO KIKUCHIを始めた。"
   }
 };

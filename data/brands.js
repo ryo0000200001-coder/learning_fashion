@@ -2330,7 +2330,8 @@ window.BRANDS = [
       "dior",
       "anndemeulemeester",
       "dries",
-      "diesel"
+      "diesel",
+      "yproject"
     ],
     "sources": [
       {
@@ -4429,7 +4430,9 @@ window.BRANDS = [
       "margiela",
       "rickowens",
       "ccp",
-      "bikkembergs"
+      "bikkembergs",
+      "dirkvansaene",
+      "marinayee"
     ],
     "sources": [
       {
@@ -4494,7 +4497,9 @@ window.BRANDS = [
     "related": [
       "anndemeulemeester",
       "margiela",
-      "raf"
+      "raf",
+      "dirkvansaene",
+      "marinayee"
     ],
     "sources": [
       {
@@ -5637,7 +5642,9 @@ window.BRANDS = [
     "related": [
       "anndemeulemeester",
       "dries",
-      "margiela"
+      "margiela",
+      "dirkvansaene",
+      "marinayee"
     ],
     "sources": [
       {
@@ -7371,7 +7378,9 @@ window.BRANDS = [
     "related": [
       "dries",
       "anndemeulemeester",
-      "bikkembergs"
+      "bikkembergs",
+      "dirkvansaene",
+      "marinayee"
     ],
     "note": "ブランドの開始年（1983年）は概算です。W.&L.T.を2004年まで続いたとする資料もあります。",
     "sources": [
@@ -8824,6 +8833,364 @@ window.BRANDS = [
       {
         "t": "Qkaku：SOPH.がNIKEとコラボし定番になった理由",
         "u": "http://qkaku.com/soph/"
+      }
+    ]
+  },
+  {
+    "id": "dirkvansaene",
+    "name": "Dirk Van Saene",
+    "ja": "ダーク・ヴァン・セーヌ",
+    "origin": "import",
+    "country": "ベルギー",
+    "city": "アントワープ",
+    "founded": 1981,
+    "tags": [
+      "アントワープ",
+      "アーカイブ"
+    ],
+    "summary": "アントワープ・シックスの一人。1981年にアカデミーを卒業し、自身の店「Beauties and Heroes」で服を売り始めた。1983年にベルギーの「ゴールデン・スプール」コンテストで受賞。現在は主に彫刻家・画家。",
+    "history": [
+      {
+        "year": 1981,
+        "text": "アントワープ王立芸術アカデミーを卒業し、店「Beauties and Heroes」で販売を始める"
+      },
+      {
+        "year": 1983,
+        "text": "ベルギーのファッションコンテスト「ゴールデン・スプール」で受賞"
+      },
+      {
+        "year": 1986,
+        "text": "ロンドンのブリティッシュ・デザイナー・ショーで、ほかの5人とともにそれぞれのコレクションを発表（アントワープ・シックスの始まり）"
+      },
+      {
+        "year": 1990,
+        "text": "パリで初の大きなショー"
+      }
+    ],
+    "designers": [
+      {
+        "d": "vansaene",
+        "role": "デザイナー",
+        "from": 1981,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "dries",
+      "anndemeulemeester",
+      "wvb",
+      "bikkembergs",
+      "marinayee"
+    ],
+    "sources": [
+      {
+        "t": "1stDibs：How the Antwerp Six Made Belgium an International Fashion Hotspot",
+        "u": "https://www.1stdibs.com/blogs/the-study/antwerp-six/"
+      },
+      {
+        "t": "FORÇ Magazine：THE ANTWERP VI",
+        "u": "https://www.forcmagazine.com/the-antwerp-six/"
+      },
+      {
+        "t": "MoMu：The Antwerp Six",
+        "u": "https://www.momu.be/en/exhibitions/the-antwerp-six"
+      }
+    ]
+  },
+  {
+    "id": "marinayee",
+    "name": "Marina Yee",
+    "ja": "マリナ・イー",
+    "origin": "import",
+    "country": "ベルギー",
+    "city": "アントワープ / ブリュッセル",
+    "founded": 1981,
+    "tags": [
+      "アントワープ",
+      "アーカイブ"
+    ],
+    "summary": "アントワープ・シックスの一人。1981年の卒業後すぐに自身のブランド「Marie」を始めたが、大きな都市でショーをすることはなく、ビジネスを小さく保ちたいとして1988年にグループを離れた。2025年11月に死去。2026年にはMoMuで6人の40年を振り返る展覧会が開かれた。",
+    "history": [
+      {
+        "year": 1981,
+        "text": "アカデミーを卒業し、ブランド「Marie」を始める"
+      },
+      {
+        "year": 1986,
+        "text": "ロンドンのブリティッシュ・デザイナー・ショーに6人で参加"
+      },
+      {
+        "year": 1988,
+        "text": "アントワープ・シックスの活動から離れる"
+      },
+      {
+        "year": 2025,
+        "text": "11月、がんで死去"
+      },
+      {
+        "year": 2026,
+        "text": "MoMu（アントワープ・ファッション美術館）で「The Antwerp Six」展"
+      }
+    ],
+    "designers": [
+      {
+        "d": "yee",
+        "role": "デザイナー",
+        "from": 1981,
+        "to": 2025
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "dirkvansaene",
+      "dries",
+      "anndemeulemeester",
+      "wvb",
+      "bikkembergs"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Antwerp Six",
+        "u": "https://en.wikipedia.org/wiki/Antwerp_Six"
+      },
+      {
+        "t": "MoMu：The Antwerp Six",
+        "u": "https://www.momu.be/en/exhibitions/the-antwerp-six"
+      },
+      {
+        "t": "nss magazine：Antwerp Six Exhibition at MoMu",
+        "u": "https://www.nssmag.com/en/fashion/44801/antwerp-six-exhibition-momu-antwerp-40-years-fashion"
+      }
+    ]
+  },
+  {
+    "id": "branquinho",
+    "name": "Veronique Branquinho",
+    "ja": "ヴェロニク・ブランキーニョ",
+    "origin": "import",
+    "country": "ベルギー",
+    "city": "アントワープ",
+    "founded": 1998,
+    "tags": [
+      "アントワープ",
+      "ウィメンズ",
+      "アーカイブ"
+    ],
+    "summary": "アントワープの次の世代を代表するデザイナー。メランコリックで少女的なウィメンズ。2009年に経済危機で一度閉じ、2012年に再始動したが、2017-18年秋冬を最後に再び休止した。",
+    "history": [
+      {
+        "year": 1998,
+        "text": "自身のレーベルを始める（1997年とする資料も）"
+      },
+      {
+        "year": 2009,
+        "text": "経済危機により閉鎖"
+      },
+      {
+        "year": 2012,
+        "text": "オンワードの支援で再始動（2013年春夏から）"
+      },
+      {
+        "year": 2017,
+        "text": "2017-18年秋冬のショーを最後に再び休止"
+      }
+    ],
+    "designers": [
+      {
+        "d": "branquinho",
+        "role": "デザイナー",
+        "from": 1998,
+        "to": 2017
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "afvandevorst",
+      "anndemeulemeester",
+      "raf"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Veronique Branquinho",
+        "u": "https://en.wikipedia.org/wiki/Veronique_Branquinho"
+      },
+      {
+        "t": "FashionNetwork：Véronique Branquinho terminates eponymous label",
+        "u": "https://uk.fashionnetwork.com/news/Veronique-branquinho-terminates-eponymous-label,840695.html"
+      },
+      {
+        "t": "i-D：The cult Belgian designers to know",
+        "u": "https://i-d.co/article/antwerp-fashion-designers-to-know/"
+      }
+    ]
+  },
+  {
+    "id": "afvandevorst",
+    "name": "A.F. Vandevorst",
+    "ja": "A.F. ヴァンデヴォースト",
+    "origin": "import",
+    "country": "ベルギー",
+    "city": "アントワープ",
+    "founded": 1997,
+    "tags": [
+      "アントワープ",
+      "アーカイブ",
+      "ウィメンズ"
+    ],
+    "summary": "アン・ヴァンデヴォーストとフィリップ・アリックスのデュオによるアントワープのブランド。乗馬や軍服のディテール、赤十字のモチーフで知られた。2020年に22年の歴史を閉じた。",
+    "history": [
+      {
+        "year": 1997,
+        "text": "アン・ヴァンデヴォーストとフィリップ・アリックスが設立（1996年とする資料も）"
+      },
+      {
+        "year": 2020,
+        "text": "2月14日に閉鎖を発表。2020年春夏が最後のコレクション"
+      }
+    ],
+    "designers": [
+      {
+        "d": "vandevorst",
+        "role": "創業者・デザイナー",
+        "from": 1997,
+        "to": 2020
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "branquinho",
+      "anndemeulemeester"
+    ],
+    "sources": [
+      {
+        "t": "FashionNetwork：A.F. Vandevorst to shut down",
+        "u": "https://ww.fashionnetwork.com/news/A-f-vandevorst-to-shut-down,1187048.html"
+      },
+      {
+        "t": "thefashiondb：A.F. Vandevorst",
+        "u": "https://thefashiondb.com/brands/a-f-vandevorst"
+      }
+    ]
+  },
+  {
+    "id": "yproject",
+    "name": "Y/Project",
+    "ja": "ワイプロジェクト",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 2010,
+    "tags": [
+      "アヴァンギャルド",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "ヨハン・セルファティとジル・エラルフが2010年にパリで始めたブランド。セルファティの死後、アシスタントだったグレン・マーティンスが率い、一着をいく通りにも着られる大胆な構造で2010年代後半に人気を集めた。2024年にマーティンスが去り、2025年に買い手が見つからず閉鎖。",
+    "history": [
+      {
+        "year": 2010,
+        "text": "ヨハン・セルファティとジル・エラルフが設立"
+      },
+      {
+        "year": 2013,
+        "text": "セルファティががんで死去し、グレン・マーティンスがクリエイティブディレクターに"
+      },
+      {
+        "year": 2024,
+        "text": "7月にエラルフ死去。9月にマーティンスが退任し、会社は管財手続きへ"
+      },
+      {
+        "year": 2025,
+        "text": "買い手が見つからず、14年で活動を終了"
+      }
+    ],
+    "designers": [
+      {
+        "d": "serfaty",
+        "role": "共同創業者・デザイナー",
+        "from": 2010,
+        "to": 2013
+      },
+      {
+        "d": "martens",
+        "role": "クリエイティブディレクター",
+        "from": 2013,
+        "to": 2024
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "margiela",
+      "diesel"
+    ],
+    "note": "閉鎖の発表は2025年初めとみられますが、正確な日付は確認できていません。",
+    "sources": [
+      {
+        "t": "Business of Fashion：Y/Project Is Officially Shutting Down",
+        "u": "https://www.businessoffashion.com/news/luxury/y-project-shut-down-glenn-martens/"
+      },
+      {
+        "t": "Wikipedia：Y/Project",
+        "u": "https://en.wikipedia.org/wiki/Y/Project"
+      }
+    ]
+  },
+  {
+    "id": "takeokikuchi",
+    "name": "TAKEO KIKUCHI",
+    "ja": "タケオキクチ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1984,
+    "tags": [
+      "メンズ",
+      "DCブランド",
+      "英国"
+    ],
+    "summary": "BIGI、MEN'S BIGIを立ち上げた菊池武夫が、1984年にワールドへ移って始めたメンズ。英国調のトラッドを東京的に崩したスタイルで、1980年代のDCブランドブームを牽引した。",
+    "history": [
+      {
+        "year": 1970,
+        "text": "菊池武夫がBIGIを設立"
+      },
+      {
+        "year": 1975,
+        "text": "MEN'S BIGIを設立"
+      },
+      {
+        "year": 1984,
+        "text": "ワールドに移り、TAKEO KIKUCHIを発表。原宿ビブレに1号店"
+      }
+    ],
+    "designers": [
+      {
+        "d": "kikuchi",
+        "role": "創業者・デザイナー",
+        "from": 1984,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "cdg",
+      "yohji"
+    ],
+    "sources": [
+      {
+        "t": "TAKEO KIKUCHI 公式：BRAND HISTORY",
+        "u": "https://store.world.co.jp/s/brand/takeo-kikuchi/about/history/"
+      },
+      {
+        "t": "日本経済新聞：菊池武夫さん、「タケオキクチ」ブランド40年",
+        "u": "https://www.nikkei.com/article/DGXZQOUD217CC0R21C24A0000000/"
       }
     ]
   }

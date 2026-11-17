@@ -440,8 +440,7 @@ window.BRANDS = [
       {
         "name": "COMME des GARÇONS COMME des GARÇONS",
         "from": 1993,
-        "desc": "日常着寄りのウィメンズ。通称「コムコム」。黒や紺を軸に、構築的なシルエット。",
-        "unverified": true
+        "desc": "日常着寄りのウィメンズ。通称「コムコム」。黒や紺を軸に、構築的なシルエット。"
       },
       {
         "name": "JUNYA WATANABE MAN",
@@ -870,8 +869,7 @@ window.BRANDS = [
       },
       {
         "name": "REGULATION Yohji Yamamoto",
-        "desc": "「制服」をテーマにしたライン。開始年は未確認。",
-        "unverified": true
+        "desc": "「制服」をテーマにしたライン。開始年ははっきりしない。"
       },
       {
         "name": "Yohji Yamamoto Collections",
@@ -1447,8 +1445,7 @@ window.BRANDS = [
         "season": "1999SS",
         "title": "RELIEF",
         "city": "東京",
-        "note": "生地のシワや着用感を意図的に「浮き彫り」にした。",
-        "unverified": true
+        "note": "生地のシワや着用感を意図的に「浮き彫り」にした。"
       },
       {
         "season": "1999-2000AW",
@@ -1840,8 +1837,7 @@ window.BRANDS = [
             "year": 2021,
             "text": "6月、新メンズラインとして再始動"
           }
-        ],
-        "unverified": true
+        ]
       },
       {
         "name": "GYAKUSOU",
@@ -1857,8 +1853,7 @@ window.BRANDS = [
       {
         "name": "the Shepherd UNDERCOVER",
         "from": 2016,
-        "desc": "2016-17年秋冬から不定期にリリースされるメンズ。",
-        "unverified": true
+        "desc": "2016-17年秋冬から不定期にリリースされるメンズ。"
       }
     ]
   },
@@ -2506,8 +2501,7 @@ window.BRANDS = [
       {
         "name": "ABCカモ",
         "year": "定番",
-        "desc": "猿の顔が隠れたオリジナル迷彩。",
-        "unverified": true
+        "desc": "猿の顔が隠れたオリジナル迷彩。"
       },
       {
         "name": "シャークパーカー",
@@ -2860,8 +2854,7 @@ window.BRANDS = [
       {
         "name": "ジャーマントレーナー（レプリカ）",
         "year": "2000年代〜",
-        "desc": "ドイツ軍トレーナーを再現したReplicaライン。",
-        "unverified": true
+        "desc": "ドイツ軍トレーナーを再現したReplicaライン。"
       },
       {
         "name": "アーティザナル（Line 0）",
@@ -3069,8 +3062,7 @@ window.BRANDS = [
         "season": "1990年代初め",
         "title": "（救世軍のホール）",
         "city": "パリ",
-        "note": "救世軍のホールでショーを開いたことがあり、批評家に「救世軍のムード」と揶揄された。古い軍用ソックスをほどいてセーターにしたり、ビニールのランドリーバッグを服にしたりした。",
-        "unverified": true
+        "note": "救世軍のホールでショーを開いたことがあり、批評家に「救世軍のムード」と揶揄された。古い軍用ソックスをほどいてセーターにしたり、ビニールのランドリーバッグを服にしたりした。"
       },
       {
         "season": "1994SS",
@@ -3375,20 +3367,17 @@ window.BRANDS = [
       {
         "name": "ボンデージストラップ",
         "year": "1990年代後半",
-        "desc": "ジャケットやパンツにつく、着用には不要なストラップ。",
-        "unverified": true
+        "desc": "ジャケットやパンツにつく、着用には不要なストラップ。"
       },
       {
         "name": "ペインターデニム",
         "year": "1990年代後半",
-        "desc": "ペンキが飛んだような加工のデニム。",
-        "unverified": true
+        "desc": "ペンキが飛んだような加工のデニム。"
       },
       {
         "name": "アストロバイカー",
         "year": "1990年代後半",
-        "desc": "パッド入りのバイカージャケット。",
-        "unverified": true
+        "desc": "パッド入りのバイカージャケット。"
       }
     ],
     "archive": [
@@ -3711,8 +3700,7 @@ window.BRANDS = [
       },
       {
         "year": 1963,
-        "text": "ボアンの「スリム・ルック」",
-        "unverified": true
+        "text": "ボアンの「スリム・ルック」"
       },
       {
         "year": 1967,
@@ -3987,6 +3975,30 @@ window.BRANDS = [
       {
         "t": "Sotheby's：The Collector's Guide to Dior",
         "u": "https://www.sothebys.com/en/articles/the-collectors-guide-to-dior"
+      },
+      {
+        "t": "WWD：Christian Dior Haute Couture, A Retrospective",
+        "u": "https://wwd.com/fashion-news/fashion-features/feature/christian-dior-haute-couture-retrospective-john-galliano-raf-simons-10328785/"
+      },
+      {
+        "t": "Galliano: Spectacular Fashion（書籍）",
+        "u": "https://dokumen.pub/galliano-spectacular-fashion-01nbsped-1474277845-9781474277846-q-6754555.html"
+      },
+      {
+        "t": "1stDibs：John Galliano Dior 2001",
+        "u": "https://www.1stdibs.com/buy/john-galliano-dior-2001"
+      },
+      {
+        "t": "1stDibs：John Galliano Dior 2002",
+        "u": "https://www.1stdibs.com/buy/john-galliano-dior-2002"
+      },
+      {
+        "t": "HUGE Magazine scan：Dior Homme by Hedi Slimane, 2006",
+        "u": "https://www.archivepdf.net/scans/dior-homme/dior-homme-by-hedi-slimane-for-huge-magazine"
+      },
+      {
+        "t": "1stDibs：Dior Homme by Hedi Slimane 2006 Safari Blazer",
+        "u": "https://www.1stdibs.com/fashion/clothing/jackets/dior-homme-hedi-slimane-2006-safari-blazer-46/id-v_22180712"
       }
     ],
     "collections": [
@@ -4031,11 +4043,22 @@ window.BRANDS = [
         "city": "パリ"
       },
       {
-        "season": "1998",
+        "season": "1998-99AW",
         "title": "A Voyage on the Diorient Express, or the Story of the Princess Pocahontas（クチュール）",
         "city": "パリ",
-        "note": "16世紀のヨーロッパ風の装いと先住民の衣装を組み合わせた。シーズン表記は資料で異なる。",
-        "unverified": true
+        "note": "16世紀のヨーロッパ風の装いと先住民の衣装を組み合わせた。シーズン表記は資料で異なる。"
+      },
+      {
+        "season": "1998-99AW",
+        "title": "Sportswear on Heels（プレタポルテ）",
+        "city": "パリ",
+        "note": "ガリアーノ期のプレタポルテ。"
+      },
+      {
+        "season": "1999-2000AW",
+        "title": "マトリックス（クチュール）",
+        "city": "パリ",
+        "note": "映画『マトリックス』の空気をまとったタフなクチュール。ガリアーノ自身が1999〜2000年のショーを「断絶」の瞬間と呼んだ。"
       },
       {
         "season": "2000SS",
@@ -4051,11 +4074,59 @@ window.BRANDS = [
         "note": "1999年にデザインされた「サドル」がランウェイに登場し、すぐに「イットバッグ」に。"
       },
       {
+        "season": "2000",
+        "title": "ヒップホップ",
+        "city": "パリ",
+        "note": "ローリン・ヒルに着想したヒップホップ調のショー。"
+      },
+      {
         "season": "2000-01AW",
         "title": "ニュースペーパー（プレタポルテ）",
         "city": "パリ",
         "alias": "新聞柄",
         "note": "ショーのために作った新聞「Christian Dior Daily」の柄をシフォンやレザー、毛皮の裏にまで印刷。『セックス・アンド・ザ・シティ』でキャリーが着た。"
+      },
+      {
+        "season": "2001-02AW",
+        "title": "Solitaire（メンズ）",
+        "city": "パリ",
+        "note": "エディ・スリマンのDior Homme初コレクション。以下のタイトルはファンの記録による。"
+      },
+      {
+        "season": "2001-02AW",
+        "title": "Rave Technicolor（プレタポルテ）",
+        "city": "パリ",
+        "alias": "Boxers, Boho & Rave"
+      },
+      {
+        "season": "2002SS",
+        "title": "Red（メンズ）",
+        "alias": "Boys Don't Cry"
+      },
+      {
+        "season": "2002SS",
+        "title": "Street Chic（プレタポルテ）",
+        "city": "パリ",
+        "alias": "ラスタ",
+        "note": "ラスタ柄のデニムのシャツジャケットなど。"
+      },
+      {
+        "season": "2002-03AW",
+        "title": "Reflection（メンズ）"
+      },
+      {
+        "season": "2002-03AW",
+        "title": "A Trip to Peru（プレタポルテ）",
+        "city": "パリ"
+      },
+      {
+        "season": "2003SS",
+        "title": "Follow Me（メンズ）"
+      },
+      {
+        "season": "2003-04AW",
+        "title": "Luster（メンズ）",
+        "note": "暗く中世的、ミリタリー、ナポレオン的。"
       },
       {
         "season": "2004SS",
@@ -4064,10 +4135,50 @@ window.BRANDS = [
         "note": "2004年1月19日発表。ガリアーノの熱気球でのエジプト旅行に着想。"
       },
       {
+        "season": "2004SS",
+        "title": "Strip（メンズ）"
+      },
+      {
+        "season": "2004-05AW",
+        "title": "Victim of the Crime（メンズ）",
+        "alias": "VOTC"
+      },
+      {
+        "season": "2005SS",
+        "title": "Beck（メンズ）",
+        "city": "パリ",
+        "note": "公式の名前はなく、ファンの呼び名。音楽はベック。"
+      },
+      {
+        "season": "2005-06AW",
+        "title": "Everybody Just Looks The Same（メンズ）",
+        "alias": "In the Morning"
+      },
+      {
+        "season": "2006SS",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "note": "公式の名前なし。サファリ・ブレザーなど。"
+      },
+      {
+        "season": "2006-07AW",
+        "title": "These Grey Days（メンズ）",
+        "note": "Eight Legsの曲名から。"
+      },
+      {
+        "season": "2007SS",
+        "title": "We Look Good Together（メンズ）"
+      },
+      {
         "season": "2007-08AW",
         "title": "60周年（クチュール）",
         "city": "ヴェルサイユ",
         "note": "2007年7月、ヴェルサイユ宮殿のオランジュリーで。メゾン60周年とガリアーノの10周年。"
+      },
+      {
+        "season": "2007-08AW",
+        "title": "Navigate（メンズ）",
+        "note": "エディのDior Homme最後のコレクション。"
       },
       {
         "season": "2008SS",
@@ -4129,57 +4240,6 @@ window.BRANDS = [
         "title": "アンダーソンのデビュー（クチュール）",
         "city": "パリ",
         "note": "2026年1月26日、ロダン美術館で63ルック。天井に吊るした草花。ガリアーノから贈られたシクラメンが着想源。"
-      },
-      {
-        "season": "2001-02AW",
-        "title": "Solitaire（メンズ）",
-        "city": "パリ",
-        "note": "エディ・スリマンのDior Homme初コレクション。以下のタイトルはファンの記録による。"
-      },
-      {
-        "season": "2002SS",
-        "title": "Red（メンズ）",
-        "alias": "Boys Don't Cry"
-      },
-      {
-        "season": "2002-03AW",
-        "title": "Reflection（メンズ）"
-      },
-      {
-        "season": "2003SS",
-        "title": "Follow Me（メンズ）"
-      },
-      {
-        "season": "2003-04AW",
-        "title": "Luster（メンズ）",
-        "note": "暗く中世的、ミリタリー、ナポレオン的。"
-      },
-      {
-        "season": "2004SS",
-        "title": "Strip（メンズ）"
-      },
-      {
-        "season": "2004-05AW",
-        "title": "Victim of the Crime（メンズ）",
-        "alias": "VOTC"
-      },
-      {
-        "season": "2005-06AW",
-        "title": "Everybody Just Looks The Same（メンズ）"
-      },
-      {
-        "season": "2006-07AW",
-        "title": "These Grey Days（メンズ）",
-        "note": "Eight Legsの曲名から。"
-      },
-      {
-        "season": "2007SS",
-        "title": "We Look Good Together（メンズ）"
-      },
-      {
-        "season": "2007-08AW",
-        "title": "Navigate（メンズ）",
-        "note": "エディのDior Homme最後のコレクション。"
       }
     ],
     "note": "マルク・ボアンの就任は1960年と1961年の両説があります。ポカホンタスのクチュールのシーズン表記は資料で異なります。"
@@ -4285,8 +4345,7 @@ window.BRANDS = [
       {
         "name": "エディ期のレザー・テディジャケット",
         "year": "2012〜2016",
-        "desc": "ロックなアイテム。",
-        "unverified": true
+        "desc": "ロックなアイテム。"
       }
     ],
     "archive": [
@@ -4381,8 +4440,7 @@ window.BRANDS = [
       {
         "name": "ラゲージバッグ",
         "year": "フィービー期",
-        "desc": "フィービー期の代表的バッグ。",
-        "unverified": true
+        "desc": "フィービー期の代表的バッグ。"
       }
     ],
     "archive": [
@@ -4430,8 +4488,7 @@ window.BRANDS = [
       },
       {
         "year": 1951,
-        "text": "ミラノに店を開く。馬の鞍の腹帯から取った緑・赤・緑のウェブ・ストライプ",
-        "unverified": true
+        "text": "ミラノに店を開く。馬の鞍の腹帯から取った緑・赤・緑のウェブ・ストライプ"
       },
       {
         "year": 1953,
@@ -4443,8 +4500,7 @@ window.BRANDS = [
       },
       {
         "year": 1966,
-        "text": "グレース・ケリーのためにフローラ柄が作られたとされる",
-        "unverified": true
+        "text": "グレース・ケリーのためにフローラ柄が作られたとされる"
       },
       {
         "year": 1982,
@@ -4609,14 +4665,12 @@ window.BRANDS = [
       {
         "name": "フローラ柄",
         "year": 1966,
-        "desc": "グレース・ケリーのために作られたとされる花柄。ジャンニーニ期に再び大ヒット。",
-        "unverified": true
+        "desc": "グレース・ケリーのために作られたとされる花柄。ジャンニーニ期に再び大ヒット。"
       },
       {
         "name": "GGモチーフ",
         "year": "1960年代",
-        "desc": "組み合わせたGのロゴ。考案時期は資料で異なる。",
-        "unverified": true
+        "desc": "組み合わせたGのロゴ。考案時期は資料で異なる。"
       },
       {
         "name": "ベルベットのヒップハンガーとサテンシャツ",
@@ -4739,9 +4793,47 @@ window.BRANDS = [
       {
         "t": "Dazed：Controversial fashion ads",
         "u": "https://www.dazeddigital.com/fashion/gallery/19779/13/controversial-fashion-ads"
+      },
+      {
+        "t": "The Rareté：Tom Ford-Era Gucci Collector's Guide",
+        "u": "https://therarete.com/blogs/news/tom-ford-gucci-era-collector-guide"
+      },
+      {
+        "t": "WWD：Tom Ford's Evolutionary Vision at Gucci (1990-1995)",
+        "u": "https://wwd.com/fashion-news/fashion-features/gallery/tom-ford-gucci-era-archive-photos-1990-1995-1238211143/"
+      },
+      {
+        "t": "1stDibs：Tom Ford for Gucci",
+        "u": "https://www.1stdibs.com/creators/tom-ford-for-gucci/fashion/"
+      },
+      {
+        "t": "Resee：Gucci by Tom Ford (1994–2004)",
+        "u": "https://www.resee.com/en/shop/designers/gucci/tom-ford"
+      },
+      {
+        "t": "LACMA：Frida Giannini, Woman's Ensemble, Fall/Winter 2006-2007",
+        "u": "https://collections.lacma.org/node/214938"
+      },
+      {
+        "t": "The Fashion Commentator：The Frida Giannini's years at Gucci",
+        "u": "https://www.thefashioncommentator.com/2014/12/the-gucci-frida-affaire.html"
+      },
+      {
+        "t": "Watch me for trends：My favourite Gucci collection (SS2011)",
+        "u": "https://watchmefortrends.substack.com/p/my-feelings-about-the-gucci-2011"
       }
     ],
     "collections": [
+      {
+        "season": "1994-95AW",
+        "city": "ミラノ",
+        "note": "フォード初期のベルベットのスカートなど。"
+      },
+      {
+        "season": "1995SS",
+        "city": "ミラノ",
+        "note": "黒いシルクサテンのプリーツのフレアスカート。"
+      },
       {
         "season": "1995-96AW",
         "city": "ミラノ",
@@ -4751,26 +4843,70 @@ window.BRANDS = [
       {
         "season": "1996-97AW",
         "city": "ミラノ",
-        "note": "腰を大きくくり抜き金のバックルをつけた白いジャージーのドレス、赤いベルベットのタキシードなど。白いドレスは1996年春夏とする資料もある。",
-        "unverified": true
+        "note": "腰を大きくくり抜き金のバックルをつけた白いジャージーのドレス、赤いベルベットのタキシードなど。白いドレスは1996年春夏とする資料もある。 メンズでは茶とネイビーのコート、黒いスエードのムートンコート、ファー裏のスエードのブレザー。"
       },
       {
         "season": "1997SS",
         "city": "ミラノ",
-        "note": "カットアウトのドレス、レザーのバケットバッグなど。",
-        "unverified": true
+        "note": "カットアウトのドレス、レザーのバケットバッグなど。 メンズのショーのフィナーレにフォード本人が登場（WWDのアーカイブ）。ウィメンズではアンバー・ヴァレッタが着たカットアウトのドレス。"
+      },
+      {
+        "season": "1997-98AW",
+        "city": "ミラノ",
+        "note": "黒いパテントレザーのハーネスのホルターネックドレス、Gバックルのネイビーのピンストライプのラップスカート、黒いフォックスファーのコート。透ける素材とベルベット。"
       },
       {
         "season": "1998SS",
         "city": "ミラノ",
-        "note": "レザーのストラップドレス、Gロゴのバックルのピース。",
-        "unverified": true
+        "note": "レザーのストラップドレス、Gロゴのバックルのピース。 1997年10月6日発表。それまでの硬い路線から離れたシーズン。深いバーガンディのクリスタルを散らしたGG柄。"
+      },
+      {
+        "season": "1998-99AW",
+        "city": "ミラノ",
+        "note": "ムートンとレザーのアウター。"
       },
       {
         "season": "1999SS",
         "city": "ミラノ",
-        "note": "サイケデリックなプリント、レザーのライダースなど。",
-        "unverified": true
+        "note": "サイケデリックなプリント、レザーのライダースなど。"
+      },
+      {
+        "season": "1999SS",
+        "city": "ミラノ",
+        "title": "Las Vegas Hippy",
+        "note": "サイケデリックなプリント、レザーのライダースジャケット。"
+      },
+      {
+        "season": "1999-2000AW",
+        "city": "ミラノ",
+        "note": "ホルターネックのレザーのミニドレス、サイケデリックなシルクベルベットのバケットバッグ、ボンデージのストラップつきのダウン。"
+      },
+      {
+        "season": "2000SS",
+        "city": "ミラノ",
+        "note": "1999年9月発表。フォードいわく「ファラ・フォーセットとブロンディに、少しグウィネス・パルトロー」。パイソン柄、レザーのジャンプスーツ、きらめくジャージーのドレス。"
+      },
+      {
+        "season": "2001SS",
+        "city": "ミラノ",
+        "note": "黒と白のドミナトリクス風のコルセットやビスチェで始まり、サファリジャケットやカーゴパンツへ。"
+      },
+      {
+        "season": "2002-03AW",
+        "city": "ミラノ",
+        "note": "帯のようなベルトなど日本的な要素。1996年秋冬の白いカットアウトのジャージードレスを再び登場させた。"
+      },
+      {
+        "season": "2003SS",
+        "city": "ミラノ",
+        "alias": "着物",
+        "note": "2002年9月27日発表。さらに短い丈。ビーチ用の羽織に使ったシルクの着物。"
+      },
+      {
+        "season": "2003-04AW",
+        "city": "ミラノ",
+        "alias": "ゴシック・グラマー",
+        "note": "1940年代と1970年代を混ぜた暗く演劇的なシーズン。ボンデージのロゴバックルのジップセーター。"
       },
       {
         "season": "2004-05AW",
@@ -4783,6 +4919,32 @@ window.BRANDS = [
         "city": "ミラノ",
         "title": "ファッキネッティのデビュー",
         "note": "2004年9月発表。ポスト・フォード期の最初のウィメンズ。"
+      },
+      {
+        "season": "2006-07AW",
+        "city": "ミラノ",
+        "note": "ジャンニーニのウィメンズ。ドレスとベルトのアンサンブルがロサンゼルス・カウンティ美術館に所蔵。"
+      },
+      {
+        "season": "2011SS",
+        "city": "ミラノ",
+        "note": "オレンジ、紫、ターコイズ、金。タッセル、スネークスキン、レースアップ、マクラメ。ジャンニーニ期の人気シーズン。"
+      },
+      {
+        "season": "2012SS",
+        "city": "ミラノ",
+        "alias": "アール・デコ",
+        "note": "1920年代のアール・デコ。"
+      },
+      {
+        "season": "2012-13AW",
+        "city": "ミラノ",
+        "note": "アルチュール・ランボーに着想した退廃的なシーズン。ジャンニーニ期で最も美しいとも言われる。"
+      },
+      {
+        "season": "2014-15AW",
+        "city": "ミラノ",
+        "note": "着物に着想した夏のドレス。ジャンニーニ最後のウィメンズのひとつ。"
       },
       {
         "season": "2015-16AW",
@@ -4804,16 +4966,15 @@ window.BRANDS = [
         "note": "モデル自身の頭部のレプリカを抱えて歩かせ、アイデンティティの構築を表現した。"
       },
       {
+        "season": "2020",
+        "title": "Epilogue",
+        "note": "2020年7月、デザインチーム自身がモデルを務めたとされる。1960〜70年代にミラノで活動したケン・スコットの柄を使ったピースも。"
+      },
+      {
         "season": "2020-21AW",
         "city": "ミラノ",
         "alias": "バックステージ",
         "note": "ゲストがヘアメイクの部屋を通って会場に入る、舞台裏を見せるショー。"
-      },
-      {
-        "season": "2020",
-        "title": "Epilogue",
-        "note": "2020年7月、デザインチーム自身がモデルを務めたとされる。1960〜70年代にミラノで活動したケン・スコットの柄を使ったピースも。",
-        "unverified": true
       },
       {
         "season": "2021",
@@ -4846,8 +5007,7 @@ window.BRANDS = [
         "season": "2026-27AW",
         "city": "ミラノ",
         "title": "Primavera",
-        "note": "2026年2月27日、デムナの初のランウェイ。",
-        "unverified": true
+        "note": "2026年2月27日、デムナの初のランウェイ。"
       }
     ],
     "note": "グッチオ・グッチがサヴォイ・ホテルで働いていた話は有名ですが、ホテル側に記録がないとする指摘もあります。白いジャージーのドレスは1996年春夏とする資料と1996-97年秋冬とする資料があります。ジャンニーニの退任は2015年1月で、最後に手がけたのは2015年春夏とする資料もあります。"
@@ -4963,7 +5123,6 @@ window.BRANDS = [
         "name": "トリプルS",
         "year": "2017",
         "desc": "デムナ期のダッドスニーカーブームを牽引。",
-        "unverified": true,
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Balenciaga-Triple_S.jpg?width=500",
         "credit": "Abigail1714 / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
@@ -5059,6 +5218,10 @@ window.BRANDS = [
         "text": "ヘルツォーク&ド・ムーロン設計のエピセンター東京（青山）が開店"
       },
       {
+        "year": 2004,
+        "text": "東京でスカートだけを集めた展覧会「Prada Waist Down」"
+      },
+      {
         "year": 2005,
         "text": "アーティストのエルムグリーン&ドラッグセットがテキサス州マーファに作品「Prada Marfa」を設置"
       },
@@ -5151,14 +5314,12 @@ window.BRANDS = [
       {
         "name": "ガッレリア・バッグ",
         "year": "2007頃",
-        "desc": "サフィアーノレザーのかっちりしたトート。",
-        "unverified": true
+        "desc": "サフィアーノレザーのかっちりしたトート。"
       },
       {
         "name": "Re-Edition 2000 / 2005",
         "year": "2020年代",
-        "desc": "過去のナイロンバッグの復刻。名前は元の発売年から。",
-        "unverified": true
+        "desc": "過去のナイロンバッグの復刻。名前は元の発売年から。"
       }
     ],
     "archive": [
@@ -5294,6 +5455,26 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Prada",
         "u": "https://en.wikipedia.org/wiki/Prada"
+      },
+      {
+        "t": "1stDibs：Vintage Prada runway",
+        "u": "https://www.1stdibs.com/buy/vintage-prada-runway"
+      },
+      {
+        "t": "1stDibs：Prada spring 2000",
+        "u": "https://www.1stdibs.com/buy/prada-spring-2000/"
+      },
+      {
+        "t": "Swissmiss2000：Runway Rewind Prada S/S 2000",
+        "u": "https://swissmiss2000.substack.com/p/runway-rewind-prada-ss-2000"
+      },
+      {
+        "t": "theFashionSpot：Prada, which collection is best since fall 2003?",
+        "u": "https://forums.thefashionspot.com/threads/prada-which-collection-is-best-since-fall-2003.32043/page-3"
+      },
+      {
+        "t": "FirstView：Prada",
+        "u": "https://www.firstview.com/collection_designer.php?page=12&s_d=1177"
       }
     ],
     "lines": [
@@ -5330,8 +5511,7 @@ window.BRANDS = [
           },
           {
             "year": 2009,
-            "text": "「Linea Rossa」に改称したとする資料",
-            "unverified": true
+            "text": "「Linea Rossa」に改称したとする資料"
           },
           {
             "year": 2018,
@@ -5350,13 +5530,11 @@ window.BRANDS = [
           },
           {
             "season": "1999-2000AW",
-            "note": "メインラインのテーラリングにPrada Sportの機能的なアクセサリーを合わせた。",
-            "unverified": true
+            "note": "メインラインのテーラリングにPrada Sportの機能的なアクセサリーを合わせた。"
           },
           {
             "season": "2000SS",
-            "note": "ランウェイ最後のシーズンとされる。",
-            "unverified": true
+            "note": "ランウェイ最後のシーズンとされる。"
           },
           {
             "season": "2001SS",
@@ -5378,8 +5556,7 @@ window.BRANDS = [
           {
             "name": "ツートーンのナイロン・ジップベスト",
             "year": "1999SS",
-            "desc": "古着でよく見る1999年春夏のピース。",
-            "unverified": true
+            "desc": "古着でよく見る1999年春夏のピース。"
           },
           {
             "name": "アメリカズカップ・スニーカー",
@@ -5394,8 +5571,27 @@ window.BRANDS = [
         "season": "1988-89AW",
         "title": "初のウィメンズ",
         "city": "ミラノ",
-        "note": "ローウエストと細いベルト。",
-        "unverified": true
+        "note": "ローウエストと細いベルト。"
+      },
+      {
+        "season": "1992-93AW",
+        "city": "ミラノ",
+        "note": "金のブロケードのハイウエストパンツに黒いスパンコールのトップ。"
+      },
+      {
+        "season": "1994-95AW",
+        "city": "ミラノ",
+        "note": "黒いナイロンのネルージャケット風ベスト、ベルトループつきのナイロンスカートなど、ナイロンを服に使ったシーズン。"
+      },
+      {
+        "season": "1995SS",
+        "city": "ミラノ",
+        "note": "ナイロンのジップとバックルのついたノースリーブドレス。90年代を代表するルックのひとつとされる。"
+      },
+      {
+        "season": "1995-96AW",
+        "city": "ミラノ",
+        "note": "「アグリー・シック」の流れの始まりとして販売されるジャケットがある。"
       },
       {
         "season": "1996SS",
@@ -5408,39 +5604,105 @@ window.BRANDS = [
         "season": "1996-97AW",
         "city": "ミラノ",
         "alias": "アグリー・シック",
-        "note": "春夏の流れを継いだシーズン。「ギーク・シック」「ジョリ・レード」とも。",
-        "unverified": true
+        "note": "春夏の流れを継いだシーズン。「ギーク・シック」「ジョリ・レード」とも。"
+      },
+      {
+        "season": "1996-97AW",
+        "title": "（メンズ）",
+        "city": "ミラノ",
+        "note": "ネイビーのストレッチの3つボタンスーツなど、細身のミニマルなテーラリング。"
+      },
+      {
+        "season": "1997SS",
+        "city": "ミラノ",
+        "note": "笹の葉柄の赤いシルクのパンツとジャケット、赤い3つボタンのブレザーとマキシスカートのスーツ、茶色の透けるシルクのスリップドレス。"
+      },
+      {
+        "season": "1997-98AW",
+        "city": "ミラノ",
+        "note": "茶色のフェイクファーとモヘアのコート、深いスリットの黒いウールスカート、グレーのスエードトップ、透けるスリップドレス。"
       },
       {
         "season": "1998SS",
         "title": "メンズのプレタポルテ",
         "city": "ミラノ",
-        "note": "メンズ最初のプレタポルテとする資料（Wikipediaなど）。1993年や1995年とする資料もある。",
-        "unverified": true
+        "note": "メンズ最初のプレタポルテとする資料（Wikipediaなど）。1993年や1995年とする資料もある。"
+      },
+      {
+        "season": "1998SS",
+        "city": "ミラノ",
+        "note": "黒いシルクのマンダリンカラーのトップ、ビーズ刺繍の黒いリネンスカート。"
+      },
+      {
+        "season": "1998-99AW",
+        "city": "ミラノ",
+        "note": "黒いレザーのトップ、縫い目にラバーを使った黒いウールのVネックドレス、グレーのウールのスカートスーツ。"
       },
       {
         "season": "1999SS",
         "title": "Prada Sport",
         "city": "ミラノ",
-        "note": "1998年6月発表。テクニカル素材のPrada Sportがランウェイに。アメリカズカップ・スニーカーはこのシーズンの広告で正式に登場。"
+        "note": "1998年6月発表。テクニカル素材のPrada Sportがランウェイに。アメリカズカップ・スニーカーはこのシーズンの広告で正式に登場。 ウィメンズでは茶色のキャンバスのスクエアトゥ・レースアップの厚底ローファー。"
       },
       {
         "season": "1999-2000AW",
         "city": "ミラノ",
-        "note": "メンズでニール・バレット期の代表とされるシーズン。フライトパンツなど。",
-        "unverified": true
+        "note": "メンズでニール・バレット期の代表とされるシーズン。フライトパンツなど。 黒いテクニカル素材のシングルのベルテッドトレンチ。"
       },
       {
         "season": "2000SS",
         "city": "ミラノ",
-        "note": "Prada Sportがランウェイに出た3シーズン目（最後）とされる。",
-        "unverified": true
+        "note": "Prada Sportがランウェイに出た3シーズン目（最後）とされる。"
+      },
+      {
+        "season": "2000SS",
+        "title": "（ウィメンズ）",
+        "city": "ミラノ",
+        "alias": "リップ柄",
+        "note": "20世紀初頭のフェミニズムとシャネル、スキャパレリに着想。唇柄のプリーツスカート、水玉、透け感、リボン、ハートのギャザートップ。スカートは2012年のメトロポリタン美術館「Schiaparelli and Prada: Impossible Conversations」展に展示。"
+      },
+      {
+        "season": "2001-02AW",
+        "city": "ミラノ",
+        "note": "Pradaで最も称賛されたコレクションのひとつとされる。"
+      },
+      {
+        "season": "2004SS",
+        "city": "ミラノ",
+        "alias": "ポストカード柄",
+        "note": "絵葉書柄のコットンドレス、パイソンのベルテッドトレンチ。"
+      },
+      {
+        "season": "2004-05AW",
+        "city": "ミラノ",
+        "note": "だまし絵のプリントのシルクスカート、風景をグラデーションで描いたスカート、ミンクの縁のついた緑のタフタのコート。スカートは2004年の東京「Prada Waist Down」展でも展示。"
+      },
+      {
+        "season": "2005SS",
+        "city": "ミラノ",
+        "alias": "ピーコック",
+        "note": "孔雀の羽、ラスタの雰囲気、帽子。孔雀のアップリケのシルクタフタのドレス。"
       },
       {
         "season": "2005-06AW",
         "city": "ミラノ",
-        "note": "バラのプリントがのちに名作として語られ、2018-19年秋冬で再び使われた。",
-        "unverified": true
+        "note": "バラのプリントがのちに名作として語られ、2018-19年秋冬で再び使われた。"
+      },
+      {
+        "season": "2006SS",
+        "city": "ミラノ",
+        "note": "繊細なシーズン。旅行かばんとバブルガムピンクの小物、シルクサテンのペプラムトップ。"
+      },
+      {
+        "season": "2006-07AW",
+        "city": "ミラノ",
+        "note": "黒いウールのドレスなど。ファンの評価が非常に高いシーズン。"
+      },
+      {
+        "season": "2007SS",
+        "city": "ミラノ",
+        "alias": "フリンジ",
+        "note": "レザーのフリンジ、宝石のような色、ターバン。フリンジのレザージャケットとスカート。"
       },
       {
         "season": "2007-08AW",
@@ -5458,6 +5720,16 @@ window.BRANDS = [
         "city": "ミラノ",
         "alias": "レース",
         "note": "「おばさんっぽい」素材のギピュールレースを主役にした。"
+      },
+      {
+        "season": "2009SS",
+        "city": "ミラノ",
+        "note": "くしゃくしゃの生地、見せるブラ、エルヴィス・プレスリーの音楽。リボンのついたベージュのチューブトップ。"
+      },
+      {
+        "season": "2009-10AW",
+        "city": "ミラノ",
+        "note": "1940年代のイギリスの田舎暮らしに、原始人、1920年代のフラッパー、剣闘士を混ぜたシーズン。"
       },
       {
         "season": "2010SS",
@@ -5636,8 +5908,7 @@ window.BRANDS = [
       {
         "name": "ティッシ期のロットワイラー/バンビ柄スウェット",
         "year": "2010年代前半",
-        "desc": "ストリートとラグジュアリーの融合を象徴。",
-        "unverified": true
+        "desc": "ストリートとラグジュアリーの融合を象徴。"
       }
     ],
     "archive": [],
@@ -5939,8 +6210,7 @@ window.BRANDS = [
       {
         "name": "ザ・ポーチ",
         "year": "2019",
-        "desc": "ダニエル・リー期のヒットバッグ。",
-        "unverified": true
+        "desc": "ダニエル・リー期のヒットバッグ。"
       }
     ],
     "archive": [],
@@ -6194,8 +6464,7 @@ window.BRANDS = [
       {
         "name": "編み上げのレザーブーツ",
         "year": "定番",
-        "desc": "ブランドを象徴するロングブーツ。",
-        "unverified": true
+        "desc": "ブランドを象徴するロングブーツ。"
       }
     ],
     "archive": [
@@ -6373,14 +6642,12 @@ window.BRANDS = [
       {
         "name": "マリニエール（ボーダー）",
         "year": "定番",
-        "desc": "セーラーのボーダーを再解釈。",
-        "unverified": true
+        "desc": "セーラーのボーダーを再解釈。"
       },
       {
         "name": "メッシュのタトゥー柄トップ",
         "year": "1990年代",
-        "desc": "総柄メッシュ。古着人気が非常に高い。",
-        "unverified": true
+        "desc": "総柄メッシュ。古着人気が非常に高い。"
       }
     ],
     "archive": [
@@ -6481,14 +6748,12 @@ window.BRANDS = [
       {
         "name": "ボンデージパンツ",
         "year": "Seditionaries期",
-        "desc": "パンクの象徴。",
-        "unverified": true
+        "desc": "パンクの象徴。"
       },
       {
         "name": "ロッキンホースシューズ",
         "year": "1980年代半ば",
-        "desc": "厚い木製ソールの靴。",
-        "unverified": true
+        "desc": "厚い木製ソールの靴。"
       }
     ],
     "archive": [
@@ -6637,8 +6902,7 @@ window.BRANDS = [
       {
         "name": "スカルスカーフ",
         "year": "2000年代",
-        "desc": "スカル柄のシルクスカーフ。",
-        "unverified": true
+        "desc": "スカル柄のシルクスカーフ。"
       },
       {
         "name": "アルマジロブーツ",
@@ -6802,7 +7066,6 @@ window.BRANDS = [
         "name": "ジオバスケット / ラモーンズ",
         "year": "2000年代〜",
         "desc": "ハイカットスニーカーの定番。",
-        "unverified": true,
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick_Owens_Geobasket_sneaker.jpg?width=500",
         "credit": "Reddeleon / Wikimedia Commons",
         "license": "CC0",
@@ -7000,8 +7263,7 @@ window.BRANDS = [
       {
         "name": "コンパスバッジ",
         "year": "定番",
-        "desc": "袖の取り外し式バッジ。",
-        "unverified": true
+        "desc": "袖の取り外し式バッジ。"
       },
       {
         "name": "アイスジャケット",
@@ -7011,8 +7273,7 @@ window.BRANDS = [
       {
         "name": "C.P. Companyのゴーグルジャケット",
         "year": "1988頃",
-        "desc": "フードにゴーグルがついた代表作（Mille Miglia）。",
-        "unverified": true
+        "desc": "フードにゴーグルがついた代表作（Mille Miglia）。"
       }
     ],
     "archive": [
@@ -7072,8 +7333,7 @@ window.BRANDS = [
       {
         "name": "C.P. Company",
         "designer": "マッシモ・オスティ",
-        "desc": "オスティがStone Islandより前に始めたブランド（当初は「Chester Perry」）。ゴーグル付きのジャケット（Mille Miglia）で知られる。",
-        "unverified": true
+        "desc": "オスティがStone Islandより前に始めたブランド（当初は「Chester Perry」）。ゴーグル付きのジャケット（Mille Miglia）で知られる。"
       }
     ]
   },
@@ -7364,8 +7624,7 @@ window.BRANDS = [
       },
       {
         "year": 2017,
-        "text": "繊維商社ヤギが買収したとされる",
-        "unverified": true
+        "text": "繊維商社ヤギが買収したとされる"
       },
       {
         "year": 2022,
@@ -7394,8 +7653,7 @@ window.BRANDS = [
       {
         "name": "製品洗い・加工のレザーとテーラード",
         "year": "定番",
-        "desc": "加工で表情をつけた素材使い。",
-        "unverified": true
+        "desc": "加工で表情をつけた素材使い。"
       }
     ],
     "archive": [
@@ -7492,8 +7750,7 @@ window.BRANDS = [
       {
         "name": "ミリタリーブーツ",
         "year": "1980年代後半〜",
-        "desc": "靴紐を靴底に通す構造など、軍靴由来の重厚なブーツ。",
-        "unverified": true
+        "desc": "靴紐を靴底に通す構造など、軍靴由来の重厚なブーツ。"
       }
     ],
     "archive": [
@@ -7562,7 +7819,7 @@ window.BRANDS = [
       }
     ],
     "archive": [
-      "2016年頃にアルティエリ抜きで再始動したとする話もあるが未確認。"
+      "2016年頃にアルティエリ抜きで再始動したとする話もある。"
     ],
     "related": [
       "ma",
@@ -7942,8 +8199,7 @@ window.BRANDS = [
       {
         "name": "メデューサのモチーフ",
         "year": "定番",
-        "desc": "ギリシャ神話のメデューサの頭部をロゴに使う。",
-        "unverified": true
+        "desc": "ギリシャ神話のメデューサの頭部をロゴに使う。"
       }
     ],
     "archive": [
@@ -8044,8 +8300,7 @@ window.BRANDS = [
       {
         "name": "ズッカ柄（FF）",
         "year": "定番",
-        "desc": "ラガーフェルドによるダブルFのロゴ柄。",
-        "unverified": true
+        "desc": "ラガーフェルドによるダブルFのロゴ柄。"
       }
     ],
     "archive": [
@@ -8139,8 +8394,7 @@ window.BRANDS = [
       {
         "name": "ロックスタッズ",
         "year": "2010年代",
-        "desc": "ピラミッド型のスタッズを並べたシューズやバッグ。",
-        "unverified": true
+        "desc": "ピラミッド型のスタッズを並べたシューズやバッグ。"
       }
     ],
     "archive": [],
@@ -8638,8 +8892,7 @@ window.BRANDS = [
     "history": [
       {
         "year": 1966,
-        "text": "パコ・ラバンヌが金属などの素材でつくった「着られない服」のコレクションを発表",
-        "unverified": true
+        "text": "パコ・ラバンヌが金属などの素材でつくった「着られない服」のコレクションを発表"
       },
       {
         "year": 2013,
@@ -9012,8 +9265,7 @@ window.BRANDS = [
       {
         "name": "ASICSとの協業スニーカー",
         "year": "2018〜",
-        "desc": "ASICSのランニングシューズを再構成したシリーズ。",
-        "unverified": true
+        "desc": "ASICSのランニングシューズを再構成したシリーズ。"
       }
     ],
     "archive": [],
@@ -9081,8 +9333,7 @@ window.BRANDS = [
       {
         "name": "DHLのTシャツ",
         "year": "2016SS",
-        "desc": "配送会社のロゴをそのまま使った高価なTシャツ。",
-        "unverified": true
+        "desc": "配送会社のロゴをそのまま使った高価なTシャツ。"
       }
     ],
     "archive": [
@@ -9166,8 +9417,7 @@ window.BRANDS = [
       {
         "name": "Nike「The Ten」",
         "year": 2017,
-        "desc": "Nikeの名作10足を再構成した協業。",
-        "unverified": true
+        "desc": "Nikeの名作10足を再構成した協業。"
       }
     ],
     "archive": [],
@@ -10011,8 +10261,7 @@ window.BRANDS = [
       {
         "name": "ボックスロゴ",
         "year": "定番",
-        "desc": "赤地に白抜きのロゴ。",
-        "unverified": true
+        "desc": "赤地に白抜きのロゴ。"
       }
     ],
     "archive": [],
@@ -10144,8 +10393,7 @@ window.BRANDS = [
     "history": [
       {
         "year": 1968,
-        "text": "カルバン・クラインが創業（創業年は一般に1968年）",
-        "unverified": true
+        "text": "カルバン・クラインが創業（創業年は一般に1968年）"
       },
       {
         "year": 2016,
@@ -10186,7 +10434,7 @@ window.BRANDS = [
       "raf",
       "jilsander"
     ],
-    "note": "「205W39NYC」はラフ期のコレクションラインの名前（未確認）。",
+    "note": "「205W39NYC」はラフ期のコレクションラインの名前。",
     "sources": [
       {
         "t": "Business Wire：Calvin Klein and Chief Creative Officer Raf Simons Part Ways",
@@ -10224,8 +10472,7 @@ window.BRANDS = [
     "history": [
       {
         "year": 2005,
-        "text": "トム・フォードが自身のブランドを始める（年は概算）",
-        "unverified": true
+        "text": "トム・フォードが自身のブランドを始める（年は概算）"
       },
       {
         "year": 2023,
@@ -11474,8 +11721,7 @@ window.BRANDS = [
       },
       {
         "year": 1997,
-        "text": "ショーの発表地をニューヨークからロンドンへ移す",
-        "unverified": true
+        "text": "ショーの発表地をニューヨークからロンドンへ移す"
       },
       {
         "year": 1999,
@@ -11495,8 +11741,7 @@ window.BRANDS = [
       },
       {
         "year": 2011,
-        "text": "女性監督による短編映画シリーズ「Miu Miu Women's Tales」開始",
-        "unverified": true
+        "text": "女性監督による短編映画シリーズ「Miu Miu Women's Tales」開始"
       },
       {
         "year": 2015,
@@ -11540,8 +11785,7 @@ window.BRANDS = [
       {
         "season": "1995",
         "title": "ドリュー・バリモアのキャンペーン",
-        "note": "映画『KIDS』公開の数か月後で、ブランドの最初の突破口とされる。",
-        "unverified": true
+        "note": "映画『KIDS』公開の数か月後で、ブランドの最初の突破口とされる。"
       },
       {
         "season": "1996SS",
@@ -11551,20 +11795,54 @@ window.BRANDS = [
         "note": "クロエ・セヴィニーがショーのオープニングと広告（ユルゲン・テラー撮影）。メンズライクな服とスライドサンダル。"
       },
       {
+        "season": "1996-97AW",
+        "city": "ニューヨーク",
+        "note": "幾何学柄のジャケットとスカートのスーツ、茶とベージュのプリーツのウールスカート。"
+      },
+      {
+        "season": "1997SS",
+        "note": "透ける黒いコットンのドレス。"
+      },
+      {
         "season": "1997-98AW",
         "city": "ロンドン",
-        "note": "黒のウールのマキシコートなど。",
-        "unverified": true
+        "note": "黒のウールのマキシコートなど。 チャコールのフリースウールのドレス。"
+      },
+      {
+        "season": "1998SS",
+        "note": "鏡張りのヒールの金色のパンプス。"
+      },
+      {
+        "season": "1998-99AW",
+        "note": "フリルのついたミニマルな黒いトップ。"
+      },
+      {
+        "season": "1999SS",
+        "note": "オリーブのナイロンの非対称なユーティリティバッグ、ベルトつきの淡いグレーのテクニカル素材のドレス。メンズがウィメンズと合同で登場。"
       },
       {
         "season": "1999-2000AW",
-        "note": "蝶結びのリボンモチーフ。メンズが初めて単独でランウェイに出たシーズンとされる。"
+        "note": "蝶結びのリボンモチーフ。メンズが初めて単独でランウェイに出たシーズンとされる。 フリルの黒いストラップレスのマキシドレス。"
+      },
+      {
+        "season": "2000-01AW",
+        "city": "ミラノ",
+        "note": "ミラノで発表。"
+      },
+      {
+        "season": "2001SS",
+        "city": "ミラノ",
+        "note": "ミラノで発表。"
+      },
+      {
+        "season": "2002SS",
+        "city": "ミラノ",
+        "note": "ミラノで発表。"
       },
       {
         "season": "2006SS",
         "city": "パリ",
-        "note": "1950〜60年代のスペースエイジを現代風に。",
-        "unverified": true
+        "note": "1950〜60年代のスペースエイジを現代風に。"
       },
       {
         "season": "2008SS",
@@ -11648,8 +11926,7 @@ window.BRANDS = [
       {
         "name": "バレエシューズ",
         "year": "2020年代",
-        "desc": "近年のヒット商品。",
-        "unverified": true
+        "desc": "近年のヒット商品。"
       }
     ],
     "archive": [
@@ -11708,6 +11985,18 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Miu Miu",
         "u": "https://en.wikipedia.org/wiki/Miu_Miu"
+      },
+      {
+        "t": "1stDibs：Miu Miu 90s",
+        "u": "https://www.1stdibs.com/buy/miu-miu-90s"
+      },
+      {
+        "t": "1stDibs：Miu Miu 1998",
+        "u": "https://www.1stdibs.com/buy/miu-miu-1998"
+      },
+      {
+        "t": "FirstView：Miu Miu",
+        "u": "https://www.firstview.com/collection_designer.php?page=3&s_d=1019&s_t=7&s_n=1"
       }
     ]
   }

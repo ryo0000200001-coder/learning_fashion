@@ -123,7 +123,6 @@ h3 { font-size: 16px; }
 .brand-card h3 { font-size: 17px; }
 .brand-card .ja { font-size: 12px; color: var(--muted); }
 .brand-card .meta { margin-top: auto; padding-top: 12px; font-size: 12px; color: var(--muted); }
-.brand-card.learned::after { content: "学習済み"; position: absolute; top: 12px; right: 12px; font-size: 10px; color: var(--ok); background: var(--ok-soft); padding: 0 6px; border-radius: 4px; }
 .tag { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); margin: 2px 4px 2px 0; text-decoration: none; }
 .tag.origin-domestic { border-color: var(--accent); color: var(--accent); }
 .empty { color: var(--muted); padding: 32px 0; }
@@ -210,6 +209,50 @@ h3 { font-size: 16px; }
 .sources li { margin-bottom: 4px; word-break: break-word; }
 .sources a { color: var(--accent); }
 
+/* lines */
+.lines { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); overflow: hidden; }
+.line-row { display: grid; grid-template-columns: 110px 1fr; gap: 16px; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+.line-row:last-child { border-bottom: 0; }
+.line-yrs { font-family: var(--serif); font-weight: 700; font-variant-numeric: tabular-nums; font-size: 14px; }
+.line-end { display: block; font-family: var(--sans); font-weight: 400; font-size: 11px; color: var(--muted); }
+.line-name { font-weight: 700; }
+.line-des { font-size: 12px; color: var(--accent); }
+.line-detail { display: block; padding: 0; }
+.line-detail > summary { display: grid; grid-template-columns: 110px 1fr auto; gap: 16px; padding: 10px 16px; cursor: pointer; list-style: none; }
+.line-detail > summary::-webkit-details-marker { display: none; }
+.line-detail > summary:hover { background: var(--bg); }
+.line-more { font-size: 11px; color: var(--accent); white-space: nowrap; align-self: start; padding-top: 3px; }
+.line-detail[open] .line-more { opacity: .6; }
+.line-body { padding: 4px 16px 16px 142px; }
+.line-body h4 { font-family: var(--serif); font-size: 14px; margin: 14px 0 8px; }
+.line-body .ctable, .line-body .items { margin-bottom: 4px; }
+.small-history { font-size: 13px; }
+
+/* item photos */
+.item { display: flex; flex-direction: column; padding: 0; overflow: hidden; }
+.item-body { padding: 16px; }
+.item-img { margin: 0; background: var(--bg); border-bottom: 1px solid var(--line); }
+.item-img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.item-img figcaption { font-size: 10px; color: var(--muted); padding: 4px 10px; line-height: 1.4; }
+.item-img figcaption a { color: var(--muted); }
+.imgsearch { display: inline-block; margin-top: 8px; font-size: 12px; color: var(--accent); text-decoration: none; }
+
+.imgrow { display: flex; gap: 6px; align-items: center; }
+.imgrow input { flex: 1; }
+.imgrow .btn { white-space: nowrap; }
+
+/* home */
+.home-search { margin: 8px 0 24px; }
+.home-search input { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+.home-search input:focus { outline: 2px solid var(--ink); outline-offset: -1px; }
+.bindex, .hlist { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 4px 16px; }
+.bindex a, .hlist a { display: flex; flex-direction: column; text-decoration: none; padding: 6px 0; border-bottom: 1px solid var(--line); }
+.bindex a b, .hlist a b { font-weight: 500; }
+.bindex a span, .hlist a span { font-size: 11px; color: var(--muted); }
+.bindex a:hover b, .hlist a:hover b { text-decoration: underline; }
+#hindex .chips { margin: 0 0 8px; }
+a.chip { text-decoration: none; }
+
 /* chips */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: -8px 0 16px; }
 .chip { font: inherit; font-size: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); border-radius: 99px; padding: 3px 12px; cursor: pointer; }
@@ -278,6 +321,9 @@ details.help ol { padding-left: 20px; }
   .succession li { grid-template-columns: 1fr; gap: 0; }
   .tl-row, .tl-axis { grid-template-columns: 110px 1fr; }
   .crow { grid-template-columns: 1fr; gap: 2px; }
+  .line-row { grid-template-columns: 1fr; gap: 2px; }
+  .line-detail > summary { grid-template-columns: 1fr; gap: 2px; }
+  .line-body { padding: 4px 12px 14px; }
   .le-cells .lf { flex-basis: 100%; }
   .le-cells .lf-check { flex-basis: auto; }
   .eform fieldset { padding: 10px 12px 12px; }

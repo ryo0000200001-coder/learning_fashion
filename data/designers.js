@@ -136,7 +136,7 @@ window.DESIGNERS = {
   "martens": {
     "en": "Glenn Martens",
     "ja": "グレン・マーティンス",
-    "bio": "Y/Project、Dieselを経てMaison Margielaへ。"
+    "bio": "Y/Project（〜2024）、Diesel（2020〜2026）を経て2025年からMaison Margiela。2026年9月、Margielaに専念するためDieselを離れると発表。"
   },
   "meunier": {
     "en": "Sébastien Meunier",
@@ -157,7 +157,7 @@ window.DESIGNERS = {
   "demna": {
     "en": "Demna",
     "ja": "デムナ",
-    "bio": "Vetementsの共同設立者。Balenciagaを10年率いたのちGucciへ。"
+    "bio": "Vetementsの共同設立者（2014〜2019）。Balenciagaを10年率いたのち2025年からGucci。2026年2月にGucciの初コレクション「Primavera」。"
   },
   "blazy": {
     "en": "Matthieu Blazy",
@@ -227,7 +227,7 @@ window.DESIGNERS = {
   "galliano": {
     "en": "John Galliano",
     "ja": "ジョン・ガリアーノ",
-    "bio": "Givenchy、Diorを経て2014年からMaison Margiela。"
+    "bio": "Givenchy、Dior（1996〜2011）を経て2014年からMaison Margiela。2024年12月に退任。"
   },
   "chiuri": {
     "en": "Maria Grazia Chiuri",
@@ -272,7 +272,7 @@ window.DESIGNERS = {
   "piccioli": {
     "en": "Pierpaolo Piccioli",
     "ja": "ピエールパオロ・ピッチョーリ",
-    "bio": "Valentinoを長く率いたのちBalenciagaへ。"
+    "bio": "Valentinoを長く率い（2008〜2016年はキウリと共同）、2025年5月にBalenciagaへ。2026年11月に退任。"
   },
   "givenchy": {
     "en": "Hubert de Givenchy",
@@ -340,7 +340,7 @@ window.DESIGNERS = {
   "tomford": {
     "en": "Tom Ford",
     "ja": "トム・フォード",
-    "bio": "1990年代にGucciを劇的に再生。YSLも兼任。"
+    "bio": "1990年代にGucciを劇的に再生させ、YSLも兼任（1999〜2004）。2005年頃に自身のブランドを始めた。"
   },
   "giannini": {
     "en": "Frida Giannini",
@@ -521,5 +521,390 @@ window.DESIGNERS = {
     "en": "Simone Cecchetto",
     "ja": "シモーネ・チェケット",
     "bio": "ほぼ独学で靴づくりを学んだ。リック・オウエンスとの仕事の経験もある。"
+  },
+  "martinerose": {
+    "en": "Martine Rose",
+    "ja": "マーティン・ローズ",
+    "bio": "ロンドンを拠点にする英国・ジャマイカ系のデザイナー。2007年に自身のレーベルを設立。2015年からデムナのもとでBalenciagaメンズのコンサルタントを務め、2026年11月にBalenciagaのクリエイティブディレクターに就任。"
+  },
+  "gianniversace": {
+    "en": "Gianni Versace",
+    "ja": "ジャンニ・ヴェルサーチ",
+    "bio": "Versace創業者。1997年にマイアミで殺害された。"
+  },
+  "donatella": {
+    "en": "Donatella Versace",
+    "ja": "ドナテラ・ヴェルサーチ",
+    "bio": "兄ジャンニの死後、1997年からVersaceを率いた。2025年3月にクリエイティブディレクターを退き、チーフ・ブランド・アンバサダーに。"
+  },
+  "vitale": {
+    "en": "Dario Vitale",
+    "ja": "ダリオ・ヴィターレ",
+    "bio": "Miu Miuなどを経て2025年にVersaceのチーフクリエイティブオフィサーに就任したが、Prada GroupによるVersace買収完了直後の2025年12月に退任。2026年9月にEmporio Armaniのクリエイティブディレクターへ。"
+  },
+  "mulier": {
+    "en": "Pieter Mulier",
+    "ja": "ピーター・ミュリエ",
+    "bio": "ベルギー出身。ラフ・シモンズの右腕として長く働き、2021年にAlaïa、2026年7月からVersaceのチーフクリエイティブオフィサー。"
+  },
+  "alaia": {
+    "en": "Azzedine Alaïa",
+    "ja": "アズディン・アライア",
+    "bio": "チュニジア出身のクチュリエ。身体に沿う構築的なシルエットで知られた。"
+  },
+  "valentinog": {
+    "en": "Valentino Garavani",
+    "ja": "ヴァレンティノ・ガラヴァーニ",
+    "bio": "1932年生まれ。Valentino創業者。2026年1月19日にローマで93歳で死去。"
+  },
+  "silviafendi": {
+    "en": "Silvia Venturini Fendi",
+    "ja": "シルヴィア・ヴェントゥリーニ・フェンディ",
+    "bio": "創業家の3代目。1997年にバゲットを生んだ。"
+  },
+  "pbalmain": {
+    "en": "Pierre Balmain",
+    "ja": "ピエール・バルマン"
+  },
+  "decarnin": {
+    "en": "Christophe Decarnin",
+    "ja": "クリストフ・デカルナン"
+  },
+  "rousteing": {
+    "en": "Olivier Rousteing",
+    "ja": "オリヴィエ・ルスタン",
+    "bio": "2011年に25歳でBalmainのクリエイティブディレクターに。2025年に退任し、2026年7月にRabanneへ。"
+  },
+  "tron": {
+    "en": "Antonin Tron",
+    "ja": "アントナン・トロン",
+    "bio": "自身のレーベルAtlein（2016年〜）の創業者。2025年11月にBalmainのクリエイティブディレクター。"
+  },
+  "jlanvin": {
+    "en": "Jeanne Lanvin",
+    "ja": "ジャンヌ・ランバン"
+  },
+  "elbaz": {
+    "en": "Alber Elbaz",
+    "ja": "アルベール・エルバス",
+    "bio": "2001年から2015年までLanvinを率いた。2021年逝去。"
+  },
+  "sialelli": {
+    "en": "Bruno Sialelli",
+    "ja": "ブルーノ・シアレッリ"
+  },
+  "copping": {
+    "en": "Peter Copping",
+    "ja": "ピーター・コッピング",
+    "bio": "Balenciaga、Nina Ricci、Oscar de la Rentaを経て2024年にLanvinのアーティスティックディレクター。"
+  },
+  "kenzotakada": {
+    "en": "Kenzo Takada",
+    "ja": "高田賢三",
+    "bio": "1970年にパリでブティック「ジャングル・ジャップ」を開いた。2020年逝去。"
+  },
+  "marras": {
+    "en": "Antonio Marras",
+    "ja": "アントニオ・マラス"
+  },
+  "limleon": {
+    "en": "Carol Lim & Humberto Leon",
+    "ja": "キャロル・リム&ウンベルト・レオン",
+    "bio": "Opening Ceremonyの創業者。Kenzoでタイガーのスウェットをヒットさせた。"
+  },
+  "baptista": {
+    "en": "Felipe Oliveira Baptista",
+    "ja": "フェリペ・オリヴェイラ・バプティスタ"
+  },
+  "aghion": {
+    "en": "Gaby Aghion",
+    "ja": "ギャビー・アギョン",
+    "bio": "1952年にChloéを創業し、高級プレタポルテを始めた。"
+  },
+  "stellamccartney": {
+    "en": "Stella McCartney",
+    "ja": "ステラ・マッカートニー"
+  },
+  "macgibbon": {
+    "en": "Hannah MacGibbon",
+    "ja": "ハンナ・マクギボン"
+  },
+  "ramsaylevi": {
+    "en": "Natacha Ramsay-Levi",
+    "ja": "ナターシャ・ラムゼイ＝レヴィ"
+  },
+  "hearst": {
+    "en": "Gabriela Hearst",
+    "ja": "ガブリエラ・ハースト"
+  },
+  "kamali": {
+    "en": "Chemena Kamali",
+    "ja": "シェメナ・カマリ",
+    "bio": "Saint Laurentでヴァカレロのもとウィメンズのデザインディレクター（2016〜2023）を務め、2024年にChloéのクリエイティブディレクター。"
+  },
+  "dossena": {
+    "en": "Julien Dossena",
+    "ja": "ジュリアン・ドッセーナ"
+  },
+  "tmugler": {
+    "en": "Thierry Mugler",
+    "ja": "ティエリー・ミュグレー",
+    "bio": "1973年（1974年とする資料も）に自身のブランドを始めた。2022年逝去。"
+  },
+  "formichetti": {
+    "en": "Nicola Formichetti",
+    "ja": "ニコラ・フォルミケッティ"
+  },
+  "cadwallader": {
+    "en": "Casey Cadwallader",
+    "ja": "ケイシー・キャドワラダー"
+  },
+  "castrofreitas": {
+    "en": "Miguel Castro Freitas",
+    "ja": "ミゲル・カストロ・フレイタス"
+  },
+  "craiggreen": {
+    "en": "Craig Green",
+    "ja": "クレイグ・グリーン"
+  },
+  "kiko": {
+    "en": "Kiko Kostadinov",
+    "ja": "キコ・コスタディノフ",
+    "bio": "ブルガリア出身、ロンドンを拠点にするデザイナー。"
+  },
+  "guram": {
+    "en": "Guram Gvasalia",
+    "ja": "グラム・ヴァザリア",
+    "bio": "デムナの弟。Vetementsの共同設立者で、2021年12月にクリエイティブディレクター。"
+  },
+  "ibkamara": {
+    "en": "Ib Kamara",
+    "ja": "イブ・カマラ",
+    "bio": "スタイリスト。ヴァージル・アブローの死後、2022年にOff-Whiteのアート&イメージディレクター、のちクリエイティブディレクター。2026年に退任。"
+  },
+  "wvb": {
+    "en": "Walter Van Beirendonck",
+    "ja": "ウォルター・ヴァン・ベイレンドンク",
+    "bio": "アントワープ・シックスの一人。1985年からアントワープ王立芸術アカデミーで教え、のちに学科長（〜2022）。"
+  },
+  "chalayan": {
+    "en": "Hussein Chalayan",
+    "ja": "フセイン・チャラヤン",
+    "bio": "キプロス生まれ、ロンドンを拠点にするデザイナー。服をテクノロジーやアートと結びつけるコンセプチュアルな作品で知られる。"
+  },
+  "jebbia": {
+    "en": "James Jebbia",
+    "ja": "ジェームス・ジェビア",
+    "bio": "Stüssyのニューヨーク店の立ち上げに関わったのち、1994年にSupremeを創業。"
+  },
+  "shawnstussy": {
+    "en": "Shawn Stussy",
+    "ja": "ショーン・ステューシー",
+    "bio": "カリフォルニア州ラグーナビーチのサーフボード職人。"
+  },
+  "stark": {
+    "en": "Richard Stark",
+    "ja": "リチャード・スターク",
+    "bio": "Chrome Hearts創業者。1994年以降は妻ローリー・リン・スタークと経営。"
+  },
+  "kansai": {
+    "en": "Kansai Yamamoto",
+    "ja": "山本寛斎",
+    "bio": "1971年に日本人として初めてロンドンでショーを開き、デヴィッド・ボウイのジギー・スターダスト期の衣装を手がけた。2020年7月21日に76歳で死去。"
+  },
+  "yamashita": {
+    "en": "Takao Yamashita",
+    "ja": "山下隆生",
+    "bio": "独学で服づくりを学び、1990年にbeauty:beastの前身を始める。アニメとファッションを結びつけた先駆者。"
+  },
+  "tsumura": {
+    "en": "Kosuke Tsumura",
+    "ja": "津村耕佑",
+    "bio": "1983年に三宅デザイン事務所に入り、パリコレクションを担当。1994年にFINAL HOMEを始め、2015年に独立。"
+  },
+  "nakagawa": {
+    "en": "Masahiro Nakagawa & LICA",
+    "ja": "中川正博&LICA"
+  },
+  "obana": {
+    "en": "Daisuke Obana",
+    "ja": "尾花大輔",
+    "bio": "1995年に古着店「go-getter」の立ち上げに関わる。2000年に「ミスターハリウッド」を開き、2001年にN.HOOLYWOODを設立。"
+  },
+  "shimizu": {
+    "en": "Keizo Shimizu",
+    "ja": "清水慶三",
+    "bio": "1988年にセレクトショップNEPENTHESを創業。1995年にNEEDLESを始める。"
+  },
+  "mori": {
+    "en": "Atsuhiko Mori",
+    "ja": "森敦彦",
+    "bio": "元Jリーガー。2005年に同じく元Jリーガーの石塚啓次とWACKO MARIAを設立。"
+  },
+  "furuta": {
+    "en": "Yasuko Furuta",
+    "ja": "古田泰子"
+  },
+  "kurogouchi": {
+    "en": "Maiko Kurogouchi",
+    "ja": "黒河内真衣子"
+  },
+  "morinaga": {
+    "en": "Kunihiko Morinaga",
+    "ja": "森永邦彦"
+  },
+  "ino": {
+    "en": "Masayuki Ino",
+    "ja": "井野将之",
+    "bio": "2012年にパタンナーの村上高士とdoubletを設立。2018年にLVMHプライズのグランプリ。"
+  },
+  "iwai": {
+    "en": "Ryota Iwai",
+    "ja": "岩井良太"
+  },
+  "leoni": {
+    "en": "Veronica Leoni",
+    "ja": "ヴェロニカ・レオーニ",
+    "bio": "Jil Sander、Céline、Moncler、The Rowを経て自身のQUIRAを設立（2023年LVMHプライズのファイナリスト）。2024年にCalvin Klein Collectionのクリエイティブディレクター、2026年10月に退任。"
+  },
+  "ackermann": {
+    "en": "Haider Ackermann",
+    "ja": "ハイダー・アッカーマン",
+    "bio": "コロンビア生まれ、アントワープ王立芸術アカデミーで学ぶ。自身のレーベル（2001〜2003年頃に開始）、Berluti（2016〜2018）、Jean Paul Gaultierクチュールのゲスト（2023年春夏）を経て、2024年9月からTom Ford。Canada Gooseのクリエイティブディレクターも兼任。"
+  },
+  "hawkings": {
+    "en": "Peter Hawkings",
+    "ja": "ピーター・ホーキングス"
+  },
+  "rosso": {
+    "en": "Renzo Rosso",
+    "ja": "レンツォ・ロッソ",
+    "bio": "Dieselの創業者で、Margiela、Jil Sander、Marniなどを持つOTBグループの会長。"
+  },
+  "okaniwa": {
+    "en": "Tomoaki Okaniwa",
+    "ja": "岡庭智明",
+    "bio": "1963年長野生まれ。絵画を学んだのち、1987年にキャタピラープロデュイを設立。縫製まで自ら手がけ、2001年にThe Viridi-anneを始めた。"
+  },
+  "horikawa": {
+    "en": "Tatsuro Horikawa",
+    "ja": "堀川達郎"
+  },
+  "nishida": {
+    "en": "Daisuke Nishida",
+    "ja": "西田大介",
+    "bio": "レスリングや医療の道を経てDEVOAを始めた異色の経歴。"
+  },
+  "fujiwara_h": {
+    "en": "Hiroshi Fujiwara",
+    "ja": "藤原ヒロシ",
+    "bio": "裏原宿の「ゴッドファーザー」と呼ばれる。GOODENOUGH、fragment designなどを手がけた。"
+  },
+  "kiyonaga": {
+    "en": "Hirofumi Kiyonaga",
+    "ja": "清永浩文",
+    "bio": "A.P.C.の東京で7年働いたのち、1998年にSOPHを始める。2022年に代表を退任。"
+  },
+  "vansaene": {
+    "en": "Dirk Van Saene",
+    "ja": "ダーク・ヴァン・セーヌ",
+    "bio": "アントワープ・シックスの一人。1981年にアカデミーを卒業。現在は主に彫刻家・画家として活動。"
+  },
+  "yee": {
+    "en": "Marina Yee",
+    "ja": "マリナ・イー",
+    "bio": "アントワープ・シックスの一人。1981年の卒業後すぐに自身のブランド「Marie」を始めたが、1988年にグループを離れた。2025年11月にがんで死去。"
+  },
+  "branquinho": {
+    "en": "Veronique Branquinho",
+    "ja": "ヴェロニク・ブランキーニョ"
+  },
+  "vandevorst": {
+    "en": "An Vandevorst & Filip Arickx",
+    "ja": "アン・ヴァンデヴォースト&フィリップ・アリックス"
+  },
+  "serfaty": {
+    "en": "Yohan Serfaty",
+    "ja": "ヨハン・セルファティ",
+    "bio": "Y/Projectの共同創業者。2013年にがんで死去。"
+  },
+  "kikuchi": {
+    "en": "Takeo Kikuchi",
+    "ja": "菊池武夫",
+    "bio": "1970年にBIGI、1975年にMEN'S BIGIを設立し、1984年にワールドへ移ってTAKEO KIKUCHIを始めた。"
+  },
+  "fmoschino": {
+    "en": "Franco Moschino",
+    "ja": "フランコ・モスキーノ",
+    "bio": "1983年に自身のブランドを始め、ファッションを皮肉るユーモアで知られた。1994年9月に死去。"
+  },
+  "jeremyscott": {
+    "en": "Jeremy Scott",
+    "ja": "ジェレミー・スコット"
+  },
+  "renne": {
+    "en": "Davide Renne",
+    "ja": "ダヴィデ・レンネ",
+    "bio": "2023年10月にMoschinoのクリエイティブディレクターに就任したが、約10日後の11月に急逝。"
+  },
+  "appiolaza": {
+    "en": "Adrian Appiolaza",
+    "ja": "アドリアン・アッピオラーザ",
+    "bio": "Loeweなどを経て2024年1月にMoschinoのクリエイティブディレクター。2026年6月に退任。"
+  },
+  "castiglioni": {
+    "en": "Consuelo Castiglioni",
+    "ja": "コンスエロ・カスティリオーニ"
+  },
+  "risso": {
+    "en": "Francesco Risso",
+    "ja": "フランチェスコ・リッソ"
+  },
+  "rogge": {
+    "en": "Meryll Rogge",
+    "ja": "メリル・ロッゲ",
+    "bio": "Marc Jacobs（2008〜2015）、Dries Van Notenのウィメンズの責任者を経て2020年に自身のレーベル。2025年7月にMarniのクリエイティブディレクター。"
+  },
+  "thombrowne": {
+    "en": "Thom Browne",
+    "ja": "トム・ブラウン"
+  },
+  "rachelscott": {
+    "en": "Rachel Scott",
+    "ja": "レイチェル・スコット"
+  },
+  "olsens": {
+    "en": "Mary-Kate & Ashley Olsen",
+    "ja": "メアリー＝ケイト&アシュレー・オルセン"
+  },
+  "suzuki": {
+    "en": "Daiki Suzuki",
+    "ja": "鈴木大器",
+    "bio": "NEPENTHESのバイヤーを経て、1999年にニューヨークでEngineered Garmentsを始めた。"
+  },
+  "neilbarrett": {
+    "en": "Neil Barrett",
+    "ja": "ニール・バレット",
+    "bio": "GucciのメンズやPradaのメンズを担当したのち、1999年に自身のブランドを始めた。Prada Sportの立ち上げ期にかかわったとされる。"
+  },
+  "mello": {
+    "en": "Dawn Mello",
+    "ja": "ドーン・メロ",
+    "bio": "Bergdorf Goodmanの幹部から1989年にGucciへ。エグゼクティブVP兼クリエイティブディレクターとして再建を指揮し、トム・フォードを起用した。"
+  },
+  "facchinetti": {
+    "en": "Alessandra Facchinetti",
+    "ja": "アレッサンドラ・ファッキネッティ",
+    "bio": "トム・フォードの後任としてGucciのウィメンズを担当（2005年春夏・秋冬の2シーズン）。のちにValentinoなど。"
+  },
+  "johnray": {
+    "en": "John Ray",
+    "ja": "ジョン・レイ",
+    "bio": "トム・フォードのもとでGucciのメンズを手がけ、フォード退任後はメンズのクリエイティブディレクター。"
+  },
+  "paulhelbers": {
+    "en": "Paul Helbers",
+    "ja": "ポール・ヘルバース",
+    "bio": "マーク・ジェイコブスのもとで2006〜2011年にLouis Vuittonのメンズのスタジオを率いた。"
   }
 };

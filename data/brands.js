@@ -93,7 +93,8 @@ window.BRANDS = [
     "archive": [
       "タグの「AD1994」のような表記は1988年頃から入る製造年の目安。春夏物は前年のAD表記になることが多く、AD＝シーズンではない点に注意。",
       "AD表記のないものは1980年代以前の可能性がある（ただしそれだけで真贋は判断できない）。",
-      "HOMME / HOMME PLUS / HOMME DEUX / tricot / robe de chambre など、ライン名で狙いや価格帯が大きく異なる。"
+      "HOMME / HOMME PLUS / HOMME DEUX / tricot / robe de chambre など、ライン名で狙いや価格帯が大きく異なる。",
+      "HOMME PLUSはケア表示・素材のタグに年が入るので、シーズンを特定しやすい。"
     ],
     "related": [
       "junya",
@@ -136,6 +137,14 @@ window.BRANDS = [
       {
         "t": "nippon.com：Kawakubo Rei's Continuous Fashion Revolution",
         "u": "https://www.nippon.com/en/articles/-/13468"
+      },
+      {
+        "t": "Le Petit Archive：Comme des Garçons Homme Plus SS 05",
+        "u": "https://www.lepetitarchive.com/collections-comme-des-garcons-homme-plus-ss-05/"
+      },
+      {
+        "t": "theFashionSpot：Comme des Garçons Menswear Collections Archive",
+        "u": "https://forums.thefashionspot.com/threads/comme-des-gar%C3%A7ons-menswear-collections-archive.40099/page-2"
       }
     ],
     "lines": [
@@ -264,6 +273,23 @@ window.BRANDS = [
         "city": "パリ",
         "alias": "フラットコレクション",
         "note": "平面的な服。"
+      },
+      {
+        "season": "1985SS",
+        "title": "HOMME PLUS 最初のコレクション",
+        "city": "パリ"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "Sleep（HOMME PLUS）",
+        "city": "パリ",
+        "note": "パジャマのようなルックが論争を呼び、川久保は和解の意思としてパジャマを商品から外した。"
+      },
+      {
+        "season": "2005SS",
+        "title": "（ピンク・パンサー／HOMME PLUS）",
+        "city": "パリ",
+        "note": "70年代風の柄とピンク・パンサーのサイクルジャージ。ジュエリーはジュディ・ブレイム。"
       }
     ]
   },
@@ -318,6 +344,16 @@ window.BRANDS = [
         "name": "パッチワーク・ワークウェア",
         "year": "2000年代〜",
         "desc": "デニムやワーク素材を切り替えたMANの定番。Levi's、Carhartt、The North Faceなどとの協業も多い。"
+      },
+      {
+        "name": "Techno Couture のハニカム・ドレス",
+        "year": "2000-01AW",
+        "desc": "ポリエステル・オーガンザを重ねた彫刻的なイブニングドレス。"
+      },
+      {
+        "name": "Levi's とのコラボデニム",
+        "year": "定番",
+        "desc": "JUNYA WATANABE MANを代表する協業。パッチワークや再構築。"
       }
     ],
     "archive": [
@@ -335,6 +371,22 @@ window.BRANDS = [
       {
         "t": "Grailed：The Mythology of Junya Watanabe",
         "u": "https://www.grailed.com/drycleanonly/junya-watanabe-master-class"
+      },
+      {
+        "t": "System Magazine：Junya Watanabe runway archives 1993-2022",
+        "u": "https://system-magazine.com/issues/issue-20/junya-watanabe-runway-archives-1993-2022"
+      },
+      {
+        "t": "CDG Archive：Junya Watanabe",
+        "u": "https://cdgarchive.com/label/JUNYA_WATANABE"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2000-01AW",
+        "title": "Techno Couture",
+        "city": "パリ",
+        "note": "バックパックに使うような極薄のポリエステル・オーガンザを何層も重ねたハニカム状のラフ。ヴィオネのバイアスやディオールのニュールックなどクチュールの型をパンクの刃で切り刻む。メトロポリタン美術館が所蔵。直前のシーズンは「雨（撥水）」がテーマ。"
       }
     ]
   },
@@ -443,6 +495,14 @@ window.BRANDS = [
       {
         "t": "thefashiondb：Limi Yamamoto",
         "u": "https://thefashiondb.com/people/limi-yamamoto"
+      },
+      {
+        "t": "Mara Marietta：Yohji Yamamoto（オリヴィエ・サイヤールの本から名作シーズン）",
+        "u": "https://www.maramarietta.com/the-arts/fashion/yohji-yamamoto/"
+      },
+      {
+        "t": "Yokogao Magazine：Yohji Yamamoto - The Poet of Black",
+        "u": "https://www.yokogaomag.com/editorial/who-is-yohji-yamamoto-japanese-fashion-designer"
       }
     ],
     "lines": [
@@ -501,6 +561,72 @@ window.BRANDS = [
         "name": "Yohji Yamamoto Collections",
         "from": 2021,
         "desc": "2021-22年秋冬から。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1981",
+        "title": "（パリ・デビュー）",
+        "city": "パリ",
+        "note": "川久保玲と同時期のパリデビュー。大きく、破れたような服が論争を呼んだ。"
+      },
+      {
+        "season": "1983SS",
+        "title": "",
+        "city": "パリ",
+        "note": "オリヴィエ・サイヤールが選ぶ名作シーズンの一つ（以下同）。"
+      },
+      {
+        "season": "1986-87AW",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "1991-92AW",
+        "title": "（ウェディングドレス）",
+        "city": "パリ",
+        "note": "メトロポリタン美術館がこのシーズンのウェディングドレスを所蔵。"
+      },
+      {
+        "season": "1992SS",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "1995SS",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "1996-97AW",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "1997SS",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "1998SS",
+        "title": "",
+        "city": "パリ",
+        "note": "それまでの禁欲的な美学から離れ、柔らかくロマンティックな方向へ。"
+      },
+      {
+        "season": "1999SS",
+        "title": "",
+        "city": "パリ"
+      },
+      {
+        "season": "2003SS",
+        "title": "",
+        "city": "パリ"
       }
     ]
   },
@@ -597,6 +723,11 @@ window.BRANDS = [
         "name": "BAO BAO",
         "year": 2010,
         "desc": "三角形のピースを組み合わせた、形が変わるバッグ。"
+      },
+      {
+        "name": "フライング・ソーサー・ドレス",
+        "year": "1994SS",
+        "desc": "円盤状のプリーツを重ねたドレス。"
       }
     ],
     "archive": [
@@ -624,6 +755,18 @@ window.BRANDS = [
       {
         "t": "modescape：歴代デザイナーや展開ラインの特徴",
         "u": "https://www.modescape.com/magazine/issey-miyake-features-of-designers-and-lines.html"
+      },
+      {
+        "t": "Metropolis：The A to Z of Issey Miyake",
+        "u": "https://metropolismag.com/viewpoints/the-a-to-z-of-issey-miyake/"
+      },
+      {
+        "t": "The Art Newspaper：Issey Miyake obituary",
+        "u": "https://www.theartnewspaper.com/2022/08/09/issey-miyake-fashion-designer-obituary"
+      },
+      {
+        "t": "ArtReview：Issey Miyake 1938–2022",
+        "u": "https://artreview.com/issey-miyake-pioneer-for-fashion-at-the-vanguard-of-art-1938-2022/"
       }
     ],
     "lines": [
@@ -671,6 +814,31 @@ window.BRANDS = [
         "name": "A-POC ABLE ISSEY MIYAKE",
         "from": 2021,
         "desc": "A-POCの考え方を発展させたライン。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1980-81AW",
+        "title": "（プラスチックのボディス）",
+        "city": "パリ",
+        "note": "赤いプラスチックで身体を型取りしたボディス。「ボディワークス」期の代表作。"
+      },
+      {
+        "season": "1983",
+        "title": "Bodyworks（展覧会）",
+        "city": "東京",
+        "note": "東京から始まり、サンフランシスコ、ロサンゼルス、ロンドンを巡回。同名の本も出版。"
+      },
+      {
+        "season": "1994SS",
+        "title": "（フライング・ソーサー・ドレス）",
+        "city": "パリ",
+        "note": "蛇腹状にプリーツをかけた円盤を重ねた鮮やかなドレス。メトロポリタン美術館所蔵。"
+      },
+      {
+        "season": "1996〜1998",
+        "title": "PLEATS PLEASE Guest Artist Series",
+        "note": "森村泰昌（第1弾、1997年）らのアーティストがPLEATS PLEASEの服をキャンバスにした。"
       }
     ]
   },

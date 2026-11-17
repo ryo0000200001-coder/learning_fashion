@@ -529,7 +529,7 @@
       <div class="cseason">${esc(c.season)}${c.city ? `<span class="ccity">${esc(c.city)}</span>` : ""}</div>
       <div>
         ${withBrand ? `<a class="cbrand" href="#/brand/${c.brand.id}">${esc(c.brand.name)}</a>` : ""}
-        <div class="ctitle">${esc(c.title)}${c.alias ? ` <span class="calias">通称「${esc(c.alias)}」</span>` : ""}${c.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
+        <div class="ctitle">${esc(c.title || "—")}${c.alias ? ` <span class="calias">通称「${esc(c.alias)}」</span>` : ""}${c.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
         ${c.note ? `<div class="cnote">${esc(c.note)}</div>` : ""}
       </div>
     </div>`;

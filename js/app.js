@@ -224,6 +224,7 @@
         return match(q, ...brandWords(b), b.country, b.summary, b.about, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
+          ...(b.eras || []).flatMap((e) => [e.name, ...(e.works || [])]),
           ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
           ...(b.lines || []).flatMap((l) => [l.name, l.designer, ...(l.items || []).map((x) => x.name), ...(l.collections || []).flatMap((c) => [c.title, c.alias])]));
       });
@@ -354,6 +355,8 @@
           </li>`;
         }).join("")}
       </ol>
+
+      ${(b.eras || []).length ? `<h2>時代（○○期）<span class="h2sub">${b.eras.length}つの時代</span></h2>${erasBlock(b)}` : ""}
 
       ${(b.lines || []).length ? `<h2>ライン<span class="h2sub">${b.lines.length}ライン</span></h2>
       <div class="lines">${b.lines.map((l, i) => lineRow(b, l, i)).join("")}</div>` : ""}
@@ -584,6 +587,19 @@
       return m;
     });
     return out.join(" ");
+  }
+
+  // ---------- 時代（○○期） ----------
+  function erasBlock(b) {
+    return `<div class="eras">${b.eras.map((e) => {
+      const span = e.from != null || e.to != null ? `${e.from != null ? esc(e.from) : "?"}–${e.to != null ? esc(e.to) : "現在"}` : "";
+      const who = e.d ? `<a href="#/designer/${encodeURIComponent(e.d)}">${esc(dName(e.d))}</a>` : "";
+      return `<section class="era">
+        <div class="era-head"><h3>${esc(e.name)}</h3><span class="era-yrs">${span}</span>${who ? `<span class="era-who">${who}</span>` : ""}</div>
+        ${e.text ? `<div class="about">${paras(e.text)}</div>` : ""}
+        ${(e.works || []).length ? `<div class="era-works"><span class="era-lbl">名作</span><ul>${e.works.map((w) => `<li>${esc(w)}</li>`).join("")}</ul></div>` : ""}
+      </section>`;
+    }).join("")}</div>`;
   }
 
   // ---------- 年代の見分け方 ----------

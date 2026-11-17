@@ -371,3 +371,16 @@ details.help ol { padding-left: 20px; }
 .mstatus.s-want { border-style: dashed; }
 .mprev { max-width: 200px; border-radius: 8px; margin: 8px 0; }
 .mine-sec { margin-top: 24px; }
+
+/* 時代（○○期） */
+.eras { display: grid; gap: 12px; }
+.era { border: 1px solid var(--line); border-left: 4px solid var(--accent, #8a6d3b); border-radius: 10px; padding: 12px 16px; background: var(--surface); }
+.era-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 6px; }
+.era-head h3 { margin: 0; font-size: 16px; }
+.era-yrs { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+.era-who { font-size: 13px; }
+.era .about p { margin-bottom: .6em; }
+.era-works { display: flex; gap: 10px; align-items: flex-start; margin-top: 4px; }
+.era-lbl { flex: none; font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.era-works ul { margin: 0; padding-left: 1.1em; }
+.era-works li { margin: 2px 0; }

@@ -38,6 +38,7 @@
     const style = c.w ? ` style="flex-grow:${c.w}"` : "";
     const ph = esc(c.ph || c.label);
     switch (c.type) {
+      case "lines": return `<label class="lf"${style}><span>${esc(c.label)}</span><textarea data-k="${c.k}" data-type="lines" rows="3" placeholder="${ph}">${esc(Array.isArray(val) ? val.join("\n") : val)}</textarea></label>`;
       case "area": return `<label class="lf"${style}><span>${esc(c.label)}</span><textarea data-k="${c.k}" rows="2" placeholder="${ph}">${esc(val)}</textarea></label>`;
       case "hidden": return `<input type="hidden" data-k="${c.k}" data-type="num" value="${esc(val)}">`;
       case "check": return `<label class="lf lf-check"><input type="checkbox" data-k="${c.k}" ${val ? "checked" : ""}><span>${esc(c.label)}</span></label>`;
@@ -131,6 +132,7 @@
         const t = inp.dataset.type;
         if (t === "num") o[k] = numOrNull(raw);
         else if (t === "year") { if (raw !== "") o[k] = yearVal(raw); }
+        else if (t === "lines") { const a = raw.split("\n").map((x) => x.trim()).filter(Boolean); if (a.length) o[k] = a; }
         else if (raw !== "" || inp.tagName === "SELECT") o[k] = raw;
       });
       if (filled) out.push(o);
@@ -292,6 +294,14 @@
           { k: "imgPage", label: "写真の元ページURL", w: 3 },
           { k: "unverified", label: "未確認", type: "check" }
         ], "写真は、自分で撮ったもの、または自由に使ってよいライセンス（Wikimedia Commons の CC ライセンスなど）のものだけを使ってください。ブランド公式やショップ、雑誌の写真は無断で載せられません。")}
+        ${listEditor("eras", "時代（○○期）", b.eras, [
+          { k: "name", label: "呼び名", w: 2, ph: "例: ラング期 / フィービー期" },
+          { k: "from", label: "開始年", type: "year", w: 1 },
+          { k: "to", label: "終了年（空=現在）", type: "year", w: 1 },
+          { k: "d", label: "デザイナー（キー）", list: "dkeys", w: 2 },
+          { k: "text", label: "どんな時代か（空行で段落）", type: "area", w: 6 },
+          { k: "works", label: "この時代の名作（1行に1つ）", type: "lines", w: 6 }
+        ], "デザイナーや時代ごとの呼び名（○○期）と、その時代の特徴・名作。古着の世界でよく使う区切りを書きます。")}
         ${listEditor("dating", "年代の見分け方", b.dating, [
           { k: "title", label: "見出し", w: 2, ph: "例: タグのAD表記" },
           { k: "text", label: "説明（空行で段落）", type: "area", w: 6 }
@@ -324,6 +334,7 @@
         id: f.id.value.trim(), name: f.name.value.trim(), ja: f.ja.value.trim(), origin: f.origin.value,
         country: f.country.value.trim(), city: f.city.value.trim(), founded: Number(f.founded.value),
         tags: csv(f.tags.value), aka: csv(f.aka.value), summary: f.summary.value.trim(), about: f.about.value.trim(),
+        eras: readList(form, "eras"),
         dating: readList(form, "dating"),
         history: readList(form, "history"),
         designers: readList(form, "designers"),
@@ -340,6 +351,7 @@
       if (!nb.note) delete nb.note;
       if (!nb.aka.length) delete nb.aka;
       if (!nb.dating.length) delete nb.dating;
+      if (!nb.eras.length) delete nb.eras;
       // 検証
       const errs = [];
       if (!/^[a-z0-9-]+$/.test(nb.id)) errs.push("IDは半角の小文字英数字とハイフンで入力してください。");

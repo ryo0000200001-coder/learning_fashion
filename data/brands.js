@@ -128,6 +128,14 @@ window.BRANDS = [
       {
         "t": "プレイフル：コムデギャルソンのライン一覧",
         "u": "https://www.playful-kaitori.com/magazine/list/comme-des-garcons-line-2/"
+      },
+      {
+        "t": "Piasa：Rei Kawakubo / Comme des Garçons, Objects for the Body",
+        "u": "https://www.piasa.fr/en/news/rei-kawakubo-comme-des-garcons-objects-for-the-body"
+      },
+      {
+        "t": "nippon.com：Kawakubo Rei's Continuous Fashion Revolution",
+        "u": "https://www.nippon.com/en/articles/-/13468"
       }
     ],
     "lines": [
@@ -212,6 +220,50 @@ window.BRANDS = [
         "name": "CDG",
         "from": 2018,
         "desc": "ロゴを使ったベーシックなライン。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1982-83AW",
+        "title": "（穴あきニット）",
+        "city": "パリ",
+        "note": "穴をあけた黒いニット。「破れではなく布に別の次元を与える開口部」と川久保は語った。"
+      },
+      {
+        "season": "1988",
+        "title": "Noir",
+        "city": "パリ"
+      },
+      {
+        "season": "1994",
+        "title": "Metamorphosis",
+        "city": "パリ"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "Sweeter than Sweet",
+        "city": "パリ",
+        "note": "最もロマンティックで女性的と言われるコレクション。"
+      },
+      {
+        "season": "1997SS",
+        "title": "Body Meets Dress, Dress Meets Body",
+        "city": "パリ",
+        "alias": "こぶドレス",
+        "note": "ダウンのパッドで身体に「こぶ」を作った。"
+      },
+      {
+        "season": "2005-06AW",
+        "title": "Broken Bride",
+        "city": "パリ",
+        "note": "白とウェディングドレスの意味を暗く反転させた。"
+      },
+      {
+        "season": "2012-13AW",
+        "title": "2 Dimensions",
+        "city": "パリ",
+        "alias": "フラットコレクション",
+        "note": "平面的な服。"
       }
     ]
   },
@@ -2050,6 +2102,10 @@ window.BRANDS = [
       {
         "year": 2025,
         "text": "1月、グレン・マーティンスがクリエイティブディレクターに就任。同年夏に初コレクション"
+      },
+      {
+        "year": 2026,
+        "text": "9月、グレン・マーティンスがMargielaに専念するためDieselを離れると発表"
       }
     ],
     "designers": [
@@ -2133,6 +2189,14 @@ window.BRANDS = [
       {
         "t": "Grailed：Master Class: Maison Margiela",
         "u": "https://www.grailed.com/drycleanonly/masterclass-maison-margiela"
+      },
+      {
+        "t": "Wikipedia：Glenn Martens",
+        "u": "https://en.wikipedia.org/wiki/Glenn_Martens"
+      },
+      {
+        "t": "SSENSE：The A–Z Guide to Maison Margiela",
+        "u": "https://www.ssense.com/en-us/editorial/fashion/maison-margiela-guide"
       }
     ],
     "lines": [
@@ -2182,6 +2246,44 @@ window.BRANDS = [
       {
         "name": "Replica",
         "desc": "古着や軍物などを再現するカプセル。番号ではなく製品名。ジャーマントレーナーなど。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1989SS",
+        "title": "（デビュー）",
+        "city": "パリ",
+        "note": "カフェ・ド・ラ・ガールでの初ショー。モデルの顔を覆い、足袋ブーツを赤いペンキで歩かせた。"
+      },
+      {
+        "season": "1997SS",
+        "title": "（ストックマン）",
+        "city": "パリ",
+        "note": "トルソーの形をしたリネンの「ストックマン」トップ。"
+      },
+      {
+        "season": "1998SS",
+        "title": "（ハンガー）",
+        "city": "パリ",
+        "note": "白衣の男性たちが服をハンガーごと見せた。"
+      },
+      {
+        "season": "1998-99AW",
+        "title": "（マリオネット）",
+        "city": "パリ",
+        "note": "スタイリストのジェーン・ハウが作った人形にモデルの代わりをさせた。"
+      },
+      {
+        "season": "2000SS",
+        "title": "（オーバーサイズ）",
+        "city": "パリ",
+        "note": "細身が流行していた時期に、イタリアサイズ74・78の巨大な服を作った。"
+      },
+      {
+        "season": "2008-09AW",
+        "title": "（コーン・ショルダー）",
+        "city": "パリ",
+        "note": "極端に張り出した円錐形の肩。同時期にアントワープのMoMuで20周年展。"
       }
     ]
   },
@@ -2292,9 +2394,10 @@ window.BRANDS = [
     ],
     "related": [
       "margiela",
-      "jpg"
+      "jpg",
+      "walesbonner"
     ],
-    "note": "ケリーの起源は1923年の「ブガッティ」とする資料もあります。ウェールズ・ボナーの初コレクションは2027年1月の予定。",
+    "note": "ケリーの起源は1923年の「ブガッティ」とする資料もあります。ウェールズ・ボナーの初コレクションは2027年1月の予定。 一部のまとめ記事に別の後任名が出ていますが、Hermès の公式発表と主要メディアではウェールズ・ボナーです。",
     "sources": [
       {
         "t": "Wikipedia：Véronique Nichanian",
@@ -2484,6 +2587,35 @@ window.BRANDS = [
         "season": "2003-04AW",
         "title": "CLOSER",
         "note": "ピーター・サヴィルのアーカイブを使い、ジョイ・ディヴィジョン/ニュー・オーダーのアートワークを服に。"
+      },
+      {
+        "season": "1998-99AW",
+        "title": "RADIOACTIVITY"
+      },
+      {
+        "season": "1999SS",
+        "title": "KINETIC YOUTH"
+      },
+      {
+        "season": "1999-2000AW",
+        "title": "DISORDER, INCUBATION, ISOLATION"
+      },
+      {
+        "season": "2000SS",
+        "title": "SUMMA CUM LAUDE"
+      },
+      {
+        "season": "2000-01AW",
+        "title": "CONFUSION"
+      },
+      {
+        "season": "2004-05AW",
+        "title": "WAVES"
+      },
+      {
+        "season": "2005-06AW",
+        "title": "HISTORY OF MY WORLD",
+        "note": "2005年春夏を「History of the World」とする資料もある。"
       }
     ],
     "items": [
@@ -2515,6 +2647,10 @@ window.BRANDS = [
       {
         "t": "Complex：Raf Simons guide",
         "u": "https://www.complex.com/style/a/gregory-babcock/raf-simons-guide"
+      },
+      {
+        "t": "Dazed：The dA-Zed guide to Raf Simons Menswear",
+        "u": "https://www.dazeddigital.com/fashion/article/31453/1/the-da-zed-guide-to-raf-simons"
       }
     ]
   },
@@ -2780,7 +2916,9 @@ window.BRANDS = [
       "saintlaurent",
       "celine",
       "raf",
-      "loewe"
+      "loewe",
+      "valentino",
+      "fendi"
     ],
     "sources": [
       {
@@ -2794,6 +2932,63 @@ window.BRANDS = [
       {
         "t": "nss magazine：All the creative directors in Dior history",
         "u": "https://www.nssmag.com/en/fashion/26583/dior-creative-directors"
+      },
+      {
+        "t": "theFashionSpot：Dior Homme - the names of the collections",
+        "u": "https://forums.thefashionspot.com/threads/dior-homme-the-names-of-the-collections.90485/"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2001-02AW",
+        "title": "Solitaire（メンズ）",
+        "city": "パリ",
+        "note": "エディ・スリマンのDior Homme初コレクション。以下のタイトルはファンの記録による。"
+      },
+      {
+        "season": "2002SS",
+        "title": "Red（メンズ）",
+        "alias": "Boys Don't Cry"
+      },
+      {
+        "season": "2002-03AW",
+        "title": "Reflection（メンズ）"
+      },
+      {
+        "season": "2003SS",
+        "title": "Follow Me（メンズ）"
+      },
+      {
+        "season": "2003-04AW",
+        "title": "Luster（メンズ）",
+        "note": "暗く中世的、ミリタリー、ナポレオン的。"
+      },
+      {
+        "season": "2004SS",
+        "title": "Strip（メンズ）"
+      },
+      {
+        "season": "2004-05AW",
+        "title": "Victim of the Crime（メンズ）",
+        "alias": "VOTC"
+      },
+      {
+        "season": "2005-06AW",
+        "title": "Everybody Just Looks The Same（メンズ）"
+      },
+      {
+        "season": "2006-07AW",
+        "title": "These Grey Days（メンズ）",
+        "note": "Eight Legsの曲名から。"
+      },
+      {
+        "season": "2007SS",
+        "title": "We Look Good Together（メンズ）"
+      },
+      {
+        "season": "2007-08AW",
+        "title": "Navigate（メンズ）",
+        "note": "エディのDior Homme最後のコレクション。"
       }
     ]
   },
@@ -2908,7 +3103,8 @@ window.BRANDS = [
     "related": [
       "dior",
       "celine",
-      "gucci"
+      "gucci",
+      "chloe"
     ],
     "sources": [
       {
@@ -2927,7 +3123,8 @@ window.BRANDS = [
         "t": "Wikipedia：Hedi Slimane",
         "u": "https://en.wikipedia.org/wiki/Hedi_Slimane"
       }
-    ]
+    ],
+    "note": "後任候補としてChloéのシェメナ・カマリ（ヴァカレロのもとで2016〜2023年にウィメンズのデザインディレクター）の名前が報じられていますが、2026年11月時点で正式発表はありません。"
   },
   {
     "id": "celine",
@@ -3058,6 +3255,10 @@ window.BRANDS = [
       {
         "year": 2025,
         "text": "デムナがアーティスティックディレクターに。9月に2026年春夏でデビュー"
+      },
+      {
+        "year": 2026,
+        "text": "2月27日、ミラノでデムナの初のランウェイ・コレクション「Primavera」"
       }
     ],
     "designers": [
@@ -3143,7 +3344,7 @@ window.BRANDS = [
       "メゾン",
       "ストリート"
     ],
-    "summary": "クリストバル・バレンシアガがスペインで始め、1937年にパリへ。1968年に閉じたのち、ニコラ・ジェスキエールが再興し、デムナがストリートの頂点に押し上げた。",
+    "summary": "クリストバル・バレンシアガがスペインで始め、1937年にパリへ。1968年に閉じたのち、ニコラ・ジェスキエールが再興し、デムナがストリートの頂点に押し上げた。2025年に就任したピッチョーリは約1年半で退任し、2026年11月からロンドンのマーティン・ローズ（かつてデムナのもとでメンズのコンサルタント）。",
     "history": [
       {
         "year": 1917,
@@ -3171,7 +3372,11 @@ window.BRANDS = [
       },
       {
         "year": 2025,
-        "text": "ピエールパオロ・ピッチョーリが就任"
+        "text": "5月、ピエールパオロ・ピッチョーリが就任（デムナはGucciへ）"
+      },
+      {
+        "year": 2026,
+        "text": "11月5日にピッチョーリの退任を発表。11月6日、マーティン・ローズの就任を発表（11月16日付）。Keringのルカ・デ・メオCEOによる最初の起用"
       }
     ],
     "designers": [
@@ -3209,6 +3414,12 @@ window.BRANDS = [
         "d": "piccioli",
         "role": "クリエイティブディレクター",
         "from": 2025,
+        "to": 2026
+      },
+      {
+        "d": "martinerose",
+        "role": "クリエイティブディレクター",
+        "from": 2026,
         "to": null
       }
     ],
@@ -3243,7 +3454,9 @@ window.BRANDS = [
     ],
     "related": [
       "gucci",
-      "lv"
+      "lv",
+      "martinerose",
+      "vetements"
     ],
     "sources": [
       {
@@ -3257,6 +3470,14 @@ window.BRANDS = [
       {
         "t": "Ayerhs：Balenciaga: History, From Demna to Piccioli",
         "u": "https://ayerhsmagazine.com/library/designers/balenciaga/"
+      },
+      {
+        "t": "Kering：Martine Rose appointed Creative Director of Balenciaga",
+        "u": "https://www.kering.com/en/news/martine-rose-appointed-creative-director-of-balenciaga/"
+      },
+      {
+        "t": "Business of Fashion：Confirmed: Martine Rose Is Balenciaga’s New Creative Director",
+        "u": "https://www.businessoffashion.com/articles/luxury/confirmed-martine-rose-is-balenciagas-new-creative-director/"
       }
     ]
   },
@@ -3299,6 +3520,10 @@ window.BRANDS = [
       {
         "year": 2020,
         "text": "4月、ラフ・シモンズが共同クリエイティブディレクターに（初の共作は2021年春夏）"
+      },
+      {
+        "year": 2025,
+        "text": "4月、Versaceを12.5億ユーロで買収することで合意（12月完了）"
       }
     ],
     "designers": [
@@ -3333,7 +3558,8 @@ window.BRANDS = [
     "related": [
       "raf",
       "jilsander",
-      "helmutlang"
+      "helmutlang",
+      "versace"
     ],
     "sources": [
       {
@@ -4437,6 +4663,98 @@ window.BRANDS = [
       {
         "t": "Kering：Alexander McQueen announces the departure of Seán McGirr",
         "u": "https://www.kering.com/en/news/alexander-mc-queen-announces-the-departure-of-creative-director-sean-mc-girr/"
+      },
+      {
+        "t": "Wikipedia：Highland Rape",
+        "u": "https://en.wikipedia.org/wiki/Highland_Rape"
+      },
+      {
+        "t": "The Met：Alexander McQueen: Savage Beauty",
+        "u": "https://blog.metmuseum.org/alexandermcqueen/about/"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1992",
+        "title": "Jack the Ripper Stalks His Victims",
+        "city": "ロンドン",
+        "note": "セントラル・セント・マーチンズの卒業コレクション。"
+      },
+      {
+        "season": "1994SS",
+        "title": "Nihilism",
+        "city": "ロンドン",
+        "note": "初のプロとしてのショー（1993年10月、チェルシーのBluebird Garage）。"
+      },
+      {
+        "season": "1995SS",
+        "title": "The Birds",
+        "city": "ロンドン",
+        "note": "ヒッチコックの映画から。"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "Highland Rape",
+        "city": "ロンドン",
+        "note": "マックイーン家のタータンが初登場。スコットランドの歴史を参照。"
+      },
+      {
+        "season": "1996-97AW",
+        "title": "Dante",
+        "city": "ロンドン"
+      },
+      {
+        "season": "1998SS",
+        "title": "Untitled",
+        "city": "ロンドン",
+        "note": "当初の題は「The Golden Shower」。"
+      },
+      {
+        "season": "1999-2000AW",
+        "title": "The Overlook",
+        "city": "ロンドン"
+      },
+      {
+        "season": "2000SS",
+        "title": "Eshu",
+        "city": "ロンドン"
+      },
+      {
+        "season": "2001SS",
+        "title": "Voss",
+        "city": "ロンドン"
+      },
+      {
+        "season": "2002-03AW",
+        "title": "Supercalifragilisticexpialidocious",
+        "city": "パリ"
+      },
+      {
+        "season": "2003SS",
+        "title": "Irere",
+        "city": "パリ"
+      },
+      {
+        "season": "2005SS",
+        "title": "It's Only a Game",
+        "city": "パリ"
+      },
+      {
+        "season": "2007SS",
+        "title": "Sarabande",
+        "city": "パリ"
+      },
+      {
+        "season": "2009-10AW",
+        "title": "The Horn of Plenty",
+        "city": "パリ",
+        "note": "過去のコレクションを自ら引用・解体した。"
+      },
+      {
+        "season": "2010SS",
+        "title": "Plato's Atlantis",
+        "city": "パリ",
+        "note": "人類が水中で生きるよう進化する未来。生前最後の完成したショー。アルマジロシューズ。"
       }
     ]
   },
@@ -4506,6 +4824,14 @@ window.BRANDS = [
       {
         "t": "CFDA：Rick Owens",
         "u": "https://cfda.com/member/rick-owens/"
+      },
+      {
+        "t": "Truss Archive：How To Identify and Authenticate Rick Owens",
+        "u": "https://www.trussarchive.com/guides/how-to-identify-and-authenticate-rick-owens"
+      },
+      {
+        "t": "Dazed：Ten of Rick Owens' most memorable shows",
+        "u": "https://www.dazeddigital.com/fashion/article/38420/1/ten-of-rick-owens-most-memorable-shows"
       }
     ],
     "lines": [
@@ -4533,6 +4859,43 @@ window.BRANDS = [
         "name": "Rick Owens Furniture",
         "from": 2005,
         "desc": "家具（初の公開を2007年とする資料も）。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2006-07AW",
+        "title": "DUSTULATOR（メンズ）",
+        "note": "お気に入りの30着とブルータリズムの家具を組み合わせた。"
+      },
+      {
+        "season": "2013SS",
+        "title": "PLINTH",
+        "note": "2013-14年秋冬とする資料も。"
+      },
+      {
+        "season": "2013-14AW",
+        "title": "ISLAND"
+      },
+      {
+        "season": "2015SS",
+        "title": "FAUN"
+      },
+      {
+        "season": "2015-16AW",
+        "title": "SPHINX"
+      },
+      {
+        "season": "2016",
+        "title": "MASTODON",
+        "note": "2016年春夏とする資料と2016-17年秋冬とする資料がある。"
+      },
+      {
+        "season": "2017-18AW",
+        "title": "GLITTER"
+      },
+      {
+        "season": "2019SS",
+        "title": "BABEL"
       }
     ]
   },
@@ -5440,6 +5803,2251 @@ window.BRANDS = [
       {
         "t": "Ninesells：Guidi vs A1923",
         "u": "https://ninesells.de/blogs/journal/guidi-vs-a1923-two-italian-leather-houses-compared"
+      }
+    ]
+  },
+  {
+    "id": "versace",
+    "name": "Versace",
+    "ja": "ヴェルサーチェ",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ミラノ",
+    "founded": 1978,
+    "tags": [
+      "ラグジュアリー",
+      "メゾン",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "ジャンニ・ヴェルサーチが1978年に始めたミラノのメゾン。1997年のジャンニの死後は妹ドナテラが約28年率いた。2025年にPrada Groupが買収し、2026年7月からピーター・ミュリエがチーフクリエイティブオフィサー。",
+    "history": [
+      {
+        "year": 1978,
+        "text": "ジャンニ・ヴェルサーチがミラノで最初のコレクションと店（創業年は一般に1978年）"
+      },
+      {
+        "year": 1997,
+        "text": "ジャンニがマイアミで殺害される。妹のドナテラがクリエイティブディレクターに"
+      },
+      {
+        "year": 2025,
+        "text": "3月、ドナテラが退任しダリオ・ヴィターレが就任。4月、Prada Groupが12.5億ユーロでの買収を発表し、12月2日に完了。直後にヴィターレが退任"
+      },
+      {
+        "year": 2026,
+        "text": "2月、Alaïaを離れたピーター・ミュリエの就任を発表（7月1日付）。初コレクションは2027年1月の予定"
+      }
+    ],
+    "designers": [
+      {
+        "d": "gianniversace",
+        "role": "創業者",
+        "from": 1978,
+        "to": 1997
+      },
+      {
+        "d": "donatella",
+        "role": "クリエイティブディレクター",
+        "from": 1997,
+        "to": 2025
+      },
+      {
+        "d": "vitale",
+        "role": "チーフクリエイティブオフィサー",
+        "from": 2025,
+        "to": 2025
+      },
+      {
+        "d": "mulier",
+        "role": "チーフクリエイティブオフィサー",
+        "from": 2026,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "メデューサのモチーフ",
+        "year": "定番",
+        "desc": "ギリシャ神話のメデューサの頭部をロゴに使う。",
+        "unverified": true
+      }
+    ],
+    "archive": [
+      "ジャンニ期（〜1997）のシルクプリントシャツなどは古着で人気が高い。"
+    ],
+    "related": [
+      "prada",
+      "alaia",
+      "fendi"
+    ],
+    "note": "ヴィターレの退任日は2025年12月4日とする資料と12日とする資料があります。",
+    "sources": [
+      {
+        "t": "Fashionista：Dario Vitale Exits Versace After One Season",
+        "u": "https://fashionista.com/2025/12/dario-vitale-exits-versace-creative-director"
+      },
+      {
+        "t": "Dazed：Pieter Mulier is Versace's new creative director",
+        "u": "https://www.dazeddigital.com/fashion/article/69327/1/pieter-mulier-new-versace-creative-director-prada-group-new"
+      },
+      {
+        "t": "The Conversation：Prada buys Versace in a €1.25 billion deal",
+        "u": "https://theconversation.com/prada-buys-versace-in-a-1-25-billion-deal-heres-what-that-means-for-fashion-271185"
+      },
+      {
+        "t": "Wikipedia：Dario Vitale",
+        "u": "https://en.wikipedia.org/wiki/Dario_Vitale"
+      }
+    ]
+  },
+  {
+    "id": "fendi",
+    "name": "Fendi",
+    "ja": "フェンディ",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ローマ",
+    "founded": 1925,
+    "tags": [
+      "ラグジュアリー",
+      "メゾン",
+      "レザー",
+      "ファー"
+    ],
+    "summary": "ローマの毛皮と革の店から始まったメゾン。カール・ラガーフェルドが1965年から2019年に亡くなるまで50年以上関わり、1997年にはシルヴィア・ヴェントゥリーニ・フェンディのバゲットが「イットバッグ」の時代を開いた。2025年からはマリア・グラツィア・キウリ。",
+    "history": [
+      {
+        "year": 1925,
+        "text": "ローマで毛皮と革の店として創業（創業100周年は2025年）"
+      },
+      {
+        "year": 1965,
+        "text": "フェンディ姉妹がカール・ラガーフェルドを毛皮ラインのデザイナーに迎える（1964年とする資料も）"
+      },
+      {
+        "year": 1997,
+        "text": "シルヴィア・ヴェントゥリーニ・フェンディがラガーフェルドと「バゲット」を発表"
+      },
+      {
+        "year": 2019,
+        "text": "2月19日、ラガーフェルド死去"
+      },
+      {
+        "year": 2020,
+        "text": "9月、キム・ジョーンズがウィメンズのアーティスティックディレクターに（2024年10月に退任）"
+      },
+      {
+        "year": 2025,
+        "text": "10月、マリア・グラツィア・キウリがチーフクリエイティブオフィサーに（1989〜1999年にも在籍）。初コレクションは2026年2月"
+      }
+    ],
+    "designers": [
+      {
+        "d": "lagerfeld",
+        "role": "クリエイティブディレクター",
+        "from": 1965,
+        "to": 2019
+      },
+      {
+        "d": "kimjones",
+        "role": "ウィメンズ",
+        "from": 2020,
+        "to": 2024
+      },
+      {
+        "d": "chiuri",
+        "role": "チーフクリエイティブオフィサー",
+        "from": 2025,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "バゲット",
+        "year": 1997,
+        "desc": "フランスパンのように脇に抱える小さなバッグ。最初の「イットバッグ」と呼ばれる。"
+      },
+      {
+        "name": "ズッカ柄（FF）",
+        "year": "定番",
+        "desc": "ラガーフェルドによるダブルFのロゴ柄。",
+        "unverified": true
+      }
+    ],
+    "archive": [
+      "1990年代後半〜2000年代前半のバゲットやズッカ柄はヴィンテージ人気が高い。"
+    ],
+    "related": [
+      "chanel",
+      "dior",
+      "valentino"
+    ],
+    "note": "シルヴィア・ヴェントゥリーニ・フェンディは長くアクセサリーとメンズを担当し、キウリの就任で名誉職に移りました。",
+    "sources": [
+      {
+        "t": "Britannica：Fendi",
+        "u": "https://www.britannica.com/topic/Fendi"
+      },
+      {
+        "t": "Wikipedia：Fendi",
+        "u": "https://en.wikipedia.org/wiki/Fendi"
+      },
+      {
+        "t": "nss magazine：Fendi: 100 Years of History",
+        "u": "https://www.nssmag.com/en/fashion/39837/fendi-history-fashion-centennial"
+      }
+    ]
+  },
+  {
+    "id": "valentino",
+    "name": "Valentino",
+    "ja": "ヴァレンティノ",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ローマ",
+    "founded": 1960,
+    "tags": [
+      "ラグジュアリー",
+      "メゾン",
+      "ウィメンズ",
+      "クチュール"
+    ],
+    "summary": "ヴァレンティノ・ガラヴァーニが1959〜60年にローマで始めたクチュールメゾン。「ヴァレンティノ・レッド」で知られる。創業者の引退後はキウリとピッチョーリ、ピッチョーリ単独を経て、2024年からアレッサンドロ・ミケーレ。創業者は2026年1月に死去。",
+    "history": [
+      {
+        "year": 1960,
+        "text": "ヴァレンティノ・ガラヴァーニがローマでメゾンを開く（1959年とする資料も）"
+      },
+      {
+        "year": 2008,
+        "text": "マリア・グラツィア・キウリとピエールパオロ・ピッチョーリが共同クリエイティブディレクターに"
+      },
+      {
+        "year": 2016,
+        "text": "キウリがDiorへ移り、ピッチョーリの単独体制に"
+      },
+      {
+        "year": 2024,
+        "text": "ピッチョーリが退任。3月、アレッサンドロ・ミケーレが就任"
+      },
+      {
+        "year": 2026,
+        "text": "1月19日、ヴァレンティノ・ガラヴァーニがローマの自宅で93歳で死去"
+      }
+    ],
+    "designers": [
+      {
+        "d": "valentinog",
+        "role": "創業者",
+        "from": 1960,
+        "to": 2008
+      },
+      {
+        "d": "chiuri",
+        "role": "共同クリエイティブディレクター",
+        "from": 2008,
+        "to": 2016
+      },
+      {
+        "d": "piccioli",
+        "role": "クリエイティブディレクター（2016年まで共同）",
+        "from": 2008,
+        "to": 2024
+      },
+      {
+        "d": "michele",
+        "role": "クリエイティブディレクター",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "ロックスタッズ",
+        "year": "2010年代",
+        "desc": "ピラミッド型のスタッズを並べたシューズやバッグ。",
+        "unverified": true
+      }
+    ],
+    "archive": [],
+    "related": [
+      "gucci",
+      "balenciaga",
+      "dior"
+    ],
+    "sources": [
+      {
+        "t": "CNN：Italian fashion designer Valentino dies at 93",
+        "u": "https://www.cnn.com/2026/01/19/style/valentino-fashion-designer-dead"
+      },
+      {
+        "t": "Wikipedia：Valentino (fashion house)",
+        "u": "https://en.wikipedia.org/wiki/Valentino_(fashion_house)"
+      },
+      {
+        "t": "Dazed：Alessandro Michele is the new creative director of Valentino",
+        "u": "https://www.dazeddigital.com/fashion/article/62277/1/alessandro-michele-valentino-new-creative-director"
+      }
+    ]
+  },
+  {
+    "id": "balmain",
+    "name": "Balmain",
+    "ja": "バルマン",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1945,
+    "tags": [
+      "ラグジュアリー",
+      "メゾン",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "ピエール・バルマンが1945年にパリで開いたクチュールメゾン。2011年に25歳で就任したオリヴィエ・ルスタンが14年率い、2025年11月からアントナン・トロン。",
+    "history": [
+      {
+        "year": 1945,
+        "text": "ピエール・バルマンがパリでメゾンを開く"
+      },
+      {
+        "year": 1982,
+        "text": "ピエール・バルマン死去。以後エリック・モルテンセンらが率いる"
+      },
+      {
+        "year": 2011,
+        "text": "4月、クリストフ・デカルナンの交代が発表され、オリヴィエ・ルスタンが就任"
+      },
+      {
+        "year": 2025,
+        "text": "11月5日にルスタンが退任を発表し、12日にアントナン・トロンの就任を発表"
+      },
+      {
+        "year": 2026,
+        "text": "3月4日、トロンの初コレクション（2026-27年秋冬）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "pbalmain",
+        "role": "創業者",
+        "from": 1945,
+        "to": 1982
+      },
+      {
+        "d": "decarnin",
+        "role": "クリエイティブディレクター",
+        "from": 2005,
+        "to": 2011
+      },
+      {
+        "d": "rousteing",
+        "role": "クリエイティブディレクター",
+        "from": 2011,
+        "to": 2025
+      },
+      {
+        "d": "tron",
+        "role": "クリエイティブディレクター",
+        "from": 2025,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [
+      "デカルナン期（〜2011）のパワーショルダーのジャケットやダメージデニムはアーカイブとして探される。"
+    ],
+    "related": [
+      "rabanne"
+    ],
+    "note": "デカルナンの就任年（2005年）は今回の調査で裏付けが取れていません。",
+    "sources": [
+      {
+        "t": "Balmain 公式：Antonin Tron, Balmain New Creative Director",
+        "u": "https://us.balmain.com/us/experience/balmain-new-creative-director"
+      },
+      {
+        "t": "Wikipedia：Balmain (fashion house)",
+        "u": "https://en.wikipedia.org/wiki/Balmain_(fashion_house)"
+      },
+      {
+        "t": "FashionUnited：Balmain names Antonin Tron as creative director",
+        "u": "https://fashionunited.uk/news/people/balmain-names-antonin-tron-as-creative-director/2025111284871"
+      }
+    ]
+  },
+  {
+    "id": "lanvin",
+    "name": "Lanvin",
+    "ja": "ランバン",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1889,
+    "tags": [
+      "ラグジュアリー",
+      "メゾン",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "1889年にジャンヌ・ランバンが帽子店として始めた、現存するパリ最古級のクチュールメゾン。2000年代はアルベール・エルバスの時代として知られ、その後は交代が続いた。2024年からピーター・コッピング。",
+    "history": [
+      {
+        "year": 1889,
+        "text": "ジャンヌ・ランバンがパリで帽子店を開く"
+      },
+      {
+        "year": 1946,
+        "text": "ジャンヌ・ランバン死去"
+      },
+      {
+        "year": 2001,
+        "text": "10月、アルベール・エルバスが就任（初コレクションは2002年3月）"
+      },
+      {
+        "year": 2015,
+        "text": "10月28日、筆頭株主の判断でエルバスとの契約が終了"
+      },
+      {
+        "year": 2019,
+        "text": "1月、ブルーノ・シアレッリがウィメンズとメンズを担当（2023年4月に退任）"
+      },
+      {
+        "year": 2024,
+        "text": "6月、ピーター・コッピングがアーティスティックディレクターに（9月から）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "jlanvin",
+        "role": "創業者",
+        "from": 1889,
+        "to": 1946
+      },
+      {
+        "d": "elbaz",
+        "role": "クリエイティブディレクター",
+        "from": 2001,
+        "to": 2015
+      },
+      {
+        "d": "sialelli",
+        "role": "クリエイティブディレクター",
+        "from": 2019,
+        "to": 2023
+      },
+      {
+        "d": "copping",
+        "role": "アーティスティックディレクター",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [
+      "エルバス期（2002〜2015）のドレスと、ルーカス・オッセンドライバーが手がけたメンズはアーカイブで評価が高い。"
+    ],
+    "related": [
+      "dior"
+    ],
+    "note": "エルバスとシアレッリの間には、ブシュラ・ジャラール、オリヴィエ・ラピドゥスが短期間担当しています。",
+    "sources": [
+      {
+        "t": "Lanvin 公式：History of the House",
+        "u": "https://www.lanvin.com/en-us/history-of-the-house"
+      },
+      {
+        "t": "Wallpaper：Lanvin's new artistic director is Peter Copping",
+        "u": "https://www.wallpaper.com/fashion-beauty/new-lanvin-artistic-director-peter-copping"
+      }
+    ]
+  },
+  {
+    "id": "kenzo",
+    "name": "Kenzo",
+    "ja": "ケンゾー",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1970,
+    "tags": [
+      "メゾン",
+      "プリント",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "高田賢三が1970年にパリで始めたブランド。日本人デザイナーがパリで成功した先駆け。1993年にLVMH傘下となり、2010年代のタイガーのスウェットを経て、2021年からNIGOがアーティスティックディレクター。",
+    "history": [
+      {
+        "year": 1970,
+        "text": "高田賢三がパリにブティック「ジャングル・ジャップ」を開く"
+      },
+      {
+        "year": 1993,
+        "text": "LVMHがKenzoを買収"
+      },
+      {
+        "year": 1999,
+        "text": "高田賢三が引退"
+      },
+      {
+        "year": 2011,
+        "text": "7月、Opening Ceremonyのキャロル・リムとウンベルト・レオンが就任（2019年7月まで）"
+      },
+      {
+        "year": 2019,
+        "text": "フェリペ・オリヴェイラ・バプティスタが就任（初コレクションは2020年秋冬）"
+      },
+      {
+        "year": 2021,
+        "text": "NIGOがアーティスティックディレクターに（2022年からとする資料も）"
+      },
+      {
+        "year": 2026,
+        "text": "2026-27年秋冬コレクションを高田賢三の旧邸で発表"
+      }
+    ],
+    "designers": [
+      {
+        "d": "kenzotakada",
+        "role": "創業者",
+        "from": 1970,
+        "to": 1999
+      },
+      {
+        "d": "marras",
+        "role": "クリエイティブディレクター",
+        "from": 2003,
+        "to": 2011
+      },
+      {
+        "d": "limleon",
+        "role": "クリエイティブディレクター",
+        "from": 2011,
+        "to": 2019
+      },
+      {
+        "d": "baptista",
+        "role": "クリエイティブディレクター",
+        "from": 2019,
+        "to": 2021
+      },
+      {
+        "d": "nigo",
+        "role": "アーティスティックディレクター",
+        "from": 2021,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "タイガーのスウェット",
+        "year": "2010年代",
+        "desc": "リム&レオン期のヒット。若い世代にKenzoを広めた。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "bape",
+      "issey"
+    ],
+    "note": "マラスの就任年は2003年と2008年で資料が分かれます。",
+    "sources": [
+      {
+        "t": "Wikipedia：Kenzo (brand)",
+        "u": "https://en.wikipedia.org/wiki/Kenzo_(brand)"
+      },
+      {
+        "t": "FashionUnited：Kenzo AW26",
+        "u": "https://fashionunited.in/news/fashion/kenzo-aw26-a-return-to-kenzo-takadas-home-as-a-narrative-of-refuge/2026012252928"
+      },
+      {
+        "t": "Wikipedia：Humberto Leon",
+        "u": "https://en.wikipedia.org/wiki/Humberto_Leon"
+      }
+    ]
+  },
+  {
+    "id": "chloe",
+    "name": "Chloé",
+    "ja": "クロエ",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1952,
+    "tags": [
+      "ラグジュアリー",
+      "メゾン",
+      "ウィメンズ"
+    ],
+    "summary": "ギャビー・アギョンが1952年に始め、高級プレタポルテを広めたメゾン。ラガーフェルド、ステラ・マッカートニー、フィービー・ファイロなど、若い才能の登竜門となってきた。",
+    "history": [
+      {
+        "year": 1952,
+        "text": "ギャビー・アギョンが創業。既製服の高級ライン（プレタポルテ）を始める"
+      },
+      {
+        "year": 1966,
+        "text": "カール・ラガーフェルドが参加（1964年とする資料も）。1974年頃から単独デザイナー"
+      },
+      {
+        "year": 1997,
+        "text": "25歳のステラ・マッカートニーが就任"
+      },
+      {
+        "year": 2001,
+        "text": "フィービー・ファイロが就任（〜2006）。2005年に「パディントン」バッグ"
+      },
+      {
+        "year": 2024,
+        "text": "シェメナ・カマリが就任"
+      }
+    ],
+    "designers": [
+      {
+        "d": "aghion",
+        "role": "創業者（初期）",
+        "from": 1952,
+        "to": 1966
+      },
+      {
+        "d": "lagerfeld",
+        "role": "デザイナー",
+        "from": 1966,
+        "to": 1983
+      },
+      {
+        "d": "stellamccartney",
+        "role": "クリエイティブディレクター",
+        "from": 1997,
+        "to": 2001
+      },
+      {
+        "d": "philo",
+        "role": "クリエイティブディレクター",
+        "from": 2001,
+        "to": 2006
+      },
+      {
+        "d": "macgibbon",
+        "role": "クリエイティブディレクター",
+        "from": 2008,
+        "to": 2011
+      },
+      {
+        "d": "waightkeller",
+        "role": "クリエイティブディレクター",
+        "from": 2011,
+        "to": 2017
+      },
+      {
+        "d": "ramsaylevi",
+        "role": "クリエイティブディレクター",
+        "from": 2017,
+        "to": 2020
+      },
+      {
+        "d": "hearst",
+        "role": "クリエイティブディレクター",
+        "from": 2020,
+        "to": 2023
+      },
+      {
+        "d": "kamali",
+        "role": "クリエイティブディレクター",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "パディントン",
+        "year": 2005,
+        "desc": "大きな南京錠がついたバッグ。フィービー期のヒット。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "celine",
+      "saintlaurent"
+    ],
+    "note": "ラガーフェルドは1980年代に一度離れ、1992年に戻っています。マクギボン以降の在任年はウィキ形式の資料によるもので暫定です。2026年のSaint Laurentの後任候補としてカマリの名前が報じられていますが、11月時点で発表はありません。",
+    "sources": [
+      {
+        "t": "Chloé 公式：Story",
+        "u": "https://www.chloe.com/en-sg/maison/history.html"
+      },
+      {
+        "t": "W Magazine：Chloé's Revered Designers",
+        "u": "https://www.wmagazine.com/gallery/chloe-fashion-designer-history"
+      },
+      {
+        "t": "WWD：Saint Laurent Set for 'New Chapter'",
+        "u": "https://wwd.com/fashion-news/designer-luxury/saint-laurent-new-chapter-chemena-kamali-vaccarello-1239335688/"
+      }
+    ]
+  },
+  {
+    "id": "alaia",
+    "name": "Alaïa",
+    "ja": "アライア",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1980,
+    "tags": [
+      "ラグジュアリー",
+      "ウィメンズ",
+      "クチュール"
+    ],
+    "summary": "チュニジア出身のアズディン・アライアのメゾン。身体に沿う構築的なニットやレザーで1980年代に「ボディコンシャス」の時代をつくった。2021年に創業者以来初めての後継者としてピーター・ミュリエが就任したが、2026年にVersaceへ移り、後任は未定。",
+    "history": [
+      {
+        "year": 1980,
+        "text": "1980年代初めにパリで自身の名前でコレクションを発表（創業年は概算）"
+      },
+      {
+        "year": 2021,
+        "text": "2月、ピーター・ミュリエがクリエイティブディレクターに。創業者以来初の後継者"
+      },
+      {
+        "year": 2026,
+        "text": "1月30日にミュリエが退任を発表。10月時点で後任は未定で、プレタポルテのデザインディレクターがチームを率いる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "alaia",
+        "role": "創業者",
+        "from": 1980,
+        "to": 2017
+      },
+      {
+        "d": "mulier",
+        "role": "クリエイティブディレクター",
+        "from": 2021,
+        "to": 2026
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "versace",
+      "raf"
+    ],
+    "note": "創業年と創業者の没年（2017年）は今回の調査で直接の裏付けを取っていません。",
+    "sources": [
+      {
+        "t": "FashionNetwork：Pieter Mulier steps down as Alaïa's creative director",
+        "u": "https://ww.fashionnetwork.com/news/Pieter-mulier-steps-down-as-alaia-s-creative-director,1803164.html"
+      },
+      {
+        "t": "Who What Wear：Alaïa's Design Team as the Creative-Director Search Continues",
+        "u": "https://www.whowhatwear.com/fashion/runway/alaia-paris-fashion-week-spring-summer-2027"
+      }
+    ]
+  },
+  {
+    "id": "rabanne",
+    "name": "Rabanne",
+    "ja": "ラバンヌ",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1966,
+    "tags": [
+      "メゾン",
+      "ウィメンズ",
+      "メタル"
+    ],
+    "summary": "パコ・ラバンヌが始めたメゾン（旧Paco Rabanne）。金属片をつないだドレスで知られる。2013年からジュリアン・ドッセーナが13年率い、2026年7月にBalmainを離れたオリヴィエ・ルスタンが就任した。",
+    "history": [
+      {
+        "year": 1966,
+        "text": "パコ・ラバンヌが金属などの素材でつくった「着られない服」のコレクションを発表",
+        "unverified": true
+      },
+      {
+        "year": 2013,
+        "text": "ジュリアン・ドッセーナが就任"
+      },
+      {
+        "year": 2026,
+        "text": "6月にドッセーナが退任を発表し、7月14日にオリヴィエ・ルスタンの就任を発表。初ショーは2027年3月の予定"
+      }
+    ],
+    "designers": [
+      {
+        "d": "dossena",
+        "role": "クリエイティブディレクター",
+        "from": 2013,
+        "to": 2026
+      },
+      {
+        "d": "rousteing",
+        "role": "クリエイティブディレクター",
+        "from": 2026,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "balmain"
+    ],
+    "sources": [
+      {
+        "t": "Fashionista：Olivier Rousteing Is Rabanne's New Creative Director",
+        "u": "https://fashionista.com/2026/07/olivier-rousteing-rabanne-creative-director"
+      },
+      {
+        "t": "Wikipedia：Rabanne (fashion house)",
+        "u": "https://en.wikipedia.org/wiki/Rabanne_(fashion_house)"
+      }
+    ]
+  },
+  {
+    "id": "mugler",
+    "name": "Mugler",
+    "ja": "ミュグレー",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ",
+    "founded": 1973,
+    "tags": [
+      "メゾン",
+      "ウィメンズ",
+      "アーカイブ"
+    ],
+    "summary": "ティエリー・ミュグレーが1973年に「Café de Paris」コレクションで始めたブランド。誇張した肩とウエスト、彫刻的なボディのシルエットで1980〜90年代を象徴し、近年アーカイブ人気が再燃している。",
+    "history": [
+      {
+        "year": 1973,
+        "text": "最初のコレクション「Café de Paris」（1974年とする資料も）"
+      },
+      {
+        "year": 2010,
+        "text": "9月、ニコラ・フォルミケッティがクリエイティブディレクターに"
+      },
+      {
+        "year": 2017,
+        "text": "12月、ケイシー・キャドワラダーが就任（2018年からとする資料も）"
+      },
+      {
+        "year": 2022,
+        "text": "ティエリー・ミュグレーが73歳で死去"
+      },
+      {
+        "year": 2025,
+        "text": "3月にキャドワラダーが退任し、4月1日からミゲル・カストロ・フレイタス"
+      }
+    ],
+    "designers": [
+      {
+        "d": "tmugler",
+        "role": "創業者",
+        "from": 1973,
+        "to": 2002
+      },
+      {
+        "d": "formichetti",
+        "role": "クリエイティブディレクター",
+        "from": 2010,
+        "to": 2013
+      },
+      {
+        "d": "cadwallader",
+        "role": "クリエイティブディレクター",
+        "from": 2017,
+        "to": 2025
+      },
+      {
+        "d": "castrofreitas",
+        "role": "クリエイティブディレクター",
+        "from": 2025,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [
+      "創業者期（1970〜90年代）のパワースーツやコルセットのドレスは、近年セレブの着用で価格が高騰している。"
+    ],
+    "related": [
+      "jpg",
+      "alaia"
+    ],
+    "note": "創業者の退任年（2002年）とフォルミケッティの退任年は今回の調査で裏付けが取れていません。フォルミケッティとキャドワラダーの間にデヴィッド・コーマが担当しています。",
+    "sources": [
+      {
+        "t": "SHOWstudio：Mugler",
+        "u": "https://www.showstudio.com/contributors/mugler"
+      },
+      {
+        "t": "FashionNetwork：Mugler names Miguel Castro Freitas",
+        "u": "https://us.fashionnetwork.com/news/Mugler-names-miguel-castro-freitas-new-designer-to-succeed-casey-cadwallader,1714794.html"
+      }
+    ]
+  },
+  {
+    "id": "martinerose",
+    "name": "Martine Rose",
+    "ja": "マーティン・ローズ",
+    "origin": "import",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 2007,
+    "tags": [
+      "ロンドン",
+      "ストリート",
+      "メンズ"
+    ],
+    "summary": "英国・ジャマイカ系のマーティン・ローズが2007年にロンドンで始めたメンズ。ロンドンの郊外文化、レイヴ、サッカー、カリブ系コミュニティを背景にした、少しずれたサイズ感のテーラリングとスポーツウェア。2026年11月にBalenciagaのクリエイティブディレクターに就任した。",
+    "history": [
+      {
+        "year": 2007,
+        "text": "ロンドンで自身のレーベルを設立"
+      },
+      {
+        "year": 2015,
+        "text": "デムナに招かれ、Balenciagaメンズのコンサルタントに"
+      },
+      {
+        "year": 2026,
+        "text": "11月6日、Balenciagaのクリエイティブディレクター就任が発表（11月16日付）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "martinerose",
+        "role": "創業者・デザイナー",
+        "from": 2007,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "Nike Shox MR4（ミュール）",
+        "year": "2023〜",
+        "desc": "Nikeとの協業によるShoxのミュール。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "balenciaga",
+      "walesbonner"
+    ],
+    "sources": [
+      {
+        "t": "Kering：Martine Rose appointed Creative Director of Balenciaga",
+        "u": "https://www.kering.com/en/news/martine-rose-appointed-creative-director-of-balenciaga/"
+      },
+      {
+        "t": "Business of Fashion：Confirmed: Martine Rose Is Balenciaga's New Creative Director",
+        "u": "https://www.businessoffashion.com/articles/luxury/confirmed-martine-rose-is-balenciagas-new-creative-director/"
+      },
+      {
+        "t": "Wikipedia：Martine Rose",
+        "u": "https://en.wikipedia.org/wiki/Martine_Rose"
+      }
+    ]
+  },
+  {
+    "id": "walesbonner",
+    "name": "Wales Bonner",
+    "ja": "ウェールズ・ボナー",
+    "origin": "import",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 2014,
+    "tags": [
+      "ロンドン",
+      "テーラリング",
+      "メンズ"
+    ],
+    "summary": "セントラル・セント・マーチンズを卒業したグレース・ウェールズ・ボナーが2014年に始めたブランド。ヨーロッパのテーラリングとアフリカ系ディアスポラの文化を結びつける。adidasとのSambaで広く知られ、2025年10月からはHermèsメンズも担当。",
+    "history": [
+      {
+        "year": 2014,
+        "text": "グレース・ウェールズ・ボナーがブランドを設立"
+      },
+      {
+        "year": 2020,
+        "text": "1月、「Lover's Rock」コレクションでadidas Originalsとの初の協業（Samba、トラックスーツ）"
+      },
+      {
+        "year": 2025,
+        "text": "10月、Hermèsメンズのクリエイティブディレクターに（初コレクションは2027年1月予定）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "walesbonner",
+        "role": "創業者・デザイナー",
+        "from": 2014,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "adidas Samba（Wales Bonner）",
+        "year": 2020,
+        "desc": "1970〜80年代の英国のジャマイカ系コミュニティと父親のワードローブを参照した協業。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "hermes",
+      "martinerose"
+    ],
+    "sources": [
+      {
+        "t": "SSENSE：Jamaica to di World",
+        "u": "https://www.ssense.com/en-us/editorial/fashion/jamaica-fashion-martine-ose-wales-bonner-theophilio-stanley-raffington"
+      },
+      {
+        "t": "WWD：Hermès Appoints Grace Wales Bonner",
+        "u": "https://wwd.com/fashion-news/designer-luxury/hermes-appoints-grace-wales-bonner-new-menswear-creative-director-1238318233/"
+      }
+    ]
+  },
+  {
+    "id": "jwanderson",
+    "name": "JW Anderson",
+    "ja": "JW アンダーソン",
+    "origin": "import",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 2008,
+    "tags": [
+      "ロンドン",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "北アイルランド出身のジョナサン・アンダーソンが2008年にメンズから始めたブランド。ジェンダーの境界を揺さぶるデザインで注目され、本人はLoewe（2013〜2025）を経てDiorを率いる。UNIQLOなどとの協業でも知られる。",
+    "history": [
+      {
+        "year": 2008,
+        "text": "メンズのラインを始める"
+      },
+      {
+        "year": 2013,
+        "text": "アンダーソンがLoeweのクリエイティブディレクターを兼任（〜2025）"
+      },
+      {
+        "year": 2025,
+        "text": "アンダーソンがDiorのメンズ、続いて全コレクションを担当"
+      }
+    ],
+    "designers": [
+      {
+        "d": "anderson",
+        "role": "創業者・デザイナー",
+        "from": 2008,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "loewe",
+      "dior"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：JW Anderson",
+        "u": "https://en.wikipedia.org/wiki/JW_Anderson"
+      }
+    ]
+  },
+  {
+    "id": "craiggreen",
+    "name": "Craig Green",
+    "ja": "クレイグ・グリーン",
+    "origin": "import",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 2012,
+    "tags": [
+      "ロンドン",
+      "ワーク",
+      "メンズ"
+    ],
+    "summary": "2012年にロンドンで始まったメンズ。キルティングのワークジャケットなど、作業着の形を彫刻的に作り替える。Fred Perry、adidas、Moncler などとの協業も多い。",
+    "history": [
+      {
+        "year": 2012,
+        "text": "ロンドンでブランドを設立"
+      }
+    ],
+    "designers": [
+      {
+        "d": "craiggreen",
+        "role": "創業者・デザイナー",
+        "from": 2012,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "キルティングのワーカージャケット",
+        "year": "定番",
+        "desc": "ブランドを代表するジャケット。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "kikokostadinov"
+    ],
+    "sources": [
+      {
+        "t": "SSENSE：The SSENSE Guide to British Brands",
+        "u": "https://www.ssense.com/en-de/editorial/market/best-british-clothing-brands"
+      }
+    ]
+  },
+  {
+    "id": "kikokostadinov",
+    "name": "Kiko Kostadinov",
+    "ja": "キコ・コスタディノフ",
+    "origin": "import",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 2016,
+    "tags": [
+      "ロンドン",
+      "テクニカル",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "ブルガリア出身のキコ・コスタディノフがロンドンで2016年に始めたブランド。作業着を下敷きにした緻密なパターンと、ASICSとの協業スニーカーで知られる。",
+    "history": [
+      {
+        "year": 2016,
+        "text": "ロンドンでブランドを設立（2017年とする資料も）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "kiko",
+        "role": "創業者・デザイナー",
+        "from": 2016,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "ASICSとの協業スニーカー",
+        "year": "2018〜",
+        "desc": "ASICSのランニングシューズを再構成したシリーズ。",
+        "unverified": true
+      }
+    ],
+    "archive": [],
+    "related": [
+      "craiggreen"
+    ],
+    "sources": [
+      {
+        "t": "thefashiondb：Kiko Kostadinov",
+        "u": "https://thefashiondb.com/brands/kiko-kostadinov"
+      },
+      {
+        "t": "FHCM：Kiko Kostadinov",
+        "u": "https://www.fhcm.paris/en/house/kiko-kostadinov"
+      }
+    ]
+  },
+  {
+    "id": "vetements",
+    "name": "Vetements",
+    "ja": "ヴェトモン",
+    "origin": "import",
+    "country": "スイス",
+    "city": "チューリッヒ / パリ",
+    "founded": 2014,
+    "tags": [
+      "ストリート",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "デムナと弟グラム・ヴァザリアらが2014年に始めた集団的なブランド。巨大なサイズのフーディーやDHLのTシャツで2010年代半ばのファッションを塗り替えた。デムナは2019年に離れ、2021年からグラムがクリエイティブディレクター。",
+    "history": [
+      {
+        "year": 2014,
+        "text": "ヴァザリア兄弟らが設立。最初のコレクションはパリで発表（本拠地はチューリッヒ）"
+      },
+      {
+        "year": 2015,
+        "text": "デムナがBalenciagaのアーティスティックディレクターを兼任"
+      },
+      {
+        "year": 2019,
+        "text": "9月16日、デムナがVetementsを離れると発表。グラムがCEOに"
+      },
+      {
+        "year": 2021,
+        "text": "12月15日、グラム・ヴァザリアがクリエイティブディレクターに"
+      }
+    ],
+    "designers": [
+      {
+        "d": "demna",
+        "role": "共同設立者・デザイナー",
+        "from": 2014,
+        "to": 2019
+      },
+      {
+        "d": "guram",
+        "role": "クリエイティブディレクター",
+        "from": 2021,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "DHLのTシャツ",
+        "year": "2016SS",
+        "desc": "配送会社のロゴをそのまま使った高価なTシャツ。",
+        "unverified": true
+      }
+    ],
+    "archive": [
+      "デムナ在籍期（2014〜2019）のアイテムがアーカイブとして扱われる。"
+    ],
+    "related": [
+      "balenciaga",
+      "gucci"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Vetements",
+        "u": "https://en.wikipedia.org/wiki/Vetements"
+      },
+      {
+        "t": "AnOther：Demna Gvasalia Is Leaving Vetements",
+        "u": "https://www.anothermag.com/fashion-beauty/11928/demna-gvasalia-is-leaving-vetements-news-balenciaga-2019"
+      }
+    ]
+  },
+  {
+    "id": "offwhite",
+    "name": "Off-White",
+    "ja": "オフホワイト",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ミラノ",
+    "founded": 2013,
+    "tags": [
+      "ストリート",
+      "ラグジュアリー",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "ヴァージル・アブローが2012年にミラノで始め、2013年にOff-Whiteへ改称したブランド。斜線とクォーテーションマークのデザインでストリートとラグジュアリーを結びつけた。2021年のアブロー死去後はイブ・カマラが率い、2024年にLVMHからBluestar Allianceへ売却。2026年にカマラが退任し、外部協力者10人と組む体制に。",
+    "history": [
+      {
+        "year": 2012,
+        "text": "アブローがミラノでブランドを始める"
+      },
+      {
+        "year": 2013,
+        "text": "「Off-White」に改称"
+      },
+      {
+        "year": 2018,
+        "text": "アブローがLouis Vuittonメンズのアーティスティックディレクターを兼任"
+      },
+      {
+        "year": 2021,
+        "text": "アブロー死去"
+      },
+      {
+        "year": 2022,
+        "text": "4月30日、イブ・カマラがアート&イメージディレクターに（のちクリエイティブディレクター）"
+      },
+      {
+        "year": 2024,
+        "text": "LVMHがBluestar Allianceに売却"
+      },
+      {
+        "year": 2026,
+        "text": "カマラが退任。3月の最後のショーの後、外部協力者10人と組む新体制を発表"
+      }
+    ],
+    "designers": [
+      {
+        "d": "abloh",
+        "role": "創業者・デザイナー",
+        "from": 2012,
+        "to": 2021
+      },
+      {
+        "d": "ibkamara",
+        "role": "クリエイティブディレクター",
+        "from": 2022,
+        "to": 2026
+      }
+    ],
+    "items": [
+      {
+        "name": "Nike「The Ten」",
+        "year": 2017,
+        "desc": "Nikeの名作10足を再構成した協業。",
+        "unverified": true
+      }
+    ],
+    "archive": [],
+    "related": [
+      "lv",
+      "supreme"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Off-White (company)",
+        "u": "https://en.wikipedia.org/wiki/Off-White_(company)"
+      },
+      {
+        "t": "Business of Fashion：Ib Kamara Exits Off-White",
+        "u": "https://businessoffashion-businessoffashion-prod.web.arc-cdn.net/articles/luxury/ib-kamara-exits-off-white/"
+      },
+      {
+        "t": "Complex：A Timeline of Off-White's Key Milestones",
+        "u": "https://www.complex.com/style/a/mike-destefano/off-white-milestones-timeline"
+      }
+    ]
+  },
+  {
+    "id": "wvb",
+    "name": "Walter Van Beirendonck",
+    "ja": "ウォルター・ヴァン・ベイレンドンク",
+    "origin": "import",
+    "country": "ベルギー",
+    "city": "アントワープ",
+    "founded": 1983,
+    "tags": [
+      "アントワープ",
+      "アヴァンギャルド",
+      "メンズ",
+      "アーカイブ"
+    ],
+    "summary": "アントワープ・シックスの一人。カラフルで漫画的なグラフィックと、性や身体、社会問題を扱う過激なメッセージのメンズ。1990年代にドイツのジーンズ会社Mustangと組んだ「W.&L.T.」はアーカイブで人気が高い。長年アカデミーで後進を育てた。",
+    "history": [
+      {
+        "year": 1980,
+        "text": "アントワープ王立芸術アカデミーを卒業"
+      },
+      {
+        "year": 1985,
+        "text": "アカデミーで教え始める（のち2007年頃から2022年まで学科長）"
+      },
+      {
+        "year": 1993,
+        "text": "Mustangと「W.&L.T.（Wild and Lethal Trash）」を始める（〜1999）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "wvb",
+        "role": "デザイナー",
+        "from": 1983,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "W.&L.T.",
+        "year": "1993〜1999",
+        "desc": "Mustangと組んだライン。カラフルでサイバーなグラフィック。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "dries",
+      "anndemeulemeester",
+      "bikkembergs"
+    ],
+    "note": "ブランドの開始年（1983年）は概算です。W.&L.T.を2004年まで続いたとする資料もあります。",
+    "sources": [
+      {
+        "t": "Wikipedia：Walter Van Beirendonck",
+        "u": "https://en.wikipedia.org/wiki/Walter_Van_Beirendonck"
+      },
+      {
+        "t": "Walter Van Beirendonck 公式：Biography",
+        "u": "https://www.waltervanbeirendonck.com/wvb-zine/biography"
+      }
+    ]
+  },
+  {
+    "id": "chalayan",
+    "name": "Hussein Chalayan",
+    "ja": "フセイン・チャラヤン",
+    "origin": "import",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 1994,
+    "tags": [
+      "アヴァンギャルド",
+      "コンセプチュアル",
+      "アーカイブ",
+      "ウィメンズ"
+    ],
+    "summary": "キプロス生まれ、ロンドンのセントラル・セント・マーチンズ出身。卒業コレクションで土に埋めた服を発表し、以後、飛行機の構造を持つドレスや、家具が服に変わるショーなど、移動・移民・テクノロジーを主題にしたコンセプチュアルな作品をつくった。",
+    "history": [
+      {
+        "year": 1993,
+        "text": "卒業コレクション「The Tangent Flows」。土に埋めて錆び朽ちさせた服を発表し、ロンドンのBrownsが全点を買い取った"
+      },
+      {
+        "year": 1999,
+        "text": "1999年秋冬「Echoform」。飛行機の外装を模し、部品が動くドレス"
+      },
+      {
+        "year": 2000,
+        "text": "2000年秋冬「Afterwords」。強制移住をテーマにしたショー"
+      }
+    ],
+    "designers": [
+      {
+        "d": "chalayan",
+        "role": "デザイナー",
+        "from": 1994,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1993",
+        "title": "The Tangent Flows",
+        "city": "ロンドン",
+        "note": "卒業コレクション。服を鉄粉と一緒に土に埋めた。"
+      },
+      {
+        "season": "1999-2000AW",
+        "title": "Echoform",
+        "city": "ロンドン",
+        "note": "飛行機の外装を模したドレス。"
+      },
+      {
+        "season": "2000-01AW",
+        "title": "Afterwords",
+        "city": "ロンドン",
+        "note": "強制的な移動と喪失。"
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "mcqueen",
+      "margiela"
+    ],
+    "note": "ブランド開始年（1994年）は概算です。",
+    "sources": [
+      {
+        "t": "Wikipedia：Hussein Chalayan",
+        "u": "https://en.wikipedia.org/wiki/Hussein_Chalayan"
+      },
+      {
+        "t": "UAL：Hussein Chalayan's Airmail Dress",
+        "u": "https://www.arts.ac.uk/colleges/central-saint-martins/about-us/when-central-met-saint-martins/30-years-in-objects-chalayan"
+      }
+    ]
+  },
+  {
+    "id": "kansai",
+    "name": "KANSAI YAMAMOTO",
+    "ja": "カンサイ ヤマモト",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京 / ロンドン",
+    "founded": 1971,
+    "tags": [
+      "アヴァンギャルド",
+      "グラフィック",
+      "アーカイブ"
+    ],
+    "summary": "山本寛斎のブランド。歌舞伎や武者絵など日本の伝統的なモチーフを大胆なグラフィックにし、1971年に日本人として初めてロンドンでショーを開いた。デヴィッド・ボウイがジギー・スターダスト期に着たことで世界的に知られる。",
+    "history": [
+      {
+        "year": 1971,
+        "text": "ロンドンで「KANSAI IN LONDON」を開き、日本人として初めてロンドンでコレクションを発表。ボウイが作品「因幡の素兎」を個人的に購入しステージ衣装に"
+      },
+      {
+        "year": 1973,
+        "text": "ボウイのジギー・スターダスト期のツアー衣装を手がける（袴の形のジャンプスーツ、「出火吐暴威」のマントなど）"
+      },
+      {
+        "year": 2020,
+        "text": "7月21日、山本寛斎が76歳で死去"
+      }
+    ],
+    "designers": [
+      {
+        "d": "kansai",
+        "role": "創業者・デザイナー",
+        "from": 1971,
+        "to": 2020
+      }
+    ],
+    "items": [
+      {
+        "name": "ボウイの衣装（ジギー・スターダスト期）",
+        "year": "1972〜73",
+        "desc": "袴の形を取り入れた衣装など。"
+      }
+    ],
+    "archive": [
+      "1970〜80年代のニットやグラフィックのアイテムは近年海外で再評価されている。"
+    ],
+    "related": [
+      "issey",
+      "yohji"
+    ],
+    "note": "ボウイの衣装の年はツアー時期からの概算です。",
+    "sources": [
+      {
+        "t": "WWDJAPAN：デヴィッド・ボウイの回顧展「DAVID BOWIE is」",
+        "u": "https://www.wwdjapan.com/articles/365820"
+      },
+      {
+        "t": "京都新聞：追悼 山本寛斎さん",
+        "u": "https://www.kyoto-np.co.jp/articles/thekyoto/677416"
+      },
+      {
+        "t": "Wikipedia：Kansai Yamamoto",
+        "u": "https://en.wikipedia.org/wiki/Kansai_Yamamoto"
+      }
+    ]
+  },
+  {
+    "id": "beautybeast",
+    "name": "beauty:beast",
+    "ja": "ビューティービースト",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1990,
+    "tags": [
+      "アーカイブ",
+      "アヴァンギャルド",
+      "90年代"
+    ],
+    "summary": "独学で服づくりを学んだ山下隆生のブランド。アニメなどのポップカルチャーとモードを結びつけた先駆けで、1990年代の東京を代表する。近年再始動し、90年代リバイバルの源流として再評価されている。",
+    "history": [
+      {
+        "year": 1990,
+        "text": "「beauty&beast clothing」を始める"
+      },
+      {
+        "year": 1991,
+        "text": "「beauty:beast」に改称（1991年を創立年とする資料も多い）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "yamashita",
+        "role": "創業者・デザイナー",
+        "from": 1990,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [
+      "1990年代のアイテムは海外のアーカイブ市場でも人気。"
+    ],
+    "related": [
+      "finalhome",
+      "20471120",
+      "undercover"
+    ],
+    "sources": [
+      {
+        "t": "FASHIONSNAP：ビューティービースト 山下隆生インタビュー",
+        "u": "https://www.fashionsnap.com/article/yamashita-takao/"
+      },
+      {
+        "t": "WWDJAPAN：「ビューティビースト」再始動【90年代リバイバルの源泉】",
+        "u": "https://www.wwdjapan.com/articles/1551327"
+      },
+      {
+        "t": "ファッションプレス：ビューティービースト",
+        "u": "https://www.fashion-press.net/brands/82"
+      }
+    ]
+  },
+  {
+    "id": "finalhome",
+    "name": "FINAL HOME",
+    "ja": "ファイナルホーム",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1994,
+    "tags": [
+      "コンセプチュアル",
+      "アーカイブ",
+      "90年代",
+      "テクニカル"
+    ],
+    "summary": "イッセイ ミヤケでパリコレクションを担当していた津村耕佑が1994年に始めたブランド。「非常時にデザイナーは何を提供できるか」という問いから生まれた、ポケットに新聞紙などを詰めて防寒できるナイロンのコートが原点。名前は「究極の家」の意味。2015年にブランドとしての活動を終えた。",
+    "history": [
+      {
+        "year": 1983,
+        "text": "津村耕佑が三宅デザイン事務所に入り、パリコレクションを担当"
+      },
+      {
+        "year": 1994,
+        "text": "FINAL HOMEを始める（エイ・ネットから）"
+      },
+      {
+        "year": 2015,
+        "text": "津村が独立し、ブランドとしての活動を終了。名前は「KOSUKE TSUMURA」のプロジェクトの中で使われる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "tsumura",
+        "role": "創業者・デザイナー",
+        "from": 1994,
+        "to": 2015
+      }
+    ],
+    "items": [
+      {
+        "name": "FINAL HOMEのナイロンコート",
+        "year": 1994,
+        "desc": "非常時の「最後の家」としての服。中に詰め物をして防寒できる。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "issey",
+      "beautybeast"
+    ],
+    "sources": [
+      {
+        "t": "金沢21世紀美術館：フィロソフィカル・ファッション 1： FINAL HOME",
+        "u": "https://www.kanazawa21.jp/data_list.php?g=160&d=1502"
+      },
+      {
+        "t": "i/MAG：FINAL HOME 津村耕佑【HOMEBREWER vol.2】",
+        "u": "https://imag.sitateru.com/inspiration/homebrewer-finalhome/"
+      },
+      {
+        "t": "ファッションプレス：ファイナルホーム",
+        "u": "https://www.fashion-press.net/brands/1578"
+      }
+    ]
+  },
+  {
+    "id": "20471120",
+    "name": "20471120",
+    "ja": "トゥエンティフォーセブンイレブントゥエンティ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "大阪 / 東京 / パリ",
+    "founded": 1992,
+    "tags": [
+      "アーカイブ",
+      "アヴァンギャルド",
+      "90年代"
+    ],
+    "summary": "中川正博とLICAのブランド。名前は「2047年11月20日」という未来の日付から。関西のユーモアと前衛性で1990年代の日本のファッションに衝撃を与え、1997年にパリへ進出した。",
+    "history": [
+      {
+        "year": 1992,
+        "text": "中川正博とLICAが「20471120」として始める（設立年は1991〜1994年で資料が分かれる）"
+      },
+      {
+        "year": 1994,
+        "text": "東京コレクションに参加"
+      },
+      {
+        "year": 1997,
+        "text": "パリコレクションに参加"
+      }
+    ],
+    "designers": [
+      {
+        "d": "nakagawa",
+        "role": "創業者・デザイナー",
+        "from": 1992,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "beautybeast",
+      "finalhome"
+    ],
+    "note": "名前の読み方は資料によって異なります。",
+    "sources": [
+      {
+        "t": "WWDJAPAN：「20471120」が起こした“おもろい”衝撃",
+        "u": "https://www.wwdjapan.com/articles/1550774"
+      },
+      {
+        "t": "HMV：中川正博 プロフィール",
+        "u": "https://www.hmv.co.jp/artist_%E4%B8%AD%E5%B7%9D%E6%AD%A3%E5%8D%9A_000000000235578/biography/"
+      }
+    ]
+  },
+  {
+    "id": "nhoolywood",
+    "name": "N.HOOLYWOOD",
+    "ja": "エヌハリウッド",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京 / ニューヨーク",
+    "founded": 2001,
+    "tags": [
+      "古着",
+      "ミリタリー",
+      "ワーク",
+      "メンズ"
+    ],
+    "summary": "古着店「go-getter」の立ち上げに関わった尾花大輔のブランド。古着やミリタリー、ワークウェアを研究し、現代的なサイズ感に作り直す。名前はロサンゼルスのノースハリウッドに由来し、綴りを言葉遊びで変えた。",
+    "history": [
+      {
+        "year": 1995,
+        "text": "尾花大輔が古着店「go-getter」の立ち上げに関わる"
+      },
+      {
+        "year": 2000,
+        "text": "原宿に「ミスターハリウッド」を開く"
+      },
+      {
+        "year": 2001,
+        "text": "N.HOOLYWOODを設立（2000年とする資料も）"
+      },
+      {
+        "year": 2002,
+        "text": "2002年春夏に初のコレクションを発表"
+      }
+    ],
+    "designers": [
+      {
+        "d": "obana",
+        "role": "創業者・デザイナー",
+        "from": 2001,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "needles",
+      "visvim"
+    ],
+    "sources": [
+      {
+        "t": "N.HOOLYWOOD 公式：ABOUT",
+        "u": "https://n-hoolywood.com/en/pages/about"
+      },
+      {
+        "t": "FASHIONSNAP：N.ハリウッドとは？",
+        "u": "https://www.fashionsnap.com/brand/n-hoolywood/"
+      }
+    ]
+  },
+  {
+    "id": "needles",
+    "name": "NEEDLES",
+    "ja": "ニードルズ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1995,
+    "tags": [
+      "古着",
+      "アメリカン",
+      "メンズ"
+    ],
+    "summary": "セレクトショップNEPENTHESを1988年に創業した清水慶三が1995年に始めたブランド。古着やアメリカンカジュアルに独特の美学を加えた服で、蝶（パピヨン）の刺繍のトラックパンツが代表作。",
+    "history": [
+      {
+        "year": 1988,
+        "text": "清水慶三がNEPENTHESを創業"
+      },
+      {
+        "year": 1995,
+        "text": "NEEDLESを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "shimizu",
+        "role": "デザイナー",
+        "from": 1995,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "トラックパンツ",
+        "year": "定番",
+        "desc": "側章付きのジャージ素材のパンツ。蝶の刺繍が入る。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "nhoolywood"
+    ],
+    "note": "ネペンテス系列にはニューヨークで鈴木大器が始めたENGINEERED GARMENTSもあります（今回は詳細未調査）。",
+    "sources": [
+      {
+        "t": "2nd STREET：〈ニードルズ〉の特異な美学",
+        "u": "https://www.2ndstreet.jp/knowbrand/feature/needles/"
+      },
+      {
+        "t": "ファッションプレス：ニードルズ",
+        "u": "https://www.fashion-press.net/brands/1208"
+      }
+    ]
+  },
+  {
+    "id": "wackomaria",
+    "name": "WACKO MARIA",
+    "ja": "ワコマリア",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 2005,
+    "tags": [
+      "ストリート",
+      "音楽",
+      "メンズ"
+    ],
+    "summary": "元Jリーガーの森敦彦と石塚啓次が2005年に始めたブランド。音楽、映画、アートを背景にした柄シャツやグラフィックで知られる。旗艦店は東京・東山の「PARADISE TOKYO」（2015年）。",
+    "history": [
+      {
+        "year": 2005,
+        "text": "森敦彦と石塚啓次が設立"
+      },
+      {
+        "year": 2015,
+        "text": "9月、旗艦店「PARADISE TOKYO」を開く"
+      }
+    ],
+    "designers": [
+      {
+        "d": "mori",
+        "role": "創業者・デザイナー",
+        "from": 2005,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "柄シャツ（ハワイアン）",
+        "year": "定番",
+        "desc": "アロハシャツの形にアートや映画のグラフィックを載せる。"
+      }
+    ],
+    "archive": [],
+    "related": [
+      "nbhd",
+      "wtaps"
+    ],
+    "note": "石塚啓次の離脱時期は2012年と2016〜17年で資料が分かれます。",
+    "sources": [
+      {
+        "t": "KLD：WACKO MARIAってどんなブランド？",
+        "u": "https://kld-c.jp/blog/what-is-wackomaria"
+      },
+      {
+        "t": "modescape：WACKO MARIAの世界観",
+        "u": "https://www.modescape.com/magazine/wacko-maria.html"
+      }
+    ]
+  },
+  {
+    "id": "toga",
+    "name": "TOGA",
+    "ja": "トーガ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1997,
+    "tags": [
+      "モード",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "古田泰子が1997年に始めたブランド。異素材や古着的な要素を組み合わせる「ハイブリッド」な構成で、ロンドンやパリでも発表してきた。",
+    "history": [
+      {
+        "year": 1997,
+        "text": "古田泰子がTOGAを始める（会社の設立は2001年）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "furuta",
+        "role": "創業者・デザイナー",
+        "from": 1997,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "mamekurogouchi"
+    ],
+    "sources": [
+      {
+        "t": "TOGA 公式：ABOUT TOGA",
+        "u": "https://store.toga.jp/pages/about"
+      },
+      {
+        "t": "RINKAN：トーガ ブランドの歴史",
+        "u": "https://www.gsc-rinkan.com/column/toga/toga-history/"
+      }
+    ]
+  },
+  {
+    "id": "mamekurogouchi",
+    "name": "Mame Kurogouchi",
+    "ja": "マメ クロゴウチ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京 / パリ",
+    "founded": 2010,
+    "tags": [
+      "モード",
+      "クラフト",
+      "ウィメンズ"
+    ],
+    "summary": "黒河内真衣子が2010年に始めたウィメンズ。日本各地の工芸や素材を研究し、繊細なテキスタイルで表現する。",
+    "history": [
+      {
+        "year": 2010,
+        "text": "黒河内真衣子がブランドを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "kurogouchi",
+        "role": "創業者・デザイナー",
+        "from": 2010,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "toga",
+      "issey"
+    ],
+    "sources": [
+      {
+        "t": "Llarsen：マメクロゴウチに似てるブランド",
+        "u": "https://llarsen.jp/mamekurogouchi-similar/"
+      }
+    ]
+  },
+  {
+    "id": "anrealage",
+    "name": "ANREALAGE",
+    "ja": "アンリアレイジ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京 / パリ",
+    "founded": 2003,
+    "tags": [
+      "テクノロジー",
+      "コンセプチュアル",
+      "ウィメンズ"
+    ],
+    "summary": "森永邦彦が2003年に始めたブランド。名前は「A REAL（日常）」「UN REAL（非日常）」「AGE（時代）」から。光で色が変わる素材など、テクノロジーを使った服づくりで知られ、2019年にLVMHプライズのファイナリスト。",
+    "history": [
+      {
+        "year": 2003,
+        "text": "森永邦彦がANREALAGEを設立"
+      },
+      {
+        "year": 2014,
+        "text": "パリコレクションに進出（2015年とする資料も）"
+      },
+      {
+        "year": 2019,
+        "text": "LVMHプライズのファイナリストに選ばれる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "morinaga",
+        "role": "創業者・デザイナー",
+        "from": 2003,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "doublet",
+      "issey"
+    ],
+    "sources": [
+      {
+        "t": "ANREALAGE 公式：BRAND",
+        "u": "https://www.anrealage.com/brand"
+      },
+      {
+        "t": "ファッションプレス：アンリアレイジ",
+        "u": "https://www.fashion-press.net/brands/325"
+      }
+    ]
+  },
+  {
+    "id": "doublet",
+    "name": "doublet",
+    "ja": "ダブレット",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 2012,
+    "tags": [
+      "ストリート",
+      "コンセプチュアル",
+      "メンズ"
+    ],
+    "summary": "井野将之とパタンナーの村上高士が2012年に始めたブランド。日常の服に「違和感」やユーモアを仕込む作風で、2018年にLVMHプライズのグランプリを受賞した（アジア人として初）。",
+    "history": [
+      {
+        "year": 2012,
+        "text": "井野将之と村上高士が設立。最初のコレクションは2013年春夏"
+      },
+      {
+        "year": 2018,
+        "text": "LVMHプライズのグランプリを受賞"
+      }
+    ],
+    "designers": [
+      {
+        "d": "ino",
+        "role": "創業者・デザイナー",
+        "from": 2012,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "anrealage"
+    ],
+    "note": "受賞を「アジア人初」とする資料と「日本人初」とする資料があります。",
+    "sources": [
+      {
+        "t": "Wikipedia：井野将之",
+        "u": "https://ja.wikipedia.org/wiki/%E4%BA%95%E9%87%8E%E5%B0%86%E4%B9%8B"
+      },
+      {
+        "t": "seventietwo：井野将之が2018年LVMHPrizeグランプリ受賞",
+        "u": "https://www.seventietwo.com/ja/business/LVMHPrize2018WinnerMasayukiIno"
+      }
+    ]
+  },
+  {
+    "id": "auralee",
+    "name": "AURALEE",
+    "ja": "オーラリー",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京 / パリ",
+    "founded": 2015,
+    "tags": [
+      "素材",
+      "ミニマル",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "岩井良太が2015年に始めたブランド。オリジナルの糸や生地から作る素材主義の服で、パリでも発表している。",
+    "history": [
+      {
+        "year": 2015,
+        "text": "岩井良太がAURALEEを設立"
+      }
+    ],
+    "designers": [
+      {
+        "d": "iwai",
+        "role": "創業者・デザイナー",
+        "from": 2015,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "kolor"
+    ],
+    "sources": [
+      {
+        "t": "Llarsen：マメクロゴウチに似てるブランド（比較表）",
+        "u": "https://llarsen.jp/mamekurogouchi-similar/"
+      }
+    ]
+  },
+  {
+    "id": "supreme",
+    "name": "Supreme",
+    "ja": "シュプリーム",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 1994,
+    "tags": [
+      "ストリート",
+      "スケート",
+      "グラフィック"
+    ],
+    "summary": "Stüssyのニューヨーク店に関わったジェームス・ジェビアが1994年に始めたスケートショップとブランド。赤いボックスロゴと毎週の限定リリースで、ストリートウェアを世界的な文化にした。2020年にVF、2024年にEssilorLuxotticaが買収。",
+    "history": [
+      {
+        "year": 1994,
+        "text": "ジェームス・ジェビアがニューヨークで創業"
+      },
+      {
+        "year": 2017,
+        "text": "Louis Vuittonとのコラボ（キム・ジョーンズ期）"
+      },
+      {
+        "year": 2020,
+        "text": "VF Corporationが約21億ドルで買収"
+      },
+      {
+        "year": 2024,
+        "text": "7月、EssilorLuxotticaが15億ドルで買収することで合意（10月に完了）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "jebbia",
+        "role": "創業者",
+        "from": 1994,
+        "to": null
+      }
+    ],
+    "items": [
+      {
+        "name": "ボックスロゴ",
+        "year": "定番",
+        "desc": "赤地に白抜きのロゴ。",
+        "unverified": true
+      }
+    ],
+    "archive": [],
+    "related": [
+      "stussy",
+      "lv",
+      "undercover"
+    ],
+    "sources": [
+      {
+        "t": "WWD：EssilorLuxottica to Buy Supreme From VF",
+        "u": "https://wwd.com/business-news/mergers-acquisitions/essilorluxottica-acquire-supreme-1236494261/"
+      },
+      {
+        "t": "Forbes：Why Supreme May Be As Bad A Deal For EssilorLuxottica As It Was For VF",
+        "u": "https://www.forbes.com/sites/pamdanziger/2024/07/22/why-supreme-may-be-as-bad-a-deal-for-essilorluxottica-as-it-was-for-vf/"
+      }
+    ]
+  },
+  {
+    "id": "stussy",
+    "name": "Stüssy",
+    "ja": "ステューシー",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "カリフォルニア",
+    "founded": 1980,
+    "tags": [
+      "ストリート",
+      "サーフ",
+      "グラフィック"
+    ],
+    "summary": "カリフォルニア州ラグーナビーチのサーフボード職人ショーン・ステューシーが、ボードに書いていた手書きのサインをTシャツに載せたことから始まったブランド。ストリートウェアの原点の一つで、日本の裏原宿にも大きな影響を与えた。",
+    "history": [
+      {
+        "year": 1980,
+        "text": "1980年代初め、ショーン・ステューシーが始める（1984年とする資料も）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "shawnstussy",
+        "role": "創業者",
+        "from": 1980,
+        "to": 1996
+      }
+    ],
+    "items": [],
+    "archive": [
+      "1980〜90年代のオールドステューシー（タグで年代を判別）は古着で人気。"
+    ],
+    "related": [
+      "supreme",
+      "bape"
+    ],
+    "note": "創業年と、ショーン・ステューシーの退任年（1996年）は今回の調査で裏付けが取れていません。",
+    "sources": [
+      {
+        "t": "Highsnobiety：Stüssy",
+        "u": "https://www.highsnobiety.com/tag/stussy/"
+      }
+    ]
+  },
+  {
+    "id": "chromehearts",
+    "name": "Chrome Hearts",
+    "ja": "クロムハーツ",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ロサンゼルス",
+    "founded": 1988,
+    "tags": [
+      "シルバー",
+      "レザー",
+      "ロック"
+    ],
+    "summary": "リチャード・スタークらが1988年にロサンゼルスで始めたレザーとシルバーのブランド。バイカー由来のレザーとゴシックなクロスのシルバーで、ロックミュージシャンに愛された。1994年以降はスターク夫妻が経営。",
+    "history": [
+      {
+        "year": 1988,
+        "text": "リチャード・スターク、ジョン・ボウマン、レナード・カムハウトが設立"
+      },
+      {
+        "year": 1994,
+        "text": "創業者が分かれ、以後スタークと妻ローリー・リン・スタークが経営"
+      }
+    ],
+    "designers": [
+      {
+        "d": "stark",
+        "role": "創業者",
+        "from": 1988,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [
+      "偽物が非常に多いブランド。"
+    ],
+    "related": [
+      "carpediem"
+    ],
+    "note": "Carpe Diemの創業者マウリツィオ・アルティエリはChrome Hearts出身です。",
+    "sources": [
+      {
+        "t": "Wikipedia：Chrome Hearts",
+        "u": "https://en.wikipedia.org/wiki/Chrome_Hearts"
+      },
+      {
+        "t": "Wikipedia：Richard Stark (designer)",
+        "u": "https://en.wikipedia.org/wiki/Richard_Stark_(designer)"
       }
     ]
   }

@@ -38,7 +38,7 @@ python3 -m http.server 8000
 
 ## サイト上で編集する
 
-画面右上の「✎ 編集」から、ブランド・デザイナー・用語集を追加・修正できます。各ブランドページやデザイナーページの「✎ 編集」ボタンからも直接開けます。
+画面右上の「✎ 編集」から、ブランド・ライン・デザイナー・用語集を追加・修正できます。ブランドページでラインを開くと「このラインを編集」から、そのラインの歴史・名作シーズン・名作アイテムを直せます。各ブランドページやデザイナーページの「✎ 編集」ボタンからも直接開けます。
 
 ### 流れ
 
@@ -87,7 +87,8 @@ python3 -m http.server 8000
 | `history` | `[{ year, text, unverified? }]` 年表 |
 | `designers` | `[{ d: デザイナーのキー, role, from, to }]`（`to: null` は現在） |
 | `collections` | `[{ season, title, city, alias, note, unverified? }]` シーズン一覧 |
-| `items` | `[{ name, year, desc, unverified? }]` 代表的なアイテム |
+| `lines` | `[{ name, from, to, designer, desc, history, collections, items, archive, unverified? }]` ブランド内のライン。歴史・名作シーズン・名作アイテム・古着のポイントをライン単位で持てる |
+| `items` | `[{ name, year, desc, img, credit, license, imgPage, unverified? }]` 代表的なアイテム（写真は任意） |
 | `archive` | 古着・アーカイブで見るポイント（文字列の配列） |
 | `related` | 関連ブランドの `id` |
 | `sources` | `[{ t: タイトル, u: URL }]` 出典 |

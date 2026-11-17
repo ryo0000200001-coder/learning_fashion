@@ -4199,6 +4199,14 @@ window.BRANDS = [
       {
         "t": "Martin Roll：Prada",
         "u": "https://martinroll.com/resources/articles/strategy/prada-italian-family-business-iconic-luxury-brand/"
+      },
+      {
+        "t": "nss magazine：The story of Prada Linea Rossa",
+        "u": "https://www.nssmag.com/en/fashion/22420/la-storia-di-prada-linea-rossa"
+      },
+      {
+        "t": "Wikipedia：Miu Miu",
+        "u": "https://en.wikipedia.org/wiki/Miu_Miu"
       }
     ],
     "lines": [
@@ -4210,12 +4218,29 @@ window.BRANDS = [
       {
         "name": "Miu Miu",
         "from": 1993,
-        "desc": "ミウッチャの愛称から。"
+        "desc": "ミウッチャ・プラダの子ども時代の愛称から（1992年開始とする資料も）。2015年に初の香水。「Pradaの妹分」と見られがちだが独自の路線。"
       },
       {
         "name": "Prada Linea Rossa（Prada Sport）",
         "from": 1997,
-        "desc": "赤いラインのロゴのスポーツライン。"
+        "desc": "1997年に始まったテクニカルなスポーツウェアのライン。赤いラインのロゴ。同年、アメリカズカップに挑むセーリングチーム「Luna Rossa」も発足。",
+        "history": [
+          {
+            "year": 1997,
+            "text": "スタート"
+          },
+          {
+            "year": 1999,
+            "text": "1999年春夏のPradaのランウェイに登場"
+          },
+          {
+            "year": 2018,
+            "text": "2018-19年秋冬に再始動（〜2020年春夏）"
+          }
+        ],
+        "archive": [
+          "1990年代後半〜2000年代前半のナイロンアウターや赤ラインのスニーカーは、古着で探しやすい入門アーカイブ。"
+        ]
       }
     ]
   },
@@ -5161,7 +5186,8 @@ window.BRANDS = [
       }
     ],
     "archive": [
-      "SEX / Seditionaries期の物は偽物・再現品が多い。"
+      "SEX / Seditionaries期の物は偽物・再現品が多い。",
+      "1990年代のタグにはオーブのロゴが入る。2000年代は「Made in Italy」の表記と地色のバリエーションが増える（目安）。"
     ],
     "related": [
       "mcqueen",
@@ -5191,6 +5217,14 @@ window.BRANDS = [
       {
         "t": "University of Westminster Archives：Vivienne Westwood",
         "u": "https://ukdps.uwestminster-ro.tmp.accesstomemory.org/vivienne-westwood"
+      },
+      {
+        "t": "Vintage Clothing Guides：How to tell if Vivienne Westwood is vintage",
+        "u": "https://vintageclothingguides.com/tags-labels/how-to-tell-if-vivienne-westwood-is-vintage/"
+      },
+      {
+        "t": "IRVRSBL：How to Authenticate Vintage Vivienne Westwood",
+        "u": "https://irvrsbl.com/en-ca/blogs/news/identifying-vintage-vivienne-westwood-labels"
       }
     ],
     "lines": [
@@ -5198,18 +5232,27 @@ window.BRANDS = [
         "name": "Gold Label",
         "from": 1993,
         "to": 2016,
-        "desc": "メインのコレクションライン。2016年に「Andreas Kronthaler for Vivienne Westwood」へ。"
+        "desc": "メインのコレクションライン。1993-94年秋冬「Anglomania」から始まり、オーダーメイドやドゥミ・クチュールの服を含む。2016年に「Andreas Kronthaler for Vivienne Westwood」へ。",
+        "designer": "ヴィヴィアン・ウエストウッド、アンドレアス・クロンターラー",
+        "archive": [
+          "タグに金色の糸が使われる。多くはイタリア製で、タグにも表記がある。",
+          "2016年以降は「Andreas Kronthaler for Vivienne Westwood」の表記になる。"
+        ]
       },
       {
         "name": "Red Label",
         "from": 1993,
         "to": 2016,
-        "desc": "Gold Labelより若いセカンドライン（公式は1999年開始としている）。"
+        "desc": "Gold Labelより若いセカンドライン（公式は1999年開始としている）。",
+        "archive": [
+          "1990年代のタグは赤地に黄色または白の文字。2000年代は黒など地の色が増える。",
+          "若く手に取りやすいプレタポルテとして位置づけられた。"
+        ]
       },
       {
         "name": "MAN",
         "from": 1996,
-        "desc": "メンズ。1996年1月にミラノで発表。"
+        "desc": "メンズ。1996年1月にミラノのコレツィオーニ・ウオモで発表。"
       },
       {
         "name": "Anglomania",
@@ -5487,23 +5530,51 @@ window.BRANDS = [
       {
         "t": "Dazed：Ten of Rick Owens' most memorable shows",
         "u": "https://www.dazeddigital.com/fashion/article/38420/1/ten-of-rick-owens-most-memorable-shows"
+      },
+      {
+        "t": "Marais：Rick Owens Sizing and Fit Guide",
+        "u": "https://marais.com.au/blogs/guides/rick-owens-sizing-fit-guide"
       }
     ],
     "lines": [
       {
         "name": "Rick Owens",
         "from": 1994,
-        "desc": "メインライン。"
+        "desc": "メインライン。シューズは主にレザーやスエードで、モデナ近郊コンコルディアのリック・オウエンス自社工場で作られる。",
+        "items": [
+          {
+            "name": "ジオバスケット",
+            "year": "定番",
+            "desc": "ラモーンズの要素を受け継いだ、厚いソールと幾何学的なつま先のハイカット。"
+          }
+        ],
+        "archive": [
+          "2013〜2021年の品番は、ラインやアイテムを示す記号で読める。"
+        ]
       },
       {
         "name": "DRKSHDW",
         "from": 2005,
-        "desc": "デニムやスウェットなどカジュアルなライン（2008年とする資料も）。"
+        "desc": "デニムやスウェットなどカジュアルなライン（2008年とする資料も）。",
+        "items": [
+          {
+            "name": "ラモーンズ（キャンバス）",
+            "year": "定番",
+            "desc": "DRKSHDWのラモーンズはキャンバス製。メインラインはレザー・スエード。"
+          }
+        ],
+        "archive": [
+          "品番のDUはDRKSHDWのメンズ、DSはウィメンズ。Uは靴（ベロやジップ付近に記載）。",
+          "靴の表記は「DRKSHDW」または「DRKSHDW by Rick Owens」。"
+        ]
       },
       {
         "name": "Rick Owens Lilies",
         "from": 2006,
-        "desc": "柔らかなウィメンズ。"
+        "desc": "柔らかなウィメンズ。",
+        "archive": [
+          "品番の記号LIがLilies。"
+        ]
       },
       {
         "name": "HUNRICKOWENS",
@@ -5659,6 +5730,44 @@ window.BRANDS = [
       {
         "t": "nss magazine：Moncler has acquired Stone Island",
         "u": "https://www.nssmag.com/en/fashion/24511/moncler-stone-island"
+      },
+      {
+        "t": "Stone Island 30：Shadow Project",
+        "u": "http://www.stoneisland30.com/en/rooms/stone_island_shadow_project/"
+      },
+      {
+        "t": "Pause：10 Years of Stone Island Shadow Project",
+        "u": "https://pausemag.co.uk/2018/09/10-years-of-stone-island-shadow-project-celebrated-in-fw18-lookbook/"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Stone Island",
+        "from": 1982,
+        "designer": "マッシモ・オスティ → ポール・ハーヴェイ → カルロ・リヴェッティ",
+        "desc": "メインライン。素材研究と製品染めの実験が軸。袖のコンパスバッジが目印。"
+      },
+      {
+        "name": "Stone Island Shadow Project",
+        "from": 2008,
+        "designer": "ACRONYMのエロルソン・ヒュー、ミカエラ・ザッヘンバッハー",
+        "desc": "2008-09年秋冬から、カルロ・リヴェッティとACRONYMの2人の対話として始まった実験的なライン。どのシーズンの服も組み合わせられるグリッドの考え方、変わった素材、人間工学的な構造、独特の製品染め。",
+        "history": [
+          {
+            "year": 2008,
+            "text": "2008-09年秋冬に始まる"
+          },
+          {
+            "year": 2021,
+            "text": "2021年春夏でエロルソン・ヒューが退き、2021-22年秋冬からザッヘンバッハーが率いる"
+          }
+        ]
+      },
+      {
+        "name": "C.P. Company",
+        "designer": "マッシモ・オスティ",
+        "desc": "オスティがStone Islandより前に始めたブランド（当初は「Chester Perry」）。ゴーグル付きのジャケット（Mille Miglia）で知られる。",
+        "unverified": true
       }
     ]
   },

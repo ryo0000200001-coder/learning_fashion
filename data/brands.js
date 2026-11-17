@@ -3174,19 +3174,47 @@ window.BRANDS = [
       "レザー",
       "メゾン"
     ],
-    "summary": "馬具工房から始まった老舗。ウィメンズのプレタポルテではマルジェラ、ゴルチエ、ルメールといった意外な人選が続き、デザイナー変遷を学ぶ好例。メンズは37年続いたニシャニアン体制が2026年に終わった。",
+    "summary": "1837年にパリで始まった馬具工房。馬具の技術を生かした革製品（ケリー、バーキン）とシルクのスカーフで知られる。ウィメンズのプレタポルテではマルジェラ、ゴルチエ、ルメール、ナデージュ・ヴァンヘ＝シビュルスキと意外な人選が続き、メンズは37年続いたヴェロニク・ニシャニアンの時代が2026年1月に終わり、グレース・ウェールズ・ボナーに。",
     "history": [
       {
         "year": 1837,
         "text": "ティエリ・エルメスがパリに馬具工房を開く"
       },
       {
+        "year": 1880,
+        "text": "フォーブル・サントノレ通り24番地へ移る"
+      },
+      {
+        "year": 1922,
+        "text": "最初のハンドバッグ"
+      },
+      {
+        "year": 1935,
+        "text": "ケリーの原型「サック・ア・デペッシュ」"
+      },
+      {
+        "year": 1937,
+        "text": "シルクのスカーフ「カレ」"
+      },
+      {
+        "year": 1949,
+        "text": "シルクのネクタイ"
+      },
+      {
         "year": 1956,
-        "text": "グレース・ケリーが妊娠を隠すために持ったバッグが「ケリー」と呼ばれるように（正式改称は1977年）"
+        "text": "グレース・ケリーが妊娠を隠すために持ったバッグがLIFE誌に載り「ケリー」と呼ばれるように（正式改称は1977年）"
+      },
+      {
+        "year": 1959,
+        "text": "「コンスタンス」"
+      },
+      {
+        "year": 1978,
+        "text": "ジャン＝ルイ・デュマが経営を継ぐ。同年「エブリン」"
       },
       {
         "year": 1984,
-        "text": "ジェーン・バーキンとジャン＝ルイ・デュマの機内での出会いから「バーキン」誕生"
+        "text": "ジェーン・バーキンとジャン＝ルイ・デュマの機内での出会いから「バーキン」誕生（出会いは1983年、1981年とする資料も）"
       },
       {
         "year": 1988,
@@ -3194,18 +3222,40 @@ window.BRANDS = [
       },
       {
         "year": 1997,
-        "text": "マルタン・マルジェラがウィメンズを担当（エリック・ベルジェールの後任）"
+        "text": "マルタン・マルジェラがウィメンズを担当（エリック・ベルジェールの後任）。初コレクションは1998-99年秋冬"
+      },
+      {
+        "year": 2003,
+        "text": "マルジェラが12シーズンで退き、ジャン＝ポール・ゴルチエが後任に（初コレクションは2004-05年秋冬）"
+      },
+      {
+        "year": 2010,
+        "text": "クリストフ・ルメールがウィメンズに"
+      },
+      {
+        "year": 2014,
+        "text": "ナデージュ・ヴァンヘ＝シビュルスキがウィメンズに。2015年3月、乗馬をテーマにした最初のコレクション"
       },
       {
         "year": 2025,
-        "text": "10月、グレース・ウェールズ・ボナーがメンズのアーティスティックディレクターに"
+        "text": "10月、グレース・ウェールズ・ボナーがメンズのクリエイティブディレクターに"
       },
       {
         "year": 2026,
-        "text": "1月、ニシャニアンが最後のショーで退任"
+        "text": "1月24日、パレ・ブロンニャールでニシャニアン最後のメンズ（2026-27年秋冬）。スタンディングオベーションで送られた"
+      },
+      {
+        "year": 2027,
+        "text": "1月、ウェールズ・ボナーのメンズのデビュー予定"
       }
     ],
     "designers": [
+      {
+        "d": "bergere",
+        "role": "ウィメンズ",
+        "from": 1981,
+        "to": 1988
+      },
       {
         "d": "margiela",
         "role": "ウィメンズ",
@@ -3261,17 +3311,44 @@ window.BRANDS = [
         "credit": "Ohconfucius / Wikimedia Commons",
         "license": "CC BY 3.0",
         "imgPage": "https://commons.wikimedia.org/wiki/File:Croc_Birkin_bag.jpg"
+      },
+      {
+        "name": "カレ（シルクスカーフ）",
+        "year": 1937,
+        "desc": "90cm角のシルクのスカーフ。毎シーズン新しい柄が出る。"
+      },
+      {
+        "name": "コンスタンス",
+        "year": 1959,
+        "desc": "Hの金具のショルダーバッグ。"
+      },
+      {
+        "name": "エブリン",
+        "year": 1978,
+        "desc": "馬の手入れ道具を入れるバッグが原型の、パンチングのHのショルダー。"
+      },
+      {
+        "name": "マルジェラ期のダブルフェイスのコート",
+        "year": "1998〜2003",
+        "desc": "縫い代を見せない両面仕立てのウール・カシミア。"
+      },
+      {
+        "name": "ロザンジュ（ひし形のスカーフ）",
+        "year": "マルジェラ期",
+        "desc": "マルジェラが提案したひし形のスカーフ。"
       }
     ],
     "archive": [
-      "マルジェラ期（1997〜2003）のHermèsウィメンズは、Margiela本体と並んでアーカイブ蒐集の対象。"
+      "マルジェラ期（1997〜2003）のHermèsウィメンズは、Margiela本体と並んでアーカイブ蒐集の対象。",
+      "ニシャニアン期のメンズのレザーやニットは、ロゴがなく上質で、古着でも評価が高い。",
+      "バッグは刻印（工房の印と製造年の記号）で製造年がわかる。"
     ],
     "related": [
       "margiela",
       "jpg",
       "walesbonner"
     ],
-    "note": "ケリーの起源は1923年の「ブガッティ」とする資料もあります。ウェールズ・ボナーの初コレクションは2027年1月の予定。 一部のまとめ記事に別の後任名が出ていますが、Hermès の公式発表と主要メディアではウェールズ・ボナーです。",
+    "note": "ケリーの起源は1923年の「ブガッティ」とする資料もあります。マルジェラの最後を2004年春夏とする資料もあります。ニシャニアン最後のショーは76回目とも87回目ともいわれます。",
     "sources": [
       {
         "t": "Wikipedia：Véronique Nichanian",
@@ -3288,6 +3365,88 @@ window.BRANDS = [
       {
         "t": "FARFETCH：The Birkin and Kelly",
         "u": "https://www.farfetch.com/style-guide/brands/hermes-and-birkin-bag-history/"
+      },
+      {
+        "t": "Baghunter：Hermès brand history timeline",
+        "u": "https://baghunter.com/blogs/insights/hermes-brand-history-timeline"
+      },
+      {
+        "t": "Luxity：Hermès History",
+        "u": "https://luxity.co.za/blog/hermes-history-the-brand-behind-the-birkin/"
+      },
+      {
+        "t": "032c：The Philosopher King, Martin Margiela's Tenure at Hermès 1997-2003",
+        "u": "https://032c.com/magazine/margiela-hermes"
+      },
+      {
+        "t": "Google Arts & Culture：Opening look from Martin Margiela's first collection at Hermès",
+        "u": "https://artsandculture.google.com/asset/hQGbL37HPmR8_A"
+      },
+      {
+        "t": "Philstar：Margiela and Hermès women dialogue",
+        "u": "https://philstar.com/sunday-life/2018/06/10/1823077/margiela-and-herms-women-dialogue"
+      },
+      {
+        "t": "Wikipedia：Nadège Vanhee-Cybulski",
+        "u": "https://en.wikipedia.org/wiki/Nad%C3%A8ge_Vanhee-Cybulski"
+      },
+      {
+        "t": "GMA/Reuters：Hermes designer bows out after 37 years",
+        "u": "https://www.gmanetwork.com/news/lifestyle/shoppingandfashion/974050/hermes-designer-bows-out-after-37-years-with-final-menswear-show-in-paris/story/"
+      },
+      {
+        "t": "Robb Report：Véronique Nichanian Has Left the House",
+        "u": "https://robbreport.com/style/menswear/veronique-nichanian-leaves-hermes-last-show-1237533731/"
+      },
+      {
+        "t": "Forbes：Nichanian's Departure And The Future Of Hermès Menswear",
+        "u": "https://www.forbes.com/sites/laiafarrangraves/2025/10/20/end-of-an-era-nichanians-departure-and-the-future-of-herms-menswear/"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1998-99AW",
+        "title": "マルジェラのデビュー",
+        "city": "パリ",
+        "note": "フォーブル・サントノレの本店で、年配の女性やスニーカー姿の女性をモデルに。肩を少し上げた柔らかいシルエット、長いカシミアのコート。当時の肩の大きなコートと対照的で、地味すぎると批判も受けた。"
+      },
+      {
+        "season": "1999-2000AW",
+        "city": "パリ",
+        "note": "マルジェラ期。ダブルフェイスのウール・カシミアのコート、ボタンを留めずに巻くコート。"
+      },
+      {
+        "season": "2000SS",
+        "city": "パリ",
+        "note": "マルジェラ期。大きなひし形の「ロザンジュ」のスカーフを非対称のチュニックとして着る提案。"
+      },
+      {
+        "season": "2003-04AW",
+        "city": "パリ",
+        "note": "マルジェラ期の終わり（最後を2004年春夏とする資料も）。"
+      },
+      {
+        "season": "2004-05AW",
+        "title": "ゴルチエのデビュー",
+        "city": "パリ",
+        "note": "乗馬と馬具のディテールを強く打ち出した。"
+      },
+      {
+        "season": "2011SS",
+        "title": "ルメールのデビュー",
+        "city": "パリ"
+      },
+      {
+        "season": "2015-16AW",
+        "title": "ヴァンヘ＝シビュルスキのデビュー",
+        "city": "パリ",
+        "note": "2015年3月。乗馬がテーマ。"
+      },
+      {
+        "season": "2026-27AW",
+        "title": "ニシャニアン最後のメンズ",
+        "city": "パリ",
+        "note": "2026年1月24日、パレ・ブロンニャール。ポール・スミス、トラヴィス・スコットらが客席に。"
       }
     ]
   },
@@ -5399,8 +5558,32 @@ window.BRANDS = [
         "text": "パリにメゾンを開く"
       },
       {
+        "year": 1950,
+        "text": "バルーン・スカート（1957年とする資料も）"
+      },
+      {
+        "year": 1955,
+        "text": "チュニック・ドレス"
+      },
+      {
+        "year": 1957,
+        "text": "サック・ドレス。「サックではセクシーになれない」と英紙に書かれた"
+      },
+      {
+        "year": 1958,
+        "text": "ベビードール・ドレス"
+      },
+      {
         "year": 1968,
         "text": "メゾンを閉鎖し、スペインに引退"
+      },
+      {
+        "year": 1972,
+        "text": "クリストバル・バレンシアガ死去"
+      },
+      {
+        "year": 1992,
+        "text": "ジョゼフス・ティミスターが就任し、ハイファッションに戻す"
       },
       {
         "year": 1997,
@@ -5411,16 +5594,36 @@ window.BRANDS = [
         "text": "2001年秋冬で「モーターサイクルバッグ」。当初25個のみ製作し、ケイト・モスが火付け役に"
       },
       {
+        "year": 2012,
+        "text": "11月、ジェスキエール退任（最後のショーは2013年春夏）。アレキサンダー・ワンが就任"
+      },
+      {
         "year": 2015,
-        "text": "デムナが就任"
+        "text": "10月、デムナが就任（初コレクションは2016-17年秋冬）"
+      },
+      {
+        "year": 2017,
+        "text": "1月、トリプルSがパリでお披露目"
+      },
+      {
+        "year": 2020,
+        "text": "デジタルのビデオゲーム「Afterworld: The Age of Tomorrow」で2021-22年秋冬を発表"
+      },
+      {
+        "year": 2021,
+        "text": "7月、1968年以来53年ぶりにオートクチュールを再開"
+      },
+      {
+        "year": 2022,
+        "text": "3月、人工の吹雪の中のショー。ロシアのウクライナ侵攻と重なり、難民だったデムナの体験を込めた。11月、子どもを使った広告が大炎上"
       },
       {
         "year": 2025,
-        "text": "5月、ピエールパオロ・ピッチョーリが就任（デムナはGucciへ）"
+        "text": "5月、ピエールパオロ・ピッチョーリが就任（デムナはGucciへ）。7月9日、ジョルジュ・サンク通りのサロンでデムナ最後のクチュール。10月、ピッチョーリのデビュー（2026年春夏）"
       },
       {
         "year": 2026,
-        "text": "11月5日にピッチョーリの退任を発表。11月6日、マーティン・ローズの就任を発表（11月16日付）。Keringのルカ・デ・メオCEOによる最初の起用"
+        "text": "2026-27年秋冬でドラマ『ユーフォリア』と協業。11月5日にピッチョーリの退任を発表。11月6日、マーティン・ローズの就任を発表（11月16日付）。Keringのルカ・デ・メオCEOによる最初の起用"
       }
     ],
     "designers": [
@@ -5490,10 +5693,26 @@ window.BRANDS = [
         "credit": "Abigail1714 / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "imgPage": "https://commons.wikimedia.org/wiki/File:Balenciaga-Triple_S.jpg"
+      },
+      {
+        "name": "スピード・トレーナー",
+        "year": 2016,
+        "desc": "ニットのソックス型スニーカー。"
+      },
+      {
+        "name": "トラック",
+        "year": "2018-19AW",
+        "desc": "トリプルSに続くダッドスニーカー。"
+      },
+      {
+        "name": "金色のロボット・レギンス",
+        "year": "2007SS",
+        "desc": "ジェスキエール期の象徴的なルック。"
       }
     ],
     "archive": [
-      "ジェスキエール期（1997〜2012）のウェアは近年再評価が進んでいる。"
+      "ジェスキエール期（1997〜2012）のウェアやモーターサイクルバッグは近年再評価が進んでいる。",
+      "デムナ期（2015〜2025）のオーバーサイズのウェアとスニーカーは、2010年代後半のストリートを象徴。"
     ],
     "related": [
       "gucci",
@@ -5521,8 +5740,217 @@ window.BRANDS = [
       {
         "t": "Business of Fashion：Confirmed: Martine Rose Is Balenciaga’s New Creative Director",
         "u": "https://www.businessoffashion.com/articles/luxury/confirmed-martine-rose-is-balenciagas-new-creative-director/"
+      },
+      {
+        "t": "Google Arts & Culture（V&A）：Balenciaga, Master Craftsman",
+        "u": "https://artsandculture.google.com/story/balenciaga-master-craftsman-victoria-and-albert-museum/TQUhvb9hDv4rJQ?hl=en"
+      },
+      {
+        "t": "Google Arts & Culture（Cristóbal Balenciaga Museoa）：A Timeless Legacy",
+        "u": "https://artsandculture.google.com/story/crist%C3%B3bal-balenciaga-a-timeless-legacy-cristobal-balenciaga-museoa/EgVxh4WFJqdgIg?hl=en"
+      },
+      {
+        "t": "Wonderland：Nicolas Ghesquière's greatest Balenciaga hits",
+        "u": "https://www.wonderlandmagazine.com/2012/11/06/seven-wonders-nicolas-ghesquiere-greatest-balenciaga-hits/"
+      },
+      {
+        "t": "Resee：Balenciaga, Ghesquière changed the rules of fashion",
+        "u": "https://www.resee.com/en/blog/balenciaga-ghesquiere-changed-the-rules-of-fashion"
+      },
+      {
+        "t": "AnOther：Remembering Nicolas Ghesquière's Revival of Balenciaga",
+        "u": "https://www.anothermag.com/fashion-beauty/9854/remembering-nicolas-ghesquires-revival-of-balenciaga"
+      },
+      {
+        "t": "WWD：Demna's most iconic shoe creations for Balenciaga",
+        "u": "https://wwd.com/footwear-news/shoe-features/demna-balenciaga-shoes-1237707702/"
+      },
+      {
+        "t": "Dazed：Demna's greatest Balenciaga moments",
+        "u": "https://www.dazeddigital.com/fashion/article/68214/1/demna-gvasalia-greatest-balenciaga-moments-unforgettable-fashion-shows"
+      },
+      {
+        "t": "Dazed：Balenciaga AW22, the refugee experience",
+        "u": "https://www.dazeddigital.com/fashion/article/55607/1/demna-gvasalia-balenciaga-refugee-experience-ukraine-paris-fashion-week-aw22"
+      },
+      {
+        "t": "Dazed：Balenciaga Couture AW25",
+        "u": "https://www.dazeddigital.com/fashion/article/68208/1/balenciaga-couture-aw25-paris-fashion-week-pfw-demna-gvasalia-kim-kardashian"
+      },
+      {
+        "t": "W Magazine：Pierpaolo Piccioli Steps Down",
+        "u": "https://www.wmagazine.com/fashion/pierpaolo-piccioli-leaving-balenciaga"
+      },
+      {
+        "t": "France 24：Pierpaolo Piccioli quits Balenciaga",
+        "u": "https://www.france24.com/en/live-news/20261105-pierpaolo-piccioli-quits-as-creative-director-at-balenciaga"
       }
-    ]
+    ],
+    "collections": [
+      {
+        "season": "1950",
+        "title": "バルーン・スカート",
+        "city": "パリ"
+      },
+      {
+        "season": "1955",
+        "title": "チュニック",
+        "city": "パリ"
+      },
+      {
+        "season": "1957",
+        "title": "サック・ドレス",
+        "city": "パリ"
+      },
+      {
+        "season": "1958",
+        "title": "ベビードール",
+        "city": "パリ"
+      },
+      {
+        "season": "2002SS",
+        "city": "パリ",
+        "note": "ストーンウォッシュのカーゴパンツにエスニックなパッチワークのトップ。"
+      },
+      {
+        "season": "2002-03AW",
+        "city": "ニューヨーク",
+        "note": "ライダースジャケットのバリエーション。ジェスキエールがニューヨークで発表したシーズン。"
+      },
+      {
+        "season": "2003SS",
+        "title": "Scuba",
+        "city": "パリ",
+        "note": "ネオプレンのようなスポーツ素材。"
+      },
+      {
+        "season": "2003-04AW",
+        "city": "パリ",
+        "note": "控えめなSFとスポーツ素材。最も重要なシーズンのひとつとされる。"
+      },
+      {
+        "season": "2006SS",
+        "city": "パリ",
+        "note": "過去から現在へ。"
+      },
+      {
+        "season": "2006-07AW",
+        "city": "パリ",
+        "note": "クリストバルのアーカイブを参照した、幾何学的なラインのテーラリング。"
+      },
+      {
+        "season": "2007SS",
+        "city": "パリ",
+        "alias": "ロボット",
+        "note": "金色のロボットの脚のようなレギンス。"
+      },
+      {
+        "season": "2007-08AW",
+        "city": "パリ",
+        "alias": "レゴ",
+        "note": "レゴのようなパーツのヒール。"
+      },
+      {
+        "season": "2008SS",
+        "city": "パリ",
+        "note": "花柄のシルクのワンショルダートップ、ピンクのメタリックのドレス。"
+      },
+      {
+        "season": "2008-09AW",
+        "city": "パリ",
+        "note": "「叫ぶほどセクシー」。建築的なパテントレザーのパンプス。"
+      },
+      {
+        "season": "2013SS",
+        "title": "ジェスキエール最後のショー",
+        "city": "パリ"
+      },
+      {
+        "season": "2013-14AW",
+        "title": "ワンのデビュー",
+        "city": "パリ"
+      },
+      {
+        "season": "2016-17AW",
+        "title": "デムナのデビュー",
+        "city": "パリ",
+        "note": "のちに定番になる靴の形がここで登場。"
+      },
+      {
+        "season": "2017SS",
+        "city": "パリ",
+        "note": "クチュールとフェティッシュの融合。スパンデックスのパンツブーツ。"
+      },
+      {
+        "season": "2017-18AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "note": "トリプルSが登場（2017年1月）。"
+      },
+      {
+        "season": "2018-19AW",
+        "city": "パリ",
+        "note": "トラック・スニーカーが登場。"
+      },
+      {
+        "season": "2020SS",
+        "city": "パリ",
+        "alias": "議会",
+        "note": "ブレグジットを背景に、欧州議会のような会場で。"
+      },
+      {
+        "season": "2020-21AW",
+        "city": "パリ",
+        "alias": "洪水",
+        "note": "水に沈んだランウェイ。「黙示録的」と呼ばれた。"
+      },
+      {
+        "season": "2021-22AW",
+        "title": "Afterworld: The Age of Tomorrow",
+        "note": "ビデオゲームで発表。"
+      },
+      {
+        "season": "2021-22AW",
+        "title": "クチュール再開",
+        "city": "パリ",
+        "note": "2021年7月、53年ぶりのクチュール。"
+      },
+      {
+        "season": "2022-23AW",
+        "city": "パリ",
+        "alias": "吹雪",
+        "note": "ガラス張りの円形の会場に人工の吹雪。もとは気候危機がテーマだったが、ロシアのウクライナ侵攻と重なり、デムナ自身の難民体験を込めた。"
+      },
+      {
+        "season": "2023SS",
+        "city": "パリ",
+        "alias": "泥",
+        "note": "厚い泥を敷き詰めたランウェイ。"
+      },
+      {
+        "season": "2025SS",
+        "city": "パリ",
+        "note": "点心と雨のドラマ。"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "デムナ最後のクチュール",
+        "city": "パリ",
+        "note": "2025年7月9日、ジョルジュ・サンク通りのサロンで。キム・カーダシアン、イザベル・ユペールが出演。"
+      },
+      {
+        "season": "2026SS",
+        "title": "ピッチョーリのデビュー",
+        "city": "パリ",
+        "note": "2025年10月。ストリートから離れ、素材感のあるセパレーツと抑えたシルエットへ。"
+      },
+      {
+        "season": "2026-27AW",
+        "city": "パリ",
+        "note": "ドラマ『ユーフォリア』と協業した暗めのシーズン。評価は芳しくなかった。"
+      }
+    ],
+    "note": "バルーン・スカートとベビードールの年は資料で1年前後します。"
   },
   {
     "id": "prada",
@@ -6198,23 +6626,79 @@ window.BRANDS = [
       "ウィメンズ",
       "メンズ"
     ],
-    "summary": "ユベール・ド・ジバンシィのメゾン。1990年代以降はガリアーノ、マックイーン、ティッシなど、デザイナー交代が非常に多いメゾンの代表例。",
+    "summary": "ユベール・ド・ジバンシィが1952年に設立。オードリー・ヘプバーンの映画の衣装で知られる。1995年の引退後はガリアーノ、マックイーン、ジュリアン・マクドナルド、リカルド・ティッシ（ロットワイラーやバンビの柄でストリートとラグジュアリーを結んだ）、クレア・ワイト・ケラー、マシュー・ウィリアムズと交代が続き、2024年からサラ・バートン。",
     "history": [
       {
         "year": 1952,
-        "text": "ユベール・ド・ジバンシィが設立"
+        "text": "2月2日、ユベール・ド・ジバンシィがアルフレッド・ド・ヴィニー通り8番地にメゾンを開く。最初のコレクション「Les Séparables」で、モデルのベッティーナ・グラツィアーニの名を取った「ベッティーナ・ブラウス」"
+      },
+      {
+        "year": 1953,
+        "text": "オードリー・ヘプバーンと出会い、私服と『麗しのサブリナ』『パリの恋人』などの衣装を手がける"
+      },
+      {
+        "year": 1957,
+        "text": "サック・ドレス"
+      },
+      {
+        "year": 1961,
+        "text": "『ティファニーで朝食を』の黒いドレス"
+      },
+      {
+        "year": 1988,
+        "text": "LVMHが買収"
       },
       {
         "year": 1995,
-        "text": "ユベールが引退、ジョン・ガリアーノが後任に"
+        "text": "ユベールが引退、ジョン・ガリアーノが後任に（1996年春夏クチュールでデビュー）"
       },
       {
         "year": 1996,
-        "text": "10月、アレキサンダー・マックイーンが就任（〜2001年10月）"
+        "text": "10月、ガリアーノがDiorへ移り、アレキサンダー・マックイーンが就任（〜2001年）"
+      },
+      {
+        "year": 1997,
+        "text": "1月、マックイーン初のクチュール「Search for the Golden Fleece」"
+      },
+      {
+        "year": 2001,
+        "text": "ジュリアン・マクドナルドが就任"
+      },
+      {
+        "year": 2005,
+        "text": "2月、リカルド・ティッシが就任（クチュール・プレタポルテ・アクセサリー）"
+      },
+      {
+        "year": 2011,
+        "text": "2011-12年秋冬メンズのロットワイラー柄が大ヒット。アンティゴナ・バッグ"
+      },
+      {
+        "year": 2015,
+        "text": "9月11日、ニューヨークで2016年春夏。マリーナ・アブラモヴィッチが演出、ティッシ就任10周年"
+      },
+      {
+        "year": 2017,
+        "text": "ティッシが退任。5月、クレア・ワイト・ケラーが初の女性アーティスティックディレクターに"
+      },
+      {
+        "year": 2018,
+        "text": "メーガン・マークルのウェディングドレスをワイト・ケラーが手がける"
+      },
+      {
+        "year": 2018,
+        "text": "3月10日、ユベール・ド・ジバンシィ死去"
+      },
+      {
+        "year": 2020,
+        "text": "マシュー・ウィリアムズが就任（〜2023年）"
       },
       {
         "year": 2024,
-        "text": "9月、サラ・バートンが就任。2025年3月に初コレクション"
+        "text": "9月、サラ・バートンが就任"
+      },
+      {
+        "year": 2025,
+        "text": "3月、バートンの初コレクション（2025-26年秋冬）"
       }
     ],
     "designers": [
@@ -6269,18 +6753,41 @@ window.BRANDS = [
     ],
     "items": [
       {
+        "name": "ベッティーナ・ブラウス",
+        "year": 1952,
+        "desc": "フリル袖の白いコットンのブラウス。"
+      },
+      {
+        "name": "『ティファニーで朝食を』の黒いドレス",
+        "year": 1961,
+        "desc": "オードリー・ヘプバーンのリトル・ブラック・ドレス。"
+      },
+      {
         "name": "ティッシ期のロットワイラー/バンビ柄スウェット",
         "year": "2010年代前半",
         "desc": "ストリートとラグジュアリーの融合を象徴。"
+      },
+      {
+        "name": "ナイチンゲール",
+        "year": "ティッシ期",
+        "desc": "ティッシ期のゴシックなイットバッグの最初。"
+      },
+      {
+        "name": "アンティゴナ",
+        "year": 2011,
+        "desc": "台形のかっちりしたバッグ。ロットワイラーやバンビのプリント版も。"
       }
     ],
-    "archive": [],
+    "archive": [
+      "ティッシ期（2005〜2017）のロットワイラー、バンビ、マドンナのプリントは古着で人気。",
+      "マックイーン期（1996〜2001）のクチュール・プレタポルテは希少。"
+    ],
     "related": [
       "mcqueen",
       "dior",
       "burberry"
     ],
-    "note": "マクドナルドの退任を2005年とする資料もあります。",
+    "note": "マクドナルドの退任を2005年とする資料もあります。ガリアーノのデビューを1996-97年秋冬とする資料もあります。",
     "sources": [
       {
         "t": "Wikipedia：Givenchy",
@@ -6289,6 +6796,107 @@ window.BRANDS = [
       {
         "t": "Givenchy：Sarah Burton's Appointment",
         "u": "https://www.givenchy.com/int/en/cm/explore/news/sarah-burton-appointment"
+      },
+      {
+        "t": "FIDM Museum：Fashion Birthday Hubert de Givenchy",
+        "u": "https://asufidmmuseum.asu.edu/learn/articles/fashion-birthday-hubert-de-givenchy"
+      },
+      {
+        "t": "Biography：Hubert de Givenchy",
+        "u": "https://www.biography.com/history-culture/hubert-de-givenchy"
+      },
+      {
+        "t": "nss magazine：Givenchy, a guide to all creative directors",
+        "u": "https://www.nssmag.com/en/fashion/40223/givenchy-creative-evolution-sarah-burton"
+      },
+      {
+        "t": "nss magazine：When Alexander McQueen was the creative director of Givenchy",
+        "u": "https://nssmag.com/en/fashion/37634/alexander-mcqueen-creative-director-givenchy"
+      },
+      {
+        "t": "Runway Magazine：McQueen and Galliano for Givenchy 1997",
+        "u": "https://runwaymagazines.com/alexander-mcqueen-and-john-galliano-for-givenchy-1997/"
+      },
+      {
+        "t": "The Fashionisto：Riccardo Tisci",
+        "u": "https://www.thefashionisto.com/people/riccardo-tisci/"
+      },
+      {
+        "t": "PurseBlog：The Givenchy Nightingale",
+        "u": "https://www.purseblog.com/givenchy/throwback-thursday-remembering-the-cult-classic-givenchy-nightingale/"
+      },
+      {
+        "t": "Archive Threads：FW11 Givenchy Rottweiler Antigona",
+        "u": "https://www.archivethreads.ca/product-page/fw11-givenchy-rottweiler-leather-antigona-handbag-clutch"
+      },
+      {
+        "t": "Numéro：Givenchy spring-summer 2016 in New York",
+        "u": "https://numero.com/en/fashionweek/fashionshow-givenchy-riccardo-tisci-ten-years-new-york"
+      },
+      {
+        "t": "Business of Fashion：Sarah Burton's Givenchy Debut",
+        "u": "https://www.businessoffashion.com/reviews/fashion-week/givenchy-paris-fashion-week-autumn-winter-2025-review/"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1952SS",
+        "title": "Les Séparables",
+        "city": "パリ",
+        "note": "組み合わせて着るセパレーツ。ベッティーナ・ブラウス。"
+      },
+      {
+        "season": "1957",
+        "title": "サック・ドレス",
+        "city": "パリ"
+      },
+      {
+        "season": "1996SS",
+        "title": "ガリアーノのデビュー（クチュール）",
+        "city": "パリ",
+        "note": "ランウェイを舞台のように演出した。"
+      },
+      {
+        "season": "1997SS",
+        "title": "Search for the Golden Fleece（クチュール）",
+        "city": "パリ",
+        "note": "1997年1月。マックイーン初のクチュール。メゾンのロゴとギリシャ神話のイアソンとアルゴナウタイに着想した白と金。金の鎖帷子のドレス。"
+      },
+      {
+        "season": "1999-2000AW",
+        "title": "（クチュール）",
+        "city": "パリ",
+        "note": "マックイーン期。サイボーグのようなモデルを登場させたとされる。"
+      },
+      {
+        "season": "2005-06AW",
+        "title": "ティッシのデビュー（クチュール）",
+        "city": "パリ"
+      },
+      {
+        "season": "2011-12AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "alias": "ロットワイラー",
+        "note": "吠えるロットワイラーをバッグ、スカーフ、ショーツ、ボンバーにプリント。"
+      },
+      {
+        "season": "2013-14AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "alias": "バンビ",
+        "note": "バンビとマドンナのプリントのスウェット。"
+      },
+      {
+        "season": "2016SS",
+        "city": "ニューヨーク",
+        "note": "2015年9月11日18時30分、同時多発テロの14年目に。マリーナ・アブラモヴィッチが愛・平和・謙虚さをテーマに演出。ティッシ就任10周年。"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "バートンのデビュー",
+        "city": "パリ",
+        "note": "2025年3月。知的で洗練された女性のための服として高く評価された。"
       }
     ]
   },

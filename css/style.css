@@ -87,8 +87,6 @@ h3 { font-size: 16px; }
 .small { font-size: 13px; }
 
 /* home */
-.hero { padding: 24px 0 8px; }
-.hero h1 { font-size: clamp(30px, 6vw, 52px); letter-spacing: .01em; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 24px 0; }
 .stat { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
 .stat b { display: block; font-family: var(--serif); font-size: 28px; line-height: 1.2; }

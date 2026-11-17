@@ -70,7 +70,7 @@ python3 -m http.server 8000
 
 すべての内容は `data/` フォルダにあり、`window.XXX = <JSON>;` の形で保存されています（編集画面が読み書きするため、手で直すときも JSON の形を崩さないでください）。
 
-- `data/designers.js` — デザイナー辞書（キー → `{ en, ja, bio }`）
+- `data/designers.js` — デザイナー辞書（キー → `{ en, ja, bio }`。`bio` は経歴で、改行で段落を分けられる）
 - `data/brands.js` — ブランドの配列
 - `data/glossary.js` — 用語集の配列
 
@@ -83,7 +83,7 @@ python3 -m http.server 8000
 | `origin` | `"domestic"`（国内）または `"import"`（海外） |
 | `country` / `city` / `founded` | 国 / 拠点 / 創業年 |
 | `tags` | タグ（「アルチザン」などのジャンルもここ） |
-| `summary` / `note` | 概要 / 注記（資料の食い違いなど） |
+| `summary` / `about` / `note` | 短い概要 / 長い解説（改行で段落） / 注記（資料の食い違いなど） |
 | `history` | `[{ year, text, unverified? }]` 年表 |
 | `designers` | `[{ d: デザイナーのキー, role, from, to }]`（`to: null` は現在） |
 | `collections` | `[{ season, title, city, alias, note, unverified? }]` シーズン一覧 |

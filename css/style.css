@@ -330,3 +330,5 @@ details.help ol { padding-left: 20px; }
 #hindex h2 a { color: inherit; text-decoration: none; }
 #hindex h2 a:hover { text-decoration: underline; }
 .eyebrow a { color: inherit; }
+.about p { margin: 0 0 1em; line-height: 1.9; }
+.lead-sum { font-size: 1.05em; }

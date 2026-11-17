@@ -149,6 +149,8 @@
       : `<p class="empty">見つかりませんでした。<a href="#/edit/brand/new">新しいブランドとして追加する →</a></p>`;
   }
 
+  const paras = (t) => String(t || "").split(/\n+/).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("");
+
   function brandCard(b) {
     const cur = (b.designers || []).filter((t) => t.to == null).map((t) => dName(t.d));
     return `<a class="brand-card" href="#/brand/${b.id}">
@@ -209,7 +211,7 @@
         if (ui.tag && !(b.tags || []).includes(ui.tag)) return false;
         if (ui.country && (b.country || "その他") !== ui.country) return false;
         if (!q) return true;
-        const hay = [b.name, b.ja, b.country, b.summary, ...(b.tags || []),
+        const hay = [b.name, b.ja, b.country, b.summary, b.about, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
           ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
@@ -324,7 +326,8 @@
         <div><dt>現在のデザイン</dt><dd>${esc(ts.filter((t) => t.to == null).map((t) => dName(t.d)).join(" / ") || "—")}</dd></div>
       </dl>
 
-      <p>${esc(b.summary)}</p>
+      <p class="lead-sum">${esc(b.summary)}</p>
+      ${b.about ? `<h2>ブランドについて</h2><div class="about">${paras(b.about)}</div>` : ""}
       ${b.note ? `<p class="note">${esc(b.note)}</p>` : ""}
 
       <h2>デザイナーの変遷</h2>
@@ -426,7 +429,7 @@
       <p class="eyebrow" style="margin-top:8px">Designer</p>
       <h1>${esc(d.ja)}</h1>
       <div class="muted">${esc(d.en)} <a class="btn ghost small" href="#/edit/designer/${encodeURIComponent(key)}">✎ 編集</a></div>
-      ${d.bio ? `<p>${esc(d.bio)}</p>` : ""}
+      ${d.bio ? `<div class="about">${paras(d.bio)}</div>` : ""}
 
       <h2>キャリア</h2>
       <div class="minibar" style="height:${list.length * 26 + 4}px">

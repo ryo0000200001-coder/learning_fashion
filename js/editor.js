@@ -255,6 +255,7 @@
             <label class="lf"><span>拠点</span><input name="city" value="${esc(b.city || "")}"></label>
             <label class="lf"><span>創業年 *</span><input name="founded" value="${esc(b.founded || "")}" inputmode="numeric" required></label>
             <label class="lf"><span>タグ（カンマ区切り）</span><input name="tags" value="${esc((b.tags || []).join(", "))}" placeholder="アルチザン, レザー, メンズ"></label>
+            <label class="lf"><span>別名・略称（カンマ区切り。検索に使う）</span><input name="aka" value="${esc((b.aka || []).join(", "))}" placeholder="例: CDG, ギャルソン"></label>
           </div>
           <label class="lf"><span>概要（短い説明）</span><textarea name="summary" rows="3">${esc(b.summary || "")}</textarea></label>
           <label class="lf"><span>ブランドについて（長い解説。空行で段落を分ける）</span><textarea name="about" rows="10">${esc(b.about || "")}</textarea></label>
@@ -291,6 +292,10 @@
           { k: "imgPage", label: "写真の元ページURL", w: 3 },
           { k: "unverified", label: "未確認", type: "check" }
         ], "写真は、自分で撮ったもの、または自由に使ってよいライセンス（Wikimedia Commons の CC ライセンスなど）のものだけを使ってください。ブランド公式やショップ、雑誌の写真は無断で載せられません。")}
+        ${listEditor("dating", "年代の見分け方", b.dating, [
+          { k: "title", label: "見出し", w: 2, ph: "例: タグのAD表記" },
+          { k: "text", label: "説明（空行で段落）", type: "area", w: 6 }
+        ], "タグ・刻印・製造番号などから年代を見分ける手がかり。「見分け方」のページにも表示されます。")}
         <fieldset><legend>古着・アーカイブで見るポイント</legend>
           <textarea name="archive" rows="4" placeholder="1行に1つ">${esc((b.archive || []).join("\n"))}</textarea>
         </fieldset>
@@ -318,7 +323,8 @@
       const nb = {
         id: f.id.value.trim(), name: f.name.value.trim(), ja: f.ja.value.trim(), origin: f.origin.value,
         country: f.country.value.trim(), city: f.city.value.trim(), founded: Number(f.founded.value),
-        tags: csv(f.tags.value), summary: f.summary.value.trim(), about: f.about.value.trim(),
+        tags: csv(f.tags.value), aka: csv(f.aka.value), summary: f.summary.value.trim(), about: f.about.value.trim(),
+        dating: readList(form, "dating"),
         history: readList(form, "history"),
         designers: readList(form, "designers"),
         collections: readList(form, "collections"),
@@ -332,6 +338,8 @@
       if (!nb.collections.length) delete nb.collections;
       if (!nb.lines.length) delete nb.lines;
       if (!nb.note) delete nb.note;
+      if (!nb.aka.length) delete nb.aka;
+      if (!nb.dating.length) delete nb.dating;
       // 検証
       const errs = [];
       if (!/^[a-z0-9-]+$/.test(nb.id)) errs.push("IDは半角の小文字英数字とハイフンで入力してください。");
@@ -492,12 +500,17 @@
     el.innerHTML = `
       <a class="back" href="${isNew ? "#/edit" : "#/designer/" + encodeURIComponent(key)}">← 戻る</a>
       <h1>${isNew ? "新しいデザイナー" : esc(src.ja) + " を編集"}</h1>
+      ${designerList()}
       <form id="df" class="eform" autocomplete="off">
         <fieldset><legend>デザイナー</legend>
           <div class="grid2">
             <label class="lf"><span>キー（半角英数字・ブランドから参照する名前）*</span><input name="key" value="${esc(isNew ? "" : key)}" ${isNew ? "" : "readonly"} required pattern="[a-z0-9_]+" placeholder="例: poell"></label>
             <label class="lf"><span>日本語表記 *</span><input name="ja" value="${esc(src.ja || "")}" required></label>
             <label class="lf"><span>英語表記 *</span><input name="en" value="${esc(src.en || "")}" required></label>
+          </div>
+          <div class="grid2">
+            <label class="lf"><span>師（この人が下で働いた人のキー。カンマ区切り）</span><input name="mentors" list="dkeys" value="${esc((src.mentors || []).join(", "))}" placeholder="例: kawakubo, margiela"></label>
+            <label class="lf"><span>別名・略称（カンマ区切り。検索に使う）</span><input name="aka" value="${esc((src.aka || []).join(", "))}"></label>
           </div>
           <label class="lf"><span>経歴（空行で段落を分ける）</span><textarea name="bio" rows="8">${esc(src.bio || "")}</textarea></label>
           ${isNew ? "" : `<p class="help">キーは変更できません（ブランドの「デザイナーの変遷」から参照されているため）。</p>`}
@@ -523,6 +536,11 @@
       if (errs.length) { msg.innerHTML = errs.map(esc).join("<br>"); msg.className = "form-msg err"; return; }
       const d = { en: f.en.value.trim(), ja: f.ja.value.trim() };
       if (f.bio.value.trim()) d.bio = f.bio.value.trim();
+      const ms = csv(f.mentors.value).filter((m) => m !== k);
+      const bad = ms.filter((m) => !D.designers[m]);
+      if (bad.length) { msg.innerHTML = esc("師のキーが見つかりません: " + bad.join(", ")); msg.className = "form-msg err"; return; }
+      if (ms.length) d.mentors = ms;
+      if (csv(f.aka.value).length) d.aka = csv(f.aka.value);
       D.designers[k] = d;
       saveLocal(`${isNew ? "デザイナーを追加" : "デザイナーを修正"}: ${d.ja}`);
       flash("下書きに保存しました。");
@@ -627,4 +645,5 @@
     else renderDashboard();
   };
   A.routes.settings = renderSettings;
+  Object.assign(A, { flash, saveLocal, uploadPhoto, listEditor, bindLists, readList, csv });
 })();

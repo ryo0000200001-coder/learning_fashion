@@ -14,7 +14,8 @@
   const FILES = {
     brands:    { path: "data/brands.js",    name: "BRANDS",    label: "ブランド" },
     designers: { path: "data/designers.js", name: "DESIGNERS", label: "デザイナー" },
-    glossary:  { path: "data/glossary.js",  name: "GLOSSARY",  label: "用語集" }
+    glossary:  { path: "data/glossary.js",  name: "GLOSSARY",  label: "用語集" },
+    wardrobe:  { path: "data/wardrobe.js",  name: "WARDROBE",  label: "持ち物" }
   };
   const KINDS = Object.keys(FILES);
 
@@ -27,7 +28,7 @@
   };
 
   // ファイルから読み込まれたデータ（公開中の内容）
-  const served = { brands: window.BRANDS || [], designers: window.DESIGNERS || {}, glossary: window.GLOSSARY || [] };
+  const served = { brands: window.BRANDS || [], designers: window.DESIGNERS || {}, glossary: window.GLOSSARY || [], wardrobe: window.WARDROBE || [] };
   const servedStr = {};
   KINDS.forEach((k) => (servedStr[k] = JSON.stringify(served[k])));
 
@@ -39,6 +40,7 @@
   } else draft = null;
 
   const data = draft ? clone(draft.data) : clone(served);
+  KINDS.forEach((k) => { if (data[k] === undefined) data[k] = clone(served[k]); }); // 古い下書きに無い種類を補う
 
   function status(kind) {
     const s = JSON.stringify(data[kind]);

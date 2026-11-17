@@ -15,6 +15,12 @@
   const endYear = (t) => (t.to == null ? NOW : t.to);
   const hue = (key) => { let h = 0; for (const ch of key) h = (h * 31 + ch.charCodeAt(0)) % 360; return h; };
   const originLabel = (o) => (o === "domestic" ? "国内" : "海外");
+  // 表記ゆれに強い検索用の正規化：全角半角・大文字小文字・カタカナ/ひらがな・アクセント・記号や空白の違いを無視する
+  const fold = (s) => String(s == null ? "" : s).normalize("NFKC").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[\u30a1-\u30f6]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
+    .replace(/[\s・･\-‐－―_.,，、。'’"“”&＆/／()（）\[\]「」!！?？:：;；+＋*~〜]/g, "");
+  const match = (q, ...xs) => { const f = fold(q); return !f || fold(xs.flat().filter(Boolean).join(" ")).includes(f); };
+  const brandWords = (b) => [b.name, b.ja, b.id, b.aka || [], b.tags || []];
 
   // データを読み直して索引を作る（編集のたびに呼ぶ）
   function reindex() {
@@ -48,6 +54,8 @@
     timeline: renderTimeline,
     seasons: renderSeasons,
     glossary: renderGlossary,
+    dating: renderDating,
+    network: renderNetwork,
     country: (c) => { ui.country = c || ""; ui.origin = "all"; ui.tag = ""; ui.q = ""; renderBrands(); }
   };
   // 国ごとのブランド数（日本を先頭に、多い順）
@@ -118,16 +126,18 @@
 
   // ホームの全体検索
   function drawHomeResults(raw) {
-    const q = raw.trim().toLowerCase();
+    const q = raw.trim();
     const res = document.getElementById("hres");
     document.getElementById("hindex").hidden = !!q;
     if (!q) { res.innerHTML = ""; return; }
-    const has = (...xs) => xs.filter(Boolean).join(" ").toLowerCase().includes(q);
+    const has = (...xs) => match(q, ...xs);
     const groups = [];
-    const brands = BRANDS.filter((b) => has(b.name, b.ja, b.id, (b.tags || []).join(" ")));
+    // 名前・読み・別名で一致したものを先に、タグだけで一致したものを後に並べる
+    const rank = (words) => { const f = fold(q); const w = fold(words.flat().filter(Boolean).join(" ")); return w.startsWith(f) ? 0 : w.includes(f) ? 1 : 2; };
+    const brands = BRANDS.filter((b) => has(...brandWords(b))).sort((x, y) => rank([x.name, x.ja, x.aka || []]) - rank([y.name, y.ja, y.aka || []]));
     groups.push(["ブランド", brands.map((b) => [`#/brand/${encodeURIComponent(b.id)}`, b.name, `${b.ja} · ${b.founded}`])]);
-    const des = Object.keys(careers).filter((k) => has(dName(k), dEn(k)));
-    groups.push(["デザイナー", des.map((k) => [`#/designer/${encodeURIComponent(k)}`, dName(k), [...new Set(careers[k].map((c) => c.brand.name))].join(" → ")])]);
+    const des = Object.keys(DESIGNERS).filter((k) => has(dName(k), dEn(k), (DESIGNERS[k] || {}).aka || []));
+    groups.push(["デザイナー", des.map((k) => [`#/designer/${encodeURIComponent(k)}`, dName(k), [...new Set((careers[k] || []).map((c) => c.brand.name))].join(" → ") || dEn(k)])]);
     const lines = BRANDS.flatMap((b) => (b.lines || []).filter((l) => has(l.name, l.designer)).map((l) => [`#/brand/${encodeURIComponent(b.id)}`, l.name, `${b.name}${l.from ? ` · ${l.from}〜` : ""}${l.designer ? ` · ${l.designer}` : ""}`]));
     groups.push(["ライン", lines]);
     const items = BRANDS.flatMap((b) => [
@@ -205,18 +215,17 @@
       draw();
     });
     const draw = () => {
-      const q = ui.q.trim().toLowerCase();
+      const q = ui.q.trim();
       const list = BRANDS.filter((b) => {
         if (ui.origin !== "all" && b.origin !== ui.origin) return false;
         if (ui.tag && !(b.tags || []).includes(ui.tag)) return false;
         if (ui.country && (b.country || "その他") !== ui.country) return false;
         if (!q) return true;
-        const hay = [b.name, b.ja, b.country, b.summary, b.about, ...(b.tags || []),
+        return match(q, ...brandWords(b), b.country, b.summary, b.about, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
           ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
-          ...(b.lines || []).flatMap((l) => [l.name, l.designer, ...(l.items || []).map((x) => x.name), ...(l.collections || []).flatMap((c) => [c.title, c.alias])])].join(" ").toLowerCase();
-        return hay.includes(q);
+          ...(b.lines || []).flatMap((l) => [l.name, l.designer, ...(l.items || []).map((x) => x.name), ...(l.collections || []).flatMap((c) => [c.title, c.alias])]));
       });
       document.getElementById("count").textContent = `${list.length} 件`;
       document.getElementById("list").innerHTML = list.length ? list.map(brandCard).join("") : `<p class="empty">該当するブランドがありません。</p>`;
@@ -293,7 +302,7 @@
     return `<details class="line-row line-detail" id="line-${i}"><summary>${head}<span class="line-more">${counts || "詳細"} ▾</span></summary>
       <div class="line-body">
         ${(l.history || []).length ? `<h4>歴史</h4><ul class="history small-history">${l.history.map((h) => `<li><span class="y">${esc(h.year)}</span>${esc(h.text)}</li>`).join("")}</ul>` : ""}
-        ${(l.collections || []).length ? `<h4>名作シーズン</h4><div class="ctable">${l.collections.map((c) => collectionRow(c, false)).join("")}</div>` : ""}
+        ${(l.collections || []).length ? `<h4>名作シーズン</h4><div class="ctable">${l.collections.map((c) => collectionRow(c, false, b.name)).join("")}</div>` : ""}
         ${(l.items || []).length ? `<h4>名作アイテム</h4><div class="items">${l.items.map((it) => itemCard(b, it)).join("")}</div>` : ""}
         ${(l.archive || []).length ? `<h4>古着で見るポイント</h4><ul class="tips">${l.archive.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}
         <a class="btn ghost small" href="#/edit/line/${encodeURIComponent(b.id)}/${i}">✎ このラインを編集</a>
@@ -355,12 +364,14 @@
       </ul>
 
       ${(b.collections || []).length ? `<h2>コレクション（シーズン）<span class="h2sub">${b.collections.length}シーズン</span></h2>
-      <div class="ctable">${b.collections.map((c) => collectionRow(c, false)).join("")}</div>` : ""}
+      <div class="ctable">${b.collections.map((c) => collectionRow(c, false, b.name)).join("")}</div>` : ""}
 
       ${(b.items || []).length ? `<h2>代表的なアイテム</h2>
       <div class="items">
         ${b.items.map((i) => itemCard(b, i)).join("")}
       </div>` : ""}
+
+      ${(b.dating || []).length ? `<h2>年代の見分け方</h2>${datingBlock(b)}` : ""}
 
       ${(b.archive || []).length ? `<h2>古着・アーカイブで見るポイント</h2><ul class="tips">${b.archive.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>` : ""}
 
@@ -400,8 +411,7 @@
       <div class="dlist" id="dlist"></div>
     `;
     const draw = (q) => {
-      q = (q || "").toLowerCase();
-      const list = keys.filter((k) => !q || (dName(k) + " " + dEn(k)).toLowerCase().includes(q));
+      const list = keys.filter((k) => match(q || "", dName(k), dEn(k), (DESIGNERS[k] || {}).aka || []));
       document.getElementById("dlist").innerHTML = list.map((k) => {
         const bs = [...new Set(careers[k].map((c) => c.brand.name))];
         return `<a class="dcard" href="#/designer/${encodeURIComponent(k)}">
@@ -430,6 +440,7 @@
       <h1>${esc(d.ja)}</h1>
       <div class="muted">${esc(d.en)} <a class="btn ghost small" href="#/edit/designer/${encodeURIComponent(key)}">✎ 編集</a></div>
       ${d.bio ? `<div class="about">${paras(d.bio)}</div>` : ""}
+      ${lineageBlock(key)}
 
       <h2>キャリア</h2>
       <div class="minibar" style="height:${list.length * 26 + 4}px">
@@ -546,7 +557,7 @@
       </div>
       <p class="muted small" id="scount"></p>
       <div id="slist"></div>`;
-    const norm = (x) => String(x || "").toLowerCase().replace(/[\s\-\/]/g, "");
+    const norm = fold;
     const draw = () => {
       const q = norm(document.getElementById("sq").value);
       const bid = document.getElementById("sb").value;
@@ -554,7 +565,7 @@
         (!q || norm([r.season, seasonAliases(r.season), r.title, r.alias, r.note, r.brand.name, r.brand.ja, r.line].join(" ")).includes(q)));
       document.getElementById("scount").textContent = `${list.length} 件`;
       document.getElementById("slist").innerHTML = list.length
-        ? `<div class="ctable">${list.map((r) => collectionRow(r, true)).join("")}</div>`
+        ? `<div class="ctable">${list.map((r) => collectionRow(r, true, r.brand.name)).join("")}</div>`
         : `<p class="empty">該当するシーズンがありません。</p>`;
     };
     document.getElementById("sq").addEventListener("input", draw);
@@ -575,13 +586,133 @@
     return out.join(" ");
   }
 
-  function collectionRow(c, withBrand) {
+  // ---------- 年代の見分け方 ----------
+  function datingBlock(b) {
+    return `<div class="dating">${b.dating.map((d) => `<div class="dt-row"><h3>${esc(d.title)}</h3><div class="about">${paras(d.text)}</div></div>`).join("")}</div>`;
+  }
+  function renderDating(id) {
+    document.title = "年代の見分け方 — Archive Notes";
+    const list = BRANDS.filter((b) => (b.dating || []).length).sort((x, y) => x.name.localeCompare(y.name, "en", { sensitivity: "base" }));
+    app.innerHTML = `
+      <p class="eyebrow">Dating</p>
+      <h1>年代の見分け方</h1>
+      <p class="lead">タグ・刻印・製造番号などから、古着がいつ頃のものかを見分けるための手がかりをまとめています。ブランドページの「年代の見分け方」と同じ内容です。</p>
+      <div class="toolbar"><input type="search" id="dtq" placeholder="ブランド名・キーワードで検索（例: AD表記 / デートコード）"></div>
+      <div class="chips" id="dtchips">${list.map((b) => `<a class="chip" href="#dt-${esc(b.id)}" data-id="${esc(b.id)}">${esc(b.name)}</a>`).join("")}</div>
+      <div id="dtlist"></div>`;
+    const draw = () => {
+      const q = document.getElementById("dtq").value;
+      const rows = list.filter((b) => match(q, ...brandWords(b), b.dating.map((d) => [d.title, d.text])));
+      document.getElementById("dtlist").innerHTML = rows.map((b) => `<section class="dt-brand" id="dt-${esc(b.id)}">
+        <h2><a href="#/brand/${encodeURIComponent(b.id)}">${esc(b.name)}</a><span class="h2sub">${esc(b.ja)}</span></h2>${datingBlock(b)}</section>`).join("")
+        || `<p class="empty">見つかりませんでした。</p>`;
+    };
+    document.getElementById("dtq").addEventListener("input", draw);
+    document.getElementById("dtchips").addEventListener("click", (e) => {
+      const a = e.target.closest("a[data-id]"); if (!a) return;
+      e.preventDefault();
+      const t = document.getElementById("dt-" + a.dataset.id); if (t) t.scrollIntoView({ behavior: "smooth" });
+    });
+    draw();
+    if (id) { const t = document.getElementById("dt-" + id); if (t) setTimeout(() => t.scrollIntoView(), 0); }
+  }
+
+  // ---------- デザイナーのつながり ----------
+  // mentors: そのデザイナーが下で働いた人（師）。逆向きにたどると、そこから巣立った人（弟子）になる
+  function mentorsOf(k) { return ((DESIGNERS[k] || {}).mentors || []).filter((m) => DESIGNERS[m]); }
+  function studentsOf(k) { return Object.keys(DESIGNERS).filter((x) => mentorsOf(x).includes(k)); }
+  function lineageBlock(k) {
+    const up = mentorsOf(k), down = studentsOf(k);
+    if (!up.length && !down.length) return "";
+    const pill = (x) => `<a class="chip" href="#/designer/${encodeURIComponent(x)}">${esc(dName(x))}</a>`;
+    return `<h2>つながり</h2><div class="lineage">
+      ${up.length ? `<div><span class="muted small">この人が下で働いた人</span><div class="chips">${up.map(pill).join("")}</div></div>` : ""}
+      ${down.length ? `<div><span class="muted small">この人のもとで働いた人</span><div class="chips">${down.map(pill).join("")}</div></div>` : ""}
+      <a class="small" href="#/network/${encodeURIComponent(k)}">つながり図で見る →</a></div>`;
+  }
+  function renderNetwork(focus) {
+    document.title = "デザイナーのつながり — Archive Notes";
+    const keys = Object.keys(DESIGNERS);
+    const edges = [];
+    keys.forEach((k) => mentorsOf(k).forEach((m) => edges.push([m, k])));
+    const inGraph = [...new Set(edges.flat())];
+    // 系統（師のいない人を根にした木）
+    const roots = inGraph.filter((k) => !mentorsOf(k).length).sort((a, b) => studentsOf(b).length - studentsOf(a).length || dName(a).localeCompare(dName(b), "ja"));
+    const tree = (k, seen) => {
+      if (seen.has(k)) return "";
+      seen.add(k);
+      const kids = studentsOf(k);
+      return `<li><a href="#/designer/${encodeURIComponent(k)}" class="${k === focus ? "focus" : ""}">${esc(dName(k))}</a><span class="muted small"> ${esc([...new Set((careers[k] || []).map((c) => c.brand.name))].slice(0, 4).join("・"))}</span>
+        ${kids.length ? `<ul>${kids.map((x) => tree(x, seen)).join("")}</ul>` : ""}</li>`;
+    };
+    const seen = new Set();
+    app.innerHTML = `
+      <p class="eyebrow">Network</p>
+      <h1>デザイナーのつながり</h1>
+      <p class="lead">「誰のもとで働いていたか」をつないだ図です。線は師（左・上）から、そのもとで働いた人へ向かいます。名前を押すとデザイナーのページへ移ります。つながりはデザイナーの編集画面の「師（下で働いた人）」で直せます。</p>
+      <div class="toolbar"><select id="nfocus"><option value="">デザイナーを選んで強調</option>${inGraph.slice().sort((a, b) => dName(a).localeCompare(dName(b), "ja")).map((k) => `<option value="${esc(k)}" ${k === focus ? "selected" : ""}>${esc(dName(k))}</option>`).join("")}</select></div>
+      <div class="netwrap"><svg id="net" role="img" aria-label="デザイナーのつながり図"></svg></div>
+      <h2>系統で見る</h2>
+      <ul class="tree">${roots.map((r) => tree(r, seen)).join("")}</ul>`;
+    drawNetwork(inGraph, edges, focus);
+    document.getElementById("nfocus").addEventListener("change", (e) => { location.hash = "#/network/" + encodeURIComponent(e.target.value); });
+  }
+  function drawNetwork(nodes, edges, focus) {
+    const svg = document.getElementById("net");
+    if (!svg || !nodes.length) return;
+    const W = 1100, H = 900;
+    // 決まった並びになるよう、名前から初期位置を作る
+    const P = {};
+    nodes.forEach((k, i) => { const a = (i / nodes.length) * Math.PI * 2; const r = 300 + (hue(k) % 60); P[k] = { x: W / 2 + Math.cos(a) * r, y: H / 2 + Math.sin(a) * r, vx: 0, vy: 0 }; });
+    for (let it = 0; it < 400; it++) {
+      const cool = 1 - it / 400;
+      for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+        const a = P[nodes[i]], b = P[nodes[j]];
+        let dx = a.x - b.x, dy = a.y - b.y; let d2 = dx * dx + dy * dy || 0.01;
+        const f = 2600 / d2; const d = Math.sqrt(d2);
+        dx /= d; dy /= d; a.vx += dx * f; a.vy += dy * f; b.vx -= dx * f; b.vy -= dy * f;
+      }
+      edges.forEach(([m, k]) => {
+        const a = P[m], b = P[k]; const dx = b.x - a.x, dy = b.y - a.y; const d = Math.sqrt(dx * dx + dy * dy) || 1;
+        const f = (d - 70) * 0.02; a.vx += (dx / d) * f; a.vy += (dy / d) * f; b.vx -= (dx / d) * f; b.vy -= (dy / d) * f;
+        b.vy += 0.6; a.vy -= 0.6; // 師が上、弟子が下に来やすくする
+      });
+      nodes.forEach((k) => { const p = P[k]; p.vx += (W / 2 - p.x) * 0.002; p.vy += (H / 2 - p.y) * 0.002;
+        const lim = 12 * cool + 1; p.x += Math.max(-lim, Math.min(lim, p.vx)); p.y += Math.max(-lim, Math.min(lim, p.vy)); p.vx *= 0.5; p.vy *= 0.5; });
+    }
+    const xs = nodes.map((k) => P[k].x), ys = nodes.map((k) => P[k].y);
+    const minX = Math.min(...xs) - 60, maxX = Math.max(...xs) + 60, minY = Math.min(...ys) - 30, maxY = Math.max(...ys) + 30;
+    svg.setAttribute("viewBox", `${minX} ${minY} ${maxX - minX} ${maxY - minY}`);
+    svg.style.minWidth = Math.round(maxX - minX) + "px";
+    const near = new Set(focus ? [focus, ...mentorsOf(focus), ...studentsOf(focus)] : []);
+    const on = (k) => !focus || near.has(k);
+    svg.innerHTML = `<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="net-arrow"/></marker></defs>
+      ${edges.map(([m, k]) => { const a = P[m], b = P[k]; const hot = focus && (m === focus || k === focus);
+        return `<line x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" class="net-edge ${hot ? "hot" : ""} ${focus && !hot ? "dim" : ""}" marker-end="url(#arr)"/>`; }).join("")}
+      ${nodes.map((k) => { const p = P[k]; const deg = studentsOf(k).length;
+        return `<a href="#/designer/${encodeURIComponent(k)}" class="net-node ${k === focus ? "focus" : ""} ${on(k) ? "" : "dim"}"><circle cx="${p.x}" cy="${p.y}" r="${4 + Math.min(deg, 8)}" style="--h:${hue(k)}"/><text x="${p.x}" y="${p.y - 8 - Math.min(deg, 8)}">${esc(dName(k))}</text></a>`; }).join("")}`;
+    // 強調したデザイナーが見える位置までスクロール
+    if (focus && P[focus]) {
+      const wrap = svg.parentElement;
+      const sx = svg.clientWidth / (maxX - minX), sy = svg.clientHeight / (maxY - minY);
+      wrap.scrollLeft = (P[focus].x - minX) * sx - wrap.clientWidth / 2;
+      wrap.scrollTop = (P[focus].y - minY) * sy - wrap.clientHeight / 2;
+    }
+  }
+
+  // シーズンの写真を探すリンク（画像検索）
+  function seasonPhotoLink(brandName, c) {
+    const q = encodeURIComponent([brandName, c.season, c.title || c.alias || "", "collection"].filter(Boolean).join(" "));
+    return `<a class="cphoto" href="https://www.google.com/search?tbm=isch&q=${q}" target="_blank" rel="noopener noreferrer">写真を探す ↗</a>`;
+  }
+  function collectionRow(c, withBrand, brandName) {
     return `<div class="crow">
       <div class="cseason">${esc(c.season)}${c.city ? `<span class="ccity">${esc(c.city)}</span>` : ""}</div>
       <div>
         ${withBrand ? `<a class="cbrand" href="#/brand/${c.brand.id}">${esc(c.brand.name)}${c.line ? ` / ${esc(c.line)}` : ""}</a>` : ""}
         <div class="ctitle">${c.title ? esc(c.title) : (c.alias ? `「${esc(c.alias)}」` : "—")}${c.title && c.alias ? ` <span class="calias">通称「${esc(c.alias)}」</span>` : ""}${c.unverified ? ' <span class="unv">未確認</span>' : ""}</div>
         ${c.note ? `<div class="cnote">${esc(c.note)}</div>` : ""}
+        ${brandName ? seasonPhotoLink(brandName, c) : ""}
       </div>
     </div>`;
   }
@@ -595,9 +726,8 @@
       <div class="toolbar"><input type="search" id="gq" placeholder="用語を検索"></div>
       <dl class="gloss" id="gl"></dl>`;
     const draw = (q) => {
-      q = (q || "").toLowerCase();
       document.getElementById("gl").innerHTML = GLOSSARY
-        .filter((g) => !q || (g.term + g.reading + g.desc).toLowerCase().includes(q))
+        .filter((g) => match(q || "", g.term, g.reading, g.desc))
         .map((g) => `<dt>${esc(g.term)}${g.reading ? `<small>${esc(g.reading)}</small>` : ""}</dt><dd>${esc(g.desc)}</dd>`).join("") || `<p class="empty">該当なし</p>`;
     };
     document.getElementById("gq").addEventListener("input", (e) => draw(e.target.value));
@@ -605,6 +735,6 @@
   }
 
   // editor.js から使う
-  AN.app = { routes, route, reindex, esc, dName, dEn, yrs, el: app, renderDraftBar };
+  AN.app = { routes, route, reindex, esc, dName, dEn, yrs, el: app, renderDraftBar, fold, match, paras, brandWords, byId: () => byId };
   document.addEventListener("DOMContentLoaded", route);
 })();

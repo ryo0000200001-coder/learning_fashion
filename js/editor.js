@@ -256,7 +256,8 @@
             <label class="lf"><span>創業年 *</span><input name="founded" value="${esc(b.founded || "")}" inputmode="numeric" required></label>
             <label class="lf"><span>タグ（カンマ区切り）</span><input name="tags" value="${esc((b.tags || []).join(", "))}" placeholder="アルチザン, レザー, メンズ"></label>
           </div>
-          <label class="lf"><span>概要</span><textarea name="summary" rows="4">${esc(b.summary || "")}</textarea></label>
+          <label class="lf"><span>概要（短い説明）</span><textarea name="summary" rows="3">${esc(b.summary || "")}</textarea></label>
+          <label class="lf"><span>ブランドについて（長い解説。空行で段落を分ける）</span><textarea name="about" rows="10">${esc(b.about || "")}</textarea></label>
           <label class="lf"><span>注記（資料の食い違い・未確認の点など）</span><textarea name="note" rows="2">${esc(b.note || "")}</textarea></label>
         </fieldset>
         ${listEditor("designers", "デザイナーの変遷", b.designers, [
@@ -317,7 +318,7 @@
       const nb = {
         id: f.id.value.trim(), name: f.name.value.trim(), ja: f.ja.value.trim(), origin: f.origin.value,
         country: f.country.value.trim(), city: f.city.value.trim(), founded: Number(f.founded.value),
-        tags: csv(f.tags.value), summary: f.summary.value.trim(),
+        tags: csv(f.tags.value), summary: f.summary.value.trim(), about: f.about.value.trim(),
         history: readList(form, "history"),
         designers: readList(form, "designers"),
         collections: readList(form, "collections"),
@@ -498,7 +499,7 @@
             <label class="lf"><span>日本語表記 *</span><input name="ja" value="${esc(src.ja || "")}" required></label>
             <label class="lf"><span>英語表記 *</span><input name="en" value="${esc(src.en || "")}" required></label>
           </div>
-          <label class="lf"><span>メモ（経歴など）</span><textarea name="bio" rows="3">${esc(src.bio || "")}</textarea></label>
+          <label class="lf"><span>経歴（空行で段落を分ける）</span><textarea name="bio" rows="8">${esc(src.bio || "")}</textarea></label>
           ${isNew ? "" : `<p class="help">キーは変更できません（ブランドの「デザイナーの変遷」から参照されているため）。</p>`}
         </fieldset>
         ${used.length ? `<p class="muted small">このデザイナーが登場するブランド: ${used.map((b) => `<a href="#/edit/brand/${encodeURIComponent(b.id)}">${esc(b.name)}</a>`).join("、")}</p>` : ""}

@@ -36,7 +36,7 @@
   let store = { notes: {} };
   try { store = Object.assign(store, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch (e) { /* ignore */ }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) { /* ignore */ } };
-  const ui = { origin: "all", tag: "", q: "", tlOrigin: "all", tlFrom: 1980 };
+  const ui = { origin: "all", country: "", tag: "", q: "", tlOrigin: "all", tlFrom: 1980 };
 
   // ---------- router ----------
   const routes = {
@@ -47,8 +47,16 @@
     designer: renderDesigner,
     timeline: renderTimeline,
     seasons: renderSeasons,
-    glossary: renderGlossary
+    glossary: renderGlossary,
+    country: (c) => { ui.country = c || ""; ui.origin = "all"; ui.tag = ""; ui.q = ""; renderBrands(); }
   };
+  // 国ごとのブランド数（日本を先頭に、多い順）
+  function countries() {
+    const n = {};
+    BRANDS.forEach((b) => { const c = b.country || "その他"; n[c] = (n[c] || 0) + 1; });
+    return Object.entries(n).sort((a, b) => (a[0] === "日本" ? -1 : b[0] === "日本" ? 1 : b[1] - a[1] || a[0].localeCompare(b[0], "ja")));
+  }
+  const countryLink = (c) => `#/country/${encodeURIComponent(c)}`;
   function route() {
     const parts = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
     const view = routes[parts[0]] || renderHome;
@@ -86,8 +94,9 @@
   // ---------- views ----------
   function renderHome() {
     document.title = "Archive Notes";
-    const sorted = (o) => BRANDS.filter((b) => b.origin === o).sort((x, y) => x.name.localeCompare(y.name, "en", { sensitivity: "base" }));
-    const index = (o) => sorted(o).map((b) => `<a href="#/brand/${encodeURIComponent(b.id)}"><b>${esc(b.name)}</b><span>${esc(b.ja)} · ${esc(b.founded)}</span></a>`).join("");
+    const sorted = (c) => BRANDS.filter((b) => (b.country || "その他") === c).sort((x, y) => x.name.localeCompare(y.name, "en", { sensitivity: "base" }));
+    const cs = countries();
+    const index = (c) => sorted(c).map((b) => `<a href="#/brand/${encodeURIComponent(b.id)}"><b>${esc(b.name)}</b><span>${esc(b.ja)} · ${esc(b.founded)}</span></a>`).join("");
     app.innerHTML = `
       <div class="home-search">
         <input type="search" id="hq" placeholder="ブランド・デザイナー・ライン・シーズン・用語を検索" autocomplete="off">
@@ -95,13 +104,13 @@
       <div id="hres"></div>
       <div id="hindex">
         <div class="chips">${topTags().map((t) => `<a class="chip" href="#/brands" data-t="${esc(t)}">${esc(t)}</a>`).join("")}</div>
-        <h2>国内<span class="h2sub">${sorted("domestic").length}</span></h2>
-        <div class="bindex">${index("domestic")}</div>
-        <h2>海外<span class="h2sub">${sorted("import").length}</span></h2>
-        <div class="bindex">${index("import")}</div>
+        <h2>国別</h2>
+        <div class="chips country-chips">${cs.map(([c, n]) => `<a class="chip" href="${countryLink(c)}">${esc(c)} <span class="cnum">${n}</span></a>`).join("")}</div>
+        ${cs.map(([c, n]) => `<h2><a href="${countryLink(c)}">${esc(c)}</a><span class="h2sub">${n}</span></h2>
+        <div class="bindex">${index(c)}</div>`).join("")}
       </div>`;
     app.querySelector(".chips").addEventListener("click", (e) => {
-      const t = e.target.closest(".chip"); if (t) ui.tag = t.dataset.t;
+      const t = e.target.closest(".chip"); if (t) { ui.tag = t.dataset.t; ui.country = ""; }
     });
     const q = document.getElementById("hq");
     q.addEventListener("input", () => drawHomeResults(q.value));
@@ -140,6 +149,8 @@
       : `<p class="empty">見つかりませんでした。<a href="#/edit/brand/new">新しいブランドとして追加する →</a></p>`;
   }
 
+  const paras = (t) => String(t || "").split(/\n+/).filter(Boolean).map((p) => `<p>${esc(p)}</p>`).join("");
+
   function brandCard(b) {
     const cur = (b.designers || []).filter((t) => t.to == null).map((t) => dName(t.d));
     return `<a class="brand-card" href="#/brand/${b.id}">
@@ -173,6 +184,10 @@
         <div class="seg" id="origin">
           ${[["all", "すべて"], ["domestic", "国内"], ["import", "海外"]].map(([v, l]) => `<button data-v="${v}" class="${ui.origin === v ? "on" : ""}">${l}</button>`).join("")}
         </div>
+        <select id="country" aria-label="国">
+          <option value="">国: すべて</option>
+          ${countries().map(([c, n]) => `<option value="${esc(c)}" ${ui.country === c ? "selected" : ""}>${esc(c)}（${n}）</option>`).join("")}
+        </select>
         <select id="tag" aria-label="タグ">
           <option value="">タグ: すべて</option>
           ${tags.map((t) => `<option ${ui.tag === t ? "selected" : ""}>${esc(t)}</option>`).join("")}
@@ -194,8 +209,9 @@
       const list = BRANDS.filter((b) => {
         if (ui.origin !== "all" && b.origin !== ui.origin) return false;
         if (ui.tag && !(b.tags || []).includes(ui.tag)) return false;
+        if (ui.country && (b.country || "その他") !== ui.country) return false;
         if (!q) return true;
-        const hay = [b.name, b.ja, b.country, b.summary, ...(b.tags || []),
+        const hay = [b.name, b.ja, b.country, b.summary, b.about, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
           ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
@@ -210,6 +226,10 @@
       const v = e.target.dataset && e.target.dataset.v; if (!v) return;
       ui.origin = v;
       e.currentTarget.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.v === v));
+      draw();
+    });
+    document.getElementById("country").addEventListener("change", (e) => {
+      ui.country = e.target.value;
       draw();
     });
     document.getElementById("tag").addEventListener("change", (e) => {
@@ -291,7 +311,7 @@
       <a class="back" href="#/brands">← ブランド一覧</a>
       <div class="detail-head">
         <div>
-          <p class="eyebrow">${originLabel(b.origin)} · ${esc(b.country)}</p>
+          <p class="eyebrow">${originLabel(b.origin)} · <a href="${countryLink(b.country)}">${esc(b.country)}</a></p>
           <h1>${esc(b.name)}</h1>
           <div class="ja">${esc(b.ja)}</div>
         </div>
@@ -306,7 +326,8 @@
         <div><dt>現在のデザイン</dt><dd>${esc(ts.filter((t) => t.to == null).map((t) => dName(t.d)).join(" / ") || "—")}</dd></div>
       </dl>
 
-      <p>${esc(b.summary)}</p>
+      <p class="lead-sum">${esc(b.summary)}</p>
+      ${b.about ? `<h2>ブランドについて</h2><div class="about">${paras(b.about)}</div>` : ""}
       ${b.note ? `<p class="note">${esc(b.note)}</p>` : ""}
 
       <h2>デザイナーの変遷</h2>
@@ -408,7 +429,7 @@
       <p class="eyebrow" style="margin-top:8px">Designer</p>
       <h1>${esc(d.ja)}</h1>
       <div class="muted">${esc(d.en)} <a class="btn ghost small" href="#/edit/designer/${encodeURIComponent(key)}">✎ 編集</a></div>
-      ${d.bio ? `<p>${esc(d.bio)}</p>` : ""}
+      ${d.bio ? `<div class="about">${paras(d.bio)}</div>` : ""}
 
       <h2>キャリア</h2>
       <div class="minibar" style="height:${list.length * 26 + 4}px">

@@ -901,5 +901,10 @@ window.DESIGNERS = {
     "en": "John Ray",
     "ja": "ジョン・レイ",
     "bio": "トム・フォードのもとでGucciのメンズを手がけ、フォード退任後はメンズのクリエイティブディレクター。"
+  },
+  "paulhelbers": {
+    "en": "Paul Helbers",
+    "ja": "ポール・ヘルバース",
+    "bio": "マーク・ジェイコブスのもとで2006〜2011年にLouis Vuittonのメンズのスタジオを率いた。"
   }
 };

@@ -4259,27 +4259,75 @@ window.BRANDS = [
       "メンズ",
       "ウィメンズ"
     ],
-    "summary": "イヴ・サンローランとピエール・ベルジェが設立。トム・フォード、ピラーティ、エディ・スリマン、ヴァカレロと続く。エディ期に「Saint Laurent」表記へ。2026年10月にヴァカレロが退任し、後任は未発表（2026年11月時点）。",
+    "summary": "イヴ・サンローランとピエール・ベルジェが1961年に設立。モンドリアン・ドレス、ル・スモーキング、サファリ・ジャケットで女性の服を変え、1966年にプレタポルテ「Rive Gauche」を始めた。トム・フォード、ピラーティ、エディ・スリマン（「Saint Laurent」表記に）、ヴァカレロと続き、2026年10月にヴァカレロが退任。",
     "history": [
       {
         "year": 1961,
         "text": "イヴ・サンローランとピエール・ベルジェがメゾンを設立"
       },
       {
+        "year": 1962,
+        "text": "1月19日（29日とする資料も）、最初のコレクション"
+      },
+      {
+        "year": 1965,
+        "text": "モンドリアンに着想したカクテルドレス6着"
+      },
+      {
         "year": 1966,
-        "text": "「ル・スモーキング」発表。プレタポルテ「Rive Gauche」開始"
+        "text": "「ポップアート」コレクションで「ル・スモーキング」発表。プレタポルテ「Rive Gauche」開始"
+      },
+      {
+        "year": 1967,
+        "text": "アフリカのバンバラ族の美術へのオマージュ"
+      },
+      {
+        "year": 1968,
+        "text": "サファリ・ジャケット（サハリエンヌ）、透けるブラウス"
+      },
+      {
+        "year": 1971,
+        "text": "1940年代風の春夏クチュールが「スキャンダルのコレクション」と呼ばれる"
+      },
+      {
+        "year": 1976,
+        "text": "バレエ・リュスに着想したオペラ風のクチュール"
+      },
+      {
+        "year": 1977,
+        "text": "中国をテーマにしたコレクションと香水「オピウム」"
+      },
+      {
+        "year": 1979,
+        "text": "ピカソとディアギレフへのオマージュ"
+      },
+      {
+        "year": 1988,
+        "text": "ゴッホの「アイリス」を刺繍したジャケット"
       },
       {
         "year": 1997,
         "text": "エディ・スリマンがRive Gauche Hommeを立て直す（約2年後にDior Hommeへ）"
       },
       {
+        "year": 1998,
+        "text": "アルベール・エルバスがRive Gaucheのウィメンズを担当（3シーズン）"
+      },
+      {
         "year": 1999,
-        "text": "Gucciグループ（現Kering）が買収。トム・フォードがRive Gaucheを担当"
+        "text": "Gucciグループ（現Kering）が買収。トム・フォードがRive Gaucheのクリエイティブディレクターに"
       },
       {
         "year": 2002,
-        "text": "イヴ・サンローランが引退"
+        "text": "1月、ポンピドゥー・センターでイヴ・サンローラン最後のクチュール。引退しクチュール部門を閉じる"
+      },
+      {
+        "year": 2004,
+        "text": "フォードが2004-05年秋冬で退任。ステファノ・ピラーティが後任"
+      },
+      {
+        "year": 2008,
+        "text": "6月1日、イヴ・サンローラン死去"
       },
       {
         "year": 2012,
@@ -4287,11 +4335,27 @@ window.BRANDS = [
       },
       {
         "year": 2016,
-        "text": "4月、アンソニー・ヴァカレロが就任"
+        "text": "2月、ロサンゼルスのハリウッド・パラディアムでショー。3月にスリマン退任、4月にアンソニー・ヴァカレロが就任"
+      },
+      {
+        "year": 2017,
+        "text": "エッフェル塔の前でのショーが定番に"
+      },
+      {
+        "year": 2022,
+        "text": "10月、モロッコのアガファイ砂漠でメンズ"
+      },
+      {
+        "year": 2023,
+        "text": "1月、ブルス・ドゥ・コメルスのロトンダでメンズ"
+      },
+      {
+        "year": 2025,
+        "text": "9月29日、トロカデロの噴水で2026年春夏"
       },
       {
         "year": 2026,
-        "text": "10月9日、ヴァカレロの退任を発表。2027年春夏が最後のショー"
+        "text": "9月29日、金色のシャンデリアの下で2027年春夏。10月9日、ヴァカレロの退任を発表"
       }
     ],
     "designers": [
@@ -4305,6 +4369,12 @@ window.BRANDS = [
         "d": "hedi",
         "role": "メンズ（Rive Gauche Homme）",
         "from": 1997,
+        "to": 1999
+      },
+      {
+        "d": "elbaz",
+        "role": "ウィメンズ（Rive Gauche）",
+        "from": 1998,
         "to": 1999
       },
       {
@@ -4334,6 +4404,11 @@ window.BRANDS = [
     ],
     "items": [
       {
+        "name": "モンドリアン・ドレス",
+        "year": 1965,
+        "desc": "ファッション史で最も有名な1着とも言われる。"
+      },
+      {
         "name": "ル・スモーキング",
         "year": 1966,
         "desc": "女性のためのタキシード。",
@@ -4346,10 +4421,32 @@ window.BRANDS = [
         "name": "エディ期のレザー・テディジャケット",
         "year": "2012〜2016",
         "desc": "ロックなアイテム。"
+      },
+      {
+        "name": "サファリ・ジャケット（サハリエンヌ）",
+        "year": 1968,
+        "desc": "ベルトつきのサファリ・ジャケット。"
+      },
+      {
+        "name": "モンバサ・バッグ",
+        "year": "2001-02AW",
+        "desc": "フォード期の角のハンドルのバッグ。2000年代のイットバッグ。"
+      },
+      {
+        "name": "ミューズ・バッグ",
+        "year": "ピラーティ期",
+        "desc": "ピラーティ期の代表的なバッグ。"
+      },
+      {
+        "name": "Opyum パンプス",
+        "year": "2017SS",
+        "desc": "YSLのロゴをヒールにした靴。"
       }
     ],
     "archive": [
-      "エディ期（2012〜2016）は今もアーカイブ人気が高い。"
+      "エディ期（2012〜2016）は今もアーカイブ人気が高い。特にテディジャケット、細身のレザー、ブーツ。",
+      "トム・フォード期のRive Gauche（2001〜2004）はGucciと並ぶフォードのアーカイブ。",
+      "タグの表記はRive Gauche、Yves Saint Laurent、Saint Laurent Parisと年代で変わる。"
     ],
     "related": [
       "dior",
@@ -4373,9 +4470,275 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Hedi Slimane",
         "u": "https://en.wikipedia.org/wiki/Hedi_Slimane"
+      },
+      {
+        "t": "Musée YSL Marrakech：Yves Saint Laurent",
+        "u": "https://www.museeyslmarrakech.com/en/yves-saint-laurent/"
+      },
+      {
+        "t": "SHOWstudio：Yves Saint Laurent's Fashion Legacy",
+        "u": "https://www.showstudio.com/news/yves-saint-laurents-fashion-legacy"
+      },
+      {
+        "t": "Sotheby's：The Collector's Guide to Yves Saint Laurent",
+        "u": "https://www.sothebys.com/en/articles/the-collectors-guide-to-yves-saint-laurent"
+      },
+      {
+        "t": "Yves Saint Laurent: The Complete Haute Couture Collections, 1962–2002（書籍）",
+        "u": "https://mitpressbookstore.mit.edu/book/9780300243659"
+      },
+      {
+        "t": "Fashionista：A Look Back, The Designers of Yves Saint Laurent",
+        "u": "https://fashionista.com/2012/03/a-look-back-the-designers-of-yves-saint-laurent"
+      },
+      {
+        "t": "Resee：Yves Saint Laurent by Tom Ford",
+        "u": "https://www.resee.com/en/shop/designers/saint-laurent/tom-ford"
+      },
+      {
+        "t": "Powerhouse Collection：Tom Ford for YSL Rive Gauche",
+        "u": "https://collection.powerhouse.com.au/object/11555"
+      },
+      {
+        "t": "Forbes：Stefano Pilati's Greatest Hits At Yves Saint Laurent",
+        "u": "https://www.forbes.com/sites/bluecarreon/2012/03/08/stefano-pilatis-greatest-hits-at-yves-saint-laurent/"
+      },
+      {
+        "t": "Harper's Bazaar SG：Hedi Slimane's Best Runway Moments At Saint Laurent",
+        "u": "https://www.harpersbazaar.com.sg/fashion/hedi-slimanes-best-runway-moments-at-saint-laurent/"
+      },
+      {
+        "t": "The Daily Beast：Saint Laurent Goes Grunge",
+        "u": "https://thedailybeast.com/saint-laurent-goes-grunge"
+      },
+      {
+        "t": "Dazed：Saint Laurent SS18 Pierre Bergé tribute",
+        "u": "https://www.dazeddigital.com/fashion/article/37565/1/saint-laurent-archive-revisited-anthony-vaccarello-ss18-pierre-berge-tribute"
+      },
+      {
+        "t": "nss magazine：5 iconic moments from Anthony Vaccarello's era",
+        "u": "https://www.nssmag.com/en/fashion/47210/anthony-vaccarello-lascia-saint-laurent-momenti-iconici"
+      },
+      {
+        "t": "Wallpaper：Saint Laurent menswear at Bourse de Commerce",
+        "u": "https://wallpaper.com/fashion-beauty/saint-laurent-anthony-vaccarello-menswear-paris-aw23"
+      },
+      {
+        "t": "Numéro：Saint Laurent Spring-Summer 2027",
+        "u": "https://numero.com/en/fashion/fashion-week-en/saint-laurent-spring-summer-2027-show/"
+      },
+      {
+        "t": "Malay Mail：Saint Laurent brings back the power tux",
+        "u": "https://www.malaymail.com/news/life/2026/03/04/saint-laurent-brings-back-the-power-tux-but-can-it-bring-back-growth/211214"
       }
     ],
-    "note": "後任候補としてChloéのシェメナ・カマリ（ヴァカレロのもとで2016〜2023年にウィメンズのデザインディレクター）の名前が報じられていますが、2026年11月時点で正式発表はありません。"
+    "note": "後任候補としてChloéのシェメナ・カマリ（ヴァカレロのもとで2016〜2023年にウィメンズのデザインディレクター）の名前が報じられていますが、2026年11月時点で正式発表はありません。 最初のコレクションの日付は1月19日と29日の両説があります。",
+    "collections": [
+      {
+        "season": "1962SS",
+        "title": "最初のコレクション",
+        "city": "パリ",
+        "note": "1962年1月発表。ピーコートなど。"
+      },
+      {
+        "season": "1965-66AW",
+        "title": "モンドリアン",
+        "city": "パリ",
+        "note": "ピエト・モンドリアンの絵をそのまま服にしたカクテルドレス6着。"
+      },
+      {
+        "season": "1966-67AW",
+        "title": "ポップアート",
+        "city": "パリ",
+        "alias": "ル・スモーキング",
+        "note": "女性のためのタキシード。"
+      },
+      {
+        "season": "1967SS",
+        "title": "バンバラ",
+        "city": "パリ",
+        "alias": "アフリカ",
+        "note": "ビーズやラフィアを使ったアフリカ美術へのオマージュ。"
+      },
+      {
+        "season": "1968SS",
+        "title": "サファリ",
+        "city": "パリ",
+        "alias": "サハリエンヌ",
+        "note": "サファリ・ジャケット。同じ年に透けるブラウス。"
+      },
+      {
+        "season": "1971SS",
+        "title": "リベラシオン",
+        "city": "パリ",
+        "alias": "スキャンダルのコレクション",
+        "note": "1940年代の占領期の装いを引用し、大きな批判を浴びた。"
+      },
+      {
+        "season": "1976-77AW",
+        "title": "オペラ・バレエ・リュス",
+        "city": "パリ",
+        "note": "ロシアの民族衣装とバレエ・リュスに着想した豪華なクチュール。"
+      },
+      {
+        "season": "1977-78AW",
+        "title": "中国",
+        "city": "パリ",
+        "note": "中国をテーマに。同年に香水「オピウム」。"
+      },
+      {
+        "season": "1979-80AW",
+        "title": "ピカソとディアギレフへのオマージュ",
+        "city": "パリ"
+      },
+      {
+        "season": "1988SS",
+        "title": "アーティストへのオマージュ",
+        "city": "パリ",
+        "note": "ゴッホの「アイリス」「ひまわり」を刺繍したジャケット。"
+      },
+      {
+        "season": "2001SS",
+        "title": "フォード初のRive Gauche",
+        "city": "パリ",
+        "note": "フォードの8シーズンの始まり。"
+      },
+      {
+        "season": "2001-02AW",
+        "city": "パリ",
+        "note": "モンバサ・バッグ（ピラーティと共作）。オーストラリアのパワーハウス美術館がイブニングの装いを所蔵。"
+      },
+      {
+        "season": "2002SS",
+        "title": "最後のクチュール",
+        "city": "パリ",
+        "note": "2002年1月、ポンピドゥー・センターで40年の回顧ショー。"
+      },
+      {
+        "season": "2002-03AW",
+        "city": "パリ",
+        "alias": "ロシア",
+        "note": "ロシアに着想したシーズン。"
+      },
+      {
+        "season": "2003SS",
+        "city": "パリ",
+        "alias": "サファリ",
+        "note": "サファリをテーマに。"
+      },
+      {
+        "season": "2004-05AW",
+        "title": "フォード最後のショー",
+        "city": "パリ",
+        "alias": "中国",
+        "note": "2004年3月。イヴの1977年の中国コレクションを引用した。"
+      },
+      {
+        "season": "2005SS",
+        "title": "ピラーティのデビュー",
+        "city": "パリ",
+        "note": "幅広のベルトで絞ったチューリップスカートで、シルエットを一変させた。"
+      },
+      {
+        "season": "2007-08AW",
+        "city": "パリ",
+        "note": "スモーキング・ジャケットを短いコートドレスに。"
+      },
+      {
+        "season": "2008-09AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "note": "ショーではなくファッションフィルムで発表。"
+      },
+      {
+        "season": "2012SS",
+        "city": "パリ",
+        "note": "ラッフル、ペプラム、ゴデスカート、ケープドレス。ピラーティ最後から2番目のコレクション。"
+      },
+      {
+        "season": "2013SS",
+        "title": "スリマンのデビュー",
+        "city": "パリ",
+        "note": "スティーヴィー・ニックスのような、つば広の帽子、黒いシフォン、編み上げのレザー。"
+      },
+      {
+        "season": "2013-14AW",
+        "city": "パリ",
+        "alias": "グランジ",
+        "note": "1990年代シアトル。ベビードールのドレスにチェックのネルシャツ、ダメージデニム。賛否が大きく分かれ、コートニー・ラヴは絶賛した。"
+      },
+      {
+        "season": "2015SS",
+        "title": "Psych Rock（メンズ）",
+        "city": "パリ"
+      },
+      {
+        "season": "2015 Resort",
+        "title": "Psych Rock's New Rising",
+        "city": "ロサンゼルス"
+      },
+      {
+        "season": "2016SS",
+        "title": "Surf Sound（メンズ）",
+        "city": "パリ",
+        "note": "カリフォルニアのサーフ音楽へのオマージュ。"
+      },
+      {
+        "season": "2016-17AW",
+        "title": "スリマン最後のショー",
+        "city": "ロサンゼルス",
+        "note": "2016年2月、ハリウッド・パラディアムで。"
+      },
+      {
+        "season": "2017SS",
+        "title": "ヴァカレロのデビュー",
+        "city": "パリ",
+        "note": "YSLのロゴをヒールにした「Opyum」パンプスが登場。"
+      },
+      {
+        "season": "2018SS",
+        "city": "パリ",
+        "alias": "エッフェル塔",
+        "note": "きらめくエッフェル塔の前で。ピエール・ベルジェへの追悼。"
+      },
+      {
+        "season": "2023SS",
+        "city": "パリ",
+        "alias": "エッフェル塔",
+        "note": "エッフェル塔を背にした屋外のランウェイ。"
+      },
+      {
+        "season": "2023SS",
+        "title": "（メンズ）",
+        "city": "マラケシュ",
+        "alias": "砂漠",
+        "note": "2022年10月、アガファイ砂漠で。"
+      },
+      {
+        "season": "2023-24AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "note": "安藤忠雄が改修したブルス・ドゥ・コメルスのロトンダで。"
+      },
+      {
+        "season": "2026SS",
+        "city": "パリ",
+        "note": "2025年9月29日、トロカデロの噴水で。"
+      },
+      {
+        "season": "2026-27AW",
+        "city": "パリ",
+        "alias": "パワー・タキシード",
+        "note": "ル・スモーキングを強調したパワー・タキシード。"
+      },
+      {
+        "season": "2027SS",
+        "title": "ヴァカレロ最後のショー",
+        "city": "パリ",
+        "alias": "ゴールド",
+        "note": "2026年9月29日、エッフェル塔の下で3つの巨大なシャンデリアと金一色のコレクション。就任10周年。"
+      }
+    ]
   },
   {
     "id": "celine",
@@ -5942,11 +6305,43 @@ window.BRANDS = [
       "メゾン",
       "レザー"
     ],
-    "summary": "トランク職人の店から始まったメゾン。マーク・ジェイコブスがプレタポルテを立ち上げ、メンズはキム・ジョーンズ、ヴァージル・アブロー、ファレル・ウィリアムスと続く。",
+    "summary": "1854年にパリで始まったトランクの店。トリアノン・キャンバス、ストライプ、ダミエ、モノグラムと、模倣への対策から生まれた柄がそのままブランドの顔になった。1997年にマーク・ジェイコブスがプレタポルテを立ち上げ、アーティストとの協業で時代を作った。ウィメンズは2013年からニコラ・ジェスキエール、メンズはキム・ジョーンズ、ヴァージル・アブロー、ファレル・ウィリアムスと続く。",
     "history": [
       {
         "year": 1854,
-        "text": "ルイ・ヴィトンがパリでトランクの店を開く"
+        "text": "ルイ・ヴィトンがパリのヌーヴ・デ・カピュシーヌ通り4番地にトランクの店を開く"
+      },
+      {
+        "year": 1858,
+        "text": "平らな蓋で軽く防水性のある「トリアノン・キャンバス」のトランク"
+      },
+      {
+        "year": 1872,
+        "text": "トリアノンの模倣に対抗して、ベージュと赤のストライプのキャンバス"
+      },
+      {
+        "year": 1888,
+        "text": "ダミエ柄。ヴィトンの名前を初めて外側に入れた"
+      },
+      {
+        "year": 1896,
+        "text": "息子のジョルジュがモノグラム・キャンバスを考案"
+      },
+      {
+        "year": 1930,
+        "text": "キーポルとスピーディ"
+      },
+      {
+        "year": 1932,
+        "text": "シャンパンを運ぶための「ノエ」"
+      },
+      {
+        "year": 1934,
+        "text": "「アルマ」（スピーディに次ぐ2番目のハンドバッグ）"
+      },
+      {
+        "year": 1987,
+        "text": "モエ・ヘネシーと合併しLVMHに"
       },
       {
         "year": 1997,
@@ -5954,23 +6349,67 @@ window.BRANDS = [
       },
       {
         "year": 2001,
-        "text": "2001年春夏、スティーヴン・スプラウスのグラフィティ・モノグラム"
+        "text": "2001年春夏、スティーヴン・スプラウスのグラフィティ・モノグラム（初の協業）"
       },
       {
         "year": 2003,
-        "text": "2003年春夏、村上隆とのマルチカラー・モノグラム（2002年とする資料も）"
+        "text": "2003年春夏、村上隆とのマルチカラー・モノグラム（13年で5つのコレクション）"
+      },
+      {
+        "year": 2006,
+        "text": "ポール・ヘルバースがメンズのスタジオを率いる（〜2011年）"
+      },
+      {
+        "year": 2007,
+        "text": "「ネヴァーフル」発売"
+      },
+      {
+        "year": 2008,
+        "text": "2008年春夏、リチャード・プリンスとの「ナース」"
+      },
+      {
+        "year": 2011,
+        "text": "キム・ジョーンズがメンズのスタイルディレクターに"
+      },
+      {
+        "year": 2012,
+        "text": "草間彌生との協業（ジェイコブス期最後の大きな協業）"
       },
       {
         "year": 2013,
-        "text": "11月、ニコラ・ジェスキエールがウィメンズに（初ショーは2014年3月）"
+        "text": "10月、ジェイコブス最後のショー（2014年春夏）。11月、ニコラ・ジェスキエールがウィメンズに"
+      },
+      {
+        "year": 2014,
+        "text": "3月5日、ルーヴル美術館のクール・カレでジェスキエールのデビュー"
       },
       {
         "year": 2017,
-        "text": "キム・ジョーンズのもとでSupremeとコラボ"
+        "text": "キム・ジョーンズのもとでSupremeとコラボ（2017-18年秋冬）"
+      },
+      {
+        "year": 2018,
+        "text": "3月、ヴァージル・アブローがメンズのアーティスティックディレクターに。6月21日、パレ・ロワイヤルの虹色のランウェイでデビュー"
+      },
+      {
+        "year": 2021,
+        "text": "11月28日、アブロー死去。12月1日にマイアミで「Virgil Was Here」"
       },
       {
         "year": 2023,
-        "text": "2月、ファレル・ウィリアムスがメンズに"
+        "text": "2月、ファレル・ウィリアムスがメンズに。6月20日にポン・ヌフでデビュー"
+      },
+      {
+        "year": 2024,
+        "text": "3月、ジェスキエール就任10周年のショーをルーヴルで"
+      },
+      {
+        "year": 2025,
+        "text": "5月22日、アヴィニョンの教皇庁宮殿で2026年クルーズ。6月、ポンピドゥー・センターでインドをテーマにしたメンズ。9月30日、ルーヴルのアンヌ・ドートリッシュの夏の居室で2026年春夏（ジェスキエール45回目のコレクション）"
+      },
+      {
+        "year": 2026,
+        "text": "3月10日、ルーヴルのクール・カレで2026-27年秋冬"
       }
     ],
     "designers": [
@@ -5981,16 +6420,22 @@ window.BRANDS = [
         "to": 2013
       },
       {
-        "d": "ghesquiere",
-        "role": "ウィメンズ",
-        "from": 2013,
-        "to": null
+        "d": "paulhelbers",
+        "role": "メンズ・スタジオ",
+        "from": 2006,
+        "to": 2011
       },
       {
         "d": "kimjones",
         "role": "メンズ",
         "from": 2011,
         "to": 2018
+      },
+      {
+        "d": "ghesquiere",
+        "role": "ウィメンズ",
+        "from": 2013,
+        "to": null
       },
       {
         "d": "abloh",
@@ -6007,6 +6452,36 @@ window.BRANDS = [
     ],
     "items": [
       {
+        "name": "モノグラム・キャンバス",
+        "year": 1896,
+        "desc": "ジョルジュ・ヴィトンが考案したLVの総柄。"
+      },
+      {
+        "name": "ダミエ・キャンバス",
+        "year": 1888,
+        "desc": "格子柄。ヴィトンの名を外側に入れた最初の柄。"
+      },
+      {
+        "name": "スピーディ / キーポル",
+        "year": 1930,
+        "desc": "ハンドバッグとボストンの定番。"
+      },
+      {
+        "name": "ノエ",
+        "year": 1932,
+        "desc": "シャンパンのボトルを運ぶために作られた巾着型のバッグ。"
+      },
+      {
+        "name": "アルマ",
+        "year": 1934,
+        "desc": "スピーディに次ぐ2番目のハンドバッグ。"
+      },
+      {
+        "name": "ネヴァーフル",
+        "year": 2007,
+        "desc": "最も売れているトートバッグ。"
+      },
+      {
         "name": "グラフィティ・モノグラム",
         "year": "2001SS",
         "desc": "スティーヴン・スプラウスの手書き風ロゴ。"
@@ -6015,14 +6490,32 @@ window.BRANDS = [
         "name": "マルチカラー・モノグラム",
         "year": "2003SS",
         "desc": "村上隆とのコラボ。約12年で廃番に。"
+      },
+      {
+        "name": "モノグラム・アクアレル",
+        "year": "2008SS",
+        "desc": "リチャード・プリンスとの水彩風モノグラム。"
+      },
+      {
+        "name": "Louis Vuitton × Supreme",
+        "year": "2017-18AW",
+        "desc": "ボックスロゴとモノグラムの協業。"
+      },
+      {
+        "name": "プティット・マル",
+        "year": "2017SS",
+        "desc": "トランクを小さくしたバッグ。"
       }
     ],
-    "archive": [],
+    "archive": [
+      "マーク・ジェイコブス期のアーティストとの協業（スプラウス、村上隆、リチャード・プリンス、草間彌生）は人気が高い。",
+      "製造番号（デートコード）の刻印で製造年と工場の目安がわかる。"
+    ],
     "related": [
       "balenciaga",
       "dior"
     ],
-    "note": "創業年1854年は今回の調査で直接の裏付けを取っていません。",
+    "note": "スプラウスの協業を2000年とする資料もあります。",
     "sources": [
       {
         "t": "WWD：The House of Louis Vuitton: A History and Timeline",
@@ -6031,6 +6524,221 @@ window.BRANDS = [
       {
         "t": "Truss Archive：Five Iconic Louis Vuitton Collaborations",
         "u": "https://trussarchive.com/editorials/five-iconic-louis-vuitton-collaborations-to-add-to-your-archive"
+      },
+      {
+        "t": "Louis Vuitton 公式：Since 1854",
+        "u": "https://us.louisvuitton.com/eng-us/magazine/articles/heritage"
+      },
+      {
+        "t": "Wikipedia：Louis Vuitton",
+        "u": "https://en.wikipedia.org/wiki/Louis_Vuitton"
+      },
+      {
+        "t": "Rebag：Louis Vuitton 101",
+        "u": "https://www.rebag.com/thevault/louis-vuitton-history/"
+      },
+      {
+        "t": "Sotheby's：Your Guide to 8 of the Most Popular Louis Vuitton Bags",
+        "u": "https://www.sothebys.com/en/articles/your-guide-to-8-of-the-most-popular-louis-vuitton-bags"
+      },
+      {
+        "t": "Fashionphile：Marc Jacobs' Louis Vuitton",
+        "u": "https://www.fashionphile.com/blogs/academy/marc-jacobs-louis-vuitton"
+      },
+      {
+        "t": "Dazed：Marc Jacobs' Vuitton, a visual journey",
+        "u": "https://www.dazeddigital.com/fashion/article/17427/1/marc-jacobs-vuitton-a-visual-journey"
+      },
+      {
+        "t": "Marie Claire：Louis Vuitton Fashion Shows, The Best Ever Moments",
+        "u": "https://www.marieclaire.co.uk/fashion/louis-vuitton-fashion-shows-106412"
+      },
+      {
+        "t": "The Daily Beast：Marc Jacobs's Greatest Hits at Louis Vuitton",
+        "u": "https://www.thedailybeast.com/marc-jacobss-greatest-hits-at-louis-vuitton"
+      },
+      {
+        "t": "10 Magazine：Louis Vuitton, The Ghesquière Years",
+        "u": "https://10magazine.com/nicolas-ghesquiere-years-louis-vuitton-issue-63/"
+      },
+      {
+        "t": "Louis Vuitton 公式：Spring-Summer 2026 Show",
+        "u": "https://us.louisvuitton.com/eng-us/magazine/articles/women-spring-summer-2026-show"
+      },
+      {
+        "t": "Louis Vuitton 公式：Cruise 2026 Show",
+        "u": "https://us.louisvuitton.com/eng-us/magazine/articles/women-cruise-2026-show"
+      },
+      {
+        "t": "Numéro：Louis Vuitton Fall-Winter 2026-2027",
+        "u": "https://numero.com/en/fashion/fashion-week-en/louis-vuitton-fall-winter-2026-2027-show-paris-nature/"
+      },
+      {
+        "t": "Business of Fashion：Louis Vuitton Spring/Summer 2019",
+        "u": "https://www.businessoffashion.com/reviews/fashion-week/just-in-louis-vuitton-springsummer-2019"
+      },
+      {
+        "t": "Wallpaper：Louis Vuitton pays tribute to Virgil Abloh in Miami",
+        "u": "https://www.wallpaper.com/fashion/virgil-abloh-louis-vuitton-miami"
+      },
+      {
+        "t": "Trill Mag：Louis Vuitton Men's Fall 2024",
+        "u": "https://www.trillmag.com/culture/fashion/louis-vuitton-mens-fall-2024-show-pharrell-williams-journey/"
+      },
+      {
+        "t": "Numéro：Pharrell celebrates India at Louis Vuitton",
+        "u": "https://numero.com/en/fashion/fashion-week-en/pharrell-williams-celebrates-india-at-the-louis-vuitton-mens-spring-summer-show/"
+      },
+      {
+        "t": "WWD：Louis Vuitton menswear catwalk book",
+        "u": "https://wwd.com/fashion-news/fashion-scoops/louis-vuitton-menswear-catwalk-book-30-years-1239230136/"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1998-99AW",
+        "title": "ジェイコブス初のプレタポルテ",
+        "city": "パリ",
+        "note": "モノグラムを控えめにした最初のコレクション。"
+      },
+      {
+        "season": "2001SS",
+        "title": "グラフィティ",
+        "city": "パリ",
+        "note": "スティーヴン・スプラウスの手書き風ロゴをモノグラムに重ねた。ヴィトン初の協業。"
+      },
+      {
+        "season": "2003SS",
+        "title": "村上隆",
+        "city": "パリ",
+        "alias": "マルチカラー",
+        "note": "33色のモノグラム、チェリー、パンダ。"
+      },
+      {
+        "season": "2008SS",
+        "title": "リチャード・プリンス",
+        "city": "パリ",
+        "alias": "ナース",
+        "note": "ナース姿のモデル、水彩の「モノグラム・アクアレル」。"
+      },
+      {
+        "season": "2010-11AW",
+        "city": "パリ",
+        "note": "フィナーレのガウンなど。"
+      },
+      {
+        "season": "2011-12AW",
+        "city": "パリ",
+        "alias": "エレベーター",
+        "note": "ホテルのエレベーターからモデルが登場。フェティッシュな装い。ケイト・モスがたばこを手に歩いた。"
+      },
+      {
+        "season": "2012SS",
+        "city": "パリ",
+        "alias": "メリーゴーラウンド",
+        "note": "白いメリーゴーラウンドにモデルが乗る。パステルカラー。"
+      },
+      {
+        "season": "2012-13AW",
+        "city": "パリ",
+        "alias": "列車",
+        "note": "蒸気機関車「Louis Vuitton Express」から降りるモデル。"
+      },
+      {
+        "season": "2013SS",
+        "city": "パリ",
+        "alias": "ダミエ",
+        "note": "ダニエル・ビュランが設計したエスカレーターを2人ずつ降りる。黄色と白のダミエ柄。"
+      },
+      {
+        "season": "2013-14AW",
+        "city": "パリ",
+        "title": "Into the Boudoir",
+        "alias": "ホテルの廊下",
+        "note": "古いホテルの廊下のような暗い会場。ケイト・モスがスリップドレスで締めた。"
+      },
+      {
+        "season": "2014SS",
+        "title": "ジェイコブス最後のショー",
+        "city": "パリ",
+        "alias": "黒",
+        "note": "メリーゴーラウンド、エスカレーター、駅の時計など過去のセットを黒く塗って再登場させた。"
+      },
+      {
+        "season": "2014-15AW",
+        "title": "ジェスキエールのデビュー",
+        "city": "パリ",
+        "note": "2014年3月5日、ルーヴルのクール・カレ。"
+      },
+      {
+        "season": "2017SS",
+        "city": "パリ",
+        "note": "のちのルイ・ヴィトン・ヴァンドーム店の建物で。パリジェンヌのシック。iPhoneケース型の「プティット・マル」。"
+      },
+      {
+        "season": "2017-18AW",
+        "title": "Supreme（メンズ）",
+        "city": "パリ",
+        "note": "キム・ジョーンズによるSupremeとの協業。"
+      },
+      {
+        "season": "2019SS",
+        "title": "アブローのデビュー（メンズ）",
+        "city": "パリ",
+        "alias": "虹",
+        "note": "2018年6月21日、パレ・ロワイヤルの庭園に虹色のランウェイ。『オズの魔法使い』がモチーフ。"
+      },
+      {
+        "season": "2022SS",
+        "title": "Virgil Was Here（メンズ）",
+        "city": "マイアミ",
+        "note": "2021年12月1日、アブロー死去の3日後。予定どおり開かれたショーで、新しい30ルックを加えた。"
+      },
+      {
+        "season": "2024SS",
+        "title": "ファレルのデビュー（メンズ）",
+        "city": "パリ",
+        "note": "2023年6月20日、ポン・ヌフで。"
+      },
+      {
+        "season": "2024 Pre-Fall",
+        "title": "（メンズ）",
+        "city": "香港"
+      },
+      {
+        "season": "2024-25AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "alias": "ウエスタン",
+        "note": "2024年1月16日。アメリカ西部がテーマ。ダミエと迷彩を合わせた「ダモフラージュ」。"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "note": "NIGOとの共作。2人の2003年のブランドBillionaire Boys Clubに着想。"
+      },
+      {
+        "season": "2026SS",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "alias": "インド",
+        "note": "2025年6月、ポンピドゥー・センターをスタジオ・ムンバイのビジョイ・ジェインが巨大な「蛇と梯子」の盤に。"
+      },
+      {
+        "season": "2026SS",
+        "city": "パリ",
+        "note": "2025年9月30日、ルーヴルのアンヌ・ドートリッシュの夏の居室で。ジェスキエール45回目のコレクション。"
+      },
+      {
+        "season": "2026 Cruise",
+        "city": "アヴィニョン",
+        "note": "2025年5月22日、教皇庁宮殿で。中世とグラムロック。"
+      },
+      {
+        "season": "2026-27AW",
+        "city": "パリ",
+        "note": "2026年3月10日、ルーヴルのクール・カレ。マインクラフトのような自然のセット。"
       }
     ]
   },
@@ -6047,15 +6755,31 @@ window.BRANDS = [
       "メゾン",
       "ウィメンズ"
     ],
-    "summary": "ガブリエル・シャネルのメゾン。1983年から36年にわたりカール・ラガーフェルドが率い、2025年からはマチュー・ブレイジー。",
+    "summary": "ガブリエル・シャネルが1910年の帽子店から始めたメゾン。ジャージー、リトル・ブラック・ドレス、ツイードのスーツ、2.55で女性の服を軽く自由にした。1983年から36年間はカール・ラガーフェルドがロゴやチェーンを大胆に使い、グラン・パレの巨大なセットのショーで時代を作った。ヴィルジニー・ヴィアールを経て、2025年からはマチュー・ブレイジー。",
     "history": [
       {
         "year": 1910,
-        "text": "パリのカンボン通り21番地に帽子店「Chanel Modes」を開く"
+        "text": "アーサー・“ボーイ”・カペルの出資で、パリのカンボン通り21番地に帽子店「Chanel Modes」を開く"
+      },
+      {
+        "year": 1912,
+        "text": "ドーヴィルにブティック。1913年からジャージーのスポーツウェアを売る"
       },
       {
         "year": 1921,
         "text": "エルネスト・ボーによる香水「No.5」"
+      },
+      {
+        "year": 1926,
+        "text": "アメリカ版ヴォーグが黒いシンプルなドレスを「シャネルのフォード」と紹介。リトル・ブラック・ドレスが広まる"
+      },
+      {
+        "year": 1939,
+        "text": "第二次世界大戦で店を閉じ、約4,000人が職を失う"
+      },
+      {
+        "year": 1954,
+        "text": "71歳で復帰コレクション。フランスでは賛否が分かれたが、アメリカで支持され、ツイードのスーツが定番に"
       },
       {
         "year": 1955,
@@ -6067,19 +6791,39 @@ window.BRANDS = [
       },
       {
         "year": 1983,
-        "text": "カール・ラガーフェルドが就任"
+        "text": "カール・ラガーフェルドが就任。最初のコレクションは1983年春夏のオートクチュール。2.55を作り変えたクラシック・フラップ"
+      },
+      {
+        "year": 1984,
+        "text": "ラガーフェルド初のプレタポルテ（1984-85年秋冬）"
+      },
+      {
+        "year": 1990,
+        "text": "メンズの香水「エゴイスト」"
+      },
+      {
+        "year": 2005,
+        "text": "2.55の50周年で、マドモアゼル・ロックの「2.55 リイシュー」"
+      },
+      {
+        "year": 2011,
+        "text": "カペルの名を取った「ボーイ・シャネル」バッグ"
+      },
+      {
+        "year": 2019,
+        "text": "2月19日、ラガーフェルド死去。ヴィルジニー・ヴィアールが後を継ぐ"
       },
       {
         "year": 2024,
-        "text": "12月、マチュー・ブレイジーの就任を発表"
+        "text": "6月、ヴィアールの退任を発表（最後の3つのコレクションはダカール、マンチェスター、マルセイユ）。12月、マチュー・ブレイジーの就任を発表"
       },
       {
         "year": 2025,
-        "text": "10月、グラン・パレでブレイジーのデビューショー（2026年春夏）"
+        "text": "10月6日、グラン・パレでブレイジーのデビューショー（2026年春夏）"
       },
       {
         "year": 2026,
-        "text": "就任1年となる2027年春夏で、ガブリエル・シャネルの多くの人生をたどるコレクション"
+        "text": "ビアリッツで2027年クルーズ。就任1年となる2027年春夏で、ガブリエル・シャネルの多くの人生をたどるコレクション"
       }
     ],
     "designers": [
@@ -6122,11 +6866,51 @@ window.BRANDS = [
         "credit": "Mabalu / Wikimedia Commons",
         "license": "CC BY-SA 4.0",
         "imgPage": "https://commons.wikimedia.org/wiki/File:Cream_Chanel_suit,_late_1960s.jpg"
+      },
+      {
+        "name": "リトル・ブラック・ドレス",
+        "year": 1926,
+        "desc": "アメリカ版ヴォーグが「シャネルのフォード」と呼んだ黒いシンプルなドレス。"
+      },
+      {
+        "name": "No.5",
+        "year": 1921,
+        "desc": "エルネスト・ボーの香水。"
+      },
+      {
+        "name": "クラシック・フラップ",
+        "year": 1983,
+        "desc": "ラガーフェルドが2.55をCCのターンロックで作り変えたバッグ。"
+      },
+      {
+        "name": "2.55 リイシュー",
+        "year": 2005,
+        "desc": "50周年の復刻。マドモアゼル・ロックとチェーンストラップ、しわ加工のカーフ。"
+      },
+      {
+        "name": "ボーイ・シャネル",
+        "year": 2011,
+        "desc": "ボーイ・カペルの名を取った、かっちりしたバッグ。"
+      },
+      {
+        "name": "ヒップホップ期のチェーンとキャップ",
+        "year": "1991-92AW",
+        "desc": "金のキルティングのキャップ、デニムのジャケットとミニのスーツなど。"
+      },
+      {
+        "name": "マイクロビキニ",
+        "year": "1996SS",
+        "desc": "極小のロゴのビキニ。"
       }
     ],
-    "archive": [],
+    "archive": [
+      "ラガーフェルド期の1980〜90年代のロゴ、チェーン、ツイードは近年ヴィンテージとして大人気。",
+      "バッグは内側のシリアルシールの番号で製造年代の目安がわかる。"
+    ],
     "related": [
-      "bottega"
+      "bottega",
+      "chloe",
+      "fendi"
     ],
     "sources": [
       {
@@ -6136,8 +6920,218 @@ window.BRANDS = [
       {
         "t": "Numéro：A glorious debut Chanel show by Matthieu Blazy",
         "u": "https://numero.com/en/fashion/fashion-week-en/chanel-a-glorious-debut-show-by-matthieu-blazy/"
+      },
+      {
+        "t": "Britannica：Coco Chanel",
+        "u": "https://www.britannica.com/biography/Coco-Chanel"
+      },
+      {
+        "t": "Chanel 公式：1990 launch of Égoïste perfume",
+        "u": "https://www.chanel.com/us/about-chanel/the-house-of-chanel/1990/"
+      },
+      {
+        "t": "Yahoo/Harper's Bazaar：Karl Lagerfeld's 100 Greatest Chanel Runway Moments",
+        "u": "https://www.yahoo.com/lifestyle/karl-lagerfelds-100-greatest-chanel-210500829.html"
+      },
+      {
+        "t": "Marie Claire：Karl Lagerfeld's 45 Most Iconic Chanel Runway Looks",
+        "u": "https://www.marieclaire.com/fashion/g26405749/chanel-most-iconic-runway-looks/"
+      },
+      {
+        "t": "theFashionSpot：A Retrospective, Chanel under Karl Lagerfeld",
+        "u": "https://forums.thefashionspot.com/threads/a-retrospective-chanel-under-karl-lagerfeld-1983-2019.153359/"
+      },
+      {
+        "t": "Glamour & Guide：Lagerfeld's Chanel Fall 1991",
+        "u": "https://glamourandguide.com/2020/09/21/lagerfelds-chanel-fall-1991-ready-to-wear-collection/"
+      },
+      {
+        "t": "W Magazine：Karl Lagerfeld's Biggest Runway Controversies at Chanel",
+        "u": "https://www.wmagazine.com/gallery/karl-lagerfeld-chanel-runway-controversy-history"
+      },
+      {
+        "t": "WWD：Chanel Fashion Show Sets Through the Years",
+        "u": "https://wwd.com/pop-culture/culture-news/lists/chanel-fashion-show-set-1236417407/"
+      },
+      {
+        "t": "Wallpaper：20 of the greatest Chanel show sets",
+        "u": "https://www.wallpaper.com/fashion/karl-lagerfelds-legacy-the-greatest-chanel-show-sets"
+      },
+      {
+        "t": "CNN：Virginie Viard exits Chanel",
+        "u": "https://www.cnn.com/2024/06/06/style/virginie-viard-artistic-director-chanel-exit/index.html"
+      },
+      {
+        "t": "AnOther：Matthieu Blazy's debut for Chanel",
+        "u": "https://www.anothermag.com/fashion-beauty/16693/chanel-matthieu-blazy-debut-spring-summer-2026-review-interview"
+      },
+      {
+        "t": "The Impression：Chanel Cruise 2027",
+        "u": "https://theimpression.com/chanel-cruise-2027-fashion-show-review/"
+      },
+      {
+        "t": "Dreweatts：The Chanel 2.55 Bag",
+        "u": "https://www.dreweatts.com/news-videos/a-timeless-symbol-of-style-the-chanel-255-bag-fine-watches-and-luxury-accessories-wednesday-18-march-2026-14836/"
       }
-    ]
+    ],
+    "collections": [
+      {
+        "season": "1954",
+        "title": "復帰コレクション",
+        "city": "パリ",
+        "note": "71歳の復帰作。フランスの反応は冷たかったが、アメリカで評価された。"
+      },
+      {
+        "season": "1983SS",
+        "title": "ラガーフェルド初のクチュール",
+        "city": "パリ"
+      },
+      {
+        "season": "1984-85AW",
+        "title": "ラガーフェルド初のプレタポルテ",
+        "city": "パリ",
+        "note": "Chloéとの契約の関係で、プレタポルテはクチュールより後になった。"
+      },
+      {
+        "season": "1985SS",
+        "title": "ワトー（クチュール）",
+        "city": "パリ",
+        "note": "画家ワトーに着想。"
+      },
+      {
+        "season": "1985-86AW",
+        "city": "パリ",
+        "note": "リンダ・エヴァンジェリスタが出演。"
+      },
+      {
+        "season": "1990SS",
+        "city": "パリ",
+        "note": "淡い緑のヘリンボーン。セルジュ・ロッシュに着想。"
+      },
+      {
+        "season": "1991-92AW",
+        "alias": "ヒップホップ",
+        "city": "パリ",
+        "note": "パッチワーク、大きなデニム、ミニスカートから垂らした金のチェーン、キルティングの金色のキャップ。ラガーフェルドいわく「ラッパーは真実を語る」。"
+      },
+      {
+        "season": "1992SS",
+        "city": "パリ",
+        "note": "白いクルーネックのTシャツに花柄のボトムとローブ。"
+      },
+      {
+        "season": "1993SS",
+        "city": "パリ",
+        "note": "ナオミ・キャンベルがツイードのマイクロミニのドレスと花の髪飾りで。"
+      },
+      {
+        "season": "1994SS",
+        "city": "パリ",
+        "alias": "マイクロミニ",
+        "note": "ツイードのバケットハットにミニスカートと短いジャケット、バンダナ。コーランの一節をプリントしたドレス3着が問題になり謝罪した。"
+      },
+      {
+        "season": "1994-95AW",
+        "city": "パリ",
+        "note": "金のチェーンに革を通した、肩掛けのボトルホルダー。"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "（クチュール）",
+        "city": "パリ",
+        "note": "ナオミ・キャンベルのシュルレアリスム風のヘッドピース。"
+      },
+      {
+        "season": "1996SS",
+        "city": "パリ",
+        "alias": "マイクロビキニ",
+        "note": "極小のロゴのビキニトップ、ロゴ入りのベロアのトラックスーツ（ジューシー・クチュールを10年先取り）。"
+      },
+      {
+        "season": "1996-97AW",
+        "city": "パリ",
+        "note": "ステラ・テナントが広告の顔に。"
+      },
+      {
+        "season": "2010-11AW",
+        "city": "パリ",
+        "alias": "氷山",
+        "note": "アイスランドから運んだ約265トン、高さ約9メートルの氷山をグラン・パレに。"
+      },
+      {
+        "season": "2014-15AW",
+        "city": "パリ",
+        "title": "Chanel Shopping Center",
+        "alias": "スーパーマーケット",
+        "note": "グラン・パレをスーパーにし、10万点以上のシャネルの商品を並べた。ツイードのスーツにスニーカー。"
+      },
+      {
+        "season": "2015SS",
+        "city": "パリ",
+        "alias": "フェミニストのデモ",
+        "note": "パリの大通りを再現し、最後にモデルがプラカードを持ってデモ行進。"
+      },
+      {
+        "season": "2016-17AW",
+        "city": "パリ",
+        "note": "昔のクチュールのサロンのような会場。"
+      },
+      {
+        "season": "2017SS",
+        "city": "パリ",
+        "alias": "データセンター",
+        "note": "グラン・パレをデータセンターに。"
+      },
+      {
+        "season": "2017-18AW",
+        "city": "パリ",
+        "alias": "ロケット",
+        "note": "高さ約35メートルのロケットを打ち上げる演出。"
+      },
+      {
+        "season": "2018-19AW",
+        "city": "パリ",
+        "alias": "森",
+        "note": "落葉した木々の森。秋へのオマージュ。"
+      },
+      {
+        "season": "2019SS",
+        "city": "パリ",
+        "title": "By the Sea",
+        "alias": "ビーチ",
+        "note": "グラン・パレに砂浜と打ち寄せる波を作った。"
+      },
+      {
+        "season": "2019SS",
+        "title": "地中海の庭（クチュール）",
+        "city": "パリ",
+        "note": "ラガーフェルドが手がけた最後のショー（2019年1月）。"
+      },
+      {
+        "season": "2019-20AW",
+        "city": "パリ",
+        "alias": "スキー・シャレー",
+        "note": "ラガーフェルド死去直後の最初のショー。雪の山小屋。"
+      },
+      {
+        "season": "2026SS",
+        "title": "ブレイジーのデビュー",
+        "city": "パリ",
+        "note": "2025年10月6日、グラン・パレ。3つの章に分けて歴史を読み直した。"
+      },
+      {
+        "season": "2027SS",
+        "city": "パリ",
+        "note": "ガブリエル・シャネルの多くの人生をたどるコレクション。"
+      },
+      {
+        "season": "2027 Cruise",
+        "title": "ビアリッツ",
+        "city": "ビアリッツ",
+        "note": "ブレイジー初のクルーズ。"
+      }
+    ],
+    "note": "マイクロビキニを1995年春夏とする資料もありますが、1996年春夏としました。ラガーフェルド最初のクチュールを1983-84年秋冬とする資料もあります。"
   },
   {
     "id": "bottega",

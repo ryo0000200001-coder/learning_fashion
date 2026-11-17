@@ -340,7 +340,7 @@ window.DESIGNERS = {
   "tomford": {
     "en": "Tom Ford",
     "ja": "トム・フォード",
-    "bio": "1990年代にGucciを劇的に再生。YSLも兼任。"
+    "bio": "1990年代にGucciを劇的に再生させ、YSLも兼任（1999〜2004）。2005年頃に自身のブランドを始めた。"
   },
   "giannini": {
     "en": "Frida Giannini",
@@ -761,5 +761,48 @@ window.DESIGNERS = {
   "iwai": {
     "en": "Ryota Iwai",
     "ja": "岩井良太"
+  },
+  "leoni": {
+    "en": "Veronica Leoni",
+    "ja": "ヴェロニカ・レオーニ",
+    "bio": "Jil Sander、Céline、Moncler、The Rowを経て自身のQUIRAを設立（2023年LVMHプライズのファイナリスト）。2024年にCalvin Klein Collectionのクリエイティブディレクター、2026年10月に退任。"
+  },
+  "ackermann": {
+    "en": "Haider Ackermann",
+    "ja": "ハイダー・アッカーマン",
+    "bio": "コロンビア生まれ、アントワープ王立芸術アカデミーで学ぶ。自身のレーベル（2001〜2003年頃に開始）、Berluti（2016〜2018）、Jean Paul Gaultierクチュールのゲスト（2023年春夏）を経て、2024年9月からTom Ford。Canada Gooseのクリエイティブディレクターも兼任。"
+  },
+  "hawkings": {
+    "en": "Peter Hawkings",
+    "ja": "ピーター・ホーキングス"
+  },
+  "rosso": {
+    "en": "Renzo Rosso",
+    "ja": "レンツォ・ロッソ",
+    "bio": "Dieselの創業者で、Margiela、Jil Sander、Marniなどを持つOTBグループの会長。"
+  },
+  "okaniwa": {
+    "en": "Tomoaki Okaniwa",
+    "ja": "岡庭智明",
+    "bio": "1963年長野生まれ。絵画を学んだのち、1987年にキャタピラープロデュイを設立。縫製まで自ら手がけ、2001年にThe Viridi-anneを始めた。"
+  },
+  "horikawa": {
+    "en": "Tatsuro Horikawa",
+    "ja": "堀川達郎"
+  },
+  "nishida": {
+    "en": "Daisuke Nishida",
+    "ja": "西田大介",
+    "bio": "レスリングや医療の道を経てDEVOAを始めた異色の経歴。"
+  },
+  "fujiwara_h": {
+    "en": "Hiroshi Fujiwara",
+    "ja": "藤原ヒロシ",
+    "bio": "裏原宿の「ゴッドファーザー」と呼ばれる。GOODENOUGH、fragment designなどを手がけた。"
+  },
+  "kiyonaga": {
+    "en": "Hirofumi Kiyonaga",
+    "ja": "清永浩文",
+    "bio": "A.P.C.の東京で7年働いたのち、1998年にSOPHを始める。2022年に代表を退任。"
   }
 };

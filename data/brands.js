@@ -1078,7 +1078,8 @@ window.BRANDS = [
     "related": [
       "bape",
       "nine",
-      "soloist"
+      "soloist",
+      "goodenough"
     ],
     "note": "1997〜1999年のタイトル（RELIEF / EXCHANGE / AMBIVALENCE / LEAF / DRAPE）は資料によってシーズンの割り当てが食い違います。ここでは複数資料が一致するものを採用しました。表にないシーズンは今回の調査でタイトルを確認できなかったものです。",
     "sources": [
@@ -1812,7 +1813,8 @@ window.BRANDS = [
     ],
     "related": [
       "undercover",
-      "wtaps"
+      "wtaps",
+      "goodenough"
     ],
     "sources": [
       {
@@ -2159,7 +2161,8 @@ window.BRANDS = [
       "hermes",
       "dior",
       "anndemeulemeester",
-      "dries"
+      "dries",
+      "diesel"
     ],
     "sources": [
       {
@@ -2560,6 +2563,14 @@ window.BRANDS = [
         "text": "Jil Sanderのクリエイティブディレクターに（〜2012）"
       },
       {
+        "year": 2016,
+        "text": "8月、Calvin Kleinのチーフクリエイティブオフィサーに（2018年12月まで）"
+      },
+      {
+        "year": 2020,
+        "text": "4月、Pradaの共同クリエイティブディレクターに"
+      },
+      {
         "year": 2022,
         "text": "ロンドンのPrintworksでの2023年春夏を最後にブランドを終了"
       }
@@ -2633,7 +2644,8 @@ window.BRANDS = [
       "jilsander",
       "dior",
       "prada",
-      "dries"
+      "dries",
+      "calvinklein"
     ],
     "sources": [
       {
@@ -3524,6 +3536,10 @@ window.BRANDS = [
       {
         "year": 2025,
         "text": "4月、Versaceを12.5億ユーロで買収することで合意（12月完了）"
+      },
+      {
+        "year": 2026,
+        "text": "2027年春夏ウィメンズは、63ルックすべてにスカートを入れるというルールで発表"
       }
     ],
     "designers": [
@@ -3845,6 +3861,10 @@ window.BRANDS = [
       {
         "year": 2025,
         "text": "10月、グラン・パレでブレイジーのデビューショー（2026年春夏）"
+      },
+      {
+        "year": 2026,
+        "text": "就任1年となる2027年春夏で、ガブリエル・シャネルの多くの人生をたどるコレクション"
       }
     ],
     "designers": [
@@ -4361,8 +4381,20 @@ window.BRANDS = [
         "text": "1月、50周年のクチュールショーで引退。以降は阿部千登勢、グレン・マーティンスらゲストデザイナー制"
       },
       {
+        "year": 2023,
+        "text": "ハイダー・アッカーマンがクチュール2023年春夏のゲストデザイナー"
+      },
+      {
         "year": 2025,
         "text": "4月、デュラン・ランティンクがクリエイティブディレクターに"
+      },
+      {
+        "year": 2025,
+        "text": "10月、デュラン・ランティンクのプレタポルテ初コレクション（2026年春夏）。空気で膨らませたような未来的なシルエットで賛否を呼んだ"
+      },
+      {
+        "year": 2026,
+        "text": "7月8日、ランティンクの初のオートクチュール（2026-27年秋冬）。マリー・アントワネットを主な参照に"
       }
     ],
     "designers": [
@@ -4407,7 +4439,8 @@ window.BRANDS = [
     ],
     "related": [
       "hermes",
-      "sacai"
+      "sacai",
+      "haiderackermann"
     ],
     "sources": [
       {
@@ -4421,6 +4454,10 @@ window.BRANDS = [
       {
         "t": "i-D：jean paul gaultier, from cones to couture",
         "u": "https://i-d.co/article/jean-paul-gaultier-from-cones-to-couture/"
+      },
+      {
+        "t": "WWD：Jean Paul Gaultier Fall 2026 Haute Couture Review",
+        "u": "https://wwd.com/runway/fall-couture-2026/paris/jean-paul-gaultier/review/"
       }
     ]
   },
@@ -5115,7 +5152,8 @@ window.BRANDS = [
     "related": [
       "guidi",
       "ma",
-      "borisbidjansaberi"
+      "borisbidjansaberi",
+      "viridianne"
     ],
     "note": "設立年は1994〜1996年で資料が分かれます。",
     "sources": [
@@ -8048,6 +8086,576 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Richard Stark (designer)",
         "u": "https://en.wikipedia.org/wiki/Richard_Stark_(designer)"
+      }
+    ]
+  },
+  {
+    "id": "calvinklein",
+    "name": "Calvin Klein",
+    "ja": "カルバン・クライン",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 1968,
+    "tags": [
+      "ミニマル",
+      "アメリカ",
+      "デニム"
+    ],
+    "summary": "ニューヨークのブランド。1990年代のミニマルな下着・デニム・広告で一時代をつくった。2016年にラフ・シモンズがチーフクリエイティブオフィサーとなったが2年で退任。2024年からヴェロニカ・レオーニがコレクションを率いたが、2026年10月に退任した。",
+    "history": [
+      {
+        "year": 1968,
+        "text": "カルバン・クラインが創業（創業年は一般に1968年）",
+        "unverified": true
+      },
+      {
+        "year": 2016,
+        "text": "8月、ラフ・シモンズがチーフクリエイティブオフィサーに"
+      },
+      {
+        "year": 2018,
+        "text": "12月21日、方向性の違いによりシモンズとの契約を終了（契約満了の8か月前）"
+      },
+      {
+        "year": 2024,
+        "text": "ヴェロニカ・レオーニがCalvin Klein Collectionのクリエイティブディレクターに。2025年2月に初のショー"
+      },
+      {
+        "year": 2026,
+        "text": "10月、レオーニが4シーズンで退任。後任は「追って発表」"
+      }
+    ],
+    "designers": [
+      {
+        "d": "raf",
+        "role": "チーフクリエイティブオフィサー",
+        "from": 2016,
+        "to": 2018
+      },
+      {
+        "d": "leoni",
+        "role": "クリエイティブディレクター（Collection）",
+        "from": 2024,
+        "to": 2026
+      }
+    ],
+    "items": [],
+    "archive": [
+      "ラフ期（2016〜2018）の「205W39NYC」ラインはアーカイブとして探される。"
+    ],
+    "related": [
+      "raf",
+      "jilsander"
+    ],
+    "note": "「205W39NYC」はラフ期のコレクションラインの名前（未確認）。",
+    "sources": [
+      {
+        "t": "Business Wire：Calvin Klein and Chief Creative Officer Raf Simons Part Ways",
+        "u": "https://www.businesswire.com/news/home/20181221005599/en/Calvin-Klein-Chief-Creative-Officer-Raf-Simons"
+      },
+      {
+        "t": "Business of Fashion：Raf Simons and Calvin Klein: Behind the Breakup",
+        "u": "https://www.businessoffashion.com/articles/news-analysis/raf-simons-exits-calvin-klein/"
+      },
+      {
+        "t": "PVH：Calvin Klein Names Veronica Leoni",
+        "u": "https://www.pvh.com/news/press-releases/Calvin-Klein-Inc-Names-Veronica-Leoni-as-Creative-Director-of-Collection"
+      },
+      {
+        "t": "Business of Fashion：Veronica Leoni",
+        "u": "https://www.businessoffashion.com/people/veronica-leoni/"
+      }
+    ]
+  },
+  {
+    "id": "tomford",
+    "name": "Tom Ford",
+    "ja": "トム・フォード",
+    "origin": "import",
+    "country": "アメリカ",
+    "city": "ニューヨーク / ロンドン",
+    "founded": 2005,
+    "tags": [
+      "ラグジュアリー",
+      "テーラリング",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "GucciとYSLを率いたトム・フォードが始めた自身のブランド。官能的でグラマラスなテーラリングとアイウェア・香水で知られる。フォードの退任後はピーター・ホーキングスを経て、2024年9月からハイダー・アッカーマン。",
+    "history": [
+      {
+        "year": 2005,
+        "text": "トム・フォードが自身のブランドを始める（年は概算）",
+        "unverified": true
+      },
+      {
+        "year": 2024,
+        "text": "7月にピーター・ホーキングスが退任。9月、ハイダー・アッカーマンが全カテゴリーのクリエイティブディレクターに"
+      },
+      {
+        "year": 2025,
+        "text": "3月、アッカーマンの初コレクションをパリで発表"
+      }
+    ],
+    "designers": [
+      {
+        "d": "tomford",
+        "role": "創業者",
+        "from": 2005,
+        "to": 2023
+      },
+      {
+        "d": "hawkings",
+        "role": "クリエイティブディレクター",
+        "from": 2023,
+        "to": 2024
+      },
+      {
+        "d": "ackermann",
+        "role": "クリエイティブディレクター",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "gucci",
+      "saintlaurent"
+    ],
+    "note": "ブランド開始年とトム・フォード本人の退任年（2023年）は今回の調査で直接の裏付けを取っていません。",
+    "sources": [
+      {
+        "t": "Estée Lauder Companies：TOM FORD Announces Appointment of Haider Ackermann",
+        "u": "https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2024/09-05-24"
+      },
+      {
+        "t": "Hypebeast：Haider Ackermann Named Creative Director of Tom Ford",
+        "u": "https://hypebeast.com/2024/9/haider-ackermann-creative-director-tom-ford-appointment"
+      }
+    ]
+  },
+  {
+    "id": "haiderackermann",
+    "name": "Haider Ackermann",
+    "ja": "ハイダー・アッカーマン",
+    "origin": "import",
+    "country": "フランス",
+    "city": "パリ / アントワープ",
+    "founded": 2003,
+    "tags": [
+      "アントワープ",
+      "テーラリング",
+      "ウィメンズ",
+      "メンズ"
+    ],
+    "summary": "アントワープ王立芸術アカデミー出身のハイダー・アッカーマンのレーベル。流れるようなドレープと深い色のテーラリング。Berluti、Jean Paul Gaultierクチュールのゲスト、Tom Fordと、ほかのメゾンでも腕を振るう。",
+    "history": [
+      {
+        "year": 2003,
+        "text": "自身のレーベルを始める（2001年・2002年とする資料も）"
+      },
+      {
+        "year": 2016,
+        "text": "9月、Berlutiのクリエイティブディレクターに（3シーズンで退任）"
+      },
+      {
+        "year": 2023,
+        "text": "Jean Paul Gaultierクチュール2023年春夏のゲストデザイナー"
+      },
+      {
+        "year": 2024,
+        "text": "9月、Tom Fordのクリエイティブディレクターに"
+      }
+    ],
+    "designers": [
+      {
+        "d": "ackermann",
+        "role": "創業者・デザイナー",
+        "from": 2003,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "tomford",
+      "jpg",
+      "anndemeulemeester"
+    ],
+    "sources": [
+      {
+        "t": "WWD：Haider Ackermann to Design Next Jean Paul Gaultier Couture",
+        "u": "https://wwd.com/fashion-news/designer-luxury/haider-ackermann-gaultier-couture-next-guest-designer-next-1235358125/"
+      },
+      {
+        "t": "Business of Fashion：Haider Ackermann",
+        "u": "https://www.businessoffashion.com/people/haider-ackermann/"
+      },
+      {
+        "t": "i-D：Get to know Haider Ackermann",
+        "u": "https://i-d.co/article/who-is-haider-ackermann/"
+      }
+    ]
+  },
+  {
+    "id": "diesel",
+    "name": "Diesel",
+    "ja": "ディーゼル",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ブレガンツェ",
+    "founded": 1978,
+    "tags": [
+      "デニム",
+      "メンズ",
+      "ウィメンズ"
+    ],
+    "summary": "レンツォ・ロッソらが1978年にイタリア・ヴェネト州モルヴェーナで始めたデニムブランド。OTBグループの母体。2020年からグレン・マーティンスがデニムの加工技術を前面に出してブランドを再生させたが、2026年に退任した。",
+    "history": [
+      {
+        "year": 1978,
+        "text": "モルヴェーナでMoltexの製造パートナーシップを改組して設立"
+      },
+      {
+        "year": 1985,
+        "text": "ロッソが共同創業者の持ち分を買い取り単独オーナーに"
+      },
+      {
+        "year": 2020,
+        "text": "10月、グレン・マーティンスがクリエイティブディレクターに"
+      },
+      {
+        "year": 2026,
+        "text": "9月22日の2027年春夏がマーティンスの最後のショー。Margielaに専念するため退任"
+      }
+    ],
+    "designers": [
+      {
+        "d": "rosso",
+        "role": "創業者",
+        "from": 1978,
+        "to": null
+      },
+      {
+        "d": "martens",
+        "role": "クリエイティブディレクター",
+        "from": 2020,
+        "to": 2026
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "margiela",
+      "jilsander"
+    ],
+    "sources": [
+      {
+        "t": "Wikipedia：Diesel (company)",
+        "u": "https://en.wikipedia.org/wiki/Diesel_(company)"
+      },
+      {
+        "t": "Wikipedia：Glenn Martens",
+        "u": "https://en.wikipedia.org/wiki/Glenn_Martens"
+      }
+    ]
+  },
+  {
+    "id": "viridianne",
+    "name": "The Viridi-anne",
+    "ja": "ザ ヴィリジアン",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 2001,
+    "tags": [
+      "アルチザン",
+      "ブラック",
+      "メンズ"
+    ],
+    "summary": "岡庭智明が2001年春夏に始めたメンズ。黒を基調に、経年変化を意識した素材とアヴァンギャルドな構造で、日本のアルチザン系を代表する。前身は1987年に始めたウィメンズのキャタピラープロデュイ。",
+    "history": [
+      {
+        "year": 1987,
+        "text": "岡庭智明がキャタピラープロデュイを設立。縫製まで自ら手がけ、アンダーグラウンドでショーも行う"
+      },
+      {
+        "year": 2001,
+        "text": "2001年春夏、メンズレーベル「The Viridi-anne」を始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "okaniwa",
+        "role": "創業者・デザイナー",
+        "from": 2001,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "julius",
+      "devoa",
+      "ccp"
+    ],
+    "sources": [
+      {
+        "t": "The Viridi-anne 公式：HISTORY",
+        "u": "https://viridi-anne.jp/history.html"
+      },
+      {
+        "t": "ファッションプレス：ザ・ヴィリジアン",
+        "u": "https://www.fashion-press.net/brands/379"
+      },
+      {
+        "t": "thefashiondb：The Viridi-Anne",
+        "u": "https://thefashiondb.com/brands/the-viridi-anne"
+      }
+    ]
+  },
+  {
+    "id": "julius",
+    "name": "JULIUS",
+    "ja": "ユリウス",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 2001,
+    "tags": [
+      "アルチザン",
+      "ブラック",
+      "メンズ"
+    ],
+    "summary": "堀川達郎が2001年に東京で始めたレーベル。服のラインは2004年から。黒を中心にしたダークで細長いシルエットのメンズ。",
+    "history": [
+      {
+        "year": 2001,
+        "text": "堀川達郎がJULIUSを始める"
+      },
+      {
+        "year": 2004,
+        "text": "服のラインを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "horikawa",
+        "role": "創業者・デザイナー",
+        "from": 2001,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "viridianne",
+      "devoa"
+    ],
+    "sources": [
+      {
+        "t": "RAW Looks：Julius",
+        "u": "https://rawlooks.com/brand/julius/similar/"
+      }
+    ]
+  },
+  {
+    "id": "devoa",
+    "name": "DEVOA",
+    "ja": "デヴォア",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 2008,
+    "tags": [
+      "アルチザン",
+      "テーラリング",
+      "メンズ"
+    ],
+    "summary": "西田大介のブランド。人体の構造に沿ったパターンと上質な素材のメンズで、日本のアルチザン系として海外でも扱われる。",
+    "history": [
+      {
+        "year": 2008,
+        "text": "西田大介がブランドを始める（2005年とする資料も）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "nishida",
+        "role": "創業者・デザイナー",
+        "from": 2008,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "viridianne",
+      "julius"
+    ],
+    "sources": [
+      {
+        "t": "ファッションプレス：デヴォア",
+        "u": "https://www.fashion-press.net/brands/1099"
+      },
+      {
+        "t": "FASCINATE：DEVOA Designer interview",
+        "u": "https://www.fascinate.jp/japanese/media/devoa-interview-2019-20aw-no-1"
+      }
+    ]
+  },
+  {
+    "id": "goodenough",
+    "name": "GOODENOUGH",
+    "ja": "グッドイナフ",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1990,
+    "tags": [
+      "裏原宿",
+      "ストリート",
+      "アーカイブ"
+    ],
+    "summary": "藤原ヒロシらが1990年に始めた、裏原宿のストリートブランドの原点の一つ。1995年の裏原宿ブームの絶頂期に、藤原が半年間ブランドの活動を止めたという逸話がある。",
+    "history": [
+      {
+        "year": 1990,
+        "text": "藤原ヒロシ、SK8THING、岩井徹らが設立"
+      },
+      {
+        "year": 1995,
+        "text": "裏原宿ブームの最中、藤原が半年間ブランドの活動を止める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "fujiwara_h",
+        "role": "創業メンバー",
+        "from": 1990,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [
+      "1990年代のアイテムは裏原宿のアーカイブとして人気。"
+    ],
+    "related": [
+      "fragment",
+      "bape",
+      "undercover"
+    ],
+    "sources": [
+      {
+        "t": "sabukaru：An Ura-Hara Champion: GOODENOUGH",
+        "u": "https://sabukaru.online/articles/an-ura-hara-champion-goodenough"
+      },
+      {
+        "t": "Highsnobiety：How Hiroshi Fujiwara Changed Streetwear Forever",
+        "u": "https://www.highsnobiety.com/p/hiroshi-fujiwara-history/"
+      }
+    ]
+  },
+  {
+    "id": "fragment",
+    "name": "fragment design",
+    "ja": "フラグメントデザイン",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 2003,
+    "tags": [
+      "裏原宿",
+      "ストリート",
+      "コラボ"
+    ],
+    "summary": "藤原ヒロシのデザインプロジェクト。稲妻のロゴで知られ、Nike、Louis Vuitton、Moncler など無数のブランドとの協業でストリートとラグジュアリーをつないだ。",
+    "history": [
+      {
+        "year": 2003,
+        "text": "fragment designとして始まる（2005年とする資料も）"
+      }
+    ],
+    "designers": [
+      {
+        "d": "fujiwara_h",
+        "role": "創業者",
+        "from": 2003,
+        "to": null
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "goodenough",
+      "sophnet"
+    ],
+    "sources": [
+      {
+        "t": "Sneaker Freaker：A Look Back at fragment's Design Legacy",
+        "u": "https://www.sneakerfreaker.com/features/the-quiet-storm-a-look-back-at-fragment-s-design-legacy"
+      }
+    ]
+  },
+  {
+    "id": "sophnet",
+    "name": "SOPHNET.",
+    "ja": "ソフネット",
+    "origin": "domestic",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1998,
+    "tags": [
+      "ストリート",
+      "メンズ"
+    ],
+    "summary": "A.P.C.出身の清永浩文が1998年に「SOPH.」として始めたブランド。2002年にSOPHNET.へ。藤原ヒロシとの実験的なプロジェクト「uniform experiment」（2008年〜）も手がける。",
+    "history": [
+      {
+        "year": 1998,
+        "text": "清永浩文が「SOPH.」として始める"
+      },
+      {
+        "year": 2002,
+        "text": "「SOPHNET.」に改称"
+      },
+      {
+        "year": 2008,
+        "text": "藤原ヒロシとの「uniform experiment」を始める"
+      },
+      {
+        "year": 2013,
+        "text": "ジュンに売却され、清永はSOPHの社長として続投"
+      },
+      {
+        "year": 2022,
+        "text": "1月1日、清永が代表の退任を発表"
+      }
+    ],
+    "designers": [
+      {
+        "d": "kiyonaga",
+        "role": "創業者・デザイナー",
+        "from": 1998,
+        "to": 2022
+      }
+    ],
+    "items": [],
+    "archive": [],
+    "related": [
+      "fragment",
+      "goodenough"
+    ],
+    "sources": [
+      {
+        "t": "RINKAN：ソフネット ブランドの歴史",
+        "u": "https://www.gsc-rinkan.com/column/sophnet/sophnet-history/"
+      },
+      {
+        "t": "Qkaku：SOPH.がNIKEとコラボし定番になった理由",
+        "u": "http://qkaku.com/soph/"
       }
     ]
   }

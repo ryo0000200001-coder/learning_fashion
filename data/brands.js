@@ -186,6 +186,14 @@ window.BRANDS = [
       {
         "t": "コムデギャルソン買取販売市場：SHIRTの年代、内タグ",
         "u": "https://kaitorihanbaiichiba.net/garcons/2023/06/22/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E3%80%81%E5%86%85%E3%82%BF%E3%82%B0%E3%80%81ad1994%E3%81%AEshirt%E3%81%AE%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%80%82/"
+      },
+      {
+        "t": "NGV：Collecting Comme list of works",
+        "u": "https://www.ngv.vic.gov.au/collecting-comme/list-of-works/"
+      },
+      {
+        "t": "CDG Archive：Timeline",
+        "u": "https://cdgarchive.com/timeline"
       }
     ],
     "lines": [
@@ -496,9 +504,17 @@ window.BRANDS = [
         "city": "パリ"
       },
       {
-        "season": "1994",
+        "season": "1990SS",
+        "title": "Refresh the Spirits"
+      },
+      {
+        "season": "1994-95AW",
         "title": "Metamorphosis",
         "city": "パリ"
+      },
+      {
+        "season": "1994SS",
+        "title": "Eccentric"
       },
       {
         "season": "1995-96AW",
@@ -510,8 +526,17 @@ window.BRANDS = [
         "season": "1997SS",
         "title": "Body Meets Dress, Dress Meets Body",
         "city": "パリ",
-        "alias": "こぶドレス",
+        "alias": "Lumps and Bumps（こぶドレス）",
         "note": "ダウンのパッドで身体に「こぶ」を作った。"
+      },
+      {
+        "season": "1997-98AW",
+        "title": "Adult Punk"
+      },
+      {
+        "season": "1998-99AW",
+        "title": "Fusion",
+        "note": "同じ頃のテーマとして「Inside Outside」とする資料もある（のちにオム・プリュスでも引用）。"
       },
       {
         "season": "2005SS",
@@ -549,6 +574,20 @@ window.BRANDS = [
       {
         "season": "2018SS",
         "title": "Multidimensional Graffiti"
+      },
+      {
+        "season": "2024-25AW",
+        "title": "Spiritual World（オム・プリュス）"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "To Hell with War（オム・プリュス）",
+        "note": "大きなヘルメット、迷彩、重いレザーのブーツ。"
+      },
+      {
+        "season": "2027SS",
+        "title": "If the War Were to End（オム・プリュス）",
+        "note": "戦争が終わったあとの希望をテーマにした。"
       }
     ],
     "aka": [
@@ -728,6 +767,10 @@ window.BRANDS = [
       {
         "t": "CDG Archive：Junya Watanabe",
         "u": "https://cdgarchive.com/label/JUNYA_WATANABE"
+      },
+      {
+        "t": "10 Magazine：Junya Watanabe on his menswear",
+        "u": "https://www.10magazine.com.au/articles/junya-watanabe-on-the-evolution-of-his-menswear"
       }
     ],
     "collections": [
@@ -738,7 +781,12 @@ window.BRANDS = [
       {
         "season": "2000SS",
         "title": "（雨のランウェイ）",
-        "note": "ランウェイに雨を降らせ、撥水素材の服を見せた。"
+        "note": "ランウェイに雨を降らせ、撥水素材の服を見せた。「Function and Practicality」と同じシーズン。"
+      },
+      {
+        "season": "2000SS",
+        "title": "Function and Practicality",
+        "note": "ブレイクのきっかけになったショーとされる。"
       },
       {
         "season": "2000-01AW",
@@ -747,8 +795,38 @@ window.BRANDS = [
         "note": "バックパックに使うような極薄のポリエステル・オーガンザを何層も重ねたハニカム状のラフ。ヴィオネのバイアスやディオールのニュールックなどクチュールの型をパンクの刃で切り刻む。メトロポリタン美術館が所蔵。直前のシーズンは「雨（撥水）」がテーマ。"
       },
       {
-        "season": "2001",
-        "title": "JUNYA WATANABE MAN の開始"
+        "season": "2002SS",
+        "title": "（デニム）",
+        "note": "ほとんどすべてのルックにデニムを使った。"
+      },
+      {
+        "season": "2002SS",
+        "title": "JUNYA WATANABE MAN デビュー",
+        "note": "メンズの流れを変えたと言われるデビュー。"
+      },
+      {
+        "season": "2005",
+        "title": "The North Face との協業・eYe の開始",
+        "note": "協業のための「eYe」ラインもこの年に始まった。"
+      },
+      {
+        "season": "2006-07AW",
+        "title": "（ミリタリー・脱構築）",
+        "note": "アーミーグリーンと『タクシードライバー』のような雰囲気。最も挑発的なシーズンの一つとされ、メンズはティム・ブランクスの「史上最高のショー」にも選ばれた。"
+      },
+      {
+        "season": "2009SS",
+        "title": "（カーキとアフリカン・プリント）",
+        "note": "カーキ、デニム、白いシャツの後半にアフリカのプリント。"
+      },
+      {
+        "season": "2010-11AW",
+        "title": "（女性のためのミリタリー）"
+      },
+      {
+        "season": "2018SS",
+        "title": "（Carhartt との48型・MAN）",
+        "note": "Levi's、The North Face なども参加した。"
       }
     ],
     "aka": [
@@ -930,6 +1008,10 @@ window.BRANDS = [
       {
         "t": "THE SHOP YOHJI YAMAMOTO：About Designer",
         "u": "https://theshopyohjiyamamoto.com/pages/about_designer"
+      },
+      {
+        "t": "AnOther：Yohji Yamamoto's S/S99 Wedding",
+        "u": "https://www.anothermag.com/fashion-beauty/7437/an-invitation-to-yohji-yamamotos-s-s99-wedding"
       }
     ],
     "lines": [
@@ -1070,12 +1152,13 @@ window.BRANDS = [
         "season": "1983SS",
         "title": "",
         "city": "パリ",
-        "note": "オリヴィエ・サイヤールが選ぶ名作シーズンの一つ（以下同）。"
+        "note": "対称を嫌い「計算された不均衡」を選んだシーズンとして、オリヴィエ・サイヤールが代表作に挙げる。"
       },
       {
         "season": "1986-87AW",
         "title": "",
-        "city": "パリ"
+        "city": "パリ",
+        "note": "赤いチュールのバッスルをつけた黒いコートが有名。"
       },
       {
         "season": "1991-92AW",
@@ -1105,8 +1188,9 @@ window.BRANDS = [
       },
       {
         "season": "1997SS",
-        "title": "",
-        "city": "パリ"
+        "title": "Homage to the Classics Revisited",
+        "city": "パリ",
+        "note": "古典的な服を参照し、自分の仕事と向き合ったシーズン。"
       },
       {
         "season": "1998SS",
@@ -1115,9 +1199,18 @@ window.BRANDS = [
         "note": "それまでの禁欲的な美学から離れ、柔らかくロマンティックな方向へ。"
       },
       {
+        "season": "1998",
+        "title": "（プールオムにヴィヴィアン・ウエストウッドが出演）"
+      },
+      {
         "season": "1999SS",
-        "title": "",
-        "city": "パリ"
+        "title": "（ウェディング）",
+        "city": "パリ",
+        "note": "花嫁のモデルが自分のドレスの中から靴、ベール、手袋、ブーケを取り出すフィナーレ。ティム・ブランクスは「最も魅惑的なショーの一つ」と書いた。"
+      },
+      {
+        "season": "2002",
+        "title": "Y-3 の開始"
       },
       {
         "season": "2003SS",
@@ -1164,7 +1257,7 @@ window.BRANDS = [
         "from": 1990,
         "to": 1999,
         "d": "yamamoto",
-        "text": "1991-92年秋冬のウェディングドレスのショー、木の板や大きな帽子を使ったショーなど、詩的な演出が評価された時代。プールオムではレーヨン、ギャバジン、ウールの柔らかいテーラードジャケットやワイドパンツが定番になり、古着では「90年代のプールオム」が特に人気が高い。",
+        "text": "1991-92年秋冬と1999年春夏のウェディングのショー、木の板や大きな帽子を使ったショーなど、詩的な演出が評価された時代。プールオムではレーヨン、ギャバジン、ウールの柔らかいテーラードジャケットやワイドパンツが定番になり、古着では「90年代のプールオム」が特に人気が高い。",
         "works": [
           "ウェディングドレスのショー（1991-92年秋冬）",
           "レーヨン・ギャバジンのジャケット",
@@ -1243,6 +1336,10 @@ window.BRANDS = [
         "text": "「PLEATS PLEASE ISSEY MIYAKE」開始（1994年とする資料も）"
       },
       {
+        "year": 1993,
+        "text": "滝沢直己がメンズを担当する"
+      },
+      {
         "year": 1999,
         "text": "ウィメンズのデザイナーに滝沢直己が就任（2000年春夏〜）"
       },
@@ -1263,8 +1360,16 @@ window.BRANDS = [
         "text": "メンズのプリーツ「HOMME PLISSÉ ISSEY MIYAKE」開始"
       },
       {
+        "year": 2013,
+        "text": "HOMME PLISSÉ ISSEY MIYAKE を始める"
+      },
+      {
         "year": 2016,
         "text": "宮前義之が生地をパンのように「焼いて」膨らませる「Baked Stretch」を2016年春夏「Botanical Delights」で発表"
+      },
+      {
+        "year": 2020,
+        "text": "カジュアルなメンズ「IM MEN」を始める"
       },
       {
         "year": 2022,
@@ -1425,6 +1530,14 @@ window.BRANDS = [
       {
         "t": "FASHIONSNAP：和紙の新たな可能性を探求する「イッセイミヤケ」2025年春夏",
         "u": "https://www.fashionsnap.com/article/issey-miyake-2025ss/"
+      },
+      {
+        "t": "ISSEY MIYAKE：History",
+        "u": "https://us.isseymiyake.com/blogs/corporate/history"
+      },
+      {
+        "t": "Wikipedia：Naoki Takizawa",
+        "u": "https://en.wikipedia.org/wiki/Naoki_Takizawa"
       }
     ],
     "lines": [
@@ -1559,6 +1672,11 @@ window.BRANDS = [
         "note": "東京から始まり、サンフランシスコ、ロサンゼルス、ロンドンを巡回。同名の本も出版。"
       },
       {
+        "season": "1985-86AW",
+        "title": "メンズのパリ初ショー",
+        "note": "メンズは1978年に独立したブランドになった。"
+      },
+      {
         "season": "1994SS",
         "title": "（フライング・ソーサー・ドレス）",
         "city": "パリ",
@@ -1576,10 +1694,28 @@ window.BRANDS = [
         "note": "連続してつながったドレスで締めくくったショー。メトロポリタン美術館やLACMAが「A-POC Queen」を所蔵。"
       },
       {
+        "season": "1999SS",
+        "title": "メンズをミラノでの発表に移す"
+      },
+      {
+        "season": "2005",
+        "title": "Idiosyncratic Dandyism（メンズ・滝沢直己）",
+        "note": "実験的な仕事として批評家に評価された。"
+      },
+      {
+        "season": "2005-06AW",
+        "title": "メンズがパリに戻る"
+      },
+      {
         "season": "2014SS",
         "title": "（3D Steam Stretch）",
         "city": "パリ",
         "note": "熱で布を縮ませる「Steam Stretch」を立体的に使った。宮前期。"
+      },
+      {
+        "season": "2014SS",
+        "title": "高橋悠介のデビュー（メンズ）",
+        "note": "2020-21年秋冬まで担当した。"
       },
       {
         "season": "2016SS",
@@ -1706,6 +1842,17 @@ window.BRANDS = [
           "A Sense of Joy（2020年春夏）",
           "The Beauty of Paper（2025年春夏）"
         ]
+      },
+      {
+        "name": "高橋悠介期（メンズ）",
+        "from": 2014,
+        "to": 2020,
+        "d": null,
+        "text": "ホールガーメント（無縫製ニット）で装苑賞を受けた高橋悠介が ISSEY MIYAKE MEN を担当した時代。素材と技術を生かした実用的なメンズを作った。",
+        "works": [
+          "ISSEY MIYAKE MEN のテクニカルなジャケット",
+          "ホールガーメントのニット"
+        ]
       }
     ]
   },
@@ -1779,13 +1926,23 @@ window.BRANDS = [
         "season": "1994-95AW",
         "title": "（無題）",
         "city": "東京",
-        "note": "東京コレクションでの初ランウェイ。"
+        "note": "1994年4月18日、代官山の「ザ・ガレージ」で東京コレクションとして初のショーを行った。"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "（無題・ウィメンズ）",
+        "note": "今も高橋盾が何度も立ち返る美意識を作ったシーズンとされる。"
+      },
+      {
+        "season": "1996SS",
+        "title": "UNDER THE COVER",
+        "note": "特殊メイクのスクリーミング・マッド・ジョージと組み、グロテスクな怪物たちを登場させた。"
       },
       {
         "season": "1998-99AW",
         "title": "EXCHANGE",
         "city": "東京",
-        "note": "ジッパーで袖や襟を別の服と付け替えられる。フューチュラが絵を描いた冊子付き。"
+        "note": "ジップで服のパーツを付け替えられるようにした。"
       },
       {
         "season": "1999SS",
@@ -1797,7 +1954,7 @@ window.BRANDS = [
         "season": "1999-2000AW",
         "title": "AMBIVALENCE",
         "city": "東京",
-        "note": "リバーシブルの服。双子のモデルが表裏で同じ服を着て歩いた。"
+        "note": "リバーシブルの服を見せた。"
       },
       {
         "season": "2000-01AW",
@@ -2157,6 +2314,10 @@ window.BRANDS = [
       {
         "t": "Qkaku：UNDERCOVERが虜にする理由とは？",
         "u": "https://qkaku.com/under-cover/"
+      },
+      {
+        "t": "Grailed：A Look at Undercover",
+        "u": "https://www.grailed.com/drycleanonly/master-class-undercover"
       }
     ],
     "lines": [
@@ -2627,6 +2788,14 @@ window.BRANDS = [
       {
         "t": "FashionNetwork：Pitti Uomo 93: Undercover and The Soloist",
         "u": "https://uk.fashionnetwork.com/news/Pitti-uomo-93-undercover-and-the-soloist-guests-of-honour,884254.html"
+      },
+      {
+        "t": "OPENERS：TheSoloist #0011",
+        "u": "https://openers.jp/en/fashion/fashion_men/858472"
+      },
+      {
+        "t": "Hypebeast：TheSoloist SS22",
+        "u": "https://hypebeast.com/2021/9/takahiromiyashita-thesoloist-spring-summer-2022-collection-info"
       }
     ],
     "aka": [
@@ -2663,6 +2832,38 @@ window.BRANDS = [
       {
         "season": "2010-11AW",
         "title": "最初のコレクション"
+      },
+      {
+        "season": "2013-14AW",
+        "title": "symphony #0008",
+        "note": "初めてテーマを掲げたシーズン。テーマは「American Dandies」。"
+      },
+      {
+        "season": "2014-15AW",
+        "title": "#0010 LIVE",
+        "note": "テーマは「共感」。シープスキンのパッチワーク。"
+      },
+      {
+        "season": "2015SS",
+        "title": "#0011 tuNINg"
+      },
+      {
+        "season": "2015-16AW",
+        "title": "INTRO.",
+        "note": "ジョン・レノンの『ダブル・ファンタジー』を思わせる、黒・白・グレーだけのコレクション。"
+      },
+      {
+        "season": "2021-22AW",
+        "title": "R E:"
+      },
+      {
+        "season": "2022SS",
+        "title": "PAUSE≒PLAY",
+        "note": "東京でランウェイに復帰した。"
+      },
+      {
+        "season": "2022-23AW",
+        "title": "The Era"
       }
     ]
   },
@@ -2742,6 +2943,10 @@ window.BRANDS = [
       {
         "t": "SSENSE：The Sacai Century",
         "u": "https://www.ssense.com/en-us/editorial/fashion/the-sacai-century"
+      },
+      {
+        "t": "BoF：Sacai Spring/Summer 2017",
+        "u": "https://www.businessoffashion.com/reviews/fashion-week/just-in-sacai-springsummer-2017/"
       }
     ],
     "aka": [
@@ -2794,9 +2999,34 @@ window.BRANDS = [
         "title": "パリでの初ショー"
       },
       {
+        "season": "2017SS",
+        "title": "（ゲーム・チェンジャーたち）",
+        "note": "カート・コバーンやジョー・ストラマーなど、約10人の「時代を変えた人」の写真がテーマ。コバーンのダニエル・ジョンストンのTシャツやモヘアのセーターを大きなコートにした。"
+      },
+      {
         "season": "2019SS",
         "title": "（Nike LDWaffle）",
         "note": "ナイキとの協業スニーカーが登場した。"
+      },
+      {
+        "season": "2024-25AW",
+        "title": "（ユニフォーム）",
+        "note": "制服を再構築し、ねじった布とジップの縦長のハイブリッドを見せた。"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "（フェイクファーと大きな袖）",
+        "note": "サイズの違うジャケットを重ね、巨大なブーツを合わせた。"
+      },
+      {
+        "season": "2026-27AW",
+        "title": "（メイプルソープの花）",
+        "note": "ロバート・メイプルソープの花の写真から着想した。"
+      },
+      {
+        "season": "2027SS",
+        "title": "The New Classics（メンズ）",
+        "note": "Brooks Brothers、Birkenstock などと協業した。"
       }
     ]
   },
@@ -2933,7 +3163,17 @@ window.BRANDS = [
       {
         "name": "FBT",
         "year": "初期",
-        "desc": "モカシンの形にスニーカーのソールを合わせた最初のシューズ。"
+        "desc": "モカシンの形にスニーカーのソールを合わせた最初のシューズ。 モカシンとスニーカーを組み合わせた靴。名前は英国のバンド「ファン・ボーイ・スリー」のテリー・ホールが履いたモカシンに由来するとされる。"
+      },
+      {
+        "name": "Social Sculpture（デニム）",
+        "year": "2000年代〜",
+        "desc": "糸から作ったデニムのライン。名前はヨーゼフ・ボイスの「社会彫刻」に由来するとされる。"
+      },
+      {
+        "name": "WMV",
+        "year": "2010年代〜",
+        "desc": "ウィメンズのライン。"
       }
     ],
     "archive": [],
@@ -2948,6 +3188,14 @@ window.BRANDS = [
       {
         "t": "shop-sabi：visvim Brand History",
         "u": "https://shop-sabi.com/blogs/brand-history/visvim-hiroki-nakamura"
+      },
+      {
+        "t": "Grailed：Visvim Visions",
+        "u": "https://www.grailed.com/drycleanonly/visvim-master-class"
+      },
+      {
+        "t": "Tenue de Nîmes：Where does the name FBT come from",
+        "u": "https://tenuedenimes.com/blogs/news/inside-visvim-where-does-the-name-fbt-actually-come-from"
       }
     ],
     "aka": [
@@ -2979,7 +3227,8 @@ window.BRANDS = [
           "Kilgore（ジャケット）"
         ]
       }
-    ]
+    ],
+    "note": "設立年を2001年とする資料もあります。"
   },
   {
     "id": "wtaps",
@@ -3294,6 +3543,22 @@ window.BRANDS = [
       {
         "year": 1984,
         "text": "東京モード学園を卒業した北村信彦が、オゾンコミュニティでHYSTERIC GLAMOURを立ち上げる"
+      },
+      {
+        "year": 2013,
+        "text": "Playboy と、昔の写真を使った協業"
+      },
+      {
+        "year": 2017,
+        "text": "Supreme と協業（2021年、2024年にも）"
+      },
+      {
+        "year": 2020,
+        "text": "Richardson とアーカイブのグラフィックを使った協業"
+      },
+      {
+        "year": 2022,
+        "text": "Kiko Kostadinov・ASICS と協業"
       }
     ],
     "designers": [
@@ -3309,6 +3574,16 @@ window.BRANDS = [
         "name": "ロックT・アーティストコラボ",
         "year": "1990年代〜",
         "desc": "ミュージシャンや写真家とのグラフィック。"
+      },
+      {
+        "name": "アンディ・ウォーホルとの協業",
+        "year": "1990年代〜",
+        "desc": "ウォーホルの作品を使ったアイテム。フランク・コジックなど他のアーティストとの協業も多い。"
+      },
+      {
+        "name": "Supreme との協業",
+        "year": "2017・2021・2024",
+        "desc": "アーカイブのグラフィックを使った人気の協業。"
       }
     ],
     "archive": [
@@ -3323,6 +3598,14 @@ window.BRANDS = [
       {
         "t": "Wikipedia：北村信彦",
         "u": "https://ja.wikipedia.org/wiki/%E5%8C%97%E6%9D%91%E4%BF%A1%E5%BD%A6"
+      },
+      {
+        "t": "Wikipedia：Hysteric Glamour",
+        "u": "https://en.wikipedia.org/wiki/Hysteric_Glamour"
+      },
+      {
+        "t": "Highsnobiety：What is Hysteric Glamour",
+        "u": "https://www.highsnobiety.com/p/what-is-hysteric-glamour/"
       }
     ],
     "aka": [
@@ -3412,12 +3695,17 @@ window.BRANDS = [
       {
         "name": "センチュリー・デニム",
         "year": "2010年代〜",
-        "desc": "長い時間をかけて手作業で加工したデニム。"
+        "desc": "防縮加工をしていない12オンスのデニムに、藍染めの刺し子風のステッチを全体に入れたもの。"
       },
       {
         "name": "スマイルのニット",
         "year": "2010年代〜",
         "desc": "スマイルのモチーフを編み込んだニット。"
+      },
+      {
+        "name": "リング・コート",
+        "year": "2010年代〜",
+        "desc": "米海軍の服と寝袋から着想した、繭のように包むコート。"
       }
     ],
     "archive": [],
@@ -3432,6 +3720,10 @@ window.BRANDS = [
       {
         "t": "KLD：KAPITALってどんなブランド？",
         "u": "https://kld-c.jp/blog/what-is-kapital"
+      },
+      {
+        "t": "GOAT：Kapital history",
+        "u": "https://www.goat.com/editorial/kapital-history"
       }
     ],
     "aka": [
@@ -3462,7 +3754,8 @@ window.BRANDS = [
           "KOUNTRY のライン"
         ]
       }
-    ]
+    ],
+    "note": "設立年を1984年とする資料もあります。"
   },
   {
     "id": "mastermind",
@@ -3850,6 +4143,14 @@ window.BRANDS = [
       {
         "t": "nss magazine：Story of the masks of Maison Margiela",
         "u": "https://www.nssmag.com/en/fashion/41946/story-masks-maison-margiela-martin-blazy-galliano"
+      },
+      {
+        "t": "The Met：Martin Margiela 1996",
+        "u": "https://www.metmuseum.org/art/collection/search/781947"
+      },
+      {
+        "t": "Palais Galliera：Margiela",
+        "u": "https://www.palaisgalliera.paris.fr/en/node/3424"
       }
     ],
     "lines": [
@@ -3937,16 +4238,26 @@ window.BRANDS = [
         "note": "1988年10月、マレ地区のカフェ・ド・ラ・ガール。モデルの顔を覆い、フィナーレでは赤いペンキに浸した足袋ブーツで歩いて足跡を残した。顔を隠す演出はその後のメゾンの伝統に。"
       },
       {
-        "season": "1989-90AW",
+        "season": "1990SS",
         "title": "（子どもたちの遊び場）",
         "city": "パリ",
-        "note": "パリ郊外の荒れた遊び場で開催。地元の子どもたちが図工の時間に招待状を作り、最前列にも座った。マルジェラの最も有名なショーの一つ。割れた陶器のベスト（最初のアーティザナル作品）もこの頃。"
+        "note": "パリの小さな公園で発表。スーパーのビニール袋で作ったタンクトップが登場し、招待状は近所の小学生が描いた。"
       },
       {
         "season": "1990年代初め",
         "title": "（救世軍のホール）",
         "city": "パリ",
         "note": "救世軍のホールでショーを開いたことがあり、批評家に「救世軍のムード」と揶揄された。古い軍用ソックスをほどいてセーターにしたり、ビニールのランドリーバッグを服にしたりした。"
+      },
+      {
+        "season": "1991-92AW",
+        "title": "（古い靴下のセーター）",
+        "note": "軍用の靴下をつなぎ合わせたセーター。肩のラインを持ち上げた構造も見られた。"
+      },
+      {
+        "season": "1992-93AW",
+        "title": "（透明なビニールのドレス）",
+        "note": "透明なビニール袋のドレスと、トップやスカートとして着た黒いナイロンのタイツ。"
       },
       {
         "season": "1994SS",
@@ -3958,13 +4269,18 @@ window.BRANDS = [
         "season": "1994-95AW",
         "title": "Barbie",
         "city": "パリ",
-        "note": "人形の服を人間のサイズに拡大して再現。のちのReplicaの考え方の始まり。"
+        "note": "パリ、ロンドン、ニューヨーク、東京、ミラノ、ボンの6都市で、店に並ぶ時期に合わせて同時に発表したとされる。"
       },
       {
         "season": "1996SS",
         "title": "（写真プリント）",
         "city": "パリ",
-        "note": "ドレスやニット、コートの写真を布にプリントしたトロンプ・ルイユ（だまし絵）。"
+        "note": "写真家の友人に古着を白黒で撮影してもらい、その写真をプリントしたドレス（トロンプ・ルイユ）。"
+      },
+      {
+        "season": "1996-97AW",
+        "title": "（ペイントのマスク）",
+        "note": "モデルの顔の上半分に茶色のマスクを描き、歯を白く塗った。"
       },
       {
         "season": "1997SS",
@@ -3999,7 +4315,7 @@ window.BRANDS = [
         "season": "2000SS",
         "title": "（オーバーサイズ）",
         "city": "パリ",
-        "note": "細身が流行していた時期に、イタリアサイズ74・78の巨大な服。200%に拡大した服も。"
+        "note": "普通の大きさのメンズの服を200%に拡大した（イタリアサイズ74相当）。2000-01年秋冬とする資料もある。"
       },
       {
         "season": "2001-02AW",
@@ -4130,7 +4446,8 @@ window.BRANDS = [
         "text": "Y/Project、ディーゼルを手がけたグレン・マーティンスが就任した時代。2025年7月にアーティザナルでデビューした。",
         "works": []
       }
-    ]
+    ],
+    "note": "子どもたちの遊び場のショーは、以前は1989-90年秋冬としていましたが、1990年春夏に直しました。"
   },
   {
     "id": "hermes",
@@ -4563,7 +4880,7 @@ window.BRANDS = [
       },
       {
         "name": "アストロバイカー",
-        "year": "1990年代後半",
+        "year": "1999-2000AW",
         "desc": "パッド入りのバイカージャケット。"
       },
       {
@@ -4580,6 +4897,11 @@ window.BRANDS = [
         "name": "シアー素材のレイヤード・トップ",
         "year": "1990年代",
         "desc": "透けるナイロンやシルクのシャツ・タンクトップを重ねて着る、ラング期の代表的なスタイル。"
+      },
+      {
+        "name": "ダブルニーのカーペンターパンツ",
+        "year": 1999,
+        "desc": "1999年春夏の、ひざを二重にしたワークパンツ。"
       }
     ],
     "archive": [
@@ -4621,6 +4943,10 @@ window.BRANDS = [
       {
         "t": "WWD：Exploring Helmut Lang's minimalist collections 1986-2005",
         "u": "https://wwd.com/fashion-news/fashion-features/gallery/archive-exploring-helmut-langs-minimalist-collections-from-1986-2005-1238418715/"
+      },
+      {
+        "t": "Wallpaper：Helmut Lang archive in Vienna",
+        "u": "https://www.wallpaper.com/fashion-beauty/fashion-beauty-events/helmut-lang-exhibition-mak-vienna"
       }
     ],
     "aka": [
@@ -4728,6 +5054,20 @@ window.BRANDS = [
         "note": "ペンキが飛び散ったようなペインターデニムが登場。ラングの名作の中で最も有名とされる。"
       },
       {
+        "season": "1999-2000AW",
+        "title": "（アストロバイカー）",
+        "note": "バイクの服と宇宙・航空をまぜたアストロバイカー・ジャケットが登場。M-65 のフライトジャケット、ダウンのパファー、パラシュートのベストも。"
+      },
+      {
+        "season": "2000-01AW",
+        "title": "（スパンコールのアストロバイカー）"
+      },
+      {
+        "season": "2001SS",
+        "title": "（レーザーカットのレザー）",
+        "note": "穴を開けたレザージャケットが登場した。"
+      },
+      {
         "season": "2003-04AW",
         "title": "（ストラップ／ハーネス）",
         "alias": "ボンデージ期",
@@ -4793,6 +5133,37 @@ window.BRANDS = [
     ],
     "collections": [
       {
+        "season": "1995-96AW",
+        "title": "最初のコレクション",
+        "note": "英国の男子校の制服から着想。ミラノのショールームで発表した。"
+      },
+      {
+        "season": "1996SS",
+        "title": "（2シーズン目）",
+        "note": "パリのプライベートなショールームで発表。"
+      },
+      {
+        "season": "1996-97AW",
+        "title": "We Only Come Out at Night",
+        "note": "細く古典的なシルエットにパンクやゴシック、ニューウェーブ。地元の若者が出演するビデオで発表した。"
+      },
+      {
+        "season": "1997SS",
+        "title": "How to Talk to Your Teen",
+        "alias": "16, 17, How to Talk to Your Teen",
+        "note": "アメリカのサーフとオックスブリッジの服装をまぜた。"
+      },
+      {
+        "season": "1997-98AW",
+        "title": "（パリでの初ランウェイ）",
+        "note": "アメリカの大学生と英国の男子校、パンクをテーマにした。"
+      },
+      {
+        "season": "1998SS",
+        "title": "Black Palms",
+        "note": "ヘヴィメタル風のプリント、袖を切った服、細いテーラード。ベルギーのニュービートの音楽で、上半身裸のモデルも歩いた。"
+      },
+      {
         "season": "1998-99AW",
         "title": "RADIOACTIVITY"
       },
@@ -4835,6 +5206,30 @@ window.BRANDS = [
         "season": "2005-06AW",
         "title": "HISTORY OF MY WORLD",
         "note": "2005年春夏を「History of the World」とする資料もある。"
+      },
+      {
+        "season": "2006SS",
+        "title": "（10周年）",
+        "note": "フェリーニの映画『サテリコン』を出発点にした未来的なコレクション。"
+      },
+      {
+        "season": "2006-07AW",
+        "title": "（新素材）",
+        "note": "ネイビーと黒の新しい素材を中心にした。"
+      },
+      {
+        "season": "2010-11AW",
+        "title": "（ベルクロとスナップ）",
+        "note": "ベルクロやスナップボタンを使ったグラフィックなコレクション。"
+      },
+      {
+        "season": "2011SS",
+        "title": "15周年",
+        "note": "マルタン・マルジェラへのオマージュとされる。"
+      },
+      {
+        "season": "2012-13AW",
+        "title": "Run Fall Run"
       },
       {
         "season": "2014-15AW",
@@ -4901,6 +5296,14 @@ window.BRANDS = [
       {
         "t": "Dazed：The dA-Zed guide to Raf Simons Menswear",
         "u": "https://www.dazeddigital.com/fashion/article/31453/1/the-da-zed-guide-to-raf-simons"
+      },
+      {
+        "t": "MoMu：Raf Simons",
+        "u": "https://www.momu.be/en/collection-stories/raf-simons-2"
+      },
+      {
+        "t": "Fibre2Fashion：Raf Simons collections",
+        "u": "https://fashiongear.fibre2fashion.com/brand-story/raf-simons/collections.asp"
       }
     ],
     "aka": [
@@ -10632,7 +11035,8 @@ window.BRANDS = [
     ],
     "archive": [
       "本人在任期（〜2013）が「アーカイブ」の主対象。",
-      "1990年代の服はベルギー製。2000年代からはフランス、イタリア、チュニジア、ポルトガル製もある（年代の手がかり）。"
+      "1990年代の服はベルギー製。2000年代からはフランス、イタリア、チュニジア、ポルトガル製もある（年代の手がかり）。",
+      "乗馬ブーツ、レギンス、レザーの手袋は、どの時代にも繰り返し出てくる定番。フェザーのシルエットは MoMu の展覧会（2014年）でも紹介された。"
     ],
     "related": [
       "dries",
@@ -10728,9 +11132,19 @@ window.BRANDS = [
         "note": "MoMu（アントワープ・モード美術館）は、ブランドらしさが最も純粋に表れたシーズンとしている。"
       },
       {
+        "season": "1998SS",
+        "title": "（象徴的なシーズン）",
+        "note": "90年代を代表するショーの一つとされる。"
+      },
+      {
         "season": "2000SS",
         "title": "ジム・ダインとの協業",
         "note": "アーティストのジム・ダインの絵や言葉を使った。"
+      },
+      {
+        "season": "2006-07AW",
+        "title": "（パティ・スミスが登場）",
+        "note": "パティ・スミスがランウェイを歩いた。"
       },
       {
         "season": "2013-14AW",
@@ -10811,6 +11225,14 @@ window.BRANDS = [
       {
         "t": "Puig：Julian Klausner Appointed Creative Director",
         "u": "https://www.puig.com/en/newsroom/Julian_Klausner_Appointed_Creative_Director_of_Dries_Van_Noten/"
+      },
+      {
+        "t": "nss magazine：Dries Van Noten history",
+        "u": "https://www.nssmag.com/en/fashion/36578/dries-van-noten-history-career-bio"
+      },
+      {
+        "t": "Glossi：Dries Van Noten's top 10 shows",
+        "u": "https://glossimag.com/commemorating-100-dries-van-noten/"
       }
     ],
     "aka": [
@@ -10846,7 +11268,7 @@ window.BRANDS = [
         "from": 2017,
         "to": 2025,
         "d": "vannoten",
-        "text": "2017年に100回目のショーを行い、2018年にスペインのプーチがブランドを買収した。2025年6月のメンズのショーを最後にドリスは引退し、ジュリアン・クラウスナーが後を継いだ。",
+        "text": "2017年に100回目のショーを行い、2018年にスペインのプーチがブランドを買収した。2024年6月のメンズのショー（2025年春夏）を最後にドリスは引退し、ジュリアン・クラウスナーが後を継いだ。",
         "works": [
           "100回目のショー（2017年春夏）",
           "クリスチャン・ラクロワとの協業（2020年春夏）"
@@ -10863,6 +11285,37 @@ window.BRANDS = [
         "title": "ウィメンズの開始"
       },
       {
+        "season": "1994SS",
+        "title": "（バラの花びら）",
+        "note": "ランウェイと観客にバラの花びらを降らせた。"
+      },
+      {
+        "season": "1994-95AW",
+        "title": "（ウェイターのショー）",
+        "note": "白い制服のウェイターたちが料理と飲み物をふるまった。"
+      },
+      {
+        "season": "1997SS",
+        "title": "（名作シーズン）"
+      },
+      {
+        "season": "2001-02AW",
+        "title": "（メンズ）",
+        "note": "代表作の一つとされる。"
+      },
+      {
+        "season": "2009-10AW",
+        "title": "（名作シーズン）"
+      },
+      {
+        "season": "2012-13AW",
+        "title": "（フランク・ザッパとオスカー・ワイルド・メンズ）"
+      },
+      {
+        "season": "2015SS",
+        "title": "（名作シーズン・ウィメンズ）"
+      },
+      {
         "season": "2017SS",
         "title": "100回目のショー",
         "note": "過去のモデルたちが登場した。"
@@ -10872,11 +11325,12 @@ window.BRANDS = [
         "title": "クリスチャン・ラクロワとの協業"
       },
       {
-        "season": "2026SS",
+        "season": "2025SS",
         "title": "ドリス最後のショー（メンズ）",
-        "note": "2025年6月に発表。"
+        "note": "2024年6月に発表。"
       }
-    ]
+    ],
+    "note": "最後のショーは以前2025年としていましたが、2024年6月（2025年春夏）に直しました。"
   },
   {
     "id": "jpg",
@@ -11236,6 +11690,10 @@ window.BRANDS = [
       {
         "t": "IRVRSBL：How to Authenticate Vintage Vivienne Westwood",
         "u": "https://irvrsbl.com/en-ca/blogs/news/identifying-vintage-vivienne-westwood-labels"
+      },
+      {
+        "t": "Vintage Fashion Guild：Vivienne Westwood",
+        "u": "https://vintagefashionguild.org/designer/vivienne-westwood/"
       }
     ],
     "lines": [
@@ -11379,6 +11837,10 @@ window.BRANDS = [
         "title": "Hypnos"
       },
       {
+        "season": "1984-85AW",
+        "title": "Clint Eastwood"
+      },
+      {
         "season": "1985SS",
         "title": "Mini-Crini",
         "alias": "ミニ・クリニ"
@@ -11386,7 +11848,29 @@ window.BRANDS = [
       {
         "season": "1987-88AW",
         "title": "Harris Tweed",
-        "note": "オーブ（宝珠）のロゴが登場した。"
+        "note": "オーブ（宝珠）のロゴが登場。コルセットを外に着るスタイルもこのシーズンから。"
+      },
+      {
+        "season": "1988SS",
+        "title": "Pagan I",
+        "alias": "Britain Must Go Pagan"
+      },
+      {
+        "season": "1988-89AW",
+        "title": "Time Machine",
+        "note": "1989年秋冬とする資料もある。"
+      },
+      {
+        "season": "1989SS",
+        "title": "Civilizade"
+      },
+      {
+        "season": "1989-90AW",
+        "title": "Voyage to Cythera"
+      },
+      {
+        "season": "1990SS",
+        "title": "Pagan V"
       },
       {
         "season": "1990-91AW",
@@ -11394,9 +11878,59 @@ window.BRANDS = [
         "note": "ブーシェの絵をプリントしたコルセット。"
       },
       {
+        "season": "1991SS",
+        "title": "Cut and Slash"
+      },
+      {
+        "season": "1991-92AW",
+        "title": "Dressing Up"
+      },
+      {
+        "season": "1992SS",
+        "title": "Salon"
+      },
+      {
+        "season": "1992-93AW",
+        "title": "Always on Camera"
+      },
+      {
+        "season": "1993SS",
+        "title": "Grand Hotel"
+      },
+      {
         "season": "1993-94AW",
         "title": "Anglomania",
         "note": "ナオミ・キャンベルが超厚底の靴で転んだショー。"
+      },
+      {
+        "season": "1994SS",
+        "title": "Café Society",
+        "note": "クッションを入れたバッスル（腰当て）が登場した。"
+      },
+      {
+        "season": "1994-95AW",
+        "title": "On Liberty"
+      },
+      {
+        "season": "1995SS",
+        "title": "Erotic Zones"
+      },
+      {
+        "season": "1995-96AW",
+        "title": "Vive la Cocotte"
+      },
+      {
+        "season": "1996SS",
+        "title": "Les Femmes Ne Connaissent Pas Toute Leur Coquetterie"
+      },
+      {
+        "season": "1996-97AW",
+        "title": "Storm in a Teacup"
+      },
+      {
+        "season": "2000SS",
+        "title": "Summertime",
+        "note": "20世紀最後のコレクションとされる。"
       }
     ]
   },
@@ -11796,6 +12330,16 @@ window.BRANDS = [
         "season": "2006-07AW",
         "title": "DUSTULATOR（メンズ）",
         "note": "お気に入りの30着とブルータリズムの家具を組み合わせた。"
+      },
+      {
+        "season": "2008-09AW",
+        "title": "STAG",
+        "note": "FIT 美術館の収蔵品の記録による。"
+      },
+      {
+        "season": "2011SS",
+        "title": "ANTHEM",
+        "note": "ショーの映像作品も作られた。"
       },
       {
         "season": "2013SS",
@@ -12315,6 +12859,10 @@ window.BRANDS = [
       {
         "t": "Crisis of the Carol Christian Poell object",
         "u": "https://emyisthinking.substack.com/p/crisis-of-the-carol-christian-poell"
+      },
+      {
+        "t": "nss magazine：Carol Christian Poell",
+        "u": "https://www.nssmag.com/en/fashion/33451/carol-christian-poell-ccp"
       }
     ],
     "aka": [
@@ -12345,6 +12893,30 @@ window.BRANDS = [
           "Tornado（ドリップラバー）",
           "In-Side Out の服"
         ]
+      }
+    ],
+    "collections": [
+      {
+        "season": "1999-2000AW",
+        "title": "drop / winter"
+      },
+      {
+        "season": "2000",
+        "title": "jumping / buzzer"
+      },
+      {
+        "season": "2004SS",
+        "title": "Mainstream-Downstream",
+        "note": "死体のように見えるモデルが登場した伝説のプレゼンテーション。夕暮れに、客をミラノ郊外の食肉処理場に連れて行く演出も語られている。"
+      },
+      {
+        "season": "2008",
+        "title": "ØØ / Off-Scene"
+      },
+      {
+        "season": "2009",
+        "title": "Self-Same",
+        "note": "ローマのギャラリーで、黒いレザーの馬の彫刻とともに発表。"
       }
     ]
   },
@@ -16893,8 +17465,28 @@ window.BRANDS = [
         "text": "リチャード・スターク、ジョン・ボウマン、レナード・カムハウトが設立"
       },
       {
+        "year": 1988,
+        "text": "リチャード・スターク、革商のジョン・ボウマン、銀細工師のレナード・カムホートがハリウッドのガレージで始める"
+      },
+      {
+        "year": 1992,
+        "text": "CFDA のアクセサリー・デザイナー・オブ・ザ・イヤーを受賞"
+      },
+      {
         "year": 1994,
         "text": "創業者が分かれ、以後スタークと妻ローリー・リン・スタークが経営"
+      },
+      {
+        "year": 1994,
+        "text": "スタークが共同創業者の持ち分を買い取り、妻のローリー・リン・スタークが加わる"
+      },
+      {
+        "year": 1996,
+        "text": "ニューヨークに店を開いたとされる"
+      },
+      {
+        "year": 2022,
+        "text": "スターク夫妻が CFDA のジェフリー・ビーン生涯功労賞を受賞"
       }
     ],
     "designers": [
@@ -16937,6 +17529,10 @@ window.BRANDS = [
       {
         "t": "Wikipedia：Richard Stark (designer)",
         "u": "https://en.wikipedia.org/wiki/Richard_Stark_(designer)"
+      },
+      {
+        "t": "Grailed：Chrome Hearts, A Family-Run Empire",
+        "u": "https://www.grailed.com/drycleanonly/chrome-hearts-history"
       }
     ],
     "aka": [
@@ -16950,7 +17546,7 @@ window.BRANDS = [
         "from": 1988,
         "to": 1999,
         "d": "stark",
-        "text": "リチャード・スタークが、バイク乗りのための丈夫なレザーウェアを作ろうとロサンゼルスで始めた時代。ゴシックな十字架、短剣（ダガー）、フローラル・クロスなどを彫った重いシルバーのアクセサリーが、ロックのミュージシャンの間で人気になった。",
+        "text": "リチャード・スタークが、バイク乗りのための丈夫なレザーウェアを作ろうとロサンゼルスで始めた時代。ゴシックな十字架、短剣（ダガー）、フローラル・クロスなどを彫った重いシルバーのアクセサリーが、ロックのミュージシャンの間で人気になった。\n初期の客には、ガンズ・アンド・ローゼズ、エアロスミス、レニー・クラヴィッツなどのロック・ミュージシャンがいた。2002年にはローリング・ストーンズと契約した。",
         "works": [
           "セメタリー・クロス",
           "ダガー（短剣）のペンダント",
@@ -17514,6 +18110,10 @@ window.BRANDS = [
       {
         "year": 2004,
         "text": "服のラインを始める"
+      },
+      {
+        "year": 2004,
+        "text": "アートと映像のプロジェクトから、服のブランドになる"
       }
     ],
     "designers": [
@@ -17540,6 +18140,14 @@ window.BRANDS = [
       {
         "t": "RAW Looks：Julius",
         "u": "https://rawlooks.com/brand/julius/similar/"
+      },
+      {
+        "t": "Iconia：Julius FW24 [rift;]",
+        "u": "https://iconiaavantgarde.com/julius-fw24-rift/"
+      },
+      {
+        "t": "SSENSE：Julius, An Industrial Feeling",
+        "u": "https://www.ssense.com/en-us/editorial/fashion/julius-an-industrial-feeling"
       }
     ],
     "aka": [
@@ -17557,6 +18165,45 @@ window.BRANDS = [
           "ジップを多用したパンツ",
           "ガスマスクのモチーフ"
         ]
+      }
+    ],
+    "collections": [
+      {
+        "season": "2008SS",
+        "title": "Insanity In Industrial Inc."
+      },
+      {
+        "season": "2010-11AW",
+        "title": "[ goth:ik; ]",
+        "note": "2010-11年秋冬〜2012-13年秋冬の5シーズンの名前は、順番からの推定。"
+      },
+      {
+        "season": "2011SS",
+        "title": "[ chaos; ontological anarchism ]"
+      },
+      {
+        "season": "2011-12AW",
+        "title": "[ halo; ]"
+      },
+      {
+        "season": "2012SS",
+        "title": "[ edge; ]"
+      },
+      {
+        "season": "2012-13AW",
+        "title": "[ resonance; ]"
+      },
+      {
+        "season": "2014-15AW",
+        "title": "[ glitch; ]"
+      },
+      {
+        "season": "2017-18AW",
+        "title": "NEU ROMANTIKA"
+      },
+      {
+        "season": "2024-25AW",
+        "title": "[ rift; ]"
       }
     ]
   },

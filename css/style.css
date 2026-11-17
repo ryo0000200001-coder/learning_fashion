@@ -326,3 +326,7 @@ details.help ol { padding-left: 20px; }
   .le-cells .lf-check { flex-basis: auto; }
   .eform fieldset { padding: 10px 12px 12px; }
 }
+.chip .cnum { color: var(--muted); font-size: 11px; margin-left: 2px; }
+#hindex h2 a { color: inherit; text-decoration: none; }
+#hindex h2 a:hover { text-decoration: underline; }
+.eyebrow a { color: inherit; }

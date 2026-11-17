@@ -3707,15 +3707,39 @@ window.BRANDS = [
       "メンズ",
       "ウィメンズ"
     ],
-    "summary": "ジル・サンダーによる「ミニマリズム」の代名詞的ブランド。創業者が2度去って2度戻り、ラフ・シモンズやメイヤー夫妻を迎えるなど、デザイナー変遷の教材として最適。",
+    "summary": "ジル・サンダーが1968年にハンブルクで始めたブランド。上質な素材と無駄のない仕立てで1990年代ミニマリズムを代表した。Pradaの買収で創業者が2度去って2度戻り、ラフ・シモンズ（2005〜2012）、パリアルンガ、メイヤー夫妻と続き、2025年からシモーネ・ベロッティ。ユニクロとの「+J」でも知られる。",
     "history": [
       {
         "year": 1968,
         "text": "ジル・サンダーがハンブルクにブティックを開く"
       },
       {
+        "year": 1973,
+        "text": "最初のウィメンズ・コレクション"
+      },
+      {
+        "year": 1975,
+        "text": "パリでのコレクションが不評に終わる"
+      },
+      {
+        "year": 1979,
+        "text": "香水・化粧品を始める"
+      },
+      {
+        "year": 1987,
+        "text": "ミラノ・コレクションにデビュー（1985年とする資料も）"
+      },
+      {
+        "year": 1989,
+        "text": "株式を上場"
+      },
+      {
+        "year": 1997,
+        "text": "メンズを開始（1996年とする資料も）。1990年代がブランドの最盛期とされる"
+      },
+      {
         "year": 1999,
-        "text": "Pradaグループが買収。翌2000年にジル・サンダーが退任"
+        "text": "Pradaグループが75%を取得。半年後、Prada傘下で1コレクションだけ発表してジル・サンダーが退任（2000年）"
       },
       {
         "year": 2003,
@@ -3723,11 +3747,31 @@ window.BRANDS = [
       },
       {
         "year": 2005,
-        "text": "ラフ・シモンズが就任"
+        "text": "5月、ラフ・シモンズがウィメンズとメンズのクリエイティブディレクターに"
+      },
+      {
+        "year": 2009,
+        "text": "ジル・サンダーがユニクロと「+J」を始める（〜2011年。2014-15年に復活）"
+      },
+      {
+        "year": 2011,
+        "text": "セカンドライン「Jil Sander Navy」（〜2019年）"
       },
       {
         "year": 2012,
-        "text": "2月、ジル・サンダーが再び復帰（〜2013）"
+        "text": "ラフ・シモンズの最後のショー（2012-13年秋冬）。ジル・サンダーが再び復帰（〜2013）"
+      },
+      {
+        "year": 2014,
+        "text": "元Pradaウィメンズのロドルフォ・パリアルンガが就任"
+      },
+      {
+        "year": 2017,
+        "text": "ルーシー&ルーク・メイヤーが共同クリエイティブディレクターに（デビューは2018年春夏）"
+      },
+      {
+        "year": 2020,
+        "text": "ユニクロと「+J」を再び発売"
       },
       {
         "year": 2021,
@@ -3735,7 +3779,7 @@ window.BRANDS = [
       },
       {
         "year": 2025,
-        "text": "2月のショー後にメイヤー夫妻が退任。3月、Ballyのシモーネ・ベロッティが就任"
+        "text": "2月のショー後にメイヤー夫妻が退任。3月、Ballyのシモーネ・ベロッティが就任。9月、ミラノで男女合同のデビュー（2026年春夏）"
       }
     ],
     "designers": [
@@ -3788,16 +3832,33 @@ window.BRANDS = [
         "to": null
       }
     ],
-    "items": [],
+    "items": [
+      {
+        "name": "1990年代のテーラードジャケットとコート",
+        "year": "1990年代",
+        "desc": "上質なウールとカシミアの、無駄のない仕立て。"
+      },
+      {
+        "name": "ラフ期のネオンカラーのスカート",
+        "year": "2011SS",
+        "desc": "鮮やかな色の大きなスカート。"
+      },
+      {
+        "name": "+Jのダウンとシャツ",
+        "year": "2009〜2011",
+        "desc": "ユニクロとの協業の定番。"
+      }
+    ],
     "archive": [
-      "創業者期・ラフ期・メイヤー期で同じブランドでも全く空気感が違う。"
+      "創業者期・ラフ期・メイヤー期で同じブランドでも全く空気感が違う。",
+      "1990年代のジル・サンダー本人の時代のウェアは、ミニマリズムの基準として評価が高い。"
     ],
     "related": [
       "raf",
       "helmutlang",
       "prada"
     ],
-    "note": "ヴクミロヴィッチの退任年（2002）は今回の調査で裏付けが取れていません。",
+    "note": "ヴクミロヴィッチの退任年は2002年としました。ミラノ・デビューは1985年とする資料もあります。創業者の最後の退任を2014年とする資料もあります。",
     "sources": [
       {
         "t": "Wikipedia：Jil Sander (company)",
@@ -3810,6 +3871,92 @@ window.BRANDS = [
       {
         "t": "MAM-e：Jil Sander",
         "u": "https://fashion.mam-e.it/jil-sander/"
+      },
+      {
+        "t": "Wikipedia：Jil Sander",
+        "u": "https://en.wikipedia.org/wiki/Jil_Sander"
+      },
+      {
+        "t": "SCMP：Jil Sander",
+        "u": "https://www.scmp.com/article/479017/jil-sander"
+      },
+      {
+        "t": "WWD Japan：JIL SANDER",
+        "u": "https://www.wwdjapan.com/brand_tag/jil-sander"
+      },
+      {
+        "t": "AnOther：When Raf Simons Brought Colour & Volume to Jil Sander S/S11",
+        "u": "https://www.anothermag.com/fashion-beauty/10359/when-raf-simons-brought-colour-volume-to-jil-sander-ss11"
+      },
+      {
+        "t": "Fiamma：Jil Sander Spring 2026",
+        "u": "https://fiammamagazine.com/jil-sander-spring-2026-collection/"
+      },
+      {
+        "t": "Grailed：German Engineering, The Precision of Jil Sander",
+        "u": "https://grailed-rails-pr-24109.herokuapp.com/drycleanonly/jil-sander-master-class"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1973",
+        "title": "最初のウィメンズ",
+        "city": "ハンブルク"
+      },
+      {
+        "season": "1987",
+        "title": "ミラノ・デビュー",
+        "city": "ミラノ"
+      },
+      {
+        "season": "2006SS",
+        "title": "ラフ・シモンズのデビュー",
+        "city": "ミラノ"
+      },
+      {
+        "season": "2011SS",
+        "city": "ミラノ",
+        "alias": "ネオンとボリューム",
+        "note": "ミニマリズムから離れ、シルクの代わりにポリエステルやナイロンで鮮やかな色と大きなスカート。客が多すぎてショーを2回行った。"
+      },
+      {
+        "season": "2012-13AW",
+        "title": "ラフ・シモンズ最後のショー",
+        "city": "ミラノ"
+      },
+      {
+        "season": "2018SS",
+        "title": "メイヤー夫妻のデビュー",
+        "city": "ミラノ"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "メイヤー夫妻最後のショー",
+        "city": "ミラノ"
+      },
+      {
+        "season": "2026SS",
+        "title": "ベロッティのデビュー",
+        "city": "ミラノ",
+        "note": "2025年9月、男女合同。ラフ期（2005〜2012）のグラフィックな純粋さを思い出させた。"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Jil Sander Navy",
+        "from": 2011,
+        "to": 2019,
+        "desc": "本ラインより30〜40%安いセカンドライン。ラフ・シモンズではなく別のチームがデザイン。2013年にミラノに最初の路面店。"
+      },
+      {
+        "name": "+J（ユニクロ）",
+        "from": 2009,
+        "to": 2011,
+        "designer": "ジル・サンダー",
+        "desc": "ユニクロとの協業。ウィメンズとメンズ。2011年で終わり、2014-15年秋冬・春夏と2020年以降に復活。",
+        "archive": [
+          "2009〜2011年の初期の+Jは、ジル・サンダー本人のデザインとして古着でも人気。"
+        ]
       }
     ]
   },
@@ -7754,27 +7901,55 @@ window.BRANDS = [
       "レザー",
       "クラフト"
     ],
-    "summary": "ミケーレ・タッデイとレンツォ・ゼンジャーロがヴィチェンツァで創業。革を編む「イントレチャート」で知られるクラフトのメゾン。",
+    "summary": "1966年にミケーレ・タッデイとレンツォ・ゼンジャーロがヴィチェンツァで創業。細い革を編む「イントレチャート」で知られ、ロゴを出さない姿勢を「自分のイニシャルだけで十分なとき」という言葉で表した。トーマス・マイヤー、ダニエル・リー（ボッテガ・グリーン、ザ・ポーチ）、マチュー・ブレイジーを経て、2025年からルイーズ・トロッター。",
     "history": [
       {
         "year": 1966,
-        "text": "ヴィチェンツァで創業"
+        "text": "ヴィチェンツァで創業。ゼンジャーロがデザインと生産、タッデイが販売網を担う"
+      },
+      {
+        "year": 1970,
+        "text": "広告の言葉「When your own initials are enough（自分のイニシャルだけで十分なとき）」"
+      },
+      {
+        "year": 1980,
+        "text": "アンディ・ウォーホルがブランドの短編映画を撮る。1970年代からはラウラ・モルテドが率いた"
       },
       {
         "year": 2001,
-        "text": "トーマス・マイヤーが就任（2018年6月に退任発表）"
+        "text": "2月、Gucciグループ（現Kering）が買収。トーマス・マイヤーがクリエイティブディレクターに。カバ・バッグ"
       },
       {
         "year": 2018,
-        "text": "7月、ダニエル・リーが就任（2021年11月に退任）"
+        "text": "6月、マイヤーが退任し、Céline出身のダニエル・リーが就任"
+      },
+      {
+        "year": 2019,
+        "text": "ザ・ポーチ、四角いトゥの靴が大ヒット"
+      },
+      {
+        "year": 2020,
+        "text": "2021年春夏で「ボッテガ・グリーン」。ブレイジーがプレタポルテのデザインディレクターに"
       },
       {
         "year": 2021,
-        "text": "11月、マチュー・ブレイジーが就任。2022年秋冬でデビュー"
+        "text": "11月10日、ダニエル・リーが退任。マチュー・ブレイジーがクリエイティブディレクターに"
+      },
+      {
+        "year": 2022,
+        "text": "2022-23年秋冬でブレイジーのデビュー。カリメロ・バッグ"
+      },
+      {
+        "year": 2023,
+        "text": "9月、パリのモンテーニュ通りに旗艦店"
+      },
+      {
+        "year": 2024,
+        "text": "12月、ブレイジーのChanel行きとルイーズ・トロッター（Carven出身）の就任を発表"
       },
       {
         "year": 2025,
-        "text": "ルイーズ・トロッターが就任"
+        "text": "9月27日、ミラノでトロッターのデビュー（2026年春夏）"
       }
     ],
     "designers": [
@@ -7813,13 +7988,52 @@ window.BRANDS = [
         "name": "ザ・ポーチ",
         "year": "2019",
         "desc": "ダニエル・リー期のヒットバッグ。"
+      },
+      {
+        "name": "カバ",
+        "year": 2001,
+        "desc": "イントレチャートのトート。マイヤー期の最大のヒット。"
+      },
+      {
+        "name": "ノット・クラッチ",
+        "year": "マイヤー期",
+        "desc": "結び目の形のクラッチ。"
+      },
+      {
+        "name": "ジョディ",
+        "year": "ダニエル・リー期",
+        "desc": "ジョディ・フォスターの名を取った結び目のバッグ。"
+      },
+      {
+        "name": "パドル・ブーツ",
+        "year": "ダニエル・リー期",
+        "desc": "ゴムのブーツ。"
+      },
+      {
+        "name": "カリメロ",
+        "year": "2022-23AW",
+        "desc": "ブレイジーの最初のバッグ。"
+      },
+      {
+        "name": "サーディン / アンディアーモ",
+        "year": "ブレイジー期",
+        "desc": "ブレイジー期のバッグ。"
+      },
+      {
+        "name": "革のジーンズとネルシャツ",
+        "year": "2022-23AW",
+        "desc": "布に見えるものをすべて革で作ったブレイジーのデビュー。"
       }
     ],
-    "archive": [],
+    "archive": [
+      "マイヤー期（2001〜2018）のロゴのないイントレチャートの小物とバッグは、古着でも定番。",
+      "ダニエル・リー期（2018〜2021）のザ・ポーチ、パドル・ブーツ、ボッテガ・グリーンは2020年前後を象徴。"
+    ],
     "related": [
       "celine",
       "chanel",
-      "burberry"
+      "burberry",
+      "gucci"
     ],
     "sources": [
       {
@@ -7829,8 +8043,81 @@ window.BRANDS = [
       {
         "t": "What Goes Around：60 Years of Bottega Veneta",
         "u": "https://www.whatgoesaroundnyc.com/en-us/blog-60-years-of-bottega-veneta.html"
+      },
+      {
+        "t": "NUVO：Bottega Veneta",
+        "u": "https://nuvomagazine.com/magazine/winter-2011/bottega-veneta"
+      },
+      {
+        "t": "The Vintage Bar：The Bottega Veneta Bible",
+        "u": "https://thevintagebar.com/the-archive/the-bottega-veneta-bible"
+      },
+      {
+        "t": "Preview：Bottega Veneta History, Creative Directors, and Best Pieces",
+        "u": "https://www.preview.ph/fashion/bottega-veneta-history-creative-directors-a5158-20240611-lfrm"
+      },
+      {
+        "t": "Wikipedia：Bottega Veneta",
+        "u": "https://en.wikipedia.org/wiki/Bottega_Veneta"
+      },
+      {
+        "t": "Wikipedia：Matthieu Blazy",
+        "u": "https://en.wikipedia.org/wiki/Matthieu_Blazy"
+      },
+      {
+        "t": "Paper：Matthieu Blazy's First Bag for Bottega Veneta",
+        "u": "https://www.papermag.com/bottega-veneta-kalimero-bag"
+      },
+      {
+        "t": "Fashionphile：Daniel Lee bags",
+        "u": "https://www.fashionphile.com/blogs/academy/daniel-lee-bags"
+      },
+      {
+        "t": "WWD：Bottega Veneta Names Louise Trotter",
+        "u": "https://wwd.com/fashion-news/designer-luxury/bottega-veneta-names-louise-trotter-creative-director-1236762920/"
+      },
+      {
+        "t": "AWH：Louise Trotter's Bottega First Chapters",
+        "u": "https://awhmagazine.com/fashion-news/louise-trotters-bottega-veneta-first-chapters/"
       }
-    ]
+    ],
+    "collections": [
+      {
+        "season": "2021SS",
+        "title": "Salon 01",
+        "city": "ロンドン",
+        "note": "ダニエル・リー。ボッテガ・グリーンが登場。"
+      },
+      {
+        "season": "2022SS",
+        "title": "Salon 03",
+        "city": "デトロイト",
+        "note": "ダニエル・リー最後の大きなショー。"
+      },
+      {
+        "season": "2022-23AW",
+        "title": "ブレイジーのデビュー",
+        "city": "ミラノ",
+        "note": "ジーンズやネルシャツに見えるものをすべて革で作った。カリメロ・バッグ。"
+      },
+      {
+        "season": "2025SS",
+        "city": "ミラノ",
+        "note": "ブレイジー最後のショーのひとつ。"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "ブレイジー最後のショー",
+        "city": "ミラノ"
+      },
+      {
+        "season": "2026SS",
+        "title": "トロッターのデビュー",
+        "city": "ミラノ",
+        "note": "2025年9月27日。"
+      }
+    ],
+    "note": "トロッターの就任を2025年1月とする資料もあります。"
   },
   {
     "id": "loewe",
@@ -9943,34 +10230,72 @@ window.BRANDS = [
       "ウィメンズ",
       "クチュール"
     ],
-    "summary": "ヴァレンティノ・ガラヴァーニが1959〜60年にローマで始めたクチュールメゾン。「ヴァレンティノ・レッド」で知られる。創業者の引退後はキウリとピッチョーリ、ピッチョーリ単独を経て、2024年からアレッサンドロ・ミケーレ。創業者は2026年1月に死去。",
+    "summary": "ヴァレンティノ・ガラヴァーニが1959年にローマのコンドッティ通りで始めたクチュールメゾン。「ヴァレンティノ・レッド」と1968年の「ホワイト・コレクション」で知られる。創業者の引退後はファッキネッティ、キウリとピッチョーリ、ピッチョーリ単独（ピンクPP）を経て、2024年からアレッサンドロ・ミケーレ。創業者は2026年1月に死去。",
     "history": [
       {
+        "year": 1959,
+        "text": "パリでジャン・デセやギ・ラロッシュのもとで働いたのち、ローマのコンドッティ通り11番地にアトリエを開く（1960年とする資料も）"
+      },
+      {
         "year": 1960,
-        "text": "ヴァレンティノ・ガラヴァーニがローマでメゾンを開く（1959年とする資料も）"
+        "text": "ジャンカルロ・ジャンメッティが加わり、経営・ライセンス・海外展開を担う"
+      },
+      {
+        "year": 1962,
+        "text": "フィレンツェのピッティ宮殿「サーラ・ビアンカ」でのショーで大成功"
+      },
+      {
+        "year": 1968,
+        "text": "白・アイボリー・ベージュだけの「ホワイト・コレクション」。Vの金具が登場。同年、ジャクリーン・ケネディがオナシスとの結婚式でヴァレンティノを着る"
+      },
+      {
+        "year": 1998,
+        "text": "イタリアの企業HdPに売却"
       },
       {
         "year": 2008,
-        "text": "マリア・グラツィア・キウリとピエールパオロ・ピッチョーリが共同クリエイティブディレクターに"
+        "text": "1月、ガラヴァーニ最後のクチュール。アレッサンドラ・ファッキネッティが後任になるが約1年で退任。10月、キウリとピッチョーリが共同クリエイティブディレクターに"
+      },
+      {
+        "year": 2010,
+        "text": "ロックスタッズ"
+      },
+      {
+        "year": 2015,
+        "text": "年間売上が10億ドルに"
       },
       {
         "year": 2016,
-        "text": "キウリがDiorへ移り、ピッチョーリの単独体制に"
+        "text": "7月、キウリがDiorへ移り、ピッチョーリの単独体制に"
+      },
+      {
+        "year": 2022,
+        "text": "パントーンと作った蛍光ピンク「ピンクPP」の一色のコレクション"
       },
       {
         "year": 2024,
-        "text": "ピッチョーリが退任。3月、アレッサンドロ・ミケーレが就任"
+        "text": "3月、ピッチョーリが25年で退任し、アレッサンドロ・ミケーレが就任。9月、パリでデビュー（2025年春夏）"
+      },
+      {
+        "year": 2025,
+        "text": "10月5日、パゾリーニの比喩から取った「ホタル」がテーマの2026年春夏"
       },
       {
         "year": 2026,
-        "text": "1月19日、ヴァレンティノ・ガラヴァーニがローマの自宅で93歳で死去"
+        "text": "1月19日、ヴァレンティノ・ガラヴァーニがローマの自宅で93歳で死去。葬儀の数日後に2026年春夏クチュール。3月12日、ローマのバルベリーニ宮殿で2026-27年秋冬「Interferenze」（ミケーレ10回目のコレクション）"
       }
     ],
     "designers": [
       {
         "d": "valentinog",
         "role": "創業者",
-        "from": 1960,
+        "from": 1959,
+        "to": 2008
+      },
+      {
+        "d": "facchinetti",
+        "role": "クリエイティブディレクター",
+        "from": 2007,
         "to": 2008
       },
       {
@@ -9994,12 +10319,30 @@ window.BRANDS = [
     ],
     "items": [
       {
+        "name": "ヴァレンティノ・レッドのドレス",
+        "year": "1960年代〜",
+        "desc": "創業者の象徴の赤。"
+      },
+      {
+        "name": "Vロゴの金具",
+        "year": 1968,
+        "desc": "ホワイト・コレクションで登場。"
+      },
+      {
         "name": "ロックスタッズ",
-        "year": "2010年代",
+        "year": 2010,
         "desc": "ピラミッド型のスタッズを並べたシューズやバッグ。"
+      },
+      {
+        "name": "ピンクPPのドレス",
+        "year": "2022-23AW",
+        "desc": "ピッチョーリ期の蛍光ピンク。"
       }
     ],
-    "archive": [],
+    "archive": [
+      "創業者期のクチュールとガラヴァーニ・ラインの小物はヴィンテージで人気。",
+      "キウリとピッチョーリ期（2008〜2016）のロマンティックなドレスやロックスタッズは今も定番。"
+    ],
     "related": [
       "gucci",
       "balenciaga",
@@ -10017,8 +10360,132 @@ window.BRANDS = [
       {
         "t": "Dazed：Alessandro Michele is the new creative director of Valentino",
         "u": "https://www.dazeddigital.com/fashion/article/62277/1/alessandro-michele-valentino-new-creative-director"
+      },
+      {
+        "t": "Valentino 公式：History",
+        "u": "https://www.valentino.com/en-us/v-universe/maison/history"
+      },
+      {
+        "t": "WWD：Valentino Timeline, Fabulous at 50",
+        "u": "https://wwd.com/fashion-news/designer-luxury/valentino-timeline-in-the-red-6406048/"
+      },
+      {
+        "t": "Marie Claire：A Valentino Retrospective",
+        "u": "https://www.marieclaire.co.uk/fashion/history-of-valentino"
+      },
+      {
+        "t": "Wikipedia：Pierpaolo Piccioli",
+        "u": "https://en.wikipedia.org/wiki/Pierpaolo_Piccioli"
+      },
+      {
+        "t": "W Magazine：Valentino Spring 2026",
+        "u": "https://www.wmagazine.com/fashion/valentino-spring-2026-runway-show-photos"
+      },
+      {
+        "t": "Hypebeast：Valentino SS26 Fireflies",
+        "u": "https://hypebeast.com/2025/10/valentino-ss26-runway-show-collection-paris-fashion-week-alesandro-michele"
+      },
+      {
+        "t": "The Impression：Valentino Spring 2026 Couture",
+        "u": "https://theimpression.com/valentino-spring-2026-couture-fashion-show-review/"
+      },
+      {
+        "t": "WWD：Valentino Pre-Fall 2026",
+        "u": "https://wwd.com/runway/pre-fall-2026/milan/valentino/review/"
+      },
+      {
+        "t": "Wallpaper：Valentino returns to Rome at Palazzo Barberini",
+        "u": "https://www.wallpaper.com/fashion-beauty/valentino-alessandro-michele-aw-2026-show-rome"
+      },
+      {
+        "t": "The Post：Valentino Fall 2026 Interferenze",
+        "u": "https://thepost.ph/lifestyle/fashion-2/valentino-fall-2026-fashion-show/"
       }
-    ]
+    ],
+    "collections": [
+      {
+        "season": "1962",
+        "title": "ピッティ宮殿",
+        "city": "フィレンツェ",
+        "note": "サーラ・ビアンカでのショー。最初の大成功。"
+      },
+      {
+        "season": "1968SS",
+        "title": "ホワイト・コレクション（クチュール）",
+        "city": "ローマ",
+        "note": "白・アイボリー・ベージュだけで、カットと表面とVの金具で見せた。"
+      },
+      {
+        "season": "2008SS",
+        "title": "ガラヴァーニ最後のクチュール",
+        "city": "パリ",
+        "note": "2008年1月。"
+      },
+      {
+        "season": "2016SS",
+        "city": "パリ",
+        "alias": "アフリカ",
+        "note": "キウリとピッチョーリ最後の共作の頃。"
+      },
+      {
+        "season": "2022-23AW",
+        "title": "ピンクPP",
+        "city": "パリ",
+        "note": "パントーンと作った蛍光ピンク一色。ゼンデイヤやフローレンス・ピューがレッドカーペットで着た。"
+      },
+      {
+        "season": "2023-24AW",
+        "title": "（クチュール）",
+        "city": "シャンティイ",
+        "note": "シャンティイ城で。"
+      },
+      {
+        "season": "2024SS",
+        "title": "ピッチョーリ最後のショー",
+        "city": "パリ"
+      },
+      {
+        "season": "2025SS",
+        "title": "Pavillon des Folies",
+        "city": "パリ",
+        "note": "ミケーレのデビュー。割れた鏡の床にほこりをかぶった家具。エルトン・ジョン、ハリー・スタイルズらが客席に。"
+      },
+      {
+        "season": "2025SS",
+        "title": "Vertigineux（クチュール）",
+        "city": "パリ",
+        "note": "2025年1月。ミケーレ初のクチュール。"
+      },
+      {
+        "season": "2025-26AW",
+        "city": "パリ",
+        "alias": "公衆トイレ",
+        "note": "公衆トイレをランウェイにしたショー。"
+      },
+      {
+        "season": "2026SS",
+        "city": "パリ",
+        "alias": "ホタル",
+        "note": "2025年10月5日。闇の中でも続く希望を、パゾリーニの比喩「ホタル」で表した。"
+      },
+      {
+        "season": "2026SS",
+        "title": "（クチュール）",
+        "city": "パリ",
+        "note": "創業者の葬儀の数日後。サイレント映画とアール・デコの華やかさで、ガラヴァーニへのオマージュ。"
+      },
+      {
+        "season": "2026 Pre-Fall",
+        "note": "装飾を抑え、ロックスタッズを新しく解釈した。"
+      },
+      {
+        "season": "2026-27AW",
+        "title": "Interferenze",
+        "city": "ローマ",
+        "note": "2026年3月12日、バルベリーニ宮殿。創業者の死後初のプレタポルテ。背中を深くV字に開けたヴァレンティノ・レッドのドレスで締めた。"
+      }
+    ],
+    "note": "ガラヴァーニの開業を1960年とする資料もあります。"
   },
   {
     "id": "balmain",

@@ -881,5 +881,25 @@ window.DESIGNERS = {
     "en": "Daiki Suzuki",
     "ja": "鈴木大器",
     "bio": "NEPENTHESのバイヤーを経て、1999年にニューヨークでEngineered Garmentsを始めた。"
+  },
+  "neilbarrett": {
+    "en": "Neil Barrett",
+    "ja": "ニール・バレット",
+    "bio": "GucciのメンズやPradaのメンズを担当したのち、1999年に自身のブランドを始めた。Prada Sportの立ち上げ期にかかわったとされる。"
+  },
+  "mello": {
+    "en": "Dawn Mello",
+    "ja": "ドーン・メロ",
+    "bio": "Bergdorf Goodmanの幹部から1989年にGucciへ。エグゼクティブVP兼クリエイティブディレクターとして再建を指揮し、トム・フォードを起用した。"
+  },
+  "facchinetti": {
+    "en": "Alessandra Facchinetti",
+    "ja": "アレッサンドラ・ファッキネッティ",
+    "bio": "トム・フォードの後任としてGucciのウィメンズを担当（2005年春夏・秋冬の2シーズン）。のちにValentinoなど。"
+  },
+  "johnray": {
+    "en": "John Ray",
+    "ja": "ジョン・レイ",
+    "bio": "トム・フォードのもとでGucciのメンズを手がけ、フォード退任後はメンズのクリエイティブディレクター。"
   }
 };

@@ -3679,7 +3679,7 @@ window.BRANDS = [
       "メンズ",
       "ウィメンズ"
     ],
-    "summary": "1947年の「ニュールック」から始まるメゾン。ウィメンズとメンズで系譜が分かれ、メンズはエディ・スリマンのDior Homme期が2000年代のシルエットを決定づけた。2025年からはジョナサン・アンダーソンが創業者以来初めて全コレクションを統括。",
+    "summary": "1947年の「ニュールック」から始まるメゾン。創業者はH・A・Yなどアルファベットの「ライン」で毎シーズンのシルエットを打ち出した。ガリアーノ（1996〜2011）の演劇的なショー、エディ・スリマンのDior Homme（2000〜2007）、キム・ジョーンズのDior Men（2018〜2025）を経て、2025年からはジョナサン・アンダーソンが創業者以来初めてメンズ・ウィメンズ・クチュールのすべてを統括。",
     "history": [
       {
         "year": 1946,
@@ -3687,27 +3687,92 @@ window.BRANDS = [
       },
       {
         "year": 1947,
-        "text": "初コレクション「ニュールック」"
+        "text": "2月12日、初コレクション「コロール（花冠）ライン」。カーメル・スノーが「ニュールック」と呼んだ"
+      },
+      {
+        "year": 1954,
+        "text": "秋冬の「Hライン」。最も物議を醸したライン"
+      },
+      {
+        "year": 1955,
+        "text": "「Aライン」「Yライン」"
       },
       {
         "year": 1957,
         "text": "ディオール急逝。21歳のイヴ・サンローランが後継に"
       },
       {
+        "year": 1958,
+        "text": "サンローランの「トラペーズ・ライン」。ウエストの絞りをなくしたAラインのシルエット"
+      },
+      {
+        "year": 1960,
+        "text": "マルク・ボアンが引き継ぐ（1961年からとする資料も）"
+      },
+      {
+        "year": 1963,
+        "text": "ボアンの「スリム・ルック」",
+        "unverified": true
+      },
+      {
+        "year": 1967,
+        "text": "ボアンがオブリーク（斜めのロゴの総柄）を考案"
+      },
+      {
+        "year": 1989,
+        "text": "ジャンフランコ・フェレがアーティスティックディレクターに"
+      },
+      {
+        "year": 1995,
+        "text": "パリを訪れたダイアナ妃のためのバッグ「シュシュ」が、のちに「レディ ディオール」に"
+      },
+      {
+        "year": 1996,
+        "text": "ジョン・ガリアーノが就任"
+      },
+      {
+        "year": 1997,
+        "text": "1月、ガリアーノの初のオートクチュール（1997年春夏）。8週間で50ルック"
+      },
+      {
         "year": 2000,
-        "text": "エディ・スリマンがDior Hommeのデザイナーに"
+        "text": "1月、ホームレスに着想した通称「ホーボー」のクチュールが物議に。同年春夏のプレタポルテでサドルバッグ。2000-01年秋冬で新聞柄"
+      },
+      {
+        "year": 2000,
+        "text": "エディ・スリマンがDior Hommeのデザイナーに（初コレクションは2001-02年秋冬）"
       },
       {
         "year": 2007,
-        "text": "4月、クリス・ヴァン・アッシュがDior Hommeを引き継ぐ"
+        "text": "1月、エディ最後のDior Hommeショー。4月、クリス・ヴァン・アッシュが引き継ぐ。7月、ヴェルサイユ宮殿のオランジュリーでメゾン60周年とガリアーノ就任10周年のクチュール"
+      },
+      {
+        "year": 2011,
+        "text": "ガリアーノが解任される"
+      },
+      {
+        "year": 2012,
+        "text": "7月2日、ラフ・シモンズがアヴェニュー・ディエナの邸宅で初のクチュール。5つの部屋を約100万本の花で埋めた"
+      },
+      {
+        "year": 2016,
+        "text": "7月、マリア・グラツィア・キウリが初の女性アーティスティックディレクターに。9月30日に2017年春夏でデビュー"
       },
       {
         "year": 2018,
-        "text": "3月、キム・ジョーンズが就任し名称が「Dior Men」に"
+        "text": "3月、キム・ジョーンズが就任し名称が「Dior Men」に。6月に2019年春夏でデビュー。キウリがサドルバッグを復活させ、ブックトートも登場"
+      },
+      {
+        "year": 2020,
+        "text": "Air Jordan 1 OG Diorを発売"
       },
       {
         "year": 2025,
-        "text": "4月にジョナサン・アンダーソンがメンズ、6月にウィメンズとクチュールも担当することが発表"
+        "text": "1月、キム・ジョーンズが退任（最後は2025-26年秋冬）。4月にジョナサン・アンダーソンがメンズ、6月にウィメンズとクチュールも担当することが発表。6月27日にアンヴァリッドでメンズ、10月1日にウィメンズでデビュー"
+      },
+      {
+        "year": 2026,
+        "text": "1月26日、ロダン美術館でアンダーソン初のオートクチュール（63ルック）"
       }
     ],
     "designers": [
@@ -3726,7 +3791,7 @@ window.BRANDS = [
       {
         "d": "bohan",
         "role": "ウィメンズ",
-        "from": 1961,
+        "from": 1960,
         "to": 1989
       },
       {
@@ -3789,19 +3854,50 @@ window.BRANDS = [
         "imgPage": "https://commons.wikimedia.org/wiki/File:Dior_denver_art1.jpg"
       },
       {
+        "name": "オブリーク",
+        "year": 1967,
+        "desc": "マルク・ボアンが考案した斜めのロゴの総柄。"
+      },
+      {
+        "name": "レディ ディオール",
+        "year": 1995,
+        "desc": "ダイアナ妃のために作られた「シュシュ」が改名されたバッグ。カナージュ（籐編み模様）のステッチ。"
+      },
+      {
+        "name": "サドルバッグ",
+        "year": "2000SS",
+        "desc": "ガリアーノ期のアイコンバッグ。2018年にキウリが復活させた。"
+      },
+      {
+        "name": "新聞柄のドレス",
+        "year": "2000-01AW",
+        "desc": "『セックス・アンド・ザ・シティ』で有名に。オークションでも高値がつく。"
+      },
+      {
         "name": "エディ期のスリムなテーラード・デニム",
         "year": "2000〜2007",
         "desc": "極細のシルエット。"
       },
       {
-        "name": "サドルバッグ",
-        "year": "ガリアーノ期",
-        "desc": "ガリアーノ期のアイコンバッグ。",
-        "unverified": true
+        "name": "「We Should All Be Feminists」Tシャツ",
+        "year": "2017SS",
+        "desc": "キウリのデビューの象徴。V&Aなどが所蔵。"
+      },
+      {
+        "name": "ブックトート",
+        "year": 2018,
+        "desc": "キウリ期の大ヒットしたトートバッグ（2018年春夏で登場）。"
+      },
+      {
+        "name": "Air Jordan 1 OG Dior",
+        "year": 2020,
+        "desc": "キム・ジョーンズ期のナイキとの協業スニーカー。"
       }
     ],
     "archive": [
-      "Dior Hommeはエディ期とヴァン・アッシュ期でサイズ感・ムードが大きく異なる。"
+      "Dior Hommeはエディ期とヴァン・アッシュ期でサイズ感・ムードが大きく異なる。",
+      "ガリアーノ期（1996〜2011）のサドルバッグや新聞柄、オブリークのピースはY2Kアーカイブとして人気。",
+      "ガリアーノ期はクチュールとプレタポルテでテーマが異なるので、シーズン表記を確認する。"
     ],
     "related": [
       "saintlaurent",
@@ -3827,9 +3923,213 @@ window.BRANDS = [
       {
         "t": "theFashionSpot：Dior Homme - the names of the collections",
         "u": "https://forums.thefashionspot.com/threads/dior-homme-the-names-of-the-collections.90485/"
+      },
+      {
+        "t": "Britannica：Christian Dior",
+        "u": "https://www.britannica.com/biography/Christian-Dior-French-designer"
+      },
+      {
+        "t": "V&A：Saddle bag, John Galliano",
+        "u": "https://collections.vam.ac.uk/item/O1513773/saddle-bag-handbag-john-galliano/"
+      },
+      {
+        "t": "V&A：We Should All Be Feminists T-shirt",
+        "u": "https://collections.vam.ac.uk/item/O1457290/we-should-all-be-feminists-t-shirt-chiuri-maria-grazia/"
+      },
+      {
+        "t": "FIDM Museum：Newsprint fashion",
+        "u": "https://fidmmuseum.org/learn/articles/newsprint-fashion"
+      },
+      {
+        "t": "Sotheby's：Dissecting the Genius of John Galliano",
+        "u": "https://www.sothebys.com/en/articles/designer-in-focus-dissecting-the-genius-of-john-galliano"
+      },
+      {
+        "t": "Hello!：Galliano celebrates 60 years of Dior with Versailles extravaganza",
+        "u": "https://www.hellomagazine.com/fashion/459984/dior-galliano-60/"
+      },
+      {
+        "t": "Wikipedia：Spring 2004 Dior couture collection",
+        "u": "https://en.wikipedia.org/wiki/Spring_2004_Dior_couture_collection"
+      },
+      {
+        "t": "Dawn：Raf Simons says it with flowers debuting at Dior",
+        "u": "https://www.dawn.com/2012/07/03/raf-simons-says-it-with-flowers-debuting-at-dior/"
+      },
+      {
+        "t": "Bustle：Dior's first female designer included a feminist T-shirt",
+        "u": "https://www.bustle.com/articles/187242-diors-first-female-designer-included-a-feminist-t-shirt-on-the-runway-at-paris-fashion-week"
+      },
+      {
+        "t": "Business of Fashion：Meshing Past and Future at Dior",
+        "u": "https://www.businessoffashion.com/reviews/fashion-week/meshing-past-and-future-at-dior"
+      },
+      {
+        "t": "Hypebeast：Kim Jones Officially Steps Down",
+        "u": "https://hypebeast.com/2025/1/kim-jones-steps-down-as-artistic-director-dior-men-announcement"
+      },
+      {
+        "t": "Wallpaper：Jonathan Anderson's Dior debut",
+        "u": "https://www.wallpaper.com/fashion-beauty/dior-mens-ss-2026-jonathan-anderson-debut"
+      },
+      {
+        "t": "Dazed：Christian Dior SS26 Jonathan Anderson womenswear debut",
+        "u": "https://www.dazeddigital.com/fashion/article/68806/1/christian-dior-ss26-jonathan-anderson-paris-fashion-week-pfw-debut-womenswear"
+      },
+      {
+        "t": "FashionUnited：Jonathan Anderson's Dior couture debut",
+        "u": "https://fashionunited.uk/news/fashion/jonathan-andersons-dior-couture-debut/2026012785947"
+      },
+      {
+        "t": "PurseBlog：The History of the Lady Dior Bag",
+        "u": "https://www.purseblog.com/dior/the-history-of-the-lady-dior-bag/"
+      },
+      {
+        "t": "Sotheby's：The Collector's Guide to Dior",
+        "u": "https://www.sothebys.com/en/articles/the-collectors-guide-to-dior"
       }
     ],
     "collections": [
+      {
+        "season": "1947SS",
+        "title": "Corolle（コロール）",
+        "city": "パリ",
+        "alias": "ニュールック",
+        "note": "2月12日発表。絞ったウエストと花冠のように広がるスカート。"
+      },
+      {
+        "season": "1954-55AW",
+        "title": "Hライン",
+        "city": "パリ",
+        "note": "シルエットの形とアンリ2世の時代にかけた名前。"
+      },
+      {
+        "season": "1955SS",
+        "title": "Aライン",
+        "city": "パリ"
+      },
+      {
+        "season": "1955-56AW",
+        "title": "Yライン",
+        "city": "パリ"
+      },
+      {
+        "season": "1958SS",
+        "title": "Trapèze（トラペーズ）",
+        "city": "パリ",
+        "note": "イヴ・サンローランのデビュー。"
+      },
+      {
+        "season": "1997SS",
+        "title": "マサイ（クチュール）",
+        "city": "パリ",
+        "note": "ガリアーノ初のクチュール。8週間で50ルック。"
+      },
+      {
+        "season": "1997-98AW",
+        "title": "マタ・ハリ（クチュール）",
+        "city": "パリ"
+      },
+      {
+        "season": "1998",
+        "title": "A Voyage on the Diorient Express, or the Story of the Princess Pocahontas（クチュール）",
+        "city": "パリ",
+        "note": "16世紀のヨーロッパ風の装いと先住民の衣装を組み合わせた。シーズン表記は資料で異なる。",
+        "unverified": true
+      },
+      {
+        "season": "2000SS",
+        "title": "ホーボー（クチュール）",
+        "city": "パリ",
+        "alias": "クロシャール",
+        "note": "2000年1月発表。パリの路上生活者に着想し、インターナショナル・ヘラルド・トリビューンのファッション面を印刷した服で大きな物議を醸した。"
+      },
+      {
+        "season": "2000SS",
+        "title": "サドルバッグ（プレタポルテ）",
+        "city": "パリ",
+        "note": "1999年にデザインされた「サドル」がランウェイに登場し、すぐに「イットバッグ」に。"
+      },
+      {
+        "season": "2000-01AW",
+        "title": "ニュースペーパー（プレタポルテ）",
+        "city": "パリ",
+        "alias": "新聞柄",
+        "note": "ショーのために作った新聞「Christian Dior Daily」の柄をシフォンやレザー、毛皮の裏にまで印刷。『セックス・アンド・ザ・シティ』でキャリーが着た。"
+      },
+      {
+        "season": "2004SS",
+        "title": "エジプト（クチュール）",
+        "city": "パリ",
+        "note": "2004年1月19日発表。ガリアーノの熱気球でのエジプト旅行に着想。"
+      },
+      {
+        "season": "2007-08AW",
+        "title": "60周年（クチュール）",
+        "city": "ヴェルサイユ",
+        "note": "2007年7月、ヴェルサイユ宮殿のオランジュリーで。メゾン60周年とガリアーノの10周年。"
+      },
+      {
+        "season": "2008SS",
+        "title": "ヴァン・アッシュのデビュー（メンズ）",
+        "city": "パリ",
+        "note": "エディの細いパンツから、ゆったりしたテーラリングへ。"
+      },
+      {
+        "season": "2012-13AW",
+        "title": "ラフ・シモンズのデビュー（クチュール）",
+        "city": "パリ",
+        "alias": "花の壁",
+        "note": "2012年7月2日。蘭、バラ、ミモザなど約100万本の花で5つの部屋の壁を覆った。映画『ディオールと私』の題材。"
+      },
+      {
+        "season": "2017SS",
+        "title": "キウリのデビュー",
+        "city": "パリ",
+        "note": "2016年9月30日。チママンダ・ンゴズィ・アディーチェのエッセイから取った「We Should All Be Feminists」のTシャツ。"
+      },
+      {
+        "season": "2019SS",
+        "title": "キム・ジョーンズのデビュー（メンズ）",
+        "city": "パリ",
+        "note": "KAWSが蜂のモチーフを描き直し、会場に巨大なBFFの像。"
+      },
+      {
+        "season": "2019 Pre-Fall",
+        "title": "東京（メンズ）",
+        "city": "東京",
+        "note": "空山基の巨大なロボット像。"
+      },
+      {
+        "season": "2019-20AW",
+        "title": "（メンズ）",
+        "city": "パリ",
+        "note": "レイモンド・ペティボンの絵を服に。"
+      },
+      {
+        "season": "2025-26AW",
+        "title": "キム・ジョーンズ最後のショー（メンズ）",
+        "city": "パリ",
+        "note": "ムッシュ・ディオールへのオマージュ。"
+      },
+      {
+        "season": "2026SS",
+        "title": "アンダーソンのデビュー（メンズ）",
+        "city": "パリ",
+        "note": "2025年6月27日、アンヴァリッドで。フォーマルな服の規範を組み替えた。"
+      },
+      {
+        "season": "2026SS",
+        "title": "アンダーソンのデビュー（ウィメンズ）",
+        "city": "パリ",
+        "note": "2025年10月1日。縮めたバージャケットや彫刻的な帽子、たくさんのリボン。評価は分かれた。"
+      },
+      {
+        "season": "2026SS",
+        "title": "アンダーソンのデビュー（クチュール）",
+        "city": "パリ",
+        "note": "2026年1月26日、ロダン美術館で63ルック。天井に吊るした草花。ガリアーノから贈られたシクラメンが着想源。"
+      },
       {
         "season": "2001-02AW",
         "title": "Solitaire（メンズ）",
@@ -3881,7 +4181,8 @@ window.BRANDS = [
         "title": "Navigate（メンズ）",
         "note": "エディのDior Homme最後のコレクション。"
       }
-    ]
+    ],
+    "note": "マルク・ボアンの就任は1960年と1961年の両説があります。ポカホンタスのクチュールのシーズン表記は資料で異なります。"
   },
   {
     "id": "saintlaurent",
@@ -4117,35 +4418,113 @@ window.BRANDS = [
       "メゾン",
       "レザー"
     ],
-    "summary": "フィレンツェの革製品店から始まったメゾン。トム・フォードの1990年代、アレッサンドロ・ミケーレの2010年代など、デザイナーごとに全く別の顔を持つ。",
+    "summary": "1921年にフィレンツェで始まった革製品店。1950〜60年代にバンブー、ホースビット、ウェブ・ストライプ、GGなどのアイコンが生まれた。一族の争いで傾いたのち、ドーン・メロとトム・フォードが1990年代に復活させ、2015〜2022年のアレッサンドロ・ミケーレがマキシマリズムで再び時代を作った。2025年からはデムナ。",
     "history": [
       {
         "year": 1921,
-        "text": "グッチオ・グッチがフィレンツェで創業"
+        "text": "グッチオ・グッチがフィレンツェで創業（ロンドンのサヴォイ・ホテルで働いた経験から、という話はホテル側に記録がないとする説も）"
       },
       {
         "year": 1947,
-        "text": "バンブーハンドルのバッグ"
+        "text": "戦後の物資不足から生まれたバンブーハンドルのバッグ"
+      },
+      {
+        "year": 1951,
+        "text": "ミラノに店を開く。馬の鞍の腹帯から取った緑・赤・緑のウェブ・ストライプ",
+        "unverified": true
       },
       {
         "year": 1953,
-        "text": "ホースビットローファー"
+        "text": "ホースビットローファー。創業者グッチオが死去"
+      },
+      {
+        "year": 1961,
+        "text": "ショルダーバッグがジャクリーン・ケネディにちなんで「ジャッキー」と呼ばれるように"
+      },
+      {
+        "year": 1966,
+        "text": "グレース・ケリーのためにフローラ柄が作られたとされる",
+        "unverified": true
+      },
+      {
+        "year": 1982,
+        "text": "一族の対立を和らげるため株式会社化"
+      },
+      {
+        "year": 1983,
+        "text": "5月、ロドルフォ・グッチが死去。息子のマウリツィオが実権を握ろうとし、一族の争いが激化"
+      },
+      {
+        "year": 1989,
+        "text": "11月、Bergdorf Goodmanからドーン・メロを招く。マウリツィオとInvestcorpが過半数を握る"
+      },
+      {
+        "year": 1990,
+        "text": "トム・フォードがウィメンズのプレタポルテ担当として入社"
+      },
+      {
+        "year": 1993,
+        "text": "Investcorpがマウリツィオの持ち株を買い、全株を取得（8月）"
       },
       {
         "year": 1994,
-        "text": "トム・フォードが初のクリエイティブディレクターに"
+        "text": "トム・フォードがクリエイティブディレクターに（服・香水・広告・店舗まで統括）"
+      },
+      {
+        "year": 1995,
+        "text": "3月、マウリツィオ・グッチがミラノで射殺される。同年の1995-96年秋冬で、フォードのグッチが大成功"
+      },
+      {
+        "year": 1999,
+        "text": "LVMHの買収攻勢に対抗し、PPR（現ケリング）が筆頭株主に"
+      },
+      {
+        "year": 2001,
+        "text": "Gucci・LVMH・PPRが和解"
+      },
+      {
+        "year": 2003,
+        "text": "2003年春夏の広告（マリオ・テスティーノ撮影、モデルはカルメン・カス）が過激すぎると物議に"
+      },
+      {
+        "year": 2004,
+        "text": "1月にメンズ、2月にウィメンズの最後のショーを終え、トム・フォードとCEOドメニコ・デ・ソーレが4月30日に退任。メンズはジョン・レイ、ウィメンズはアレッサンドラ・ファッキネッティ、アクセサリーはフリーダ・ジャンニーニに"
+      },
+      {
+        "year": 2005,
+        "text": "3月、ファッキネッティが2シーズンで退任し、ジャンニーニがウィメンズも担当"
+      },
+      {
+        "year": 2006,
+        "text": "ジャンニーニがブランド全体のクリエイティブディレクターに"
+      },
+      {
+        "year": 2014,
+        "text": "12月、ジャンニーニの退任が発表（2015年秋冬を待たずに退く）"
       },
       {
         "year": 2015,
-        "text": "アレッサンドロ・ミケーレが就任"
+        "text": "1月、アレッサンドロ・ミケーレがクリエイティブディレクターに"
+      },
+      {
+        "year": 2016,
+        "text": "6月2日、ロンドンのウェストミンスター寺院で2017年クルーズ。寺院で初めてのファッションショー"
+      },
+      {
+        "year": 2021,
+        "text": "4月、創業100周年のコレクション「Aria」をフィルムで発表（Balenciagaとの「ハッカー・プロジェクト」を含む）"
+      },
+      {
+        "year": 2022,
+        "text": "11月23日、ミケーレの退任を発表"
       },
       {
         "year": 2023,
-        "text": "サバト・デ・サルノが就任"
+        "text": "1月、サバト・デ・サルノの就任を発表。9月22日、2024年春夏「Ancora」でデビュー"
       },
       {
         "year": 2025,
-        "text": "デムナがアーティスティックディレクターに。9月に2026年春夏でデビュー"
+        "text": "2月6日にデ・サルノの退任を発表。3月13日、デムナがアーティスティックディレクターに（7月から）。9月22日にルックブック「La Famiglia」、23日に短編映画「The Tiger」を発表"
       },
       {
         "year": 2026,
@@ -4154,15 +4533,33 @@ window.BRANDS = [
     ],
     "designers": [
       {
+        "d": "mello",
+        "role": "エグゼクティブVP兼クリエイティブディレクター",
+        "from": 1989,
+        "to": 1994
+      },
+      {
         "d": "tomford",
-        "role": "クリエイティブディレクター",
-        "from": 1994,
+        "role": "ウィメンズ担当→クリエイティブディレクター",
+        "from": 1990,
         "to": 2004
       },
       {
+        "d": "johnray",
+        "role": "メンズ",
+        "from": 2004,
+        "to": 2006
+      },
+      {
+        "d": "facchinetti",
+        "role": "ウィメンズ",
+        "from": 2004,
+        "to": 2005
+      },
+      {
         "d": "giannini",
-        "role": "クリエイティブディレクター",
-        "from": 2006,
+        "role": "アクセサリー→ウィメンズ→クリエイティブディレクター",
+        "from": 2004,
         "to": 2014
       },
       {
@@ -4198,10 +4595,69 @@ window.BRANDS = [
         "credit": "Sailko / Wikimedia Commons",
         "license": "CC BY 3.0",
         "imgPage": "https://commons.wikimedia.org/wiki/File:Gucci,_bamboo_bag,_1960-65_ca._(firenze,_archivio_storico_gucci).jpg"
+      },
+      {
+        "name": "ウェブ・ストライプ",
+        "year": "1951頃",
+        "desc": "馬の鞍の腹帯から取った緑・赤・緑のストライプ。"
+      },
+      {
+        "name": "ジャッキー・バッグ",
+        "year": 1961,
+        "desc": "ジャクリーン・ケネディが愛用して名付けられたホーボーバッグ。"
+      },
+      {
+        "name": "フローラ柄",
+        "year": 1966,
+        "desc": "グレース・ケリーのために作られたとされる花柄。ジャンニーニ期に再び大ヒット。",
+        "unverified": true
+      },
+      {
+        "name": "GGモチーフ",
+        "year": "1960年代",
+        "desc": "組み合わせたGのロゴ。考案時期は資料で異なる。",
+        "unverified": true
+      },
+      {
+        "name": "ベルベットのヒップハンガーとサテンシャツ",
+        "year": "1995-96AW",
+        "desc": "トム・フォード期の始まりを告げたルック。"
+      },
+      {
+        "name": "白いジャージーのカットアウト・ドレス",
+        "year": "1996",
+        "desc": "腰をくり抜き金のバックルをつけたドレス。メトロポリタン美術館などが所蔵。"
+      },
+      {
+        "name": "Princetown（ファーつきのバックレスローファー）",
+        "year": "2015-16AW",
+        "desc": "ミケーレのデビューシーズンから生まれたヒット作。"
+      },
+      {
+        "name": "Dionysus",
+        "year": "2015",
+        "desc": "ミケーレ期の代表的なバッグ。"
+      },
+      {
+        "name": "GG Marmont",
+        "year": "2016",
+        "desc": "キルティングのショルダーバッグ。"
+      },
+      {
+        "name": "Ace スニーカー",
+        "year": "2016",
+        "desc": "ウェブ・ストライプ入りのレザースニーカー。"
+      },
+      {
+        "name": "Ophidia",
+        "year": "2018 Cruise",
+        "desc": "ウェブとGGの金具を使ったバッグのシリーズ。"
       }
     ],
     "archive": [
-      "トム・フォード期（1994〜2004）の服はアーカイブとして根強い人気。"
+      "トム・フォード期（1994〜2004）の服はアーカイブとして根強い人気。特に1995〜1997年頃のベルベット、サテン、カットアウトのピース。",
+      "ミケーレ期（2015〜2022）はマキシマリズムの象徴。古着としての評価も上がっている。",
+      "同じGucciでもデザイナーごとに全く別のブランドのように見えるので、年代とデザイナーをセットで確認する。"
     ],
     "related": [
       "saintlaurent",
@@ -4219,8 +4675,182 @@ window.BRANDS = [
       {
         "t": "Tatler Asia：The Gucci Horsebit 1953 Loafer",
         "u": "https://www.tatlerasia.com/style/fashion/gucci-1953-loafer-history"
+      },
+      {
+        "t": "Wikipedia：Gucci",
+        "u": "https://en.wikipedia.org/wiki/Gucci"
+      },
+      {
+        "t": "Britannica：Gucci",
+        "u": "https://www.britannica.com/topic/Gucci"
+      },
+      {
+        "t": "Dazed：Tom Ford opens up about his landmark Gucci AW95 collection",
+        "u": "https://www.dazeddigital.com/fashion/article/24492/1/tom-ford-opens-up-about-his-landmark-gucci-aw95-collection"
+      },
+      {
+        "t": "The Met：Gucci, Tom Ford",
+        "u": "https://www.metmuseum.org/art/collection/search/81266"
+      },
+      {
+        "t": "FIT Museum：Evening dress, coordinating belt",
+        "u": "https://fashionmuseum.fitnyc.edu/objects/5917/evening-dress-coordinating-belt"
+      },
+      {
+        "t": "UPI：Designer Tom Ford bows out at Gucci",
+        "u": "https://www.upi.com/Business_News/2004/02/26/Designer-Tom-Ford-bows-out-at-Gucci/22571077827402/"
+      },
+      {
+        "t": "V&A：Tom Ford for Gucci, autumn/winter 2004-5",
+        "u": "https://collections.vam.ac.uk/item/O137253"
+      },
+      {
+        "t": "nss magazine：Alessandra Facchinetti's era at Gucci",
+        "u": "https://www.nssmag.com/en/fashion/43916/alessandra-facchinetti-gucci-era"
+      },
+      {
+        "t": "FashionUnited：The best of Alessandro Michele at Gucci",
+        "u": "https://fashionunited.uk/news/fashion/maximalism-romanticism-and-nostalgia-the-best-of-alessandro-michele-at-gucci/2022112566435"
+      },
+      {
+        "t": "FashionUnited：Gucci shows cruise collection in Westminster Abbey",
+        "u": "https://fashionunited.com/news/fashion/review-gucci-shows-cruise-collection-in-westminster-abbey/2016060311548"
+      },
+      {
+        "t": "Hypebae：Gucci Twinsburg",
+        "u": "https://hypebae.com/2022/9/gucci-spring-summer-2023-twinsburg-collection-reflection-duplicates-alessandro-michele-fashion-runway-show"
+      },
+      {
+        "t": "Wallpaper：Gucci Ancora SS 2024",
+        "u": "https://wallpaper.com/fashion-beauty/gucci-ancora-ss-2024-sabato-de-sarno"
+      },
+      {
+        "t": "Hypebeast：Sabato De Sarno Steps Down",
+        "u": "https://hypebeast.com/2025/2/sabato-de-sarno-departs-gucci-creative-director"
+      },
+      {
+        "t": "Complex：Demna Appointed Artistic Director of Gucci",
+        "u": "https://www.complex.com/style/a/tracewilliamcowen/demna-gucci-artistic-director"
+      },
+      {
+        "t": "W Magazine：Gucci's Demna Era Comes to Life With a Surreal, Star-Studded Film",
+        "u": "https://www.wmagazine.com/fashion/gucci-spring-2026-demna-designer-debut-milan-fashion-week-photos"
+      },
+      {
+        "t": "Dazed：Controversial fashion ads",
+        "u": "https://www.dazeddigital.com/fashion/gallery/19779/13/controversial-fashion-ads"
       }
-    ]
+    ],
+    "collections": [
+      {
+        "season": "1995-96AW",
+        "city": "ミラノ",
+        "alias": "ベルベットとサテン",
+        "note": "フォードが全権を握った最初のコレクション。1970年代風。アンバー・ヴァレッタが胸元を開けたライムグリーンのサテンシャツと濃紺のベルベットのヒップハンガーで登場。ケイト・モス、シャローム・ハーロウも出演。マドンナが同じサテンシャツで1995年のMTV VMAに。"
+      },
+      {
+        "season": "1996-97AW",
+        "city": "ミラノ",
+        "note": "腰を大きくくり抜き金のバックルをつけた白いジャージーのドレス、赤いベルベットのタキシードなど。白いドレスは1996年春夏とする資料もある。",
+        "unverified": true
+      },
+      {
+        "season": "1997SS",
+        "city": "ミラノ",
+        "note": "カットアウトのドレス、レザーのバケットバッグなど。",
+        "unverified": true
+      },
+      {
+        "season": "1998SS",
+        "city": "ミラノ",
+        "note": "レザーのストラップドレス、Gロゴのバックルのピース。",
+        "unverified": true
+      },
+      {
+        "season": "1999SS",
+        "city": "ミラノ",
+        "note": "サイケデリックなプリント、レザーのライダースなど。",
+        "unverified": true
+      },
+      {
+        "season": "2004-05AW",
+        "city": "ミラノ",
+        "title": "トム・フォード最後のショー",
+        "note": "メンズは2004年1月15日、ウィメンズは2月に発表。自身の時代を振り返るミニ回顧展のようなショー。"
+      },
+      {
+        "season": "2005SS",
+        "city": "ミラノ",
+        "title": "ファッキネッティのデビュー",
+        "note": "2004年9月発表。ポスト・フォード期の最初のウィメンズ。"
+      },
+      {
+        "season": "2015-16AW",
+        "city": "ミラノ",
+        "title": "ミケーレのデビュー",
+        "note": "メンズ（2015年1月）は就任から数日で作ったとされ、ファーつきのローファー「Princetown」がヒット。ウィメンズで「Dionysus」バッグが登場。"
+      },
+      {
+        "season": "2017 Cruise",
+        "city": "ロンドン",
+        "title": "ウェストミンスター寺院",
+        "note": "2016年6月2日、寺院の回廊で。寺院で初めてのファッションショー。"
+      },
+      {
+        "season": "2018-19AW",
+        "city": "ミラノ",
+        "title": "Cyborg",
+        "alias": "生首",
+        "note": "モデル自身の頭部のレプリカを抱えて歩かせ、アイデンティティの構築を表現した。"
+      },
+      {
+        "season": "2020-21AW",
+        "city": "ミラノ",
+        "alias": "バックステージ",
+        "note": "ゲストがヘアメイクの部屋を通って会場に入る、舞台裏を見せるショー。"
+      },
+      {
+        "season": "2020",
+        "title": "Epilogue",
+        "note": "2020年7月、デザインチーム自身がモデルを務めたとされる。1960〜70年代にミラノで活動したケン・スコットの柄を使ったピースも。",
+        "unverified": true
+      },
+      {
+        "season": "2021",
+        "title": "Aria",
+        "note": "創業100周年。フロリア・シジスモンディと共同監督のフィルムで発表。Balenciagaとの「ハッカー・プロジェクト」。"
+      },
+      {
+        "season": "2023SS",
+        "city": "ミラノ",
+        "title": "Twinsburg",
+        "note": "2022年9月発表。68組の一卵性双生児がランウェイを歩いた。ミケーレ最後のコレクション。"
+      },
+      {
+        "season": "2024SS",
+        "city": "ミラノ",
+        "title": "Ancora",
+        "note": "2023年9月22日、デ・サルノのデビュー。雨予報で本社に会場を移した。深い赤「ロッソ・アンコーラ」とミニスカート、厚底ローファー。"
+      },
+      {
+        "season": "2025-26AW",
+        "city": "ミラノ",
+        "note": "デ・サルノ退任直後で、社内チームが発表。"
+      },
+      {
+        "season": "2026SS",
+        "title": "La Famiglia",
+        "note": "デムナの最初のコレクション。2025年9月22日にキャサリン・オピー撮影のルックブック、23日にスパイク・ジョーンズとハリナ・ライン監督、デミ・ムーア主演の短編映画「The Tiger」を公開。"
+      },
+      {
+        "season": "2026-27AW",
+        "city": "ミラノ",
+        "title": "Primavera",
+        "note": "2026年2月27日、デムナの初のランウェイ。",
+        "unverified": true
+      }
+    ],
+    "note": "グッチオ・グッチがサヴォイ・ホテルで働いていた話は有名ですが、ホテル側に記録がないとする指摘もあります。白いジャージーのドレスは1996年春夏とする資料と1996-97年秋冬とする資料があります。ジャンニーニの退任は2015年1月で、最後に手がけたのは2015年春夏とする資料もあります。"
   },
   {
     "id": "balenciaga",
@@ -4374,8 +5004,8 @@ window.BRANDS = [
   },
   {
     "id": "prada",
-    "name": "Prada / Miu Miu",
-    "ja": "プラダ / ミュウミュウ",
+    "name": "Prada",
+    "ja": "プラダ",
     "origin": "import",
     "country": "イタリア",
     "city": "ミラノ",
@@ -4386,27 +5016,63 @@ window.BRANDS = [
       "メンズ",
       "ウィメンズ"
     ],
-    "summary": "ミラノのガッレリアの革製品店から始まり、ミウッチャ・プラダが工業用ナイロンを高級素材に変えた。1990年代後半のPrada Sport（赤ライン）は古着市場でも定番。",
+    "summary": "1913年にミラノのガッレリアで始まった革製品店。1978年に経営を継いだミウッチャ・プラダが、工業用ナイロンのバッグ（1984年）や「アグリー・シック」と呼ばれた1996年春夏で、ラグジュアリーの価値観を変えた。1997年のPrada Sport（赤ライン）は古着でも定番。2020年からラフ・シモンズとの共同クリエイティブディレクター体制。",
     "history": [
       {
         "year": 1913,
-        "text": "マリオ・プラダがミラノで創業"
+        "text": "マリオ・プラダと兄弟のマルティーノが、ミラノのガッレリア・ヴィットリオ・エマヌエーレ2世に革製品店「Fratelli Prada」を開く"
       },
       {
         "year": 1978,
-        "text": "ミウッチャ・プラダが経営・デザインを担う"
+        "text": "孫娘のミウッチャ・プラダが経営とデザインを担う（のちに夫となるパトリツィオ・ベルテッリが事業面を担当）"
       },
       {
         "year": 1984,
-        "text": "ポコノ・ナイロンのバックパック（1979〜85年と資料で幅あり）"
+        "text": "ポコノ（Pocone）ナイロンのバックパック「Vela」を発表。よく知られた形になったのは1987年とする資料も"
+      },
+      {
+        "year": 1988,
+        "text": "初のウィメンズのプレタポルテ。ローウエストと細いベルトが特徴"
       },
       {
         "year": 1993,
-        "text": "Miu Miu開始。メンズも始まる"
+        "text": "Miu Miuを開始。メンズの最初のコレクションもこの年とする資料が多い"
+      },
+      {
+        "year": 1995,
+        "text": "10月、1996年春夏「Banal Eccentricity」を発表。のちに「アグリー・シック」と呼ばれる"
       },
       {
         "year": 1997,
-        "text": "Prada Sport（Linea Rossa）開始"
+        "text": "Prada Sport（Linea Rossa）を開始。同年、アメリカズカップに挑むヨットチーム（Prada Challenge、のちのLuna Rossa）が発足"
+      },
+      {
+        "year": 1998,
+        "text": "6月、1999年春夏のPrada Sportが約200点でランウェイに登場（ゴア、ショーラー、サーモアの素材）"
+      },
+      {
+        "year": 2001,
+        "text": "12月15日、OMA（レム・コールハース）設計のエピセンター・ニューヨークがソーホーに開店"
+      },
+      {
+        "year": 2003,
+        "text": "ヘルツォーク&ド・ムーロン設計のエピセンター東京（青山）が開店"
+      },
+      {
+        "year": 2005,
+        "text": "アーティストのエルムグリーン&ドラッグセットがテキサス州マーファに作品「Prada Marfa」を設置"
+      },
+      {
+        "year": 2011,
+        "text": "6月、香港証券取引所に上場"
+      },
+      {
+        "year": 2015,
+        "text": "公式サイトで過去のショーのアーカイブを公開。5月9日、OMA設計のフォンダツィオーネ・プラダがミラノのラルゴ・イザルコに開館"
+      },
+      {
+        "year": 2018,
+        "text": "2018-19年秋冬にLinea Rossaを再始動"
       },
       {
         "year": 2020,
@@ -4429,6 +5095,12 @@ window.BRANDS = [
         "to": null
       },
       {
+        "d": "neilbarrett",
+        "role": "メンズデザイン（Prada Sport立ち上げ期）",
+        "from": 1995,
+        "to": 1999
+      },
+      {
         "d": "raf",
         "role": "共同クリエイティブディレクター",
         "from": 2020,
@@ -4437,24 +5109,70 @@ window.BRANDS = [
     ],
     "items": [
       {
-        "name": "ナイロンバックパック",
-        "year": "1984頃",
-        "desc": "ポコノナイロンと三角プレート。"
+        "name": "ナイロンバックパック「Vela」",
+        "year": 1984,
+        "desc": "軍用テントにも使われたポコノナイロンと三角プレート。ラグジュアリーに「アンチ・ラグジュアリー」を持ち込んだ。最初は黒と茶。"
       },
       {
-        "name": "Prada Sport（赤ライン）",
-        "year": 1997,
-        "desc": "赤いラインのロゴが入ったテクニカルウェア・スニーカー。"
+        "name": "Prada Sport（赤ライン）のナイロンアウター",
+        "year": "1997〜",
+        "desc": "赤いラインのロゴのテクニカルウェア。"
+      },
+      {
+        "name": "アメリカズカップ・スニーカー",
+        "year": "1997（構想）/1999SS",
+        "desc": "Luna Rossaのために構想され、1999年春夏の広告で正式に登場。パテントレザーとメッシュの組み合わせ。原型に近い形で再発されている。"
+      },
+      {
+        "name": "1996年春夏のフォーマイカ柄スカート・ドレス",
+        "year": "1996SS",
+        "desc": "アグリー・シックを象徴する、ずれた色と柄の服。"
+      },
+      {
+        "name": "フェアリー柄（ジェームス・ジーン）",
+        "year": "2008SS",
+        "desc": "服・バッグ・靴に展開された妖精のプリント。"
+      },
+      {
+        "name": "バナナ柄",
+        "year": "2011SS",
+        "desc": "「ミニマル・バロック」のシーズンのプリント。"
+      },
+      {
+        "name": "フレイムヒール",
+        "year": "2012SS",
+        "desc": "1950年代のアメリカ車をかたどったヒールと炎の切り替え。"
+      },
+      {
+        "name": "壁画プリント",
+        "year": "2014SS",
+        "desc": "女性の顔の壁画をニットやコート、バッグに。"
+      },
+      {
+        "name": "ガッレリア・バッグ",
+        "year": "2007頃",
+        "desc": "サフィアーノレザーのかっちりしたトート。",
+        "unverified": true
+      },
+      {
+        "name": "Re-Edition 2000 / 2005",
+        "year": "2020年代",
+        "desc": "過去のナイロンバッグの復刻。名前は元の発売年から。",
+        "unverified": true
       }
     ],
     "archive": [
-      "1990年代後半〜2000年代前半のPrada Sportのナイロンアウターは古着で探しやすい入門アーカイブ。"
+      "1990年代のポコノナイロンのバッグは、ナイロンの状態と三角プレートの状態で価値が大きく変わる。",
+      "1990年代後半〜2000年代前半のPrada Sportのナイロンアウターは古着で探しやすい入門アーカイブ。",
+      "1996年春夏（アグリー・シック）、2008年春夏（フェアリー）、2011年春夏（バナナ）、2012年春夏（フレイム）などシーズンがはっきりしたピースは人気が高い。",
+      "公式サイトの「Pradasphere」で過去のショーのルックを確認できる。"
     ],
     "related": [
       "raf",
       "jilsander",
       "helmutlang",
-      "versace"
+      "versace",
+      "miumiu"
     ],
     "sources": [
       {
@@ -4470,8 +5188,112 @@ window.BRANDS = [
         "u": "https://www.nssmag.com/en/fashion/22420/la-storia-di-prada-linea-rossa"
       },
       {
-        "t": "Wikipedia：Miu Miu",
-        "u": "https://en.wikipedia.org/wiki/Miu_Miu"
+        "t": "Prada Group：History",
+        "u": "https://pradagroup.com/en/group/history.html"
+      },
+      {
+        "t": "Prada 公式：SS 1999 Menswear",
+        "u": "https://www.prada.com/ww/en/pradasphere/fashion-shows/1999/ss-menswear.html"
+      },
+      {
+        "t": "Prada 公式：Epicenter New York",
+        "u": "https://www.prada.com/us/en/pradasphere/places/epicenter-new-york.html"
+      },
+      {
+        "t": "Prada 公式：Prada Linea Rossa FW 2018",
+        "u": "https://www.prada.com/us/en/pradasphere/special-projects/2018/prada-linea-rossa-fw-2018.html"
+      },
+      {
+        "t": "Prada 公式：America's Cup",
+        "u": "https://www.prada.com/ww/en/americas-cup"
+      },
+      {
+        "t": "nss magazine：Ugly Chic",
+        "u": "https://www.nssmag.com/en/fashion/32295/miuccia-prada-ugly-chic"
+      },
+      {
+        "t": "VSP Consignment：Stylist's Notes Prada Spring 1996",
+        "u": "https://vspconsignment.com/en-us/blogs/news/stylists-notes-prada-spring-1996"
+      },
+      {
+        "t": "Archivé：Prada SS and FW 1996",
+        "u": "https://archiveco.substack.com/p/prada-ss-and-fw-1996"
+      },
+      {
+        "t": "Truss：An Exploration of Prada Sport",
+        "u": "https://trussarchive.com/editorials/an-exploration-of-prada-sport"
+      },
+      {
+        "t": "Dazed：A brief history of Prada's Linea Rossa",
+        "u": "https://www.dazeddigital.com/fashion/article/41511/1/miuccia-prada-sport-linea-rossa-collection-milan-fashion-week-autumn-winter-2019"
+      },
+      {
+        "t": "Highsnobiety：Prada sneaker history",
+        "u": "https://highsnobiety.com/p/prada-sneaker-history"
+      },
+      {
+        "t": "W Magazine：Prada nylon backpack history",
+        "u": "https://www.wmagazine.com/fashion/prada-nylon-backpack-history-backstory"
+      },
+      {
+        "t": "Grailed：Prada Nylon History",
+        "u": "https://www.grailed.com/drycleanonly/prada-nylon-history"
+      },
+      {
+        "t": "Paper：10 times Miuccia Prada changed the game",
+        "u": "https://www.papermag.com/10-times-miuccia-prada-changed-the-game"
+      },
+      {
+        "t": "Time：Prada Fall 2007",
+        "u": "https://content.time.com/time/specials/2007/article/0,28804,1647860_1647834_1644300,00.html"
+      },
+      {
+        "t": "Irenebrination：Prada S/S 2011",
+        "u": "https://www.irenebrination.com/2010/09/24/prada-ss-2011/"
+      },
+      {
+        "t": "theFashionSpot：Prada Spring 2012 Runway Review",
+        "u": "https://www.thefashionspot.com/runway-news/169292-prada-spring-2012-runway-review"
+      },
+      {
+        "t": "Dazed：Prada menswear A/W12",
+        "u": "https://www.dazeddigital.com/fashion/article/12392/1/prada-menswear-a-w12"
+      },
+      {
+        "t": "2x4：Prada SS14 Women's Fashion Show",
+        "u": "https://2x4.org/work/prada-spring-and-summer-2014-fashion-show/"
+      },
+      {
+        "t": "Business of Fashion：Tim Blanks Top Shows, Prada AW2013",
+        "u": "https://www.businessoffashion.com/reviews/fashion-week/tim-blanks-top-fashion-shows-of-all-time-prada-autumn-winter-2013-february-21-2013"
+      },
+      {
+        "t": "The Fashion Law：Prada Does an Archive Deep Dive for F/W 2018",
+        "u": "https://www.thefashionlaw.com/milan-fashion-week-prada-looks-to-its-own-archives-for-fw-2018"
+      },
+      {
+        "t": "Hypebeast：What to Make of Raf's First Prada Collection?",
+        "u": "https://hypebeast.com/2020/9/raf-simons-miuccia-prada-debut-spring-summer-2021-womenswear-reaction"
+      },
+      {
+        "t": "FashionNetwork：Miuccia and Raf make their joint runway debut",
+        "u": "https://au.fashionnetwork.com/news/Prada-Miuccia-and-Raf-make-their-joint-runway-debut,1337586.html"
+      },
+      {
+        "t": "Wikipedia：Prada Marfa",
+        "u": "https://en.wikipedia.org/wiki/Prada_Marfa"
+      },
+      {
+        "t": "Hypebeast：Prada Presents Comprehensive Full Archive Online",
+        "u": "https://hypebeast.com/2015/2/prada-presents-comprehensive-full-archive-online"
+      },
+      {
+        "t": "Luxury Society：What Prada's IPO says about the bigger picture",
+        "u": "https://luxurysociety.com/en/articles/2011/06/what-pradas-ipo-says-about-the-bigger-picture"
+      },
+      {
+        "t": "Wikipedia：Prada",
+        "u": "https://en.wikipedia.org/wiki/Prada"
       }
     ],
     "lines": [
@@ -4483,20 +5305,33 @@ window.BRANDS = [
       {
         "name": "Miu Miu",
         "from": 1993,
-        "desc": "ミウッチャ・プラダの子ども時代の愛称から（1992年開始とする資料も）。2015年に初の香水。「Pradaの妹分」と見られがちだが独自の路線。"
+        "desc": "ミウッチャ・プラダの子ども時代の愛称から（1992年開始とする資料も）。詳しくはMiu Miuのページへ。"
       },
       {
         "name": "Prada Linea Rossa（Prada Sport）",
         "from": 1997,
-        "desc": "1997年に始まったテクニカルなスポーツウェアのライン。赤いラインのロゴ。同年、アメリカズカップに挑むセーリングチーム「Luna Rossa」も発足。",
+        "desc": "1997年に始まったテクニカルなスポーツウェアのライン。赤いラインのロゴ。ヨットのウェアをもとにした裁断と素材で、ゴア（GORE-TEX）、ショーラー、サーモアなどのテクニカル素材を使った。1990年代末〜2000年代初頭はLuna Rossaの活躍とともに人気だったが、のちに一部の定番とサングラスなどが残る程度に。2018年に正式名「Prada Linea Rossa」で再始動。",
         "history": [
           {
             "year": 1997,
-            "text": "スタート"
+            "text": "スタート。同年にヨットチームのPrada Challenge（のちのLuna Rossa）も発足"
+          },
+          {
+            "year": 1998,
+            "text": "6月、1999年春夏が約200点でランウェイに"
           },
           {
             "year": 1999,
-            "text": "1999年春夏のPradaのランウェイに登場"
+            "text": "1999年春夏・1999-2000年秋冬・2000年春夏の3シーズン、ランウェイに登場したとされる"
+          },
+          {
+            "year": 2001,
+            "text": "2001年春夏の広告をフィル・ポインターが撮影"
+          },
+          {
+            "year": 2009,
+            "text": "「Linea Rossa」に改称したとする資料",
+            "unverified": true
           },
           {
             "year": 2018,
@@ -4504,10 +5339,215 @@ window.BRANDS = [
           }
         ],
         "archive": [
-          "1990年代後半〜2000年代前半のナイロンアウターや赤ラインのスニーカーは、古着で探しやすい入門アーカイブ。"
+          "1990年代後半〜2000年代前半のナイロンアウターや赤ラインのスニーカーは、古着で探しやすい入門アーカイブ。",
+          "Luna Rossa（ヨットチームの名を冠した機能性ウェア）とLinea Rossaは別のコレクションなので混同に注意。"
+        ],
+        "designer": "ニール・バレット（立ち上げ期とされる）→ プラダのデザインチーム",
+        "collections": [
+          {
+            "season": "1999SS",
+            "note": "1998年6月発表。約200点。ゴア、ショーラー、サーモアの素材。"
+          },
+          {
+            "season": "1999-2000AW",
+            "note": "メインラインのテーラリングにPrada Sportの機能的なアクセサリーを合わせた。",
+            "unverified": true
+          },
+          {
+            "season": "2000SS",
+            "note": "ランウェイ最後のシーズンとされる。",
+            "unverified": true
+          },
+          {
+            "season": "2001SS",
+            "title": "キャンペーン",
+            "note": "フィル・ポインター撮影。"
+          },
+          {
+            "season": "2018-19AW",
+            "title": "再始動",
+            "note": "赤いラインのロゴを戻したテクニカルなコレクション。"
+          }
+        ],
+        "items": [
+          {
+            "name": "ナイロン・GORE-TEXのシェルジャケット",
+            "year": "1997〜2000年代",
+            "desc": "赤いラインのロゴ入り。"
+          },
+          {
+            "name": "ツートーンのナイロン・ジップベスト",
+            "year": "1999SS",
+            "desc": "古着でよく見る1999年春夏のピース。",
+            "unverified": true
+          },
+          {
+            "name": "アメリカズカップ・スニーカー",
+            "year": "1999SS",
+            "desc": "Luna Rossaのために構想されたスニーカー。1998年秋冬にはそのソールを使ったレザーのハイブリッドも。"
+          }
         ]
       }
-    ]
+    ],
+    "collections": [
+      {
+        "season": "1988-89AW",
+        "title": "初のウィメンズ",
+        "city": "ミラノ",
+        "note": "ローウエストと細いベルト。",
+        "unverified": true
+      },
+      {
+        "season": "1996SS",
+        "title": "Banal Eccentricity",
+        "city": "ミラノ",
+        "alias": "アグリー・シック",
+        "note": "1995年10月発表。壁紙やフォーマイカ（化粧板）のような柄を、緑・黄土・茶・薄紫・白でぶつけた。当時は「醜い」と酷評されたが、1990年代で最も影響力のあったコレクションのひとつとされる。"
+      },
+      {
+        "season": "1996-97AW",
+        "city": "ミラノ",
+        "alias": "アグリー・シック",
+        "note": "春夏の流れを継いだシーズン。「ギーク・シック」「ジョリ・レード」とも。",
+        "unverified": true
+      },
+      {
+        "season": "1998SS",
+        "title": "メンズのプレタポルテ",
+        "city": "ミラノ",
+        "note": "メンズ最初のプレタポルテとする資料（Wikipediaなど）。1993年や1995年とする資料もある。",
+        "unverified": true
+      },
+      {
+        "season": "1999SS",
+        "title": "Prada Sport",
+        "city": "ミラノ",
+        "note": "1998年6月発表。テクニカル素材のPrada Sportがランウェイに。アメリカズカップ・スニーカーはこのシーズンの広告で正式に登場。"
+      },
+      {
+        "season": "1999-2000AW",
+        "city": "ミラノ",
+        "note": "メンズでニール・バレット期の代表とされるシーズン。フライトパンツなど。",
+        "unverified": true
+      },
+      {
+        "season": "2000SS",
+        "city": "ミラノ",
+        "note": "Prada Sportがランウェイに出た3シーズン目（最後）とされる。",
+        "unverified": true
+      },
+      {
+        "season": "2005-06AW",
+        "city": "ミラノ",
+        "note": "バラのプリントがのちに名作として語られ、2018-19年秋冬で再び使われた。",
+        "unverified": true
+      },
+      {
+        "season": "2007-08AW",
+        "city": "ミラノ",
+        "note": "シェラック加工のようなモヘアのツインセット、厚手のギャバジンのコート、足先のないソックス。"
+      },
+      {
+        "season": "2008SS",
+        "city": "ミラノ",
+        "alias": "フェアリー",
+        "note": "イラストレーターのジェームス・ジーンとの協働で、妖精が描かれたアール・ヌーヴォー調のプリント。会場はAMOが設計。"
+      },
+      {
+        "season": "2008-09AW",
+        "city": "ミラノ",
+        "alias": "レース",
+        "note": "「おばさんっぽい」素材のギピュールレースを主役にした。"
+      },
+      {
+        "season": "2010SS",
+        "city": "ミラノ",
+        "note": "1950年代のマイアミのような、ヤシの木とシャンデリアのモチーフ。"
+      },
+      {
+        "season": "2010-11AW",
+        "city": "ミラノ",
+        "note": "1960年代と1990年代のPradaを下敷きにした、曲線を強調したシルエット。"
+      },
+      {
+        "season": "2011SS",
+        "city": "ミラノ",
+        "alias": "バナナ",
+        "note": "ミウッチャ本人いわく「ミニマル・バロック」。太いストライプ、バナナ、猿のプリント、厚底のクリーパー。"
+      },
+      {
+        "season": "2011-12AW",
+        "city": "ミラノ",
+        "note": "毛皮のスイムキャップ、スキーゴーグルのようなサングラス。"
+      },
+      {
+        "season": "2012SS",
+        "city": "ミラノ",
+        "title": "Women and Cars",
+        "alias": "フレイムシューズ",
+        "note": "1950年代のアメリカ車のテールフィンをかたどったヒールと炎のモチーフ。"
+      },
+      {
+        "season": "2012-13AW",
+        "city": "ミラノ",
+        "title": "Il Palazzo（メンズ）",
+        "alias": "俳優ランウェイ",
+        "note": "2012年1月発表。ゲイリー・オールドマン、ウィレム・デフォー、エイドリアン・ブロディ、ジェイミー・ベル、ギャレット・ヘドランド、エミール・ハーシュ、ティム・ロスらが歩いた。オールドマンがダブルの黒いイブニングコートでトリ。"
+      },
+      {
+        "season": "2013-14AW",
+        "city": "ミラノ",
+        "note": "ティム・ブランクスが「史上最高のショー」のひとつに挙げたシーズン。"
+      },
+      {
+        "season": "2014SS",
+        "city": "ミラノ",
+        "title": "In the Heart of the Multitude",
+        "alias": "壁画",
+        "note": "会場の壁をエル・マック、メサ、ガブリエル・スペクター、スティンクフィッシュらの壁画家と、イラストレーターのジャンヌ・デタラント、ピエール・モルネが描き、その女性の顔を服やバッグに使った。2x4とAMOが空間を担当。"
+      },
+      {
+        "season": "2018-19AW",
+        "city": "ミラノ",
+        "title": "（メンズ）",
+        "note": "過去のプリントを総ざらいしたシーズン。同時期にLinea Rossaが再始動。"
+      },
+      {
+        "season": "2021SS",
+        "title": "ラフ・シモンズとの初の共作",
+        "note": "2020年9月、デジタルで発表。"
+      },
+      {
+        "season": "2021-22AW",
+        "note": "2人による2回目のウィメンズ。テーマは変化と変容。"
+      },
+      {
+        "season": "2022SS",
+        "city": "ミラノ / 上海",
+        "note": "2021年9月、フォンダツィオーネ・プラダと上海で同時に開いた、2人で初めての有観客ショー。"
+      },
+      {
+        "season": "2022-23AW",
+        "city": "ミラノ",
+        "note": "女性とPradaの歴史を考えたウィメンズ。特大のボンバージャケット。"
+      },
+      {
+        "season": "2023SS",
+        "city": "ミラノ",
+        "note": "端を切りっぱなしにした素材など、そぎ落としたウィメンズ。"
+      },
+      {
+        "season": "2024SS",
+        "city": "ミラノ",
+        "note": "「今の美しいもの」を目指した、そぎ落としたウィメンズ。"
+      },
+      {
+        "season": "2027SS",
+        "city": "ミラノ",
+        "note": "全63ルックにスカートを入れるルールで発表。"
+      }
+    ],
+    "note": "メンズの開始年は資料によって1993年・1995年・1998年春夏と分かれます。ニール・バレットの在籍期間も資料で異なります（1999年に自身のブランドを開始、Prada Sport開始から約4年後に退いたとする資料も）。"
   },
   {
     "id": "givenchy",
@@ -10397,6 +11437,277 @@ window.BRANDS = [
       {
         "t": "Hypebeast：Daiki Suzuki",
         "u": "https://hypebeast.com/people/daiki-suzuki"
+      }
+    ]
+  },
+  {
+    "id": "miumiu",
+    "name": "Miu Miu",
+    "ja": "ミュウミュウ",
+    "origin": "import",
+    "country": "イタリア",
+    "city": "ミラノ / パリ",
+    "founded": 1993,
+    "tags": [
+      "ウィメンズ",
+      "ラグジュアリー",
+      "アーカイブ",
+      "Y2K"
+    ],
+    "summary": "ミウッチャ・プラダが自身の子ども時代の愛称から名付けたブランド。Pradaの「妹分」と呼ばれがちだが、少女性とずれた品の良さを混ぜた独自の路線を持つ。1990年代の広告（コリーヌ・デイ、ユルゲン・テラー撮影）、1999〜2008年のメンズライン、2022年春夏のマイクロミニなど、アーカイブとして語られる時期が多い。",
+    "history": [
+      {
+        "year": 1993,
+        "text": "ミウッチャ・プラダが開始（1992年開始とする資料も）"
+      },
+      {
+        "year": 1994,
+        "text": "最初の広告キャンペーン。モデルはロズマリー・ファーガソン、撮影はコリーヌ・デイ（1994年春夏）"
+      },
+      {
+        "year": 1995,
+        "text": "ドリュー・バリモアを起用したキャンペーン"
+      },
+      {
+        "year": 1996,
+        "text": "1996年春夏、クロエ・セヴィニーがニューヨークのブライアント・パークでのショーのオープニングを務め、ユルゲン・テラー撮影の広告にも登場（スタイリングはジョー・マッケナ）"
+      },
+      {
+        "year": 1997,
+        "text": "ショーの発表地をニューヨークからロンドンへ移す",
+        "unverified": true
+      },
+      {
+        "year": 1999,
+        "text": "メンズが始まる（1999年春夏・秋冬はウィメンズと合同のショー）"
+      },
+      {
+        "year": 2005,
+        "text": "2005年春夏からメンズ単独のショー"
+      },
+      {
+        "year": 2006,
+        "text": "パリ・ファッションウィークに参加。ショー会場のデザインでAMO/OMAとの協働が始まる"
+      },
+      {
+        "year": 2008,
+        "text": "2008年春夏を最後にメンズラインを終了"
+      },
+      {
+        "year": 2011,
+        "text": "女性監督による短編映画シリーズ「Miu Miu Women's Tales」開始",
+        "unverified": true
+      },
+      {
+        "year": 2015,
+        "text": "初の香水"
+      },
+      {
+        "year": 2021,
+        "text": "10月、パリのパレ・ディエナで2022年春夏「Basic Instincts」。ローライズのマイクロミニとクロップドニットが世界的に流行"
+      },
+      {
+        "year": 2022,
+        "text": "2022-23年秋冬で男性モデルのルックが復活（メンズラインの正式な再開ではない）。Lystの年間「ブランド・オブ・ザ・イヤー」"
+      },
+      {
+        "year": 2023,
+        "text": "Lystの年間「ブランド・オブ・ザ・イヤー」（2年連続）"
+      },
+      {
+        "year": 2024,
+        "text": "Lyst Indexで第1・第3・第4四半期の1位"
+      },
+      {
+        "year": 2025,
+        "text": "Lystの年間ランキングで3年連続の首位と報じられる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "mprada",
+        "role": "創業者・デザイナー",
+        "from": 1993,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1994SS",
+        "title": "最初のキャンペーン",
+        "note": "ロズマリー・ファーガソンをコリーヌ・デイがネオリアリズム風に撮影。"
+      },
+      {
+        "season": "1995",
+        "title": "ドリュー・バリモアのキャンペーン",
+        "note": "映画『KIDS』公開の数か月後で、ブランドの最初の突破口とされる。",
+        "unverified": true
+      },
+      {
+        "season": "1996SS",
+        "title": "「Miu Miuガール」の誕生",
+        "city": "ニューヨーク",
+        "alias": "クロエ・セヴィニー期",
+        "note": "クロエ・セヴィニーがショーのオープニングと広告（ユルゲン・テラー撮影）。メンズライクな服とスライドサンダル。"
+      },
+      {
+        "season": "1997-98AW",
+        "city": "ロンドン",
+        "note": "黒のウールのマキシコートなど。",
+        "unverified": true
+      },
+      {
+        "season": "1999-2000AW",
+        "note": "蝶結びのリボンモチーフ。メンズが初めて単独でランウェイに出たシーズンとされる。"
+      },
+      {
+        "season": "2006SS",
+        "city": "パリ",
+        "note": "1950〜60年代のスペースエイジを現代風に。",
+        "unverified": true
+      },
+      {
+        "season": "2008SS",
+        "city": "パリ",
+        "note": "プリマバレリーナ、フレンチメイド、プレイボーイのバニー、ハーレイ・クインなどが着想源。"
+      },
+      {
+        "season": "2009-10AW",
+        "city": "パリ",
+        "note": "チェックの装飾ソックスなど。ミウッチャ本人は疑問を口にしながらも、名作と評価の高いシーズン。"
+      },
+      {
+        "season": "2014-15AW",
+        "city": "パリ",
+        "note": "重い装飾と型破りなスタイリング、キャスティング。"
+      },
+      {
+        "season": "2022SS",
+        "title": "Basic Instincts",
+        "city": "パリ",
+        "alias": "マイクロミニ",
+        "note": "パレ・ディエナで発表。ローライズのプリーツ・マイクロミニとクロップドのアーガイルニット。ヘイリー・ビーバーの広告などで爆発的に流行。"
+      },
+      {
+        "season": "2022-23AW",
+        "city": "パリ",
+        "note": "2022年春夏の流れを継ぎ、男性モデルのルックも登場。"
+      }
+    ],
+    "lines": [
+      {
+        "name": "Miu Miu（メンズ）",
+        "from": 1999,
+        "to": 2008,
+        "designer": "ミウッチャ・プラダ",
+        "desc": "1999〜2008年に存在したMiu Miuのメンズ。リラックスしたテーラリング、ユーティリティベルト、あえて野暮ったい靴が特徴。資料が少なく「忘れられたライン」とも呼ばれる。",
+        "history": [
+          {
+            "year": 1999,
+            "text": "1999年春夏・秋冬はウィメンズと合同のショー。1999-2000年秋冬で初めて単独で披露"
+          },
+          {
+            "year": 2005,
+            "text": "2005年春夏からメンズ単独のショー"
+          },
+          {
+            "year": 2008,
+            "text": "2008年春夏のショーが最後"
+          },
+          {
+            "year": 2022,
+            "text": "2022-23年秋冬のウィメンズのショーで男性モデルのルックが登場"
+          }
+        ],
+        "collections": [
+          {
+            "season": "2002-03AW",
+            "title": "キャンペーン",
+            "note": "メールト&マーカスが撮影。"
+          },
+          {
+            "season": "2006-07AW",
+            "note": "ヘリンボーンのツイード、ミリタリーのシルエット、くすんだ色のニットが中心の落ち着いたシーズン。"
+          },
+          {
+            "season": "2008SS",
+            "note": "Miu Miuメンズ最後のショー。"
+          }
+        ],
+        "archive": [
+          "タグはMiu Miuのまま。ウィメンズと間違えやすいので、サイズ表記と身頃の作りで確かめる。"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "プリーツのマイクロミニスカートとクロップドニット",
+        "year": "2022SS",
+        "desc": "ローライズのミニとアーガイルのクロップドニットのセット。2022年に最も話題になった服のひとつ。"
+      },
+      {
+        "name": "バレエシューズ",
+        "year": "2020年代",
+        "desc": "近年のヒット商品。",
+        "unverified": true
+      }
+    ],
+    "archive": [
+      "1990年代〜2000年代初頭のMiu Miuは、少女的でありながら変わった色合わせとシルエットが人気。",
+      "公式サイトで1993年以降のキャンペーン・ルックブック・ショーの画像アーカイブが公開されている。"
+    ],
+    "related": [
+      "prada"
+    ],
+    "note": "開始年は1993年が一般的ですが、1992年とする資料もあります。",
+    "sources": [
+      {
+        "t": "Miu Miu 公式：Spring Summer 1996 Campaign",
+        "u": "https://www.miumiu.com/us/en/miumiu-club/campaigns/ss96-campaign.html"
+      },
+      {
+        "t": "Dazed：A brief history of Miu Miu's forgotten menswear line",
+        "u": "https://www.dazeddigital.com/fashion/article/39299/1/a-brief-history-of-miu-miu-forgotten-menswear-line-miuccia-prada"
+      },
+      {
+        "t": "AnOther：Miu Miu campaign archive",
+        "u": "https://www.anothermag.com/fashion-beauty/gallery/7206/miu-miu-campaign-archive/0"
+      },
+      {
+        "t": "nss magazine：Thirty years of Miu Miu",
+        "u": "https://nssmag.com/en/fashion/34385/miu-miu-archive"
+      },
+      {
+        "t": "Fashion Week Daily：Miu Miu's Entire Image Archive Is Now Available Online",
+        "u": "https://fashionweekdaily.com/miu-miu-online-image-archive/"
+      },
+      {
+        "t": "W Magazine：Miu Miu archive collectors",
+        "u": "https://www.wmagazine.com/fashion/miu-miu-archive-vintage-y2k-collectors-interview"
+      },
+      {
+        "t": "i-D：7 of Miu Miu's most iconic collections",
+        "u": "https://i-d.co/article/miu-miu-best-collections/"
+      },
+      {
+        "t": "Glossy：The cult of the Miu Miu mini skirt",
+        "u": "https://www.glossy.co/fashion/the-cult-of-the-miu-miu-mini-skirt"
+      },
+      {
+        "t": "Hypebeast：Miu Miu Returns to Menswear After 13 Years",
+        "u": "https://hypebeast.com/2022/3/miu-miu-return-to-menswear-fw22-collection-info"
+      },
+      {
+        "t": "FashionUnited：Miu Miu dominates Lyst Index for Q4 2024",
+        "u": "https://fashionunited.uk/news/fashion/miu-miu-dominates-lyst-index-for-q4-2024-coach-soars/2025012983076"
+      },
+      {
+        "t": "Jing Daily：Miu Miu tops Lyst as hottest brand for third year",
+        "u": "https://jingdaily.com/intels/2025-12/16/miu-miu-tops-lyst-as-hottest-brand-for-third-year"
+      },
+      {
+        "t": "Wikipedia：Miu Miu",
+        "u": "https://en.wikipedia.org/wiki/Miu_Miu"
       }
     ]
   }

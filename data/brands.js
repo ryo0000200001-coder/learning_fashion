@@ -89,6 +89,16 @@ window.BRANDS = [
         "name": "PLAY ハートロゴ",
         "year": 2002,
         "desc": "ポーランド出身のアーティスト、フィリップ・パゴウスキーによる目のついた赤いハート。"
+      },
+      {
+        "name": "メッシュ切り替えのダブルのコート（オム・プリュス）",
+        "year": 2001,
+        "desc": "2001-02年秋冬、裾がメッシュになったダブルのコート。"
+      },
+      {
+        "name": "オム・プリュスと他ブランドの協業",
+        "year": "2000年代〜",
+        "desc": "ジュンヤ・ワタナベ、Nike、ローリング・ストーンズなどとの協業は特に人気が高い。"
       }
     ],
     "archive": [
@@ -955,10 +965,26 @@ window.BRANDS = [
         "credit": "Masaki-H / Wikimedia Commons",
         "license": "CC BY 2.0",
         "imgPage": "https://commons.wikimedia.org/wiki/File:Y-3_Fall-Winter_2010_232.jpg"
+      },
+      {
+        "name": "Marionette のジャケット",
+        "year": "1994-95AW",
+        "desc": "1994-95年秋冬プールオムの名作。2026年に復刻された。"
+      },
+      {
+        "name": "Flower and Boys の牡丹プリント",
+        "year": 1996,
+        "desc": "1996年春夏プールオムの、牡丹と鳳凰のプリント。"
+      },
+      {
+        "name": "タトゥー柄のセーター",
+        "year": 2003,
+        "desc": "2003-04年秋冬の、刺青の柄を編み込んだセーター。"
       }
     ],
     "archive": [
-      "Y's、Yohji Yamamoto（メイン）、POUR HOMME、Y's for men などラインを確認する。"
+      "Y's、Yohji Yamamoto（メイン）、POUR HOMME、Y's for men などラインを確認する。",
+      "Y's BORN PRODUCT、COSTUME D'HOMME などの名前は、独立したブランドではなくシリーズ名のことがある。品質表示と製造元のタグを確認する。"
     ],
     "related": [
       "cdg",
@@ -1017,6 +1043,14 @@ window.BRANDS = [
       {
         "t": "AnOther：Yohji Yamamoto's S/S99 Wedding",
         "u": "https://www.anothermag.com/fashion-beauty/7437/an-invitation-to-yohji-yamamotos-s-s99-wedding"
+      },
+      {
+        "t": "Sui Generis：Yohji Yamamoto authentication guide",
+        "u": "https://suigenerisconsignment.com/pages/designer-authentication-guide/yohji-yamamoto"
+      },
+      {
+        "t": "Hypebeast：Yohji Yamamoto Pour Homme Cracked Embroidery",
+        "u": "https://hypebeast.com/2026/4/yohji-yamamoto-pour-homme-cracked-embroidery-collection-release-info"
       }
     ],
     "lines": [
@@ -1166,6 +1200,10 @@ window.BRANDS = [
         "note": "赤いチュールのバッスルをつけた黒いコートが有名。"
       },
       {
+        "season": "1990-91AW",
+        "title": "（ブルズアイのジャケット）"
+      },
+      {
         "season": "1991-92AW",
         "title": "（ウェディングドレス）",
         "city": "パリ",
@@ -1177,6 +1215,11 @@ window.BRANDS = [
         "city": "パリ"
       },
       {
+        "season": "1994-95AW",
+        "title": "Marionette（プールオム）",
+        "note": "柄とシルエットは2026年に「Cracked Embroidery」として復刻された。"
+      },
+      {
         "season": "1995SS",
         "title": "",
         "city": "パリ"
@@ -1185,6 +1228,11 @@ window.BRANDS = [
         "season": "1995-96AW",
         "title": "",
         "city": "パリ"
+      },
+      {
+        "season": "1996SS",
+        "title": "Flower and Boys（プールオム）",
+        "note": "牡丹と鳳凰を黒で大胆にプリントした。"
       },
       {
         "season": "1996-97AW",
@@ -1221,6 +1269,10 @@ window.BRANDS = [
         "season": "2003SS",
         "title": "",
         "city": "パリ"
+      },
+      {
+        "season": "2003-04AW",
+        "title": "（タトゥー柄のセーター）"
       }
     ],
     "aka": [
@@ -2145,6 +2197,11 @@ window.BRANDS = [
         "note": "THE GREATESTは25周年の回顧的コレクション。スター・ウォーズとのコラボも。"
       },
       {
+        "season": "2016SS",
+        "title": "THE GREATEST（25周年の復刻・メンズ）",
+        "note": "過去の名作を復刻した。"
+      },
+      {
         "season": "2016-17AW",
         "title": "PERFECT DAY（W）/ INSTANT CALM（M）",
         "city": "パリ",
@@ -2265,6 +2322,21 @@ window.BRANDS = [
         "name": "GYAKUSOU",
         "year": 2010,
         "desc": "Nikeとのランニングウェア。"
+      },
+      {
+        "name": "SCAB のエスニック・クラスト・パンツとバックパック",
+        "year": 2003,
+        "desc": "かさぶたのようにパッチを重ねて縫った、クラスト・パンクのアイテム。"
+      },
+      {
+        "name": "Geräusch のジャケット",
+        "year": "2010年代",
+        "desc": "フランク・オーシャンが2013年のブリット・アワードで着たジャケット。"
+      },
+      {
+        "name": "but beautiful の目玉ボタンのパイル・ジャケット",
+        "year": 2005,
+        "desc": "目玉の形のボタンをつけたタオル地のジャケット。"
       }
     ],
     "archive": [
@@ -2323,6 +2395,14 @@ window.BRANDS = [
       {
         "t": "Grailed：A Look at Undercover",
         "u": "https://www.grailed.com/drycleanonly/master-class-undercover"
+      },
+      {
+        "t": "Le Petit Archive：Undercover SS03 SCAB",
+        "u": "https://www.lepetitarchive.com/collections-undercover-ss03-scab-history/"
+      },
+      {
+        "t": "Hypebeast：UNDERCOVER's Greatest Hits",
+        "u": "https://hypebeast.com/2015/6/undercovers-greatest-hits"
       }
     ],
     "lines": [
@@ -2913,8 +2993,20 @@ window.BRANDS = [
         "text": "阿部千登勢がsacaiを始める（小さなサイドビジネスとして）"
       },
       {
+        "year": 2003,
+        "text": "代官山に最初のオフィス"
+      },
+      {
         "year": 2009,
         "text": "パリでの発表を開始"
+      },
+      {
+        "year": 2010,
+        "text": "モンクレールと協業"
+      },
+      {
+        "year": 2011,
+        "text": "2月、パリで初めてのランウェイ"
       },
       {
         "year": 2015,
@@ -2982,7 +3074,7 @@ window.BRANDS = [
         "from": 1999,
         "to": 2008,
         "d": "abe_c",
-        "text": "コム デ ギャルソンでパタンナーとして働いた阿部千登勢が、子育てをしながら5型のニットから始めた時代。ニットに布地を組み合わせた、前と後ろで表情が違う服が評判になった。",
+        "text": "コム デ ギャルソンでパタンナーとして働いた阿部千登勢が、子育てをしながら5型のニットから始めた時代。ニットに布地を組み合わせた、前と後ろで表情が違う服が評判になった。\nブランド名は阿部の旧姓「坂井」から。最初は5型のニットだけだった。",
         "works": [
           "布地をはぎ合わせたニット",
           "プリーツを組み合わせたカーディガン"
@@ -3242,7 +3334,7 @@ window.BRANDS = [
         "from": 2000,
         "to": 2008,
         "d": "nakamura",
-        "text": "中村ヒロキがシューズから始めた時代。ネイティブ・アメリカンのモカシンにスニーカーのソールをつけた FBT（2001年ごろ）、クリスト（サンダル）などで人気になった。",
+        "text": "中村ヒロキがシューズから始めた時代。ネイティブ・アメリカンのモカシンにスニーカーのソールをつけた FBT（2001年ごろ）、クリスト（サンダル）などで人気になった。\n中村ヒロキはバートン・スノーボードでデザイナーをしていた。クリスト・サンダルは、建物を布で包むアーティストのクリストから名前を取り、足を包む作りになっている。",
         "works": [
           "FBT",
           "クリスト",
@@ -3254,7 +3346,7 @@ window.BRANDS = [
         "from": 2009,
         "to": null,
         "d": "nakamura",
-        "text": "天然染料や古い織り方、世界の伝統衣装を研究し、高価で職人的な服を作るようになった時代。ICT（2009年ごろ〜）、ウィメンズの WMV などを始めた。",
+        "text": "天然染料や古い織り方、世界の伝統衣装を研究し、高価で職人的な服を作るようになった時代。ICT（2009年ごろ〜）、ウィメンズの WMV などを始めた。\nウィメンズの WMV は妻のケルシーがデザイン。旗艦店「F.I.L.」は Free International Laboratory の略で、店ごとにオリジナルのお香をたく。",
         "works": [
           "ICT のアイテム",
           "藍染めのジャケット",
@@ -3724,6 +3816,14 @@ window.BRANDS = [
       {
         "year": 2002,
         "text": "45rpmでデザイナーをしていた平田和宏がKAPITALに加わる"
+      },
+      {
+        "year": 2002,
+        "text": "45rpm で働いた平田和宏（キロ）が家業に戻る"
+      },
+      {
+        "year": 2024,
+        "text": "4月、創業者の平田俊清が亡くなる"
       }
     ],
     "designers": [
@@ -3947,6 +4047,14 @@ window.BRANDS = [
         "text": "PUMAとの協業を開始（2015年まで）"
       },
       {
+        "year": 2000,
+        "text": "PUMA との協業を始める"
+      },
+      {
+        "year": 2001,
+        "text": "PUMA と「Black Label」"
+      },
+      {
         "year": 2016,
         "text": "「Maison MIHARA YASUHIRO」に改称"
       }
@@ -3969,6 +4077,16 @@ window.BRANDS = [
         "name": "オリジナル・ソールのスニーカー",
         "year": "2010年代〜",
         "desc": "溶けたようなソールを持つ、ブランドの定番スニーカー。"
+      },
+      {
+        "name": "Peterson（オリジナル・ソール）",
+        "year": "2010年代〜",
+        "desc": "粘土で手彫りした型からゴムを流して作る、溶けたようなソール。"
+      },
+      {
+        "name": "Wayne／Hank（オリジナル・ソール）",
+        "year": "2010年代〜",
+        "desc": "ヴァンズやコンバースへのオマージュのモデル。"
       }
     ],
     "archive": [],
@@ -3986,6 +4104,14 @@ window.BRANDS = [
       {
         "t": "Rakuten Fashion Week TOKYO：Maison MIHARA YASUHIRO",
         "u": "https://rakutenfashionweektokyo.com/jp/brands/detail/maison-mihara-yasuhiro/"
+      },
+      {
+        "t": "Grailed：A brief history of Mihara Yasuhiro",
+        "u": "https://www.grailed.com/drycleanonly/surfaced-mihara-yasuhiro"
+      },
+      {
+        "t": "Sneaker Freaker：How Mihara Yasuhiro helped change the sneaker world",
+        "u": "https://sneakerfreaker.com/features/how-mihara-yasuhiro-helped-change-the-sneaker-world"
       }
     ],
     "aka": [
@@ -5342,12 +5468,27 @@ window.BRANDS = [
       {
         "name": "Riot Riot Riot のボンバージャケット",
         "year": "2001",
-        "desc": "パッチやコラージュを施した大きなボンバー。ラフのアーカイブの中でも特に高額で取引される。"
+        "desc": "パッチやコラージュを施した大きなボンバー。ラフのアーカイブの中でも特に高額で取引される。 2020年には1着が4万7,000ドルで売れたとされる。"
       },
       {
         "name": "adidas のオズウィーゴ／レスポンス",
         "year": "2010年代",
         "desc": "adidas との協業スニーカー。厚いソールのデザインが人気を集めた。"
+      },
+      {
+        "name": "Nebraska のスウェット",
+        "year": 1998,
+        "desc": "1998年春夏「Black Palms」の、酸で色落ちさせたスウェット。ショーで最も有名な一着。"
+      },
+      {
+        "name": "Power, Corruption & Lies のパーカ（Closer）",
+        "year": 2003,
+        "desc": "ピーター・サヴィルのアーカイブを使った、オリーブの手描きのパーカ。Closer を代表する一着。"
+      },
+      {
+        "name": "Archive Redux",
+        "year": 2020,
+        "desc": "過去の名作100点を再生産した復刻シリーズ。Closer や Virginia Creeper が特に人気。"
       }
     ],
     "archive": [
@@ -5385,6 +5526,14 @@ window.BRANDS = [
       {
         "t": "Fibre2Fashion：Raf Simons collections",
         "u": "https://fashiongear.fibre2fashion.com/brand-story/raf-simons/collections.asp"
+      },
+      {
+        "t": "Highsnobiety：Raf Simons' most iconic pieces",
+        "u": "https://www.highsnobiety.com/p/raf-simons-most-iconic-pieces"
+      },
+      {
+        "t": "Truss Archive：How to identify Raf Simons",
+        "u": "https://trussarchive.com/guides/how-to-identify-raf-simons"
       }
     ],
     "aka": [
@@ -16057,6 +16206,18 @@ window.BRANDS = [
         "text": "デムナに招かれ、Balenciagaメンズのコンサルタントに"
       },
       {
+        "year": 2015,
+        "text": "バレンシアガに来たデムナにコンサルタントとして招かれる"
+      },
+      {
+        "year": 2018,
+        "text": "ナイキと初の協業（エア・モナークなど。2019年とする資料も）"
+      },
+      {
+        "year": 2022,
+        "text": "クラークスの初のゲスト・クリエイティブ・ディレクターに（カプセル「Coming Up Roses」）"
+      },
+      {
         "year": 2026,
         "text": "11月6日、Balenciagaのクリエイティブディレクター就任が発表（11月16日付）"
       }
@@ -16074,6 +16235,16 @@ window.BRANDS = [
         "name": "Nike Shox MR4（ミュール）",
         "year": "2023〜",
         "desc": "Nikeとの協業によるShoxのミュール。"
+      },
+      {
+        "name": "Nike Shox Mule MR4",
+        "year": "2020年代",
+        "desc": "かかとのないヒールのようなショックス。"
+      },
+      {
+        "name": "Clarks Thornhill Hi（協業）",
+        "year": "2020年代",
+        "desc": "クラークスとの「Coming Up Roses」の一足。"
       }
     ],
     "archive": [],
@@ -16140,6 +16311,22 @@ window.BRANDS = [
         "text": "グレース・ウェールズ・ボナーがブランドを設立"
       },
       {
+        "year": 2014,
+        "text": "セントラル・セント・マーチンズの卒業コレクション「Afronauts」。同年ブランドを始める"
+      },
+      {
+        "year": 2015,
+        "text": "ブリティッシュ・ファッション・アワードのエマージング・メンズウェア・デザイナー"
+      },
+      {
+        "year": 2016,
+        "text": "LVMH ヤング・デザイナー・プライズ"
+      },
+      {
+        "year": 2019,
+        "text": "1月、サーペンタイン・ギャラリーで初の展覧会「A Time for New Dreams」"
+      },
+      {
         "year": 2020,
         "text": "1月、「Lover's Rock」コレクションでadidas Originalsとの初の協業（Samba、トラックスーツ）"
       },
@@ -16150,6 +16337,10 @@ window.BRANDS = [
       {
         "year": 2025,
         "text": "10月、Hermèsメンズのクリエイティブディレクターに（初コレクションは2027年1月予定）"
+      },
+      {
+        "year": 2025,
+        "text": "エルメスのメンズのクリエイティブ・ディレクターに（初コレクションは2027年1月の予定）"
       }
     ],
     "designers": [
@@ -16165,6 +16356,11 @@ window.BRANDS = [
         "name": "adidas Samba（Wales Bonner）",
         "year": 2020,
         "desc": "1970〜80年代の英国のジャマイカ系コミュニティと父親のワードローブを参照した協業。"
+      },
+      {
+        "name": "adidas Samba（協業）",
+        "year": "2020年代",
+        "desc": "カルト的な人気になったアディダスとのサンバ。"
       }
     ],
     "archive": [],
@@ -16180,6 +16376,10 @@ window.BRANDS = [
       {
         "t": "WWD：Hermès Appoints Grace Wales Bonner",
         "u": "https://wwd.com/fashion-news/designer-luxury/hermes-appoints-grace-wales-bonner-new-menswear-creative-director-1238318233/"
+      },
+      {
+        "t": "Wikipedia：Grace Wales Bonner",
+        "u": "https://en.wikipedia.org/wiki/Grace_Wales_Bonner"
       }
     ],
     "aka": [
@@ -16304,6 +16504,22 @@ window.BRANDS = [
       {
         "year": 2012,
         "text": "ロンドンでブランドを設立"
+      },
+      {
+        "year": 2013,
+        "text": "Fashion East MAN で初のランウェイ（木の彫刻で顔を覆ったルック）"
+      },
+      {
+        "year": 2014,
+        "text": "ブリティッシュ・ファッション・アワードのエマージング・メンズウェア・デザイナー"
+      },
+      {
+        "year": 2016,
+        "text": "メンズウェア・デザイナー・オブ・ザ・イヤー（2017年にも）"
+      },
+      {
+        "year": 2018,
+        "text": "モンクレール・ジーニアスに参加（それ以前の2017年秋冬からカプセルも）"
       }
     ],
     "designers": [
@@ -16319,6 +16535,16 @@ window.BRANDS = [
         "name": "キルティングのワーカージャケット",
         "year": "定番",
         "desc": "ブランドを代表するジャケット。"
+      },
+      {
+        "name": "adidas との協業スニーカー",
+        "year": "2020年代",
+        "desc": "定番のモデルを作り変えたスニーカー。"
+      },
+      {
+        "name": "Moncler Genius のアウター",
+        "year": "2018〜",
+        "desc": "彫刻のようなダウンのアウター。"
       }
     ],
     "archive": [],
@@ -16329,6 +16555,10 @@ window.BRANDS = [
       {
         "t": "SSENSE：The SSENSE Guide to British Brands",
         "u": "https://www.ssense.com/en-de/editorial/market/best-british-clothing-brands"
+      },
+      {
+        "t": "Wikipedia：Craig Green (designer)",
+        "u": "https://en.wikipedia.org/wiki/Craig_Green_(designer)"
       }
     ],
     "aka": [
@@ -16348,6 +16578,11 @@ window.BRANDS = [
       }
     ],
     "collections": [
+      {
+        "season": "2013-14AW",
+        "title": "最初のランウェイ（Fashion East MAN）",
+        "note": "木の彫刻をモデルの顔の前に掲げた。"
+      },
       {
         "season": "2015SS",
         "title": "（ロンドンの注目シーズン）"
@@ -16378,6 +16613,22 @@ window.BRANDS = [
       {
         "year": 2016,
         "text": "ロンドンでブランドを設立（2017年とする資料も）"
+      },
+      {
+        "year": 2016,
+        "text": "セントラル・セント・マーチンズの修士を出て、ロンドンでブランドを始める"
+      },
+      {
+        "year": 2017,
+        "text": "マッキントッシュの新ライン「Mackintosh 0001」を手がける（10型のユニセックス。2016年任命とする資料も）"
+      },
+      {
+        "year": 2018,
+        "text": "ローラとディアナのファニング姉妹がウィメンズを始める。カンペールとハイキングブーツ3型"
+      },
+      {
+        "year": 2023,
+        "text": "ASICS とのブランド「Novalis」を始める"
       }
     ],
     "designers": [
@@ -16393,6 +16644,16 @@ window.BRANDS = [
         "name": "ASICSとの協業スニーカー",
         "year": "2018〜",
         "desc": "ASICSのランニングシューズを再構成したシリーズ。"
+      },
+      {
+        "name": "ASICS GEL シリーズの協業",
+        "year": "2018〜",
+        "desc": "2018年春夏ごろから続くアシックスとのスニーカー（2017年春夏とする資料も）。"
+      },
+      {
+        "name": "Mackintosh 0001",
+        "year": 2017,
+        "desc": "マッキントッシュのために作った10型のユニセックス・ライン。"
       }
     ],
     "archive": [],
@@ -16407,6 +16668,10 @@ window.BRANDS = [
       {
         "t": "FHCM：Kiko Kostadinov",
         "u": "https://www.fhcm.paris/en/house/kiko-kostadinov"
+      },
+      {
+        "t": "Grailed：A Brief History of Kiko Kostadinov",
+        "u": "https://www.grailed.com/drycleanonly/kiko-kostadinov-history"
       }
     ],
     "aka": [
@@ -17986,6 +18251,22 @@ window.BRANDS = [
       {
         "year": 2015,
         "text": "岩井良太がAURALEEを設立"
+      },
+      {
+        "year": 2017,
+        "text": "南青山に初めての直営店"
+      },
+      {
+        "year": 2018,
+        "text": "第2回 FASHION PRIZE OF TOKYO を受賞"
+      },
+      {
+        "year": 2019,
+        "text": "パリ・ファッションウィークに初参加。毎日ファッション大賞の新人賞・資生堂奨励賞"
+      },
+      {
+        "year": 2025,
+        "text": "第43回毎日ファッション大賞の大賞"
       }
     ],
     "designers": [
@@ -18011,6 +18292,10 @@ window.BRANDS = [
       {
         "t": "Llarsen：マメクロゴウチに似てるブランド（比較表）",
         "u": "https://llarsen.jp/mamekurogouchi-similar/"
+      },
+      {
+        "t": "FASHIONSNAP：岩井良太",
+        "u": "https://www.fashionsnap.com/person/iwai-ryota/"
       }
     ],
     "aka": [
@@ -18027,6 +18312,17 @@ window.BRANDS = [
           "オリジナル素材のシャツ",
           "New Balance との協業"
         ]
+      }
+    ],
+    "collections": [
+      {
+        "season": "2015SS",
+        "title": "最初のコレクション"
+      },
+      {
+        "season": "2020SS",
+        "title": "パリでの初発表",
+        "note": "2019年にパリ・ファッションウィークへ初参加。"
       }
     ]
   },
@@ -19369,12 +19665,20 @@ window.BRANDS = [
         "text": "「SOPHNET.」に改称"
       },
       {
+        "year": 2002,
+        "text": "ブランド名を「SOPH.」から「SOPHNET.」に変える"
+      },
+      {
         "year": 2008,
         "text": "藤原ヒロシとの「uniform experiment」を始める"
       },
       {
         "year": 2013,
         "text": "ジュンに売却され、清永はSOPHの社長として続投"
+      },
+      {
+        "year": 2013,
+        "text": "ジュンが SOPH. の全株式と商標を取得（清永はCEOを続ける）"
       },
       {
         "year": 2022,
@@ -19409,6 +19713,10 @@ window.BRANDS = [
       {
         "t": "Qkaku：SOPH.がNIKEとコラボし定番になった理由",
         "u": "http://qkaku.com/soph/"
+      },
+      {
+        "t": "SOPHNET.：About",
+        "u": "https://www.global-soph.net/en/about-sophnet.html"
       }
     ],
     "aka": [
@@ -19421,7 +19729,7 @@ window.BRANDS = [
         "from": 1998,
         "to": 2022,
         "d": "kiyonaga",
-        "text": "清永浩文が始めたブランドの時代。シンプルで上質な素材、細身のシルエットで、裏原宿の大人向けブランドとして人気になった。F.C.Real Bristol（サッカー）のラインでも知られる。",
+        "text": "清永浩文が始めたブランドの時代。シンプルで上質な素材、細身のシルエットで、裏原宿の大人向けブランドとして人気になった。F.C.Real Bristol（サッカー）のラインでも知られる。\n会社の SOPH. には、SOPHNET.、F.C.Real Bristol（架空のサッカーチーム）、藤原ヒロシと共同の uniform experiment の3つのラインがある。1998年にフランスで、ユニフォームが普段着になっている文化に触れたことがサッカーとの結びつきのきっかけ。",
         "works": [
           "F.C.Real Bristol のゲームシャツ",
           "細身のテーラード"
@@ -21169,8 +21477,16 @@ window.BRANDS = [
         "text": "ストックホルムでヨックム・ハリンとクリストファー・ニイングが始める（2004年とする資料も）"
       },
       {
+        "year": 2007,
+        "text": "アクネで営業をしていたリシャルドス・クラレンが3人目の共同経営者になる"
+      },
+      {
         "year": 2012,
         "text": "2012年春夏頃から、より実験的な作風へ"
+      },
+      {
+        "year": 2016,
+        "text": "デッドストックの布や服を作り変える「OUR LEGACY WORK SHOP」を始める"
       }
     ],
     "designers": [
@@ -21186,6 +21502,16 @@ window.BRANDS = [
         "name": "ボクシーなシャツ",
         "year": "定番",
         "desc": "ゆったりした形のシャツ。"
+      },
+      {
+        "name": "ボックス・シャツ",
+        "year": "定番",
+        "desc": "ゆったりした箱型のシャツ。"
+      },
+      {
+        "name": "カミオン・ブーツ",
+        "year": "定番",
+        "desc": "ブランドの定番ブーツ。"
       }
     ],
     "archive": [],
@@ -21403,6 +21729,10 @@ window.BRANDS = [
         "text": "ロンドンでブランドを始める"
       },
       {
+        "year": 2010,
+        "text": "セントラル・セント・マーチンズの修士を修了し、9月に Fashion East でロンドン・デビュー"
+      },
+      {
         "year": 2021,
         "text": "H&Mと協業"
       },
@@ -21413,6 +21743,10 @@ window.BRANDS = [
       {
         "year": 2024,
         "text": "Jean Paul Gaultierのクチュールのゲストデザイナー"
+      },
+      {
+        "year": 2024,
+        "text": "1月、ジャン＝ポール・ゴルチエのゲスト・デザイナーとして2024年春夏クチュールを手がける"
       }
     ],
     "designers": [
@@ -21428,6 +21762,11 @@ window.BRANDS = [
         "name": "真珠をあしらった靴とバッグ",
         "year": "2010年代〜",
         "desc": "パールの装飾。"
+      },
+      {
+        "name": "真珠のブローグ",
+        "year": "2010年代〜",
+        "desc": "最初のカルト的なアクセサリー。H&M との協業でも作られた。"
       }
     ],
     "archive": [],
@@ -21594,6 +21933,18 @@ window.BRANDS = [
       {
         "year": 2003,
         "text": "パリ・コレクションに参加（2004年春夏とする資料も）"
+      },
+      {
+        "year": 2003,
+        "text": "パリ・コレクションにデビュー"
+      },
+      {
+        "year": 2020,
+        "text": "このころ、長く所属したエイ・ネットを離れ、新しい形で事業を続ける"
+      },
+      {
+        "year": 2025,
+        "text": "35周年。7年ぶりのショーを東京コレクションで行う"
       }
     ],
     "designers": [
@@ -21623,6 +21974,10 @@ window.BRANDS = [
       {
         "t": "FashionNetwork：Tsumori Chisato discontinues ready-to-wear line",
         "u": "https://ae.fashionnetwork.com/news/Japanese-label-tsumori-chisato-discontinues-ready-to-wear-line,1085773.html"
+      },
+      {
+        "t": "WWD JAPAN：TSUMORI CHISATO",
+        "u": "https://www.wwdjapan.com/brand_tag/tsumori-chisato"
       }
     ],
     "eras": [
@@ -23500,19 +23855,35 @@ window.BRANDS = [
       "1017アリクス9SM"
     ],
     "summary": "マシュー・ウィリアムズが2015年に始めたブランド。ジェットコースターの安全バーから着想したバックルのベルトで有名。",
-    "about": "1017 ALYX 9SM（アリクス）は、アメリカのデザイナー、マシュー・ウィリアムズが2015年に始めたブランド。名前の「ALYX」は娘の名前、「1017」はウィリアムズの誕生日、「9SM」は最初のスタジオの住所に由来するとされる。\nウィリアムズは、カニエ・ウェストやレディー・ガガのクリエイティブ・ディレクターとして活動したのち、ヴァージル・アブロー、ヘロン・プレストンと「BEEN TRILL」を作った。ALYX では、ジェットコースターの安全バーをもとにした金属のバックルのベルト（ローラーコースター・バックル）、メタルのパーツ、ミリタリーやテクニカルな素材を使った、硬質でミニマルなストリートウェアを作った。\nナイキ、モンクレール、ディオールなどとの協業も多い。2018年に LVMH プライズのファイナリストになり、2020〜2023年にはジバンシーのクリエイティブ・ディレクターも務めた。",
+    "about": "1017 ALYX 9SM（アリクス）は、アメリカのデザイナー、マシュー・ウィリアムズが2015年に始めたブランド。名前の「ALYX」は娘の名前、「1017」はウィリアムズの誕生日、「9SM」は最初のスタジオの住所に由来するとされる。\nウィリアムズは、カニエ・ウェストやレディー・ガガのクリエイティブ・ディレクターとして活動したのち、ヴァージル・アブロー、ヘロン・プレストンと「BEEN TRILL」を作った。ALYX では、ジェットコースターの安全バーをもとにした金属のバックルのベルト（ローラーコースター・バックル）、メタルのパーツ、ミリタリーやテクニカルな素材を使った、硬質でミニマルなストリートウェアを作った。\nナイキ、モンクレール、ディオールなどとの協業も多い。2016年に LVMH プライズのファイナリストになり、2020〜2023年にはジバンシーのクリエイティブ・ディレクターも務めた。",
     "history": [
       {
         "year": 2015,
         "text": "ブランドを始める"
       },
       {
+        "year": 2016,
+        "text": "LVMH プライズのファイナリスト"
+      },
+      {
+        "year": 2017,
+        "text": "ウィメンズに加えてメンズを始める"
+      },
+      {
         "year": 2018,
-        "text": "このころからミラノ・パリで発表"
+        "text": "名前を「Alyx」から「1017 ALYX 9SM」に変える。ディオール 2019年春夏（キム・ジョーンズ）のバックルを手がける"
+      },
+      {
+        "year": 2019,
+        "text": "モンクレール・ジーニアスで最初のコレクション"
       },
       {
         "year": 2020,
         "text": "ウィリアムズがジバンシーのクリエイティブ・ディレクターに（〜2023年）"
+      },
+      {
+        "year": 2023,
+        "text": "12月、Nike エアフォース1 ロー MMW"
       }
     ],
     "designers": [
@@ -23542,6 +23913,16 @@ window.BRANDS = [
         "name": "ローラーコースター・バックル",
         "year": "2015〜",
         "desc": "ジェットコースターの安全バーから着想した金属のバックル。"
+      },
+      {
+        "name": "Nike エアフォース1 ハイ（協業）",
+        "year": "2010年代後半",
+        "desc": "バックルをつけた最初のナイキとの協業。"
+      },
+      {
+        "name": "ディオールの CD バックル",
+        "year": 2018,
+        "desc": "キム・ジョーンズのディオール2019年春夏のために作ったバックル。"
       }
     ],
     "archive": [],
@@ -23550,11 +23931,15 @@ window.BRANDS = [
       "offwhite",
       "vetements"
     ],
-    "note": "名前の由来は複数の資料による説明です。",
+    "note": "名前の由来は複数の資料による説明です。 創業を2014年とする資料もあります。最初はウィメンズのブランドでした。",
     "sources": [
       {
         "t": "Wikipedia：Matthew M. Williams",
         "u": "https://en.wikipedia.org/wiki/Matthew_M._Williams"
+      },
+      {
+        "t": "nss magazine：The ALYX buckle story",
+        "u": "https://www.nssmag.com/en/fashion/26341/alyx-1017-9sm-buckle-story"
       }
     ]
   }

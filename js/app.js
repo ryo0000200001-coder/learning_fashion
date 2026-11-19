@@ -224,6 +224,7 @@
         return match(q, ...brandWords(b), b.country, b.summary, b.about, ...(b.tags || []),
           ...(b.designers || []).flatMap((t) => [dName(t.d), dEn(t.d)]),
           ...(b.items || []).map((i) => i.name),
+          ...(b.staples || []).map((s) => s.name),
           ...(b.eras || []).flatMap((e) => [e.name, ...(e.works || [])]),
           ...(b.collections || []).flatMap((c) => [c.title, c.alias]),
           ...(b.lines || []).flatMap((l) => [l.name, l.designer, ...(l.items || []).map((x) => x.name), ...(l.collections || []).flatMap((c) => [c.title, c.alias])]));
@@ -369,10 +370,13 @@
       ${(b.collections || []).length ? `<h2>コレクション（シーズン）<span class="h2sub">${b.collections.length}シーズン</span></h2>
       <div class="ctable">${b.collections.map((c) => collectionRow(c, false, b.name)).join("")}</div>` : ""}
 
-      ${(b.items || []).length ? `<h2>代表的なアイテム</h2>
+      ${(b.items || []).length ? `<h2>名作アイテム</h2>
       <div class="items">
         ${b.items.map((i) => itemCard(b, i)).join("")}
       </div>` : ""}
+
+      ${(b.staples || []).length ? `<h2>定番アイテム<span class="h2sub">長く作られ続けている定番</span></h2>
+      <div class="staples">${b.staples.map((s) => `<div class="staple"><div class="st-head"><b>${esc(s.name)}</b>${s.since ? `<span class="st-since">${esc(String(s.since).replace(/〜$/, ""))}〜</span>` : ""}</div>${s.desc ? `<p>${esc(s.desc)}</p>` : ""}</div>`).join("")}</div>` : ""}
 
       ${(b.dating || []).length ? `<h2>年代の見分け方</h2>${datingBlock(b)}` : ""}
 

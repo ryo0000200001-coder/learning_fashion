@@ -95,7 +95,8 @@ python3 -m http.server 8000
 | `designers` | `[{ d: デザイナーのキー, role, from, to }]`（`to: null` は現在） |
 | `collections` | `[{ season, title, city, alias, note, unverified? }]` シーズン一覧 |
 | `lines` | `[{ name, from, to, designer, desc, history, collections, items, archive, unverified? }]` ブランド内のライン。歴史・名作シーズン・名作アイテム・古着のポイントをライン単位で持てる |
-| `items` | `[{ name, year, desc, img, credit, license, imgPage, unverified? }]` 代表的なアイテム（写真は任意） |
+| `items` | `[{ name, year, desc, img, credit, license, imgPage, unverified? }]` 名作アイテム（写真は任意） |
+| `staples` | `[{ name, since, desc }]` 定番アイテム（長く作られ続けているもの） |
 | `archive` | 古着・アーカイブで見るポイント（文字列の配列） |
 | `related` | 関連ブランドの `id` |
 | `sources` | `[{ t: タイトル, u: URL }]` 出典 |

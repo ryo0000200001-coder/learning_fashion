@@ -284,7 +284,7 @@
         ])}
         ${listEditor("lines", "ライン", (b.lines || []).map((l, i) => ({ ...l, _i: i })), LINE_COLS, "ブランドの中のライン（例: HOMME PLUS、Y's、MM6）。歴史・名作シーズン・名作アイテムなどの詳細は、保存後に下のリンクから編集できます。")}
         ${isNew || !(b.lines || []).length ? "" : `<p class="help">ラインの詳細を編集：${b.lines.map((l, i) => `<a href="#/edit/line/${encodeURIComponent(b.id)}/${i}">${esc(l.name)}</a>`).join("・")}</p>`}
-        ${listEditor("items", "代表的なアイテム", b.items, [
+        ${listEditor("items", "名作アイテム", b.items, [
           { k: "name", label: "名前", w: 3 },
           { k: "year", label: "年・時期", type: "year", w: 1 },
           { k: "desc", label: "説明", type: "area", w: 6 },
@@ -294,6 +294,11 @@
           { k: "imgPage", label: "写真の元ページURL", w: 3 },
           { k: "unverified", label: "未確認", type: "check" }
         ], "写真は、自分で撮ったもの、または自由に使ってよいライセンス（Wikimedia Commons の CC ライセンスなど）のものだけを使ってください。ブランド公式やショップ、雑誌の写真は無断で載せられません。")}
+        ${listEditor("staples", "定番アイテム", b.staples, [
+          { k: "name", label: "名前", w: 3 },
+          { k: "since", label: "いつから", w: 1, ph: "例: 1990年代 / 2004" },
+          { k: "desc", label: "説明", type: "area", w: 6 }
+        ], "名作とは別に、長く作られ続けている定番のアイテム。")}
         ${listEditor("eras", "時代（○○期）", b.eras, [
           { k: "name", label: "呼び名", w: 2, ph: "例: ラング期 / フィービー期" },
           { k: "from", label: "開始年", type: "year", w: 1 },
@@ -335,6 +340,7 @@
         country: f.country.value.trim(), city: f.city.value.trim(), founded: Number(f.founded.value),
         tags: csv(f.tags.value), aka: csv(f.aka.value), summary: f.summary.value.trim(), about: f.about.value.trim(),
         eras: readList(form, "eras"),
+        staples: readList(form, "staples"),
         dating: readList(form, "dating"),
         history: readList(form, "history"),
         designers: readList(form, "designers"),
@@ -352,6 +358,7 @@
       if (!nb.aka.length) delete nb.aka;
       if (!nb.dating.length) delete nb.dating;
       if (!nb.eras.length) delete nb.eras;
+      if (!nb.staples.length) delete nb.staples;
       // 検証
       const errs = [];
       if (!/^[a-z0-9-]+$/.test(nb.id)) errs.push("IDは半角の小文字英数字とハイフンで入力してください。");

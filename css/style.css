@@ -384,3 +384,10 @@ details.help ol { padding-left: 20px; }
 .era-lbl { flex: none; font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
 .era-works ul { margin: 0; padding-left: 1.1em; }
 .era-works li { margin: 2px 0; }
+
+/* 定番アイテム */
+.staples { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.staple { border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; background: var(--surface); }
+.st-head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.st-since { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.staple p { margin: 4px 0 0; font-size: 14px; }

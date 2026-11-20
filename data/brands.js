@@ -3636,6 +3636,23 @@ window.BRANDS = [
         "title": "品番",
         "text": "タグにシーズンを表す番号が入ることがある。FBT はインソールや箱で年を確認できる。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2001",
+        "title": "FBT の発売",
+        "note": "ブランドの始まりとなったモカシンスニーカー。"
+      },
+      {
+        "season": "2009",
+        "title": "ICT の開始",
+        "note": "高価な職人ラインが始まる。"
+      },
+      {
+        "season": "2014",
+        "title": "WMV の開始",
+        "note": "ウィメンズのライン。"
+      }
     ]
   },
   {
@@ -3762,6 +3779,18 @@ window.BRANDS = [
         "title": "タグ",
         "text": "白や黒のタグに品番。シーズンを表す数字が入ることがある。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1996",
+        "title": "WTAPS の開始",
+        "note": "ミリタリーをもとにしたブランドとして始まる。"
+      },
+      {
+        "season": "2011",
+        "title": "GIP STORE の開店",
+        "note": "旗艦店を渋谷に開く。"
+      }
     ]
   },
   {
@@ -3879,6 +3908,18 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "タグに品番とシーズン。初期のものは原宿の店のタグ。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1994",
+        "title": "原宿で開店",
+        "note": "バイクとミリタリーの服から始まる。"
+      },
+      {
+        "season": "2000年代",
+        "title": "サベージ・デニムの定番化",
+        "note": "強い加工のデニムが人気になる。"
       }
     ]
   },
@@ -4043,6 +4084,26 @@ window.BRANDS = [
         "title": "タグの変化",
         "text": "初期（1990年代）は「A BATHING APE」の猿のタグ。2000年代の偽物が非常に多く、カモ柄の色合いやタグの刺繍、シャークのジップの刻印で見分ける。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1993",
+        "title": "A BATHING APE の開始",
+        "note": "NOWHERE の中で始まる。"
+      },
+      {
+        "season": "2002",
+        "title": "BAPE STA の発売"
+      },
+      {
+        "season": "2004",
+        "title": "シャーク・パーカの登場"
+      },
+      {
+        "season": "2005",
+        "title": "ニューヨーク店の開店",
+        "note": "アメリカでの人気が広がる。"
+      }
     ]
   },
   {
@@ -4191,6 +4252,21 @@ window.BRANDS = [
       {
         "title": "タグの変化",
         "text": "1980〜90年代は「HYSTERIC GLAMOUR」と女の子のイラストのタグ。年代でタグの色やデザインが変わり、日本製が基本。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1984",
+        "title": "ヒステリック・グラマーの開始",
+        "note": "21歳の北村信彦が始める。"
+      },
+      {
+        "season": "1990年代",
+        "title": "ヒス・ガールの定番化"
+      },
+      {
+        "season": "2017",
+        "title": "Supreme との協業"
       }
     ]
   },
@@ -4347,6 +4423,21 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「KAPITAL」の白いタグに品番。KOUNTRY ラインは別のタグ。生産はほぼ日本（岡山）。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1985",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2002",
+        "title": "平田和宏の参加",
+        "note": "ボロ・パッチワークの時代へ。"
+      },
+      {
+        "season": "2010年代",
+        "title": "センチュリー・デニム"
+      }
     ]
   },
   {
@@ -4479,6 +4570,24 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「mastermind JAPAN」（〜2013年）と「mastermind WORLD」「mastermind TOKYO」（2017年〜）でタグが違うので、時代がすぐわかる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1997",
+        "title": "mastermind JAPAN の開始"
+      },
+      {
+        "season": "2001",
+        "title": "パリへの進出"
+      },
+      {
+        "season": "2013SS",
+        "title": "15周年で一旦終了"
+      },
+      {
+        "season": "2017",
+        "title": "再始動"
       }
     ]
   },
@@ -4634,6 +4743,20 @@ window.BRANDS = [
       {
         "title": "ブランド名の表記",
         "text": "初期は「MIHARAYASUHIRO」、のちに「Maison MIHARA YASUHIRO」に。PUMA との協業は「PUMA by MIHARA YASUHIRO」の表記。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1997",
+        "title": "シューズで始まる"
+      },
+      {
+        "season": "2000",
+        "title": "PUMA との協業開始"
+      },
+      {
+        "season": "2005",
+        "title": "パリで初ショーとされる"
       }
     ]
   },
@@ -14566,6 +14689,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「CHRISTOPHER NEMETH」の手書き風のタグ。東京期のものは日本製。ロンドン期（1980年代前半）のものは極めて少ない。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1980年代前半",
+        "title": "ロンドンでの郵便袋の服"
+      },
+      {
+        "season": "1986",
+        "title": "東京への移住"
+      },
+      {
+        "season": "2015-16AW",
+        "title": "ルイ・ヴィトン（キム・ジョーンズ）のネメスへのオマージュ"
+      }
     ]
   },
   {
@@ -14835,6 +14972,16 @@ window.BRANDS = [
         "title": "品番",
         "text": "靴の内側に型番（988、PL1 など）とサイズが書かれている。革の種類（ホース、カンガルー、バッファロー）も記号で表される。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1896",
+        "title": "皮なめし工場の創業"
+      },
+      {
+        "season": "2000年代",
+        "title": "988 などのブーツの登場"
+      }
     ]
   },
   {
@@ -14929,6 +15076,12 @@ window.BRANDS = [
       {
         "title": "番号",
         "text": "コレクションに番号がつけられ、タグにも番号が入ることがある。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2016",
+        "title": "最初のコレクション"
       }
     ]
   },
@@ -15090,6 +15243,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「KAZUYUKI KUMAGAI ATTACHMENT」と「ATTACHMENT」でタグが違う。2022年以降はデザイナーが変わった。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1999",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2022",
+        "title": "デザイナーの交代"
+      }
     ]
   },
   {
@@ -15222,6 +15385,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "初期は「DIRK BIKKEMBERGS」、のちにスポーツ寄りの「BIKKEMBERGS」に変わる。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1986",
+        "title": "最初のコレクション（メンズの靴）"
+      },
+      {
+        "season": "1988",
+        "title": "パリでの発表"
+      },
+      {
+        "season": "2003",
+        "title": "インテルのユニフォーム"
+      }
     ]
   },
   {
@@ -15322,6 +15499,17 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「carpe diem」の小文字のタグ。2006年に終わったので、それ以前のもの。のちの「C-DIEM」は別の展開。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1996",
+        "title": "カルペ・ディエムの開始",
+        "note": "1994年とする資料も。"
+      },
+      {
+        "season": "2006",
+        "title": "ブランドの終了"
       }
     ]
   },
@@ -15432,6 +15620,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「m.a+」のタグ。品番に型（A、B、S など）を表す記号が入る。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2006",
+        "title": "m.a+ の開始"
       }
     ]
   },
@@ -15569,6 +15763,20 @@ window.BRANDS = [
         "title": "ライン",
         "text": "メインは「BORIS BIDJAN SABERI」、セカンドは「11 by BORIS BIDJAN SABERI」（2013年〜）。品番は数字中心。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2007",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2013",
+        "title": "11 by BBS の開始"
+      },
+      {
+        "season": "2016",
+        "title": "Salomon との BAMBA 1"
+      }
     ]
   },
   {
@@ -15697,6 +15905,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "ほとんど目立つタグをつけない。小さな布タグや手書きのサイズ表記のみのことが多い。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1987",
+        "title": "靴の工房の開始"
+      },
+      {
+        "season": "2000",
+        "title": "服のラインの開始"
+      }
     ]
   },
   {
@@ -15788,6 +16006,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "シリーズ名（Distortion など）とサイズが入ったタグ。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2012",
+        "title": "ブランドの開始"
       }
     ]
   },
@@ -15886,6 +16110,12 @@ window.BRANDS = [
       {
         "title": "刻印",
         "text": "靴やレザーに「a1923」や「a diciannoveventitre」の刻印が入る。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2006",
+        "title": "ブランドの開始"
       }
     ]
   },
@@ -19360,6 +19590,21 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「KANSAI YAMAMOTO」「KANSAI MAN」などのタグ。1970〜80年代のものは日本製が中心。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1971",
+        "title": "ロンドンでのショー",
+        "note": "日本人として初めてのロンドンでのショー。"
+      },
+      {
+        "season": "1973",
+        "title": "ボウイの衣装"
+      },
+      {
+        "season": "1975",
+        "title": "パリでの発表開始"
+      }
     ]
   },
   {
@@ -19486,6 +19731,24 @@ window.BRANDS = [
         "title": "表記",
         "text": "1990年代は「beauty:beast」、2020年の再始動後は「ビューティビースト」表記。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1990",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "1993",
+        "title": "パリでの初発表"
+      },
+      {
+        "season": "1995",
+        "title": "東京コレクション参加"
+      },
+      {
+        "season": "2020",
+        "title": "再始動"
+      }
     ]
   },
   {
@@ -19601,6 +19864,13 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「FINAL HOME」のタグ。イッセイ ミヤケの会社（A-net など）の品質表示がつく。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1994",
+        "title": "ブランドの開始",
+        "note": "1992年に発表したとする資料も。"
+      }
     ]
   },
   {
@@ -19696,6 +19966,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "数字のブランド名のタグ。1990年代のものは日本製。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1992",
+        "title": "ブランドの開始"
       }
     ]
   },
@@ -19839,6 +20115,20 @@ window.BRANDS = [
         "title": "表記",
         "text": "初期は「MISTER HOLLYWOOD」のタグ、のちに「N.HOOLYWOOD」。品番にシーズンが入る。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2002",
+        "title": "最初のコレクション（クラブイベント）"
+      },
+      {
+        "season": "2010",
+        "title": "ニューヨークでの発表開始"
+      },
+      {
+        "season": "2018",
+        "title": "東京での凱旋ショー"
+      }
     ]
   },
   {
@@ -19966,6 +20256,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "トラックパンツは形（ナロー、ストレート、H.D.）と素材でタグの表記が違う。Rebuild by Needles は古着の元のタグが残っていることがある。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2008",
+        "title": "最初のトラックパンツ"
+      },
+      {
+        "season": "2010",
+        "title": "Rebuild by Needles の開始"
+      }
     ]
   },
   {
@@ -20079,6 +20379,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「WACKO MARIA」と「GUILTY PARTIES」のタグ。アロハは柄の版で年がわかる。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2005",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2010年代",
+        "title": "パラダイス東京の開店"
+      }
     ]
   },
   {
@@ -20191,6 +20501,20 @@ window.BRANDS = [
       {
         "title": "ライン",
         "text": "「TOGA」「TOGA PULLA」「TOGA VIRILIS」「TOGA ARCHIVES」とラインごとにタグが違う。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1997",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2001",
+        "title": "ショーでの発表を始める"
+      },
+      {
+        "season": "2006",
+        "title": "ロンドンでの発表開始とされる"
       }
     ]
   },
@@ -20554,6 +20878,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「doublet」のタグ。品番の頭にシーズン（例：年の下2桁）が入ることが多い。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2012",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2018",
+        "title": "LVMH プライズのグランプリ"
+      }
     ]
   },
   {
@@ -20847,6 +21181,28 @@ window.BRANDS = [
         "title": "タグの変化",
         "text": "1990年代はブルーの「MADE IN USA」タグ、2000年代以降は赤や白のタグに変わる。ボックスロゴは文字の形と刺繍の密度で年代や真贋を見分ける。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1994",
+        "title": "ラファイエット通りに開店"
+      },
+      {
+        "season": "2002",
+        "title": "Nike SB ダンク"
+      },
+      {
+        "season": "2007",
+        "title": "The North Face との協業"
+      },
+      {
+        "season": "2012",
+        "title": "COMME des GARÇONS SHIRT との協業"
+      },
+      {
+        "season": "2017-18AW",
+        "title": "Louis Vuitton との協業"
+      }
     ]
   },
   {
@@ -20994,6 +21350,24 @@ window.BRANDS = [
         "name": "バケットハット",
         "since": "1990年代〜",
         "desc": "定番の帽子。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1980",
+        "title": "ショーン・ステューシーが始める"
+      },
+      {
+        "season": "1984",
+        "title": "シナトラ・ジュニアとの共同経営"
+      },
+      {
+        "season": "1996",
+        "title": "ショーンの退任"
+      },
+      {
+        "season": "2020",
+        "title": "Dior × Shawn Stussy"
       }
     ]
   },
@@ -21163,6 +21537,20 @@ window.BRANDS = [
       {
         "title": "刻印",
         "text": "シルバーには「CH」と「.925」、製造年の刻印が入ることがある。1990年代のものは刻印の書体が違うとされる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1988",
+        "title": "ハリウッドのガレージで創業"
+      },
+      {
+        "season": "1992",
+        "title": "CFDA 賞"
+      },
+      {
+        "season": "1994",
+        "title": "スターク夫妻の体制へ"
       }
     ]
   },
@@ -21798,6 +22186,20 @@ window.BRANDS = [
         "title": "ロゴ",
         "text": "マーティンス期（2020年〜）はオーバル D のロゴ。1990年代は「DIESEL」の文字だけのタグ。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1978",
+        "title": "創業"
+      },
+      {
+        "season": "1991",
+        "title": "国際的な広告を始める"
+      },
+      {
+        "season": "2022-23AW",
+        "title": "マーティンスの初ショー（ミラノ）"
+      }
     ]
   },
   {
@@ -21895,6 +22297,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「VIRIDI-ANNE」のタグ。ラインによりタグの色が違う。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2001",
+        "title": "ブランドの開始"
       }
     ]
   },
@@ -22139,6 +22547,12 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「DEVOA」のタグに品番。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2008",
+        "title": "ブランドの開始"
+      }
     ]
   },
   {
@@ -22233,6 +22647,13 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「GOODENOUGH」のタグ。1990年代のオリジナルと、近年の復刻ではタグが違う。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1990",
+        "title": "ブランドの開始",
+        "note": "日本で最初のストリートブランドと言われる。"
       }
     ]
   },
@@ -22329,6 +22750,20 @@ window.BRANDS = [
       {
         "title": "協業",
         "text": "協業相手（Nike、LV など）の品番や箱で年がわかる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2003",
+        "title": "フラグメント・デザインの開始"
+      },
+      {
+        "season": "2014",
+        "title": "Nike エアジョーダン1"
+      },
+      {
+        "season": "2017",
+        "title": "Louis Vuitton との協業"
       }
     ]
   },
@@ -22455,6 +22890,20 @@ window.BRANDS = [
       {
         "title": "表記",
         "text": "1998〜2001年ごろは「SOPH.」、2002年以降は「SOPHNET.」。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1998",
+        "title": "SOPH. の開始"
+      },
+      {
+        "season": "2001",
+        "title": "F.C.Real Bristol の開始"
+      },
+      {
+        "season": "2002",
+        "title": "SOPHNET. に改名"
       }
     ]
   },
@@ -23138,6 +23587,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「TAKEO KIKUCHI」のタグ。1980年代の DC ブランド期と、2000年代以降でロゴの書体が違う。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1984",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2004",
+        "title": "信國太志がクリエイティブ・ディレクターに"
       }
     ]
   },
@@ -25105,6 +25564,20 @@ window.BRANDS = [
         "title": "表記",
         "text": "1995〜2002年は「minä」、2003年以降は「minä perhonen」。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1995",
+        "title": "minä の開始"
+      },
+      {
+        "season": "2003",
+        "title": "minä perhonen に改名"
+      },
+      {
+        "season": "2019",
+        "title": "展覧会「つづく」"
+      }
     ]
   },
   {
@@ -25234,6 +25707,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「TSUMORI CHISATO」のタグに猫のマークなど。エイ・ネット期（〜2020年ごろ）の品質表示がつく。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1990",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2003",
+        "title": "パリ・コレクションのデビュー"
+      },
+      {
+        "season": "2025",
+        "title": "35周年のショー"
+      }
     ]
   },
   {
@@ -25353,6 +25840,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「HANAE MORI」に蝶のマーク。クチュールとライセンス品でタグが違う。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1951",
+        "title": "新宿で開業"
+      },
+      {
+        "season": "1965",
+        "title": "ニューヨークでのショー"
+      },
+      {
+        "season": "1977",
+        "title": "パリのオートクチュールに参加"
+      }
     ]
   },
   {
@@ -25452,6 +25953,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「ATSURO TAYAMA」のタグ。1990年代はイトキンなどの品質表示がある。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1982",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "1990年代",
+        "title": "パリでの発表"
       }
     ]
   },
@@ -26666,6 +27177,10 @@ window.BRANDS = [
         "season": "2025SS",
         "title": "ランウェイ再開",
         "note": "2024年9月に発表。"
+      },
+      {
+        "season": "1995",
+        "title": "デビューショー"
       }
     ],
     "staples": [
@@ -27289,6 +27804,12 @@ window.BRANDS = [
         "title": "表記",
         "text": "「KMRii」のロゴ。2000年代のものが中心。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2000",
+        "title": "バリで開始"
+      }
     ]
   },
   {
@@ -27388,6 +27909,16 @@ window.BRANDS = [
       {
         "title": "表記",
         "text": "2007〜2016年ごろと、2023年の再始動後で分かれる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2007",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2023",
+        "title": "再始動"
       }
     ]
   },
@@ -27497,6 +28028,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「L.G.B.」のタグ。同じ会社の「ifsixwasnine」とタグの雰囲気が似ている。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1999",
+        "title": "このころ始まる"
       }
     ]
   },

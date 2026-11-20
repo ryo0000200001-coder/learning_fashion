@@ -18473,6 +18473,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「WALES BONNER」のタグ。adidas 協業はアディダスの品番（箱やベロのタグ）で年がわかる。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2015SS",
+        "title": "最初のコレクション（Afronauts の流れ）"
+      },
+      {
+        "season": "2016",
+        "title": "LVMH プライズの受賞"
+      },
+      {
+        "season": "2020",
+        "title": "adidas との協業開始"
+      }
     ]
   },
   {
@@ -18844,6 +18858,20 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "メンズとウィメンズでタグが違う。ASICS 協業はアシックスの品番で年がわかる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2017SS",
+        "title": "最初のランウェイ（ロンドン）"
+      },
+      {
+        "season": "2018SS",
+        "title": "ASICS との最初のスニーカー"
+      },
+      {
+        "season": "2019SS",
+        "title": "パリでの発表を始める"
       }
     ]
   },
@@ -23006,6 +23034,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「DIRK VAN SAENE」のタグ。作り替えの服は元の服のタグが残っていることがある。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1983",
+        "title": "アントワープの店とブランドの開始"
+      },
+      {
+        "season": "1988",
+        "title": "ロンドンでの「アントワープの6人」の発表"
+      }
     ]
   },
   {
@@ -23107,6 +23145,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「MARINA YEE」のタグ。2000年代以降のものが多い。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1986",
+        "title": "ブランドの開始"
+      },
+      {
+        "season": "2018",
+        "title": "活動の再開"
       }
     ]
   },
@@ -23217,6 +23265,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「VERONIQUE BRANQUINHO」のタグ。2009年以前と2012年の再開後で分かれる。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1998",
+        "title": "パリ・デビュー"
+      },
+      {
+        "season": "2012",
+        "title": "活動の再開"
+      },
+      {
+        "season": "2017",
+        "title": "ブランドの終了"
+      }
     ]
   },
   {
@@ -23326,6 +23388,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「A.F.VANDEVORST」のタグに赤い十字のマーク。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1998",
+        "title": "最初のコレクション（パリ）"
+      },
+      {
+        "season": "2020",
+        "title": "ブランドの終了"
       }
     ]
   },
@@ -23469,6 +23541,24 @@ window.BRANDS = [
       {
         "title": "表記",
         "text": "「Y/PROJECT」のタグ。セルファティ期（2010〜2013年）はメンズ中心でタグの形が違う。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2010",
+        "title": "最初のコレクション"
+      },
+      {
+        "season": "2013",
+        "title": "マーティンス期の始まり"
+      },
+      {
+        "season": "2018-19AW",
+        "title": "UGG とのひざ上ブーツ"
+      },
+      {
+        "season": "2025",
+        "title": "ブランドの閉鎖"
       }
     ]
   },
@@ -23943,6 +24033,20 @@ window.BRANDS = [
         "title": "ロゴ",
         "text": "カスティリオーニ期とリッソ期でロゴの書体や配置が違う。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1994",
+        "title": "最初のコレクション"
+      },
+      {
+        "season": "2012",
+        "title": "H&M との協業"
+      },
+      {
+        "season": "2017SS",
+        "title": "フランチェスコ・リッソのデビュー"
+      }
     ]
   },
   {
@@ -24202,6 +24306,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「PROENZA SCHOULER」のタグ。PS1 は内側にシリアルがある。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2002",
+        "title": "卒業コレクションをバーニーズが買い取る"
+      },
+      {
+        "season": "2008",
+        "title": "PS1 の発売"
+      },
+      {
+        "season": "2026SS",
+        "title": "レイチェル・スコットのデビュー"
+      }
     ]
   },
   {
@@ -24311,6 +24429,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「THE ROW」のタグ。初期（2006年ごろ）は Tシャツ中心。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2006",
+        "title": "最初の Tシャツ"
+      },
+      {
+        "season": "2018",
+        "title": "マルゴーの発表"
       }
     ]
   },
@@ -24437,6 +24565,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「ENGINEERED GARMENTS」のタグに「Made in USA」。品番とシーズンがタグに入る。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2002",
+        "title": "最初のフルコレクション"
+      },
+      {
+        "season": "2009",
+        "title": "CFDA の新人賞（日本人初とされる）"
       }
     ]
   },
@@ -24983,6 +25121,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "ルメール単独の時代と、2014年以降のトランとの共同時代でタグの書体が違う。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1991",
+        "title": "クリストフ・ルメールのブランドの開始"
+      },
+      {
+        "season": "2014",
+        "title": "サラ＝リン・トランとの共同体制"
+      },
+      {
+        "season": "2016",
+        "title": "ユニクロ U の開始"
+      }
     ]
   },
   {
@@ -25094,6 +25246,16 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「OUR LEGACY」のタグ。WORK SHOP（2016年〜）は別のタグ。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2005",
+        "title": "Tシャツから始まる"
+      },
+      {
+        "season": "2016",
+        "title": "WORK SHOP の開始"
+      }
     ]
   },
   {
@@ -25201,6 +25363,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "初期は「Acne Jeans」、のちに「Acne」「Acne Studios」と名前が変わったので、タグで年代がわかる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1997",
+        "title": "100本のジーンズ"
+      },
+      {
+        "season": "2006",
+        "title": "パリでの発表開始とされる"
       }
     ]
   },
@@ -25432,6 +25604,20 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「SIMONE ROCHA」のタグ。メンズは後から始まったので年代の手がかりになる。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2011SS",
+        "title": "Fashion East でのデビュー"
+      },
+      {
+        "season": "2021",
+        "title": "H&M との協業"
+      },
+      {
+        "season": "2024",
+        "title": "ゴルチエのクチュール（ゲスト）"
       }
     ]
   },
@@ -26082,6 +26268,20 @@ window.BRANDS = [
         "title": "ライン",
         "text": "「Paul Smith」「PS Paul Smith」「Paul Smith Collection」「R.NEWBOLD」などラインでタグが違う。日本のライセンス品も多い。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1970",
+        "title": "ノッティンガムの店の開店"
+      },
+      {
+        "season": "1976",
+        "title": "パリで初のメンズ"
+      },
+      {
+        "season": "1991",
+        "title": "東京の旗艦店"
+      }
     ]
   },
   {
@@ -26541,6 +26741,16 @@ window.BRANDS = [
         "title": "表記",
         "text": "「COSTUME NATIONAL」「C'N'C COSTUME NATIONAL」「COSTUME NATIONAL HOMME」などラインで違う。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1986",
+        "title": "ミラノでの開始"
+      },
+      {
+        "season": "1993",
+        "title": "パリでの発表開始"
+      }
     ]
   },
   {
@@ -26676,6 +26886,20 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「CLAUDE MONTANA」「MONTANA」「MONTANA HOMMES」などの表記。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1979",
+        "title": "最初のコレクション"
+      },
+      {
+        "season": "1981",
+        "title": "モンタナ・オムの開始"
+      },
+      {
+        "season": "1990",
+        "title": "ランバンのオートクチュール"
+      }
     ]
   },
   {
@@ -26782,6 +27006,20 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「MARTINE SITBON」（〜2004年）と「RUE DU MAIL」（2006〜2013年）。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1986",
+        "title": "最初のコレクション"
+      },
+      {
+        "season": "1988",
+        "title": "クロエのデザインを始める"
+      },
+      {
+        "season": "2006",
+        "title": "Rue du Mail の開始"
       }
     ]
   },
@@ -26901,6 +27139,16 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "初期はアントワープ期、2013年以降はロサンゼルス期。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "1999",
+        "title": "最初のコレクション（パリ）"
+      },
+      {
+        "season": "2013",
+        "title": "ロサンゼルスへ移る"
       }
     ]
   },
@@ -27318,6 +27566,16 @@ window.BRANDS = [
         "title": "表記",
         "text": "初期は「Uma Studio」、のちに「UMA WANG」。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2009",
+        "title": "ロンドンでの発表"
+      },
+      {
+        "season": "2010年代",
+        "title": "ミラノ・パリでの発表"
+      }
     ]
   },
   {
@@ -27418,6 +27676,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "小さな手書き風のタグ。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2006",
+        "title": "自分のブランドの開始"
       }
     ]
   },
@@ -27542,6 +27806,16 @@ window.BRANDS = [
         "title": "番号",
         "text": "一点ずつ番号が入ったタグがある。"
       }
+    ],
+    "collections": [
+      {
+        "season": "1993",
+        "title": "パリでの発表開始"
+      },
+      {
+        "season": "2001",
+        "title": "イタリアでの再出発"
+      }
     ]
   },
   {
@@ -27629,6 +27903,12 @@ window.BRANDS = [
         "title": "タグ",
         "text": "「LABEL UNDER CONSTRUCTION」のタグ。"
       }
+    ],
+    "collections": [
+      {
+        "season": "2005",
+        "title": "このころ始まる"
+      }
     ]
   },
   {
@@ -27714,6 +27994,12 @@ window.BRANDS = [
       {
         "title": "タグ",
         "text": "「ISAAC SELLAM EXPERIENCE」のタグ。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2002",
+        "title": "パリでの開始"
       }
     ]
   },
@@ -28166,6 +28452,24 @@ window.BRANDS = [
       {
         "title": "表記",
         "text": "2018年までは「ALYX」、それ以降は「1017 ALYX 9SM」。"
+      }
+    ],
+    "collections": [
+      {
+        "season": "2015",
+        "title": "最初のコレクション（ウィメンズ）"
+      },
+      {
+        "season": "2017",
+        "title": "メンズの開始"
+      },
+      {
+        "season": "2018",
+        "title": "1017 ALYX 9SM への改名、ディオールのバックル"
+      },
+      {
+        "season": "2019",
+        "title": "モンクレール・ジーニアス"
       }
     ]
   }

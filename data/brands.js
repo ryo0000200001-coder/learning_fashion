@@ -36978,5 +36978,811 @@ window.BRANDS = [
         "text": "「ZIGGY CHEN」のタグ。"
       }
     ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "supreme",
+      "stussy"
+    ],
+    "archive": [],
+    "id": "palace",
+    "name": "Palace Skateboards",
+    "ja": "パレス",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 2009,
+    "tags": [
+      "スケート",
+      "ストリート"
+    ],
+    "aka": [
+      "パレス",
+      "Palace"
+    ],
+    "summary": "レヴ・タンジュが2009年にロンドンで始めたスケートブランド。三角形の「トライファーグ」のロゴ。",
+    "about": "Palace Skateboards（パレス）は、ロンドンのスケーター、レヴ・タンジュが2009年に始めたスケートブランド。ペンローズの三角形のような「トライファーグ」のロゴ、90年代のレイヴやサッカーのカルチャー、ユーモアのあるグラフィックで人気になった。adidas、カルバン・クライン、グッチなどとの協業もある。",
+    "history": [
+      {
+        "year": 2009,
+        "text": "ブランドを始める"
+      },
+      {
+        "year": 2023,
+        "text": "レヴ・タンジュが亡くなる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "lev",
+        "role": "創業者",
+        "from": 2009,
+        "to": 2023
+      }
+    ],
+    "collections": [
+      {
+        "season": "2009",
+        "title": "最初のコレクション"
+      }
+    ],
+    "eras": [
+      {
+        "name": "タンジュ期",
+        "from": 2009,
+        "to": 2023,
+        "d": "lev",
+        "text": "ロンドンのスケートの時代。",
+        "works": [
+          "トライファーグのアイテム"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "トライファーグの Tシャツ",
+        "year": "2010年代〜",
+        "desc": "三角形のロゴ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "トライファーグのパーカ",
+        "since": "定番",
+        "desc": "ロゴのパーカ。"
+      },
+      {
+        "name": "スケートデッキ",
+        "since": "定番",
+        "desc": "パレスのデッキ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "シーズンごとの発売で、年でタグの細部が違う。"
+      }
+    ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "supreme",
+      "aimeleondore"
+    ],
+    "archive": [],
+    "id": "noah",
+    "name": "Noah",
+    "ja": "ノア",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2002,
+    "tags": [
+      "ストリート",
+      "トラッド"
+    ],
+    "aka": [
+      "ノア"
+    ],
+    "summary": "シュプリームのブレンドン・バベンジンが始めたブランド。サーフ、スケート、トラッドを組み合わせ、環境への配慮でも知られる。",
+    "about": "Noah（ノア）は、シュプリームのクリエイティブ・ディレクターだったブレンドン・バベンジンが2002年に始め、2015年に再始動したブランド。サーフ、スケート、アイビーのトラッドを組み合わせ、十字架のロゴでも知られる。環境や社会への考えを打ち出している。",
+    "history": [
+      {
+        "year": 2002,
+        "text": "ブランドを始める"
+      },
+      {
+        "year": 2015,
+        "text": "ニューヨークで再始動"
+      }
+    ],
+    "designers": [
+      {
+        "d": "bwolf",
+        "role": "創業者",
+        "from": 2002,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2015",
+        "title": "再始動"
+      }
+    ],
+    "eras": [
+      {
+        "name": "バベンジン期",
+        "from": 2015,
+        "to": null,
+        "d": "bwolf",
+        "text": "サーフとトラッドの時代。",
+        "works": [
+          "ラグビーシャツ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "ラグビーシャツ",
+        "year": "2010年代後半〜",
+        "desc": "トラッドのシャツ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "十字架のロゴの Tシャツ",
+        "since": "定番",
+        "desc": "ロゴの Tシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "時期",
+        "text": "2002〜2007年ごろの初期と、2015年の再始動後に分かれる。"
+      }
+    ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "newbalance",
+      "noah"
+    ],
+    "archive": [],
+    "id": "aimeleondore",
+    "name": "Aimé Leon Dore",
+    "ja": "エメ レオン ドレ",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2014,
+    "tags": [
+      "トラッド",
+      "ストリート"
+    ],
+    "aka": [
+      "エメレオンドレ",
+      "ALD"
+    ],
+    "summary": "テディ・サンティスが2014年にニューヨークで始めたブランド。クイーンズの思い出と、トラッドとストリートをまぜた服。",
+    "about": "Aimé Leon Dore（エメ レオン ドレ）は、テディ・サンティスが2014年にニューヨークで始めたブランド。ギリシャ系の家族と育ったクイーンズの思い出をもとに、トラッド、スポーツ、90年代のニューヨークをまぜた服で人気になった。ニューバランスとの 550 の協業は大ヒットした。",
+    "history": [
+      {
+        "year": 2014,
+        "text": "ブランドを始める"
+      },
+      {
+        "year": 2020,
+        "text": "ニューバランス 550 の協業"
+      }
+    ],
+    "designers": [
+      {
+        "d": "teddy",
+        "role": "創業者",
+        "from": 2014,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2020",
+        "title": "New Balance 550"
+      }
+    ],
+    "eras": [
+      {
+        "name": "サンティス期",
+        "from": 2014,
+        "to": null,
+        "d": "teddy",
+        "text": "ニューヨークのトラッドの時代。",
+        "works": [
+          "New Balance 550"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "New Balance 550（協業）",
+        "year": 2020,
+        "desc": "バスケットシューズの復刻。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "ロゴのクルーネック",
+        "since": "定番",
+        "desc": "スウェット。"
+      },
+      {
+        "name": "ラグビーシャツ",
+        "since": "定番",
+        "desc": "トラッド。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「Aimé Leon Dore」のタグ。"
+      }
+    ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "newbalance",
+      "aimeleondore"
+    ],
+    "archive": [],
+    "id": "kith",
+    "name": "KITH",
+    "ja": "キス",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2011,
+    "tags": [
+      "ストリート",
+      "協業"
+    ],
+    "aka": [
+      "キス"
+    ],
+    "summary": "ロニー・フィーグが2011年に始めたブランドとショップ。数多くの協業で知られる。",
+    "about": "KITH（キス）は、ロニー・フィーグが2011年にニューヨークで始めたスニーカーと服の店・ブランド。アシックス、ニューバランス、ナイキ、コカ・コーラ、ディズニーなど数多くの協業で知られる。店の中にシリアルのバー「キス・トリーツ」もある。",
+    "history": [
+      {
+        "year": 2011,
+        "text": "ニューヨークで開店"
+      }
+    ],
+    "designers": [
+      {
+        "d": "ronnie",
+        "role": "創業者",
+        "from": 2011,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2011",
+        "title": "最初の店"
+      }
+    ],
+    "eras": [
+      {
+        "name": "フィーグ期",
+        "from": 2011,
+        "to": null,
+        "d": "ronnie",
+        "text": "協業の時代。",
+        "works": [
+          "ボックスロゴのパーカ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "ASICS Gel-Lyte III（協業）",
+        "year": "2010年代",
+        "desc": "ロニー・フィーグの初期の協業。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "ボックスロゴのパーカ",
+        "since": "定番",
+        "desc": "ロゴのパーカ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "協業",
+        "text": "協業相手の品番で年がわかる。"
+      }
+    ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "offwhite",
+      "nike"
+    ],
+    "archive": [],
+    "id": "fearofgod",
+    "name": "Fear of God",
+    "ja": "フィア・オブ・ゴッド",
+    "country": "アメリカ",
+    "city": "ロサンゼルス",
+    "founded": 2013,
+    "tags": [
+      "ストリート",
+      "ラグジュアリー"
+    ],
+    "aka": [
+      "フィアオブゴッド",
+      "FOG",
+      "ESSENTIALS"
+    ],
+    "summary": "ジェリー・ロレンゾが2013年に始めたブランド。大きなシルエットのラグジュアリー・ストリート。セカンドの ESSENTIALS も人気。",
+    "about": "Fear of God（フィア・オブ・ゴッド）は、ジェリー・ロレンゾが2013年にロサンゼルスで始めたブランド。大きなシルエット、アースカラー、ヴィンテージのような加工の服で、2010年代後半のラグジュアリー・ストリートを代表した。手頃なラインの「ESSENTIALS」、ナイキや adidas との協業も人気。",
+    "history": [
+      {
+        "year": 2013,
+        "text": "ブランドを始める"
+      },
+      {
+        "year": 2018,
+        "text": "ESSENTIALS を始める"
+      },
+      {
+        "year": 2020,
+        "text": "adidas との協業を発表"
+      }
+    ],
+    "designers": [
+      {
+        "d": "jerry",
+        "role": "創業者・デザイナー",
+        "from": 2013,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2013",
+        "title": "最初のコレクション"
+      },
+      {
+        "season": "2018",
+        "title": "Nike Air Fear of God 1"
+      }
+    ],
+    "eras": [
+      {
+        "name": "ロレンゾ期",
+        "from": 2013,
+        "to": null,
+        "d": "jerry",
+        "text": "ラグジュアリー・ストリートの時代。",
+        "works": [
+          "オーバーサイズのパーカ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "Nike Air Fear of God 1",
+        "year": 2018,
+        "desc": "ナイキとの協業スニーカー。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "ESSENTIALS のパーカ",
+        "since": "2018〜",
+        "desc": "手頃なライン。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "コレクション番号",
+        "text": "「Fifth Collection」のように番号でコレクションを呼ぶ。"
+      }
+    ]
+  },
+  {
+    "origin": "domestic",
+    "sources": [],
+    "related": [
+      "bape",
+      "undercover"
+    ],
+    "archive": [],
+    "id": "bountyhunter",
+    "name": "BOUNTY HUNTER",
+    "ja": "バウンティーハンター",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1995,
+    "tags": [
+      "裏原",
+      "パンク",
+      "トイ"
+    ],
+    "aka": [
+      "バウンティーハンター",
+      "バウンティ"
+    ],
+    "summary": "ヒカルが1995年に始めた裏原宿のブランド。パンク、ロック、ソフビのおもちゃで知られる。",
+    "about": "BOUNTY HUNTER（バウンティーハンター）は、ヒカルが1995年に原宿で始めたブランド。パンクやロック、アメリカのおもちゃのカルチャーをもとに、スカルのキャラクターや、ソフトビニールのおもちゃ（ソフビ）を作り、裏原宿の一角を担った。",
+    "history": [
+      {
+        "year": 1995,
+        "text": "原宿で始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "hikaru",
+        "role": "創業者",
+        "from": 1995,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1995",
+        "title": "最初の店"
+      }
+    ],
+    "eras": [
+      {
+        "name": "ヒカル期",
+        "from": 1995,
+        "to": null,
+        "d": "hikaru",
+        "text": "パンクとおもちゃの時代。",
+        "works": [
+          "ソフビのフィギュア"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "ソフビのフィギュア",
+        "year": "1990年代〜",
+        "desc": "ブランドのキャラクターのおもちゃ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "スカルの Tシャツ",
+        "since": "定番",
+        "desc": "キャラクターの Tシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "1990年代の初期のタグは古い書体。"
+      }
+    ]
+  },
+  {
+    "origin": "domestic",
+    "sources": [],
+    "related": [
+      "bape",
+      "undercover",
+      "goodenough"
+    ],
+    "archive": [
+      "偽物に注意。"
+    ],
+    "id": "realmadhectic",
+    "name": "REAL MAD HECTIC",
+    "ja": "リアルマッドヘクティク",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1994,
+    "tags": [
+      "裏原",
+      "アーカイブ"
+    ],
+    "aka": [
+      "リアルマッドヘクティク",
+      "RMH"
+    ],
+    "summary": "NIGO と高橋盾が1990年代に手がけた裏原宿のブランド。アーカイブとして高値で取引される。",
+    "about": "REAL MAD HECTIC（リアルマッドヘクティク）は、NIGO と高橋盾（アンダーカバー）が1990年代に一緒に手がけた裏原宿のブランド。グラフィックの Tシャツやキャップなどが作られ、裏原宿の歴史を語るアーカイブとして、今は高値で取引される。",
+    "history": [
+      {
+        "year": 1994,
+        "text": "このころ始まる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "rmh",
+        "role": "デザイナー",
+        "from": 1994,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1990年代",
+        "title": "裏原宿期"
+      }
+    ],
+    "eras": [
+      {
+        "name": "裏原期",
+        "from": 1994,
+        "to": 2000,
+        "d": "rmh",
+        "text": "裏原宿の黄金期。",
+        "works": [
+          "グラフィックの Tシャツ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "グラフィックの Tシャツ",
+        "year": "1990年代",
+        "desc": "裏原宿のアーカイブ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "キャップ",
+        "since": "1990年代",
+        "desc": "ロゴのキャップ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "時期",
+        "text": "1990年代のものがほとんど。"
+      }
+    ]
+  },
+  {
+    "origin": "domestic",
+    "sources": [],
+    "related": [
+      "bape",
+      "xlarge"
+    ],
+    "archive": [],
+    "id": "swagger",
+    "name": "SWAGGER",
+    "ja": "スワッガー",
+    "country": "日本",
+    "city": "東京",
+    "founded": 1994,
+    "tags": [
+      "裏原",
+      "ヒップホップ"
+    ],
+    "aka": [
+      "スワッガー"
+    ],
+    "summary": "1990年代に原宿で生まれたブランド。ヒップホップとスケートの服で裏原宿の一角を担った。",
+    "about": "SWAGGER（スワッガー）は、1990年代に原宿で始まったブランド。ヒップホップやスケートのカルチャーをもとにした服で、裏原宿ブームの一角を担った。",
+    "history": [
+      {
+        "year": 1994,
+        "text": "このころ始まる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "swagger",
+        "role": "創業チーム",
+        "from": 1994,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1990年代",
+        "title": "裏原宿期"
+      }
+    ],
+    "eras": [
+      {
+        "name": "裏原期",
+        "from": 1994,
+        "to": null,
+        "d": "swagger",
+        "text": "ヒップホップの時代。",
+        "works": [
+          "ロゴの Tシャツ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "ロゴの Tシャツ",
+        "year": "1990年代",
+        "desc": "裏原宿のアーカイブ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "スウェット",
+        "since": "定番",
+        "desc": "ロゴのスウェット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "時期",
+        "text": "1990年代のものが人気。"
+      }
+    ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "stussy",
+      "xlarge"
+    ],
+    "archive": [],
+    "id": "silas",
+    "name": "SILAS",
+    "ja": "サイラス",
+    "country": "イギリス",
+    "city": "ロンドン",
+    "founded": 1998,
+    "tags": [
+      "スケート",
+      "ストリート"
+    ],
+    "aka": [
+      "サイラス"
+    ],
+    "summary": "1998年にロンドンで生まれたスケートとグラフィックのブランド。日本でも人気。",
+    "about": "SILAS（サイラス）は、1998年にロンドンで始まったストリートブランド。スケート、音楽、グラフィックのカルチャーをもとにした服で、日本でも長く人気がある。",
+    "history": [
+      {
+        "year": 1998,
+        "text": "ロンドンで始まる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "silas",
+        "role": "創業者",
+        "from": 1998,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1998",
+        "title": "最初のコレクション"
+      }
+    ],
+    "eras": [
+      {
+        "name": "創業期",
+        "from": 1998,
+        "to": null,
+        "d": "silas",
+        "text": "ロンドンのストリートの時代。",
+        "works": [
+          "グラフィックの Tシャツ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "グラフィックの Tシャツ",
+        "year": "2000年代",
+        "desc": "初期のグラフィック。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "ロゴのスウェット",
+        "since": "定番",
+        "desc": "ロゴのスウェット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "初期のロンドン期と、のちの日本の展開でタグが違う。"
+      }
+    ]
+  },
+  {
+    "origin": "import",
+    "sources": [],
+    "related": [
+      "bape",
+      "lv"
+    ],
+    "archive": [],
+    "id": "bbc",
+    "name": "Billionaire Boys Club",
+    "ja": "ビリオネア・ボーイズ・クラブ",
+    "country": "アメリカ",
+    "city": "ニューヨーク",
+    "founded": 2003,
+    "tags": [
+      "ストリート",
+      "ヒップホップ"
+    ],
+    "aka": [
+      "BBC",
+      "ICECREAM",
+      "アイスクリーム"
+    ],
+    "summary": "ファレル・ウィリアムスと NIGO が2003年に始めたブランド。宇宙飛行士のロゴと、スニーカーの ICECREAM。",
+    "about": "Billionaire Boys Club（ビリオネア・ボーイズ・クラブ）は、ファレル・ウィリアムスと NIGO が2003年に始めたブランド。宇宙飛行士のロゴ、スニーカーとカラフルな服の「ICECREAM」で、2000年代のヒップホップのファッションを代表した。",
+    "history": [
+      {
+        "year": 2003,
+        "text": "ブランドを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "bbc",
+        "role": "創業者",
+        "from": 2003,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2003",
+        "title": "最初のコレクション"
+      }
+    ],
+    "eras": [
+      {
+        "name": "ファレル・NIGO 期",
+        "from": 2003,
+        "to": null,
+        "d": "bbc",
+        "text": "2000年代のヒップホップの時代。",
+        "works": [
+          "宇宙飛行士のロゴのアイテム"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "ICECREAM のスニーカー",
+        "year": "2000年代",
+        "desc": "カラフルなスニーカー。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "宇宙飛行士のロゴの Tシャツ",
+        "since": "定番",
+        "desc": "ロゴの Tシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "時期",
+        "text": "2000年代の初期のものが人気。"
+      }
+    ]
   }
 ];

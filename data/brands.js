@@ -30354,7 +30354,10 @@ window.BRANDS = [
     "origin": "import",
     "related": [
       "engineeredgarments",
-      "kapital"
+      "kapital",
+      "evisu",
+      "studiodartisan",
+      "warehouse"
     ],
     "sources": [],
     "id": "levis",
@@ -37782,6 +37785,698 @@ window.BRANDS = [
       {
         "title": "時期",
         "text": "2000年代の初期のものが人気。"
+      }
+    ]
+  },
+  {
+    "id": "evisu",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "EVISU",
+    "ja": "エヴィス",
+    "city": "大阪",
+    "founded": 1991,
+    "tags": [
+      "デニム",
+      "レプリカ",
+      "90年代"
+    ],
+    "aka": [
+      "エヴィス",
+      "エビス"
+    ],
+    "summary": "山根英彦が1991年に大阪で始めたデニム。後ろポケットのカモメのペイントで、90年代に日本と海外で大ブーム。",
+    "about": "EVISU（エヴィス）は、山根英彦が1991年に大阪で始めたデニムブランド。古い織機で織ったデニムで、ヴィンテージのリーバイスを再現した「レプリカ・ジーンズ」の代表になった。\n後ろポケットに手描きでペイントしたカモメのマークで、1990年代に日本で大ブームを起こし、のちにヨーロッパやアメリカでもヒップホップのスターに愛された。",
+    "history": [
+      {
+        "year": 1991,
+        "text": "大阪で始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "yamane",
+        "role": "創業者・デザイナー",
+        "from": 1991,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1991",
+        "title": "最初のジーンズ"
+      }
+    ],
+    "eras": [
+      {
+        "name": "山根英彦期",
+        "from": 1991,
+        "to": null,
+        "d": "yamane",
+        "text": "レプリカ・ジーンズとカモメの時代。",
+        "works": [
+          "No.1・No.2 のジーンズ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "カモメのペイントのジーンズ",
+        "year": "1990年代",
+        "desc": "後ろポケットに手描きのカモメ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "No.2 ジーンズ",
+        "since": "定番",
+        "desc": "ストレートのジーンズ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ペイント",
+        "text": "初期は手描きのペイント。のちに印刷やプリントのものも増えた。"
+      }
+    ]
+  },
+  {
+    "id": "studiodartisan",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "STUDIO D'ARTISAN",
+    "ja": "ステュディオ・ダ・ルチザン",
+    "city": "大阪",
+    "founded": 1979,
+    "tags": [
+      "デニム",
+      "レプリカ"
+    ],
+    "aka": [
+      "ダルチ",
+      "ステュディオダルチザン"
+    ],
+    "summary": "田垣繁晴が1979年に大阪で始めたブランド。日本のレプリカ・ジーンズの元祖の一つ。",
+    "about": "STUDIO D'ARTISAN（ステュディオ・ダ・ルチザン）は、田垣繁晴が1979年に大阪で始めたブランド。1980年代に、古い織機を使ってヴィンテージのジーンズを再現し、日本のレプリカ・ジーンズの元祖の一つになった。大阪の「大阪5（エヴィス、ドゥニーム、フルカウント、ウエアハウス、ダルチ）」の一つ。豚のマークのパッチで知られる。",
+    "history": [
+      {
+        "year": 1979,
+        "text": "大阪で始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "tagaki",
+        "role": "創業者",
+        "from": 1979,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1979",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "田垣繁晴期",
+        "from": 1979,
+        "to": null,
+        "d": "tagaki",
+        "text": "レプリカの元祖の時代。",
+        "works": [
+          "豚のパッチのジーンズ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "豚のパッチのジーンズ",
+        "year": "1980年代〜",
+        "desc": "2匹の豚がジーンズを引っ張るパッチ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "セルビッジのジーンズ",
+        "since": "定番",
+        "desc": "赤耳のデニム。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "パッチ",
+        "text": "パッチやタグのデザインで年代がわかる。"
+      }
+    ]
+  },
+  {
+    "id": "fullcount",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "FULLCOUNT",
+    "ja": "フルカウント",
+    "city": "大阪",
+    "founded": 1992,
+    "tags": [
+      "デニム",
+      "レプリカ"
+    ],
+    "aka": [
+      "フルカウント"
+    ],
+    "summary": "辻田幹晴が1992年に大阪で始めたデニム。ジンバブエ・コットンの柔らかいデニム。",
+    "about": "FULLCOUNT（フルカウント）は、辻田幹晴が1992年に大阪で始めたデニムブランド。ジンバブエ・コットンを使った柔らかく着心地のよいデニムで知られる。「大阪5」の一つ。",
+    "history": [
+      {
+        "year": 1992,
+        "text": "大阪で始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "tsujita",
+        "role": "創業者",
+        "from": 1992,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1992",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "辻田幹晴期",
+        "from": 1992,
+        "to": null,
+        "d": "tsujita",
+        "text": "ジンバブエ・コットンの時代。",
+        "works": [
+          "1108"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "1108 ジーンズ",
+        "year": "定番",
+        "desc": "細めのストレート。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "Tシャツ",
+        "since": "定番",
+        "desc": "厚手の Tシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "パッチ",
+        "text": "パッチの表記で型番と時期がわかる。"
+      }
+    ]
+  },
+  {
+    "id": "warehouse",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "WAREHOUSE",
+    "ja": "ウエアハウス",
+    "city": "大阪",
+    "founded": 1995,
+    "tags": [
+      "デニム",
+      "レプリカ",
+      "ヴィンテージ"
+    ],
+    "aka": [
+      "ウエアハウス",
+      "ウェアハウス"
+    ],
+    "summary": "1995年に大阪で始まったブランド。ヴィンテージの生地を糸から再現することで知られる。",
+    "about": "WAREHOUSE（ウエアハウス）は、1995年に大阪で始まったブランド。ヴィンテージのジーンズやスウェット、ワークウェアの生地を、糸の太さや織り方から再現することで知られる。「大阪5」の一つ。",
+    "history": [
+      {
+        "year": 1995,
+        "text": "大阪で始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "shiotani",
+        "role": "創業メンバー",
+        "from": 1995,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1995",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "創業者期",
+        "from": 1995,
+        "to": null,
+        "d": "shiotani",
+        "text": "ヴィンテージの再現の時代。",
+        "works": [
+          "Lot 1001"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "Lot 1001",
+        "year": "定番",
+        "desc": "ヴィンテージを再現したジーンズ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "スウェット",
+        "since": "定番",
+        "desc": "ヴィンテージ風のスウェット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ロット番号",
+        "text": "ロット番号で型がわかる。"
+      }
+    ]
+  },
+  {
+    "id": "denime",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "DENIME",
+    "ja": "ドゥニーム",
+    "city": "大阪",
+    "founded": 1988,
+    "tags": [
+      "デニム",
+      "レプリカ"
+    ],
+    "aka": [
+      "ドゥニーム"
+    ],
+    "summary": "1988年に生まれたブランド。66 モデルなどの再現で90年代のレプリカ・ブームを支えた。",
+    "about": "DENIME（ドゥニーム）は、1988年に始まったデニムブランド。リーバイスの「66 モデル」などのヴィンテージを再現したジーンズで、1990年代のレプリカ・ジーンズのブームを支えた。「大阪5」の一つ。のちに経営が変わった。",
+    "history": [
+      {
+        "year": 1988,
+        "text": "ブランドの開始"
+      }
+    ],
+    "designers": [
+      {
+        "d": "hayashi_d",
+        "role": "創業メンバー",
+        "from": 1988,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1988",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "初期",
+        "from": 1988,
+        "to": 2000,
+        "d": "hayashi_d",
+        "text": "レプリカの黄金期。",
+        "works": [
+          "66 モデルの再現"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "66 モデルの再現ジーンズ",
+        "year": "1990年代",
+        "desc": "ヴィンテージを再現したジーンズ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "XX タイプのジーンズ",
+        "since": "定番",
+        "desc": "古い型の再現。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "時期",
+        "text": "初期（1990年代）のものが特に人気。"
+      }
+    ]
+  },
+  {
+    "id": "orslow",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "orSlow",
+    "ja": "オアスロウ",
+    "city": "兵庫",
+    "founded": 2005,
+    "tags": [
+      "ワーク",
+      "ミリタリー",
+      "デニム"
+    ],
+    "aka": [
+      "オアスロウ"
+    ],
+    "summary": "2005年に始まったブランド。アメリカのワークウェアとミリタリーを日本の工場で作り直している。",
+    "about": "orSlow（オアスロウ）は、2005年に始まった日本のブランド。アメリカのワークウェアやミリタリー、デニムを日本の工場で作り直し、ファティーグ・パンツやデニムが人気。",
+    "history": [
+      {
+        "year": 2005,
+        "text": "ブランドを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "nakaga",
+        "role": "創業者",
+        "from": 2005,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2005",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "創業者期",
+        "from": 2005,
+        "to": null,
+        "d": "nakaga",
+        "text": "ワークとミリタリーの時代。",
+        "works": [
+          "ファティーグ・パンツ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "ファティーグ・パンツ",
+        "year": "定番",
+        "desc": "軍のパンツをもとにした定番。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "105 ジーンズ",
+        "since": "定番",
+        "desc": "定番のデニム。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「orSlow」のタグ。"
+      }
+    ]
+  },
+  {
+    "id": "momotaro",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "MOMOTARO JEANS",
+    "ja": "桃太郎ジーンズ",
+    "city": "岡山・児島",
+    "founded": 2006,
+    "tags": [
+      "デニム",
+      "児島"
+    ],
+    "aka": [
+      "桃太郎ジーンズ",
+      "モモタロウ"
+    ],
+    "summary": "岡山・児島のジャパンブルーが始めたデニム。後ろポケットの白いステッチ2本「出陣ラベル」で知られる。",
+    "about": "MOMOTARO JEANS（桃太郎ジーンズ）は、岡山・児島のジャパンブルーが始めたデニムブランド。ジンバブエ・コットンのデニムや、手織りのデニムなどで知られる。後ろポケットの白い2本のステッチ（出陣ラベル）が目印。",
+    "history": [
+      {
+        "year": 2006,
+        "text": "このころ始まる"
+      }
+    ],
+    "designers": [
+      {
+        "d": "manabe",
+        "role": "創業者",
+        "from": 2006,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "2006",
+        "title": "このころ始まる"
+      }
+    ],
+    "eras": [
+      {
+        "name": "創業者期",
+        "from": 2006,
+        "to": null,
+        "d": "manabe",
+        "text": "児島のデニムの時代。",
+        "works": [
+          "出陣ラベルのジーンズ"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "出陣ラベルのジーンズ",
+        "year": "定番",
+        "desc": "白い2本のステッチ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "手織りのジーンズ",
+        "since": "定番",
+        "desc": "手で織った生地のジーンズ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ラベル",
+        "text": "ラベルの種類で型がわかる。"
+      }
+    ]
+  },
+  {
+    "id": "sugarcane",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "SUGAR CANE",
+    "ja": "シュガーケーン",
+    "city": "東京",
+    "founded": 1975,
+    "tags": [
+      "デニム",
+      "ワーク"
+    ],
+    "aka": [
+      "シュガーケーン"
+    ],
+    "summary": "東洋エンタープライズが1975年に始めたデニム。サトウキビの繊維を使ったデニムで知られる。",
+    "about": "SUGAR CANE（シュガーケーン）は、東洋エンタープライズが1975年に始めたデニムブランド。サトウキビの繊維をまぜたデニムなど、独自の素材で知られる。ワークシャツやジャケットも作っている。",
+    "history": [
+      {
+        "year": 1975,
+        "text": "ブランドを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "toyo",
+        "role": "会社",
+        "from": 1975,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1975",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "東洋エンタープライズ期",
+        "from": 1975,
+        "to": null,
+        "d": "toyo",
+        "text": "ワークとデニムの時代。",
+        "works": [
+          "1947 モデル"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "1947 モデル",
+        "year": "定番",
+        "desc": "大戦後のモデルの再現。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "ワークシャツ",
+        "since": "定番",
+        "desc": "シャンブレーのシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ロット",
+        "text": "ロット番号で型がわかる。"
+      }
+    ]
+  },
+  {
+    "id": "purebluejapan",
+    "origin": "domestic",
+    "country": "日本",
+    "sources": [],
+    "related": [
+      "levis",
+      "kapital"
+    ],
+    "archive": [],
+    "name": "Pure Blue Japan",
+    "ja": "ピュアブルージャパン",
+    "city": "岡山",
+    "founded": 1997,
+    "tags": [
+      "デニム",
+      "スラブ"
+    ],
+    "aka": [
+      "ピュアブルージャパン",
+      "PBJ"
+    ],
+    "summary": "1997年に始まったブランド。凹凸の強い「スラブ」のデニムで、色落ちが独特。",
+    "about": "Pure Blue Japan（ピュアブルージャパン）は、1997年に始まった岡山のデニムブランド。凹凸の強い「スラブ」の糸を使った厚いデニムで、ほかにない色落ちが楽しめることで海外でも人気。",
+    "history": [
+      {
+        "year": 1997,
+        "text": "ブランドを始める"
+      }
+    ],
+    "designers": [
+      {
+        "d": "iwata",
+        "role": "創業者",
+        "from": 1997,
+        "to": null
+      }
+    ],
+    "collections": [
+      {
+        "season": "1997",
+        "title": "ブランドの開始"
+      }
+    ],
+    "eras": [
+      {
+        "name": "創業者期",
+        "from": 1997,
+        "to": null,
+        "d": "iwata",
+        "text": "スラブのデニムの時代。",
+        "works": [
+          "XX-019"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "name": "XX-019",
+        "year": "定番",
+        "desc": "人気のスラブのジーンズ。"
+      }
+    ],
+    "staples": [
+      {
+        "name": "インディゴのシャツ",
+        "since": "定番",
+        "desc": "デニムのシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ロット",
+        "text": "ロット番号で生地と型がわかる。"
       }
     ]
   }

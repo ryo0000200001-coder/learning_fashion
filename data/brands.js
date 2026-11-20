@@ -3153,6 +3153,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "MA-1 や M-65 を作り変えた定番。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグの表記",
+        "text": "「TAKAHIROMIYASHITATheSoloist.」のタグ。シーズン番号（#0010 など）がコレクション名に使われるので、品番やタグの表記と合わせて年代を推測する。"
+      }
     ]
   },
   {
@@ -3353,6 +3359,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "布地を切り替えたプリーツのスカート。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグと品番",
+        "text": "白地に黒の「sacai」タグ。品番の最初の2桁がシーズンを表すことが多い。初期（2000年代）は「sacai luck」などのラインもあった。"
+      }
     ]
   },
   {
@@ -3480,6 +3492,12 @@ window.BRANDS = [
         "name": "kolor BEACON のアウター",
         "since": "2010年代",
         "desc": "カジュアルライン「ビーコン」のジャケット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「kolor」と「kolor BEACON」でタグが違う。品番にシーズンを表す数字が入る。"
       }
     ]
   },
@@ -4456,6 +4474,12 @@ window.BRANDS = [
         "since": "2000年代",
         "desc": "スカルをスワロフスキーで飾ったアイテム。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「mastermind JAPAN」（〜2013年）と「mastermind WORLD」「mastermind TOKYO」（2017年〜）でタグが違うので、時代がすぐわかる。"
+      }
     ]
   },
   {
@@ -4604,6 +4628,12 @@ window.BRANDS = [
         "name": "ダメージ加工のデニム",
         "since": "2000年代〜",
         "desc": "古着を思わせる加工のデニム。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ブランド名の表記",
+        "text": "初期は「MIHARAYASUHIRO」、のちに「Maison MIHARA YASUHIRO」に。PUMA との協業は「PUMA by MIHARA YASUHIRO」の表記。"
       }
     ]
   },
@@ -12092,6 +12122,12 @@ window.BRANDS = [
         "since": "1970",
         "desc": "4つの L のロゴ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "ロゴの違い",
+        "text": "アンダーソン期（2013年〜）にロゴの書体が変わり、アナグラムも細く描き直された。それ以前のバッグは古いロゴ。"
+      }
     ]
   },
   {
@@ -14524,6 +14560,12 @@ window.BRANDS = [
         "since": "1980年代〜",
         "desc": "大きなステッチのジャケット。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「CHRISTOPHER NEMETH」の手書き風のタグ。東京期のものは日本製。ロンドン期（1980年代前半）のものは極めて少ない。"
+      }
     ]
   },
   {
@@ -14671,6 +14713,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "細身のブーツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "品番と刻印",
+        "text": "靴の内側やタグに品番が手書き・刻印されることがある。初期（1990年代後半〜2000年代前半）のショーのころのものは数が少ない。"
+      }
     ]
   },
   {
@@ -14781,6 +14829,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "ホースレザーのバッグ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "品番",
+        "text": "靴の内側に型番（988、PL1 など）とサイズが書かれている。革の種類（ホース、カンガルー、バッファロー）も記号で表される。"
+      }
     ]
   },
   {
@@ -14869,6 +14923,12 @@ window.BRANDS = [
         "name": "古い布を使ったシャツ",
         "since": "2016〜",
         "desc": "再生布のシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "番号",
+        "text": "コレクションに番号がつけられ、タグにも番号が入ることがある。"
       }
     ]
   },
@@ -15024,6 +15084,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "細身のレイヤード用カットソー。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「KAZUYUKI KUMAGAI ATTACHMENT」と「ATTACHMENT」でタグが違う。2022年以降はデザイナーが変わった。"
+      }
     ]
   },
   {
@@ -15150,6 +15216,12 @@ window.BRANDS = [
         "since": "2000年代",
         "desc": "スポーツラインの靴。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "初期は「DIRK BIKKEMBERGS」、のちにスポーツ寄りの「BIKKEMBERGS」に変わる。"
+      }
     ]
   },
   {
@@ -15244,6 +15316,12 @@ window.BRANDS = [
         "name": "ジャケット",
         "since": "1990年代後半",
         "desc": "ねじれた縫い目の服。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「carpe diem」の小文字のタグ。2006年に終わったので、それ以前のもの。のちの「C-DIEM」は別の展開。"
       }
     ]
   },
@@ -15348,6 +15426,12 @@ window.BRANDS = [
         "name": "レースアップ・ブーツ",
         "since": "2000年代〜",
         "desc": "ホースレザーのブーツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「m.a+」のタグ。品番に型（A、B、S など）を表す記号が入る。"
       }
     ]
   },
@@ -15479,6 +15563,12 @@ window.BRANDS = [
         "since": "2013〜",
         "desc": "セカンドラインのパンツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "ライン",
+        "text": "メインは「BORIS BIDJAN SABERI」、セカンドは「11 by BORIS BIDJAN SABERI」（2013年〜）。品番は数字中心。"
+      }
     ]
   },
   {
@@ -15601,6 +15691,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "手作業のシャツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "ほとんど目立つタグをつけない。小さな布タグや手書きのサイズ表記のみのことが多い。"
+      }
     ]
   },
   {
@@ -15686,6 +15782,12 @@ window.BRANDS = [
         "name": "製品染めのシャツ",
         "since": "2010年代",
         "desc": "染めたシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "シリーズ名（Distortion など）とサイズが入ったタグ。"
       }
     ]
   },
@@ -15778,6 +15880,12 @@ window.BRANDS = [
         "name": "レザーのジャケット",
         "since": "2000年代後半〜",
         "desc": "製品染めのレザー。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "刻印",
+        "text": "靴やレザーに「a1923」や「a diciannoveventitre」の刻印が入る。"
       }
     ]
   },
@@ -17676,6 +17784,12 @@ window.BRANDS = [
         "since": "2008",
         "desc": "金の延べ棒の形の香水。"
       }
+    ],
+    "dating": [
+      {
+        "title": "ブランド名",
+        "text": "2023年に「Paco Rabanne」から「Rabanne」に変わったので、タグの表記で前後がわかる。"
+      }
     ]
   },
   {
@@ -17989,6 +18103,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "レイヴやサッカーから着想したトラックスーツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「MARTINE ROSE」のタグ。ナイキとの協業はナイキの品番で年がわかる。"
+      }
     ]
   },
   {
@@ -18117,6 +18237,12 @@ window.BRANDS = [
         "since": "2014〜",
         "desc": "細身の仕立て。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「WALES BONNER」のタグ。adidas 協業はアディダスの品番（箱やベロのタグ）で年がわかる。"
+      }
     ]
   },
   {
@@ -18226,6 +18352,12 @@ window.BRANDS = [
         "name": "Moncler・UNIQLO との協業",
         "since": "2017〜",
         "desc": "協業のアイテム。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「J.W.ANDERSON」から「JW ANDERSON」へロゴが変わった。"
       }
     ]
   },
@@ -18354,6 +18486,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "ユニフォームのような上下。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「CRAIG GREEN」のタグ。Moncler Genius のアイテムはモンクレールのタグがつく。"
+      }
     ]
   },
   {
@@ -18470,6 +18608,12 @@ window.BRANDS = [
         "name": "ジャカードのカーディガン",
         "since": "2010年代",
         "desc": "柄の入ったニット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "メンズとウィメンズでタグが違う。ASICS 協業はアシックスの品番で年がわかる。"
       }
     ]
   },
@@ -18928,6 +19072,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "大胆な柄のスーツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "W.&L.T. 期（〜1999年）は「W.&L.T.」や「Wild & Lethal Trash」のタグに「RELEASED BY MUSTANG」。それ以降は「WALTER VAN BEIRENDONCK」。"
+      }
     ]
   },
   {
@@ -19076,6 +19226,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "グラフィックのトップス。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "初期は「HUSSEIN CHALAYAN」、のちに「CHALAYAN」へ。"
+      }
     ]
   },
   {
@@ -19198,6 +19354,12 @@ window.BRANDS = [
         "since": "1980年代〜",
         "desc": "日本の伝統柄を使った服。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「KANSAI YAMAMOTO」「KANSAI MAN」などのタグ。1970〜80年代のものは日本製が中心。"
+      }
     ]
   },
   {
@@ -19318,6 +19480,12 @@ window.BRANDS = [
         "since": "1990年代",
         "desc": "前衛的な素材の服。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "1990年代は「beauty:beast」、2020年の再始動後は「ビューティビースト」表記。"
+      }
     ]
   },
   {
@@ -19427,6 +19595,12 @@ window.BRANDS = [
         "since": "1990年代〜",
         "desc": "ポケットにぬいぐるみを入れたアイテム。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「FINAL HOME」のタグ。イッセイ ミヤケの会社（A-net など）の品質表示がつく。"
+      }
     ]
   },
   {
@@ -19516,6 +19690,12 @@ window.BRANDS = [
         "name": "カラフルなシャツ",
         "since": "1990年代",
         "desc": "派手な柄のシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "数字のブランド名のタグ。1990年代のものは日本製。"
       }
     ]
   },
@@ -19652,6 +19832,12 @@ window.BRANDS = [
         "name": "UNDERSUMMITWEAR のアンダーウェア",
         "since": "2010年代〜",
         "desc": "インナーや Tシャツのライン。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "初期は「MISTER HOLLYWOOD」のタグ、のちに「N.HOOLYWOOD」。品番にシーズンが入る。"
       }
     ]
   },
@@ -19887,6 +20073,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "定番のロゴ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「WACKO MARIA」と「GUILTY PARTIES」のタグ。アロハは柄の版で年がわかる。"
+      }
     ]
   },
   {
@@ -19993,6 +20185,12 @@ window.BRANDS = [
         "name": "TOGA VIRILIS のシャツ",
         "since": "2010年代",
         "desc": "メンズラインのシャツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ライン",
+        "text": "「TOGA」「TOGA PULLA」「TOGA VIRILIS」「TOGA ARCHIVES」とラインごとにタグが違う。"
       }
     ]
   },
@@ -20107,6 +20305,12 @@ window.BRANDS = [
         "name": "バスケット風のバッグ",
         "since": "2010年代",
         "desc": "籠を思わせるバッグ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「Mame」から「Mame Kurogouchi」へ表記が変わった。"
       }
     ]
   },
@@ -20238,6 +20442,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "光で色が変わる素材。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「ANREALAGE」のタグに、シーズンのテーマ（SHADOW、LIGHT など）が書かれていることがある。"
+      }
     ]
   },
   {
@@ -20337,6 +20547,12 @@ window.BRANDS = [
         "name": "カオス刺繍のジャケット",
         "since": "2010年代",
         "desc": "たくさんの刺繍を重ねたジャケット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「doublet」のタグ。品番の頭にシーズン（例：年の下2桁）が入ることが多い。"
       }
     ]
   },
@@ -20461,6 +20677,12 @@ window.BRANDS = [
         "name": "New Balance との協業スニーカー",
         "since": "2020年代",
         "desc": "素材と色を選び直したニューバランス。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「AURALEE」のタグに品番。品番の頭の数字でシーズンがわかることが多い。"
       }
     ]
   },
@@ -21281,6 +21503,12 @@ window.BRANDS = [
         "since": "2006",
         "desc": "プライベートブレンドの香水も人気。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "本人期（〜2023年）と、エスティ・ローダー買収後でタグの細部が違う。"
+      }
     ]
   },
   {
@@ -21416,6 +21644,12 @@ window.BRANDS = [
         "name": "ジョガー型のパンツ",
         "since": "2010年代",
         "desc": "ゆったりしたパンツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "白地に黒の「HAIDER ACKERMANN」。2013年以降の本格的なメンズはタグの表記が違う。"
       }
     ]
   },
@@ -21558,6 +21792,12 @@ window.BRANDS = [
         "since": "2020年代",
         "desc": "オーバル D のロゴ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "ロゴ",
+        "text": "マーティンス期（2020年〜）はオーバル D のロゴ。1990年代は「DIESEL」の文字だけのタグ。"
+      }
     ]
   },
   {
@@ -21649,6 +21889,12 @@ window.BRANDS = [
         "name": "細身のカットソー",
         "since": "2000年代〜",
         "desc": "レイヤード用のカットソー。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「VIRIDI-ANNE」のタグ。ラインによりタグの色が違う。"
       }
     ]
   },
@@ -21794,6 +22040,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "厚底のブーツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "初期は「JULIUS」、2000年代後半〜2010年代は「JULIUS_7」の表記がある。"
+      }
     ]
   },
   {
@@ -21880,6 +22132,12 @@ window.BRANDS = [
         "name": "シルクやカシミアのニット",
         "since": "2010年代",
         "desc": "天然素材のニット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「DEVOA」のタグに品番。"
       }
     ]
   },
@@ -21970,6 +22228,12 @@ window.BRANDS = [
         "since": "1990年代",
         "desc": "ロゴ入りのキャップ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「GOODENOUGH」のタグ。1990年代のオリジナルと、近年の復刻ではタグが違う。"
+      }
     ]
   },
   {
@@ -22059,6 +22323,12 @@ window.BRANDS = [
         "name": "Moncler Genius のアイテム",
         "since": "2018",
         "desc": "モンクレールとの協業。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "協業",
+        "text": "協業相手（Nike、LV など）の品番や箱で年がわかる。"
       }
     ]
   },
@@ -22180,6 +22450,12 @@ window.BRANDS = [
         "since": "2000年代",
         "desc": "藤原ヒロシとのライン。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "1998〜2001年ごろは「SOPH.」、2002年以降は「SOPHNET.」。"
+      }
     ]
   },
   {
@@ -22274,6 +22550,12 @@ window.BRANDS = [
         "name": "作り替えのジャケット",
         "since": "2000年代〜",
         "desc": "古着を再構築した服。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「DIRK VAN SAENE」のタグ。作り替えの服は元の服のタグが残っていることがある。"
       }
     ]
   },
@@ -22370,6 +22652,12 @@ window.BRANDS = [
         "name": "作り替えのコート",
         "since": "2010年代〜",
         "desc": "古い服を作り替えたコート。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「MARINA YEE」のタグ。2000年代以降のものが多い。"
       }
     ]
   },
@@ -22474,6 +22762,12 @@ window.BRANDS = [
         "since": "2000年代",
         "desc": "シンプルなニット。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「VERONIQUE BRANQUINHO」のタグ。2009年以前と2012年の再開後で分かれる。"
+      }
     ]
   },
   {
@@ -22577,6 +22871,12 @@ window.BRANDS = [
         "name": "レザーのジャケット",
         "since": "2000年代",
         "desc": "細身のレザー。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「A.F.VANDEVORST」のタグに赤い十字のマーク。"
       }
     ]
   },
@@ -22715,6 +23015,12 @@ window.BRANDS = [
         "since": "2018",
         "desc": "長いブーツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「Y/PROJECT」のタグ。セルファティ期（2010〜2013年）はメンズ中心でタグの形が違う。"
+      }
     ]
   },
   {
@@ -22826,6 +23132,12 @@ window.BRANDS = [
         "name": "ポロシャツ・カットソー",
         "since": "1990年代〜",
         "desc": "カジュアルの定番。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「TAKEO KIKUCHI」のタグ。1980年代の DC ブランド期と、2000年代以降でロゴの書体が違う。"
       }
     ]
   },
@@ -23166,6 +23478,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "色の組み合わせのニット。"
       }
+    ],
+    "dating": [
+      {
+        "title": "ロゴ",
+        "text": "カスティリオーニ期とリッソ期でロゴの書体や配置が違う。"
+      }
     ]
   },
   {
@@ -23419,6 +23737,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "ミニのバッグ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「PROENZA SCHOULER」のタグ。PS1 は内側にシリアルがある。"
+      }
     ]
   },
   {
@@ -23522,6 +23846,12 @@ window.BRANDS = [
         "name": "バレエ・フラット・ローファー",
         "since": "2010年代〜",
         "desc": "シンプルな靴。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「THE ROW」のタグ。初期（2006年ごろ）は Tシャツ中心。"
       }
     ]
   },
@@ -23642,6 +23972,12 @@ window.BRANDS = [
         "name": "カバー・ベスト",
         "since": "2000年代",
         "desc": "重ね着用のベスト。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「ENGINEERED GARMENTS」のタグに「Made in USA」。品番とシーズンがタグに入る。"
       }
     ]
   },
@@ -24293,6 +24629,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "ワークブーツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「OUR LEGACY」のタグ。WORK SHOP（2016年〜）は別のタグ。"
+      }
     ]
   },
   {
@@ -24513,6 +24855,12 @@ window.BRANDS = [
         "since": "2020年代",
         "desc": "ロゴの柄のバッグ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "ロゴ",
+        "text": "2010年代前半と、2010年代後半以降でロゴの書体が変わった。"
+      }
     ]
   },
   {
@@ -24619,6 +24967,12 @@ window.BRANDS = [
         "name": "パールのヘアアクセサリー",
         "since": "2010年代",
         "desc": "真珠の髪留め。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「SIMONE ROCHA」のタグ。メンズは後から始まったので年代の手がかりになる。"
       }
     ]
   },
@@ -24745,6 +25099,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "生地を使った小物。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "1995〜2002年は「minä」、2003年以降は「minä perhonen」。"
+      }
     ]
   },
   {
@@ -24868,6 +25228,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "猫やモチーフのついた小物。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「TSUMORI CHISATO」のタグに猫のマークなど。エイ・ネット期（〜2020年ごろ）の品質表示がつく。"
+      }
     ]
   },
   {
@@ -24981,6 +25347,12 @@ window.BRANDS = [
         "since": "1960年代〜",
         "desc": "上品なドレス。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「HANAE MORI」に蝶のマーク。クチュールとライセンス品でタグが違う。"
+      }
     ]
   },
   {
@@ -25074,6 +25446,12 @@ window.BRANDS = [
         "name": "ニット",
         "since": "1990年代〜",
         "desc": "柔らかいニット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「ATSURO TAYAMA」のタグ。1990年代はイトキンなどの品質表示がある。"
       }
     ]
   },
@@ -25186,6 +25564,12 @@ window.BRANDS = [
         "name": "ソックス・カフス",
         "since": "1980年代〜",
         "desc": "遊び心のある小物。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "ライン",
+        "text": "「Paul Smith」「PS Paul Smith」「Paul Smith Collection」「R.NEWBOLD」などラインでタグが違う。日本のライセンス品も多い。"
       }
     ]
   },
@@ -25392,6 +25776,12 @@ window.BRANDS = [
         "since": "2000年代",
         "desc": "大きなリボンのシャツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「VIKTOR & ROLF」と、メンズの「VIKTOR & ROLF MONSIEUR」。"
+      }
     ]
   },
   {
@@ -25518,6 +25908,12 @@ window.BRANDS = [
         "since": "1980年代後半〜",
         "desc": "装飾のあるジャケット。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "ジリ本人の時代（〜2000年代初め）のタグと、その後の別会社のタグで書体が違う。"
+      }
     ]
   },
   {
@@ -25627,6 +26023,12 @@ window.BRANDS = [
         "name": "サイドジップ・ブーツ",
         "since": "1990年代〜",
         "desc": "細いブーツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「COSTUME NATIONAL」「C'N'C COSTUME NATIONAL」「COSTUME NATIONAL HOMME」などラインで違う。"
       }
     ]
   },
@@ -25757,6 +26159,12 @@ window.BRANDS = [
         "since": "1980年代",
         "desc": "パワー・ショルダーのコート。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「CLAUDE MONTANA」「MONTANA」「MONTANA HOMMES」などの表記。"
+      }
     ]
   },
   {
@@ -25857,6 +26265,12 @@ window.BRANDS = [
         "name": "70年代風のブラウス",
         "since": "1990年代",
         "desc": "柔らかいブラウス。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「MARTINE SITBON」（〜2004年）と「RUE DU MAIL」（2006〜2013年）。"
       }
     ]
   },
@@ -25970,6 +26384,12 @@ window.BRANDS = [
         "name": "グラフィックのニット",
         "since": "2000年代",
         "desc": "カラフルなニット。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "初期はアントワープ期、2013年以降はロサンゼルス期。"
       }
     ]
   },
@@ -26122,6 +26542,12 @@ window.BRANDS = [
         "since": "2010年代",
         "desc": "ジップを多用した服。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「HOOD BY AIR」と、再始動後の「HBA」。"
+      }
     ]
   },
   {
@@ -26258,6 +26684,12 @@ window.BRANDS = [
         "since": "2010年代〜",
         "desc": "ゆったりしたコート。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「LAD MUSICIAN」のタグ。2000年代と、2011年以降の MINIMAL ART ROCK 期で雰囲気が違う。"
+      }
     ]
   },
   {
@@ -26365,6 +26797,12 @@ window.BRANDS = [
         "since": "2000年代後半〜",
         "desc": "ニットウェア出身らしい定番。"
       }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "初期は「Uma Studio」、のちに「UMA WANG」。"
+      }
     ]
   },
   {
@@ -26459,6 +26897,12 @@ window.BRANDS = [
         "name": "ウールのコート",
         "since": "2006〜",
         "desc": "手染めのコート。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "小さな手書き風のタグ。"
       }
     ]
   },
@@ -26577,6 +27021,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "重いウールのパンツ。"
       }
+    ],
+    "dating": [
+      {
+        "title": "番号",
+        "text": "一点ずつ番号が入ったタグがある。"
+      }
     ]
   },
   {
@@ -26658,6 +27108,12 @@ window.BRANDS = [
         "since": "2000年代〜",
         "desc": "レイヤード用のカットソー。"
       }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「LABEL UNDER CONSTRUCTION」のタグ。"
+      }
     ]
   },
   {
@@ -26737,6 +27193,12 @@ window.BRANDS = [
         "name": "レザーのブーツ",
         "since": "2000年代〜",
         "desc": "柔らかいレザーのブーツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「ISAAC SELLAM EXPERIENCE」のタグ。"
       }
     ]
   },
@@ -26820,6 +27282,12 @@ window.BRANDS = [
         "name": "レザーのブレスレット",
         "since": "2000年代",
         "desc": "レザーとシルバーのアクセサリー。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "「KMRii」のロゴ。2000年代のものが中心。"
       }
     ]
   },
@@ -26914,6 +27382,12 @@ window.BRANDS = [
         "name": "加工のパンツ",
         "since": "2000年代後半",
         "desc": "ダメージ加工のパンツ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "2007〜2016年ごろと、2023年の再始動後で分かれる。"
       }
     ]
   },
@@ -27017,6 +27491,12 @@ window.BRANDS = [
         "name": "レザーのライダース",
         "since": "2000年代",
         "desc": "細身のレザー。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "タグ",
+        "text": "「L.G.B.」のタグ。同じ会社の「ifsixwasnine」とタグの雰囲気が似ている。"
       }
     ]
   },
@@ -27143,6 +27623,12 @@ window.BRANDS = [
         "name": "Nike との協業スニーカー",
         "since": "2010年代後半〜",
         "desc": "バックルつきのナイキ。"
+      }
+    ],
+    "dating": [
+      {
+        "title": "表記",
+        "text": "2018年までは「ALYX」、それ以降は「1017 ALYX 9SM」。"
       }
     ]
   }
